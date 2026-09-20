@@ -1,0 +1,778 @@
+{
+  "acceptance": [
+    "All D fixtures meet exact dispatch and validator outcomes, including D09 semantic failure remaining visible.",
+    "One common prompt/output contract tested on both primary models; failures and service gaps retained by model/endpoint.",
+    "Compare eligible-case results against reviewed answers, with Pro a baseline rather than ground truth.",
+    "No per-model prompts, output repair, hidden retry, model fallback, or amount-based selection.",
+    "Fixture success alone does not establish real audit-pipeline accuracy."
+  ],
+  "contract_fixtures": [
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      },
+      "id": "C01_unique_total",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Exactly one qualifying occurrence.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "C02_no_total",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "成本"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Neither label explicitly names a total.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "成本"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "C03_ambiguous_totals",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Two separate total occurrences; unique selection unsupported.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      },
+      "id": "C04_target_total_with_distractor",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Classify b as a total label if supported by the supplied evidence."
+      },
+      "rationale": "Follow requested ID and meaning, not first item.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "b"
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "C05_target_non_total_with_total_distractor",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Classify a as a total label if supported by the supplied evidence."
+      },
+      "rationale": "Existing target is not a total; do not substitute the distractor.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "a"
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      },
+      "id": "C06_target_disambiguates_two_totals",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Classify b as a total label if supported by the supplied evidence."
+      },
+      "rationale": "Two totals are ambiguous only for global selection; target supplies scope.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "總計"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "b"
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      },
+      "id": "C07_reorder_same_ids",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "b",
+            "text": "收入"
+          },
+          {
+            "id": "a",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Evidence ordering cannot move the meaning to another ID.",
+      "request": {
+        "evidence": [
+          {
+            "id": "b",
+            "text": "收入"
+          },
+          {
+            "id": "a",
+            "text": "總計"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "id": "C08_rebind_and_rename_ids",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "source-42",
+            "text": "收入"
+          },
+          {
+            "id": "source-17",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Selection follows the supplied occurrence under renamed/rebound IDs.",
+      "request": {
+        "evidence": [
+          {
+            "id": "source-42",
+            "text": "收入"
+          },
+          {
+            "id": "source-17",
+            "text": "總計"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      },
+      "id": "C09_english_labels",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "Revenue"
+          },
+          {
+            "id": "b",
+            "text": "Total"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Language control using the same task and contract.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "Revenue"
+          },
+          {
+            "id": "b",
+            "text": "Total"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    },
+    {
+      "expected_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      },
+      "id": "C10_simplified_labels",
+      "model_user_payload": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "总计"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Simplified Chinese control using the same task and contract.",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "收入"
+          },
+          {
+            "id": "b",
+            "text": "总计"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      }
+    }
+  ],
+  "deterministic_fixtures": [
+    {
+      "expected_model_calls": 0,
+      "expected_stage": "precondition",
+      "expected_state": "abstained",
+      "id": "D01_missing_target",
+      "reason": "target_missing",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "missing"
+      },
+      "reviewed_semantic_expected": null,
+      "stub_model_output": null
+    },
+    {
+      "expected_model_calls": 0,
+      "expected_stage": "input_validation",
+      "expected_state": "rejected",
+      "id": "D02_duplicate_ids",
+      "reason": "duplicate_evidence_id",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "a",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "a"
+      },
+      "reviewed_semantic_expected": null,
+      "stub_model_output": null
+    },
+    {
+      "expected_model_calls": 0,
+      "expected_stage": "precondition",
+      "expected_state": "abstained",
+      "id": "D03_empty_evidence",
+      "reason": "no_evidence",
+      "request": {
+        "evidence": [],
+        "operation": "select_unique_total",
+        "target_id": null
+      },
+      "reviewed_semantic_expected": null,
+      "stub_model_output": null
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "accepted",
+      "id": "D04_existing_total",
+      "reason": "valid_targeted_response",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "a"
+      },
+      "reviewed_semantic_expected": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      },
+      "stub_model_output": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      }
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "accepted",
+      "id": "D05_existing_non_total",
+      "reason": "existence_does_not_establish_role",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "b"
+      },
+      "reviewed_semantic_expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "stub_model_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      }
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "rejected",
+      "id": "D06_wrong_existing_target",
+      "reason": "selected_id_differs_from_requested_target",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "a"
+      },
+      "reviewed_semantic_expected": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      },
+      "stub_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      }
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "rejected",
+      "id": "D07_unknown_returned_id",
+      "reason": "returned_id_not_in_evidence",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      },
+      "reviewed_semantic_expected": {
+        "action": "label",
+        "evidence_id": "a",
+        "role": "total_label"
+      },
+      "stub_model_output": {
+        "action": "label",
+        "evidence_id": "unknown",
+        "role": "total_label"
+      }
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "rejected",
+      "id": "D08_inconsistent_abstention",
+      "reason": "abstention_fields_must_be_null",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "成本"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "select_unique_total",
+        "target_id": null
+      },
+      "reviewed_semantic_expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "stub_model_output": {
+        "action": "abstain",
+        "evidence_id": "a",
+        "role": "total_label"
+      }
+    },
+    {
+      "expected_model_calls": 1,
+      "expected_stage": "output_validation",
+      "expected_state": "accepted",
+      "id": "D09_semantic_error_survives_guards",
+      "reason": "structurally_valid_but_semantically_wrong",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "b"
+      },
+      "reviewed_semantic_expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "stub_model_output": {
+        "action": "label",
+        "evidence_id": "b",
+        "role": "total_label"
+      }
+    },
+    {
+      "expected_model_calls": 0,
+      "expected_stage": "precondition",
+      "expected_state": "abstained",
+      "id": "D10_exact_id_membership",
+      "reason": "target_missing_no_casefold_or_fuzzy_matching",
+      "request": {
+        "evidence": [
+          {
+            "id": "Row-A",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": "row-a"
+      },
+      "reviewed_semantic_expected": null,
+      "stub_model_output": null
+    },
+    {
+      "expected_model_calls": 0,
+      "expected_stage": "input_validation",
+      "expected_state": "rejected",
+      "id": "D11_missing_typed_target",
+      "reason": "required_target_id_missing",
+      "request": {
+        "evidence": [
+          {
+            "id": "a",
+            "text": "總計"
+          },
+          {
+            "id": "b",
+            "text": "收入"
+          }
+        ],
+        "operation": "classify_target",
+        "target_id": null
+      },
+      "reviewed_semantic_expected": null,
+      "stub_model_output": null
+    }
+  ],
+  "experiment": {
+    "base_call_bound": 120,
+    "base_call_formula": "10 cases × 2 prompts × 3 planned repetitions × 2 models (Pro, V4 Flash).",
+    "budget_interpretation": "Keep 512 for continuity of this interface experiment. Truncation remains a separate failure, never evidence alone of semantic incapability. Any higher-budget arm is a later predeclared experiment, not an in-run fix.",
+    "optional_call_bound": 60,
+    "optional_call_formula": "Same 10 × 2 × 3 on V4.1 Flash; separate extension, not fallback.",
+    "order": "Freeze case order and paired prompt order before execution. Alternate B0/B1 pair order by repetition; fresh two-message conversation; sequential calls; zero automatic retries.",
+    "routing": "Resolve current metadata before freezing. Prefer a common provider when it supports all compared models, and always the same endpoint per model across prompt arms. Otherwise label model/provider pairs and avoid attributing between-model differences solely to model weights. No silent schema downgrade for V4.1.",
+    "settings": {
+      "allow_fallbacks": false,
+      "deadline_seconds": 30,
+      "max_response_bytes": 131072,
+      "max_tokens": 512,
+      "provider_pinned": true,
+      "strict_schema": true,
+      "temperature": 0
+    },
+    "stage_1": "Offline call-spy/stub tests D01-D11; historical shadow replay reported separately. Prove zero calls on rejected/blocked requests, exactly one on eligible requests, immutable raw output, and semantic-error visibility.",
+    "stage_2": "Compare B0 vs B1 on C01-C10, guard behavior held fixed and all requests eligible. Identical model user messages, schema, provider endpoint, budget and sampling settings within each pair; change system wording only.",
+    "stage_3_optional": "Run identical frozen C suite on V4.1 Flash after endpoint capability validation; compare using reviewed expectations, not automatic agreement with Pro.",
+    "unsupported_parameter": "Block that route/configuration explicitly; an API advertising support is not proof of live conformance."
+  },
+  "hypothesis_mapping": {
+    "C": "Hypothesis 4 in the latest discussion: insufficiently communicated task contract.",
+    "D": "Hypothesis 3 in the latest discussion: deterministic responsibilities assigned to models.",
+    "warning": "These numbers differ from H3/H4 schema/serving experiments in hypothesis-fixtures-v1; historical IDs remain unchanged."
+  },
+  "inference_calls_made": 0,
+  "investigation": {
+    "current_pipeline": "Downstream fixture interfaces validate references and vocabulary; production semantic dispatch is still unimplemented.",
+    "current_probe": "Only prose instruction/evidence payload; no typed-target precondition. Returned-ID membership is checked but wrong existing target is not structurally distinguished from other wrong labels.",
+    "external_user_reruns": "Reported successes are qualitative counterevidence to reliably reproduced failure. Exact prompt/provider/settings and records not yet supplied; do not combine them into scored counts.",
+    "historical_shadow": "runs/milestone2/interface-review-2026-09-15/offline-target-shadow.json"
+  },
+  "isolation": "Reuse verified request-only worker separation, OS project-data denial, read allowlisting, environment-only credentials inside worker, separate evaluator key, bounded immutable artifacts, no report/PDF/IR or benchmark input. Host guard is a separate proposed interface component; old worker/probe and historical evidence remain frozen.",
+  "model_roles": {
+    "baseline": "deepseek/deepseek-v4-pro-0813",
+    "baseline_is_not_oracle": true,
+    "glm_and_gemini": "Outside this proposed phase; prior results retained.",
+    "optional_extension": "deepseek/deepseek-v4.1-flash",
+    "primary_subject": "deepseek/deepseek-v4-flash-0731",
+    "production_default_unchanged": true
+  },
+  "observations": [
+    "Retain planned opportunity even when code blocks dispatch; report saved calls separately from model accuracy.",
+    "Compare raw model behavior on the common eligible C population; do not inflate model pass rates by replacing difficult cases with code abstentions.",
+    "Measure exact expected decisions, wrong-target acceptance, contract violations, unjustified abstentions, token usage, latency and service errors separately.",
+    "If B0 and B1 both pass, conclude preservation of behavior on these fixtures; only measured token/latency changes support an efficiency claim. Do not manufacture failure or claim a capability improvement.",
+    "A reported model explanation is supplementary text, not a causal account."
+  ],
+  "output_contract": {
+    "limits": "An existing target ID and valid output structure do not establish semantic correctness; D09 must remain a semantic failure under the reviewed expected answer. No totals recognized by code in this experiment.",
+    "postconditions": [
+      "label requires non-null evidence_id and role total_label.",
+      "abstain requires both remaining fields null.",
+      "Selected ID must belong to submitted evidence; for classify_target it must equal the typed target."
+    ],
+    "schema_id_enum": "All submitted evidence IDs sorted lexicographically, then null. Same complete enum in all arms; do not narrow it to target when measuring post-validation effects. Sorting removes evidence-order/schema-order confounding.",
+    "schema_template": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "enum": [
+            "label",
+            "abstain"
+          ]
+        },
+        "evidence_id": {
+          "enum": [
+            "field-one",
+            "field-two",
+            null
+          ]
+        },
+        "role": {
+          "enum": [
+            "total_label",
+            null
+          ]
+        }
+      },
+      "required": [
+        "action",
+        "evidence_id",
+        "role"
+      ],
+      "type": "object"
+    }
+  },
+  "prompts": {
+    "B0_existing_explicit": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. Output vocabulary: action must be exactly \"label\" or \"abstain\". For a selection, use action \"label\", the selected evidence ID, and role \"total_label\". For abstention, use action \"abstain\", evidence_id null, and role null. Return exactly these three JSON keys: action, evidence_id, role; no other text. This task classifies label text, not financial amounts or accounting relationships. A label explicitly naming a total is sufficient; no amounts, table, or surrounding context are needed. If the instruction targets an ID, consider only that ID; an absent target requires abstention. Otherwise select only when exactly one supplied label explicitly names a total. If none or more than one qualify, abstain; do not guess or select by order.",
+    "B1_concise_equivalent": "Classify supplied label text only. If an ID is requested, consider only that exact ID; if it is absent, abstain. Otherwise select only when exactly one supplied item explicitly names a total; if none or more than one qualify, abstain. A label naming a total is sufficient; amounts and surrounding tables are unnecessary. Return only a JSON object with exactly action, evidence_id, and role. For a selection use action \"label\", its supplied evidence_id, and role \"total_label\". For abstention use action \"abstain\", evidence_id null, and role null. Do not invent IDs, supply amounts, compute answers, or correct source text."
+  },
+  "scope": "synthetic_interface_only",
+  "status": "provisional_pending_review",
+  "typed_request_contract": {
+    "evidence": "List of unique nonempty string IDs and literal string text. Empty list is representable but blocks semantic dispatch.",
+    "input_error_vs_abstention": "Malformed structure/duplicate IDs are rejected input. Well-formed but unsupported request (missing target/empty evidence) retains a precondition-abstained opportunity. Neither is recorded as a model answer.",
+    "operation": [
+      "select_unique_total",
+      "classify_target"
+    ],
+    "target_id": "Caller-supplied exact string required for classify_target; null required for select_unique_total. Never infer by regex or a model from arbitrary user prose.",
+    "translation": "Deterministic instruction rendering shown in each C fixture; no expected answers enter model payloads."
+  },
+  "v41_discovery": {
+    "endpoint_api": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "finding": "Listed on OpenRouter; DeepInfra deepinfra/fp8 and Fireworks fireworks advertise response_format and structured_outputs. The model page FAQ says response_format is unsupported, conflicting with endpoint-specific metadata; resolve using endpoint metadata plus bounded live conformance checks at execution. No inference, served identity or weight revision verified.",
+    "metadata_sha256": "7e60e30f54c5aec0da734442f4a5a55bb103bfa60fcef595c9124337556657fb",
+    "model_page": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "saved_metadata": "runs/milestone2/interface-review-2026-09-15/v41-endpoints.json"
+  },
+  "version": "interface-boundaries-v1"
+}

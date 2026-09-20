@@ -1,0 +1,22 @@
+{
+  "evidence_id": "document-124b5b82f1d0c4e7a3e0932d0465b644e65a4ecd0dab4ede7d0b325b94fdbb60",
+  "items": [
+    {
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 4,
+          "source_id": "source-ff4f5a91821cfc449824f05aada8a7530d160b0c52bb9eea30aa1f4fef3f1f88",
+          "start": 0
+        }
+      ],
+      "id": "block-81daf1506661d3ea801cf4bdc0681aec73fbb032b2ab4f2f3c85c5ff3a1c6794",
+      "kind": "block",
+      "limitations": [],
+      "page_index": 0,
+      "parent_id": "block-0172ffebbdad767e4dbe635bc369e0176ae117a1e1afa3d46b4b079e89a9fb76",
+      "text": "2025"
+    }
+  ]
+}

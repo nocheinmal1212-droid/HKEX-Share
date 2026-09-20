@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-09-17T03:16:29.622246+00:00",
+  "credential_source": "User explicitly authorized root .env; bootstrap reads only OPENROUTER_API_KEY and injects it into a minimal worker environment. Key not logged or persisted.",
+  "first_preflight": {
+    "outcome": "failed_before_network",
+    "reason": "Relative interpreter/current directory under the denied project root prevented Python startup."
+  },
+  "successful_preflight": {
+    "outcome": "passed",
+    "protected_read_denials": 10,
+    "network_calls": 0,
+    "change": "Absolute base Python interpreter and isolated staging working directory."
+  },
+  "live_settings": {
+    "concurrency": 1,
+    "planned_calls": 42,
+    "retries": 0,
+    "provider_fallback": false
+  },
+  "offline_replay_setup_observations": [
+    {
+      "attempt": 1,
+      "failure": "Base interpreter lacked the project jsonschema dependency; failed before replay."
+    },
+    {
+      "attempt": 2,
+      "failure": "Guard correctly denied rereading the newly written request because it was absent from the exact read allowlist. No stub call."
+    },
+    {
+      "attempt": 3,
+      "outcome": "Passed using the project virtual environment and allowing only the output request.json read. Regression test added."
+    }
+  ],
+  "boundary_scenario_refinement": "boundaries-r1 used JSON text null for the null-content truncation variant; boundaries-r2 tests literal null envelope content. Original results retained; expected outcome unchanged."
+}

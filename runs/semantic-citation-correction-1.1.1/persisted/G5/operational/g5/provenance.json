@@ -1,0 +1,53 @@
+{
+  "annotation_ids": [],
+  "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "blocking_reasons": [
+    {
+      "code": "associated_prose_uninterpreted",
+      "source_refs": [
+        "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+      ]
+    },
+    {
+      "code": "missing_target_discriminator",
+      "source_refs": [
+        "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+        "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+        "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444"
+      ]
+    },
+    {
+      "code": "missing_target_discriminator",
+      "source_refs": [
+        "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+        "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+        "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d"
+      ]
+    },
+    {
+      "code": "unsupported_header_group",
+      "source_refs": [
+        "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444"
+      ]
+    }
+  ],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "blocked_scope",
+  "primary_attempt_id": "attempt-2749bf763e4eb3709bf1265db8f33f74906a29940bd80ca0723e7e41172cc52d",
+  "primary_completion_sha256": null,
+  "query_id": "query-c7fa1ac6c193209016b589342acf6ca604bb39e652158a94a7a631d9df7b4c2f",
+  "query_sha256": "797df8b557716a7e72eae8a546987e7c150651fb695616ef69aa96c543ceea99",
+  "selection": {
+    "name": "g5",
+    "table_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+    "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "blocked_scope",
+  "source_sha256": "c623db9cb2ee4fa480dea6c0ce6e7b4b8a012911c91c9e12890d11cfd502e8f9",
+  "version": "semantic-provenance-1.1.0"
+}

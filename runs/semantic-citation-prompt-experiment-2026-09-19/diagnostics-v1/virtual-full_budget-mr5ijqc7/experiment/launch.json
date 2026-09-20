@@ -1,0 +1,8 @@
+{
+  "authored": true,
+  "deadline_monotonic": 600,
+  "started_monotonic": 0,
+  "state": "incomplete_until_supervisor_receipt",
+  "version": "prompt-factorial-1.0.0",
+  "work_cutoff_monotonic": 599.0
+}

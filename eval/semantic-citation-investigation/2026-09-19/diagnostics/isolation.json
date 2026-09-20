@@ -1,0 +1,115 @@
+{
+  "actual_provider_calls": 0,
+  "cases": [
+    {
+      "actual_provider_calls": 0,
+      "annotation_count": 0,
+      "dispatch_model_calls_field_note": "Counts invoked authored stubs, not real provider calls.",
+      "guarded_primary_only_reads": true,
+      "link_count": 0,
+      "mode": "timeout",
+      "path": "eval/semantic-citation-investigation/2026-09-19/diagnostics/authored-isolation/timeout",
+      "provenance": {
+        "annotation_ids": [],
+        "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "outcome": "timeout",
+        "primary_attempt_id": "attempt-0cc146bb8641a4411bc5b0947e7b1c4abdc6a38f449f27b7e78fe52b41209389",
+        "primary_completion_sha256": null,
+        "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+        "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+        "selection": {
+          "name": "total",
+          "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.0.0"
+      }
+    },
+    {
+      "actual_provider_calls": 0,
+      "annotation_count": 1,
+      "dispatch_model_calls_field_note": "Counts invoked authored stubs, not real provider calls.",
+      "guarded_primary_only_reads": true,
+      "link_count": 0,
+      "mode": "abstained",
+      "path": "eval/semantic-citation-investigation/2026-09-19/diagnostics/authored-isolation/abstained",
+      "provenance": {
+        "annotation_ids": [
+          "annotation-55780fd9a6392254a5e7171b65d95ce4ce1298fbc760578058b78b31c4b32ad3"
+        ],
+        "annotations_sha256": "46b7e5bb0cd9c75e27f0f945d8e95960c164b59b8977d0e6effd2ee2163c3534",
+        "outcome": "abstained",
+        "primary_attempt_id": "attempt-dbc15245233d638fd6dbd49793907ec4608ee4fe4ed6eeba231586f3789bff75",
+        "primary_completion_sha256": "0aae8193d79bf88ffe2b1de090dca5bbe03d93e7278cc3157669d9ac42d5a0f2",
+        "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+        "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+        "selection": {
+          "name": "total",
+          "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.0.0"
+      }
+    },
+    {
+      "actual_provider_calls": 0,
+      "annotation_count": 0,
+      "dispatch_model_calls_field_note": "Counts invoked authored stubs, not real provider calls.",
+      "guarded_primary_only_reads": true,
+      "link_count": 0,
+      "mode": "missing_completion",
+      "path": "eval/semantic-citation-investigation/2026-09-19/diagnostics/authored-isolation/missing_completion",
+      "provenance": {
+        "annotation_ids": [],
+        "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "outcome": "incomplete_attempt",
+        "primary_attempt_id": "attempt-8a769ec4b62f75ff971cb20acbf43ac28d7182f1968f811c6df8df927971b79f",
+        "primary_completion_sha256": null,
+        "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+        "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+        "selection": {
+          "name": "total",
+          "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.0.0"
+      }
+    },
+    {
+      "actual_provider_calls": 0,
+      "annotation_count": 1,
+      "dispatch_model_calls_field_note": "Counts invoked authored stubs, not real provider calls.",
+      "guarded_primary_only_reads": true,
+      "link_count": 2,
+      "mode": "slow_research",
+      "path": "eval/semantic-citation-investigation/2026-09-19/diagnostics/authored-isolation/slow_research",
+      "provenance": {
+        "annotation_ids": [
+          "annotation-a721d5932decf7606d2f5a29ad790f6c2de63880354a253eb34c04b99646721c"
+        ],
+        "annotations_sha256": "357feda1725545967270e8ebe0454c9b54ed33532867647da5f7e700597546a3",
+        "outcome": "accepted",
+        "primary_attempt_id": "attempt-72fd04b19f8178b2170fd14cf34b904054d9605b94ea97b24469cbdc887bb48c",
+        "primary_completion_sha256": "5624b5ef57c3d0428d1f7a6ca7a278303c2fef911214360d69c1d03257cabcd7",
+        "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+        "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+        "selection": {
+          "name": "total",
+          "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.0.0"
+      }
+    }
+  ],
+  "future_downstream_noninterference": "not established",
+  "origin": "authored offline transport fixtures, not model completions"
+}

@@ -1,0 +1,3 @@
+preparation : pass; zero real HTTP calls
+partial_response : pass; zero real HTTP calls
+consumption : pass; zero real HTTP calls

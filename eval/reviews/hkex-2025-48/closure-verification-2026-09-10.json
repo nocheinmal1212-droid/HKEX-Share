@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-10T04:23:13.961355+00:00",
+  "milestone_0": "complete_under_minimum_intake_exit",
+  "structural_validity": "valid",
+  "records": 48,
+  "ready": 4,
+  "pending": 44,
+  "publication_status": "UNGATED",
+  "headline": null,
+  "checks": {
+    "portable_tests_passed": 26,
+    "formatting_and_schemas": "passed",
+    "source_backed_validation": "passed",
+    "approved_reimport": "byte_identical",
+    "ready_selector_hashes": "verified",
+    "frozen_assignments_salt_seed_contract_hashes": "unchanged_from_revision_2",
+    "initial_isolation": "passed: 2 allowed files; 475 forbidden files/symlink targets; four Python read methods"
+  },
+  "closure_path": "eval/reviews/hkex-2025-48/milestone-0-closure.json",
+  "closure_sha256": "e676504413b21772e9a00295118ee933126400089579fe4213b35c59718910cf",
+  "readiness_path": "eval/reviews/hkex-2025-48/readiness.r3.json",
+  "limitations": [
+    "Historical visual/source-correspondence review retained; PDF rendering not repeated in this verification.",
+    "No real adapter, detector, native-I/O or prompt-builder isolation claim.",
+    "Remote CI execution not verified.",
+    "One development group; no independent holdout."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "s04_unbalanced_amount_variation",
+  "table_id": "table-25391d4375a180264fb30ec020d78077094e3ea748e3c5943e60bd7eab56d825",
+  "target_id": "cell-2580f10bc9992b3fa33bafe8620288ec1d5faa88200602d7057dbd74c6593f80",
+  "transform": "mask_body_amounts_v1"
+}

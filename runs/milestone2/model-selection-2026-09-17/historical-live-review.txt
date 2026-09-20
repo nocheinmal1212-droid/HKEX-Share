@@ -1,0 +1,34 @@
+{
+  "scope": "First live connected logical-fixture dispatch/transport/validation/persistence/replay check; not production IR or financial audit end-to-end.",
+  "planned_network_attempts": 15,
+  "recorded_network_attempts": 15,
+  "missing": [],
+  "unchanged_wire_requests_from_prior_run": true,
+  "persistence_passes": 15,
+  "ordinary_committed_and_replayed": 14,
+  "ordinary_full_semantic_passes": 2,
+  "ordinary_relation_mismatches": 0,
+  "ordinary_relation_unavailable": 12,
+  "ordinary_states": {
+    "transport_failure": 12,
+    "structure_accepted": 1,
+    "model_abstention": 1
+  },
+  "reported_cost_usd": "0.00690096",
+  "records_without_reported_cost": 13
+}
+call-001 S01 transport_failure 429 None False
+call-002 S02 transport_failure 429 None False
+call-003 S03 structure_accepted 200 stop True
+call-004 S04 model_abstention 200 stop True
+call-005 S05 transport_failure 429 None False
+call-006 S06 transport_failure 429 None False
+call-007 S07 transport_failure 429 None False
+call-008 S08 transport_failure 429 None False
+call-009 S09 transport_failure 429 None False
+call-010 S10 transport_failure 429 None False
+call-011 S11 transport_failure 429 None False
+call-012 S12 transport_failure 429 None False
+call-013 S13 transport_failure 429 None False
+call-014 S14 transport_failure 429 None False
+call-015 S01 persistence_failure 429 None False

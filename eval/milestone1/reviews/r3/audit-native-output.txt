@@ -1,0 +1,53 @@
+PYTHONPATH=src:tools/eval-format-tools tools/eval-format-tools/.venv/bin/python eval/milestone1/validate.py
+{
+  "status": "passed",
+  "review_status": "pending",
+  "variants": {
+    "clean": {
+      "cells": 6415,
+      "detector_performance": "not_executed",
+      "evidence_id": "document-e3f049dfbe298b986b33a43f33eb8103dc8055429ac39746ec1eb166c0c64cd1",
+      "limitations_by_code": {
+        "alternate_view_differs": 6,
+        "non_verbatim_or_visual_content": 468,
+        "unsupported_cell_content": 12,
+        "unsupported_inline_content": 3,
+        "unsupported_native_kind": 2
+      },
+      "native_fidelity": "literal_fragments_verified_against_selected_native",
+      "pages": 228,
+      "pdf_fidelity": "unverified",
+      "source_fragments": 3316,
+      "structural_validity": "valid",
+      "table_regions": 132,
+      "tables_by_grid_state": {
+        "partial": 3,
+        "resolved": 129
+      },
+      "unresolved_regions": 489
+    },
+    "corrupted": {
+      "cells": 6415,
+      "detector_performance": "not_executed",
+      "evidence_id": "document-124b5b82f1d0c4e7a3e0932d0465b644e65a4ecd0dab4ede7d0b325b94fdbb60",
+      "limitations_by_code": {
+        "alternate_view_differs": 6,
+        "non_verbatim_or_visual_content": 468,
+        "unsupported_cell_content": 13,
+        "unsupported_inline_content": 4,
+        "unsupported_native_kind": 2
+      },
+      "native_fidelity": "literal_fragments_verified_against_selected_native",
+      "pages": 228,
+      "pdf_fidelity": "unverified",
+      "source_fragments": 3316,
+      "structural_validity": "valid",
+      "table_regions": 132,
+      "tables_by_grid_state": {
+        "partial": 4,
+        "resolved": 128
+      },
+      "unresolved_regions": 491
+    }
+  }
+}

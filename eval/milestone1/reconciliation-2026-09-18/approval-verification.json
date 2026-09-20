@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "approval_fingerprint": "c17c4855a026deaec52e0c6bbf7b92a3b5ee0236856f928f8e621a0fb97f0bf4",
+  "files_checked": 25,
+  "original_inputs_checked": 0,
+  "owner_approval": "not_granted_by_integrity_check",
+  "approval_record": "exact_bindings_verified; existing_owner_decision_only",
+  "primary_mappings": 8,
+  "qualified_fixtures": 6,
+  "publication_status": "UNGATED",
+  "exclusions": [
+    "OCR quality and raw-PDF fidelity",
+    "Detector performance or headline scoring readiness",
+    "Secondary IR mapping adoption into frozen canonical evaluation",
+    "Runtime relationship/operand selection and comparison plans",
+    "Broader negative-benchmark adequacy",
+    "Future model identity/capability or independent holdout claims"
+  ],
+  "original_inputs": {
+    "unchanged": 25,
+    "active_tooling_or_guide_drift": [
+      "eval/milestone1/native-review-guide.md",
+      "eval/milestone1/prepare.py",
+      "eval/milestone1/packet.py",
+      "tests/test_review_packet.py"
+    ],
+    "approved_snapshots_preserved": true
+  },
+  "frozen_experiment_inventory_hashes": {
+    "model-selection-2026-09-17": 413,
+    "flash-context-check-2026-09-17-r2": 123
+  }
+}

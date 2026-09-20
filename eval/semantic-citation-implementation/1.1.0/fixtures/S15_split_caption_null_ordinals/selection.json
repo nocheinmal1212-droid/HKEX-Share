@@ -1,0 +1,6 @@
+{
+  "name": "s15_split_caption_null_ordinals",
+  "table_id": "table-31d9b47f91789447461b07b504da71298d4aa50d3e5543382ee2c2b6951ef9e7",
+  "target_id": "cell-7733132bd231ed289bda80d97c9eeae71ba70fdc3cc2df6fcecd7bee637950d6",
+  "transform": "mask_body_amounts_v1"
+}

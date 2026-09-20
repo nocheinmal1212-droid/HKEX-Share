@@ -1,0 +1,390 @@
+{
+  "scope": "Archive preservation only. Hashing already inventoried derived attachments is not active native verification, visual inspection or OCR assessment. No raw PDFs read.",
+  "raw_pdf_members": [],
+  "packets": [
+    {
+      "packet": "eval/milestone1/reviews/r2",
+      "approval_fingerprint": "b66851423dbb940414cfd7a6ab1289a723afcaa93ab95884c6f10f1a8561440a",
+      "manifest_sha256": "28fa6e43e082859e53f1676709c80a4917e5fb89e175ef8b237cdf5bf69886bb",
+      "members_verified_hash_only": 46
+    },
+    {
+      "packet": "eval/milestone1/reviews/r3",
+      "approval_fingerprint": "a17b528fcc1f44b248ce153e50d67781779fce9c5fd401635b1de3b61494fca3",
+      "manifest_sha256": "3ebf17b8c05f34f691ff42b38b7bdbec343f848dde66d2981376d72229c115f8",
+      "members_verified_hash_only": 103
+    },
+    {
+      "packet": "eval/milestone1/reviews/r4",
+      "approval_fingerprint": "c17c4855a026deaec52e0c6bbf7b92a3b5ee0236856f928f8e621a0fb97f0bf4",
+      "manifest_sha256": "cd8d9e31d5854a8392e21bd774958a7e0889d214a4b6f1c972b64099054e88d7",
+      "members_verified_hash_only": 25
+    }
+  ],
+  "pdf_derived_attachments": [
+    {
+      "path": "eval/milestone1/reviews/r2/images/clean-p159-d4b1666f9a.png",
+      "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "clean-p159-d4b1666f9a.png",
+        "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/clean-p179-be810a203f.png",
+      "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "clean-p179-be810a203f.png",
+        "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/clean-p180-cddc047b4b.png",
+      "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "clean-p180-cddc047b4b.png",
+        "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/clean-p185-6579e9ff3a.png",
+      "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "clean-p185-6579e9ff3a.png",
+        "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/corrupted-p159-cfcfdbcaf8.png",
+      "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "corrupted-p159-cfcfdbcaf8.png",
+        "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/corrupted-p179-5a02b995ab.png",
+      "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "corrupted-p179-5a02b995ab.png",
+        "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/corrupted-p180-936e906228.png",
+      "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "corrupted-p180-936e906228.png",
+        "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r2/images/corrupted-p185-e0f47847c0.png",
+      "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r2/inputs/source-image-inventory.json",
+        "path": "corrupted-p185-e0f47847c0.png",
+        "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/clean-p159-d4b1666f9a.png",
+      "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p159-d4b1666f9a.png",
+        "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/clean-p179-be810a203f.png",
+      "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p179-be810a203f.png",
+        "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/clean-p180-cddc047b4b.png",
+      "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p180-cddc047b4b.png",
+        "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/clean-p185-6579e9ff3a.png",
+      "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p185-6579e9ff3a.png",
+        "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/corrupted-p159-cfcfdbcaf8.png",
+      "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p159-cfcfdbcaf8.png",
+        "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/corrupted-p179-5a02b995ab.png",
+      "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p179-5a02b995ab.png",
+        "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/corrupted-p180-936e906228.png",
+      "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p180-936e906228.png",
+        "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/images/corrupted-p185-e0f47847c0.png",
+      "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p185-e0f47847c0.png",
+        "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/clean-p159-d4b1666f9a.png",
+      "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p159-d4b1666f9a.png",
+        "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/clean-p179-be810a203f.png",
+      "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p179-be810a203f.png",
+        "sha256": "cc7d3e33c16adeb0355b320da799d81df694f51734d79220ec478ad477bdd470",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/clean-p180-cddc047b4b.png",
+      "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p180-cddc047b4b.png",
+        "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/clean-p185-6579e9ff3a.png",
+      "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "clean-p185-6579e9ff3a.png",
+        "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+        "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/corrupted-p159-cfcfdbcaf8.png",
+      "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p159-cfcfdbcaf8.png",
+        "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 158,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/corrupted-p179-5a02b995ab.png",
+      "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p179-5a02b995ab.png",
+        "sha256": "2fc0584b0a91943b48d7319149a6a9b564f59e1a3d8ade5770babf5eb46d344e",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 178,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/corrupted-p180-936e906228.png",
+      "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p180-936e906228.png",
+        "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 179,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/original-r2/images/corrupted-p185-e0f47847c0.png",
+      "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+      "provenance": {
+        "inventory": "eval/milestone1/reviews/r3/inputs/source-image-inventory.json",
+        "path": "corrupted-p185-e0f47847c0.png",
+        "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+        "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+        "page_index": 184,
+        "source_rectangle_pt": null,
+        "renderer": "pdftoppm",
+        "dpi": 120
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/source-inspection/source-paragraph.png",
+      "sha256": "fb03660eff19b7dcec1484036320f31caa189c40e1d86d02a0037bfbc89d0def",
+      "provenance": {
+        "record": "eval/milestone1/reviews/r3/source-inspection/inspection-result.json",
+        "source_pdf_path": "corpus/hksa_2026032600825_kpmg.pdf",
+        "source_pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "physical_page": 185,
+        "region": "paragraph (d)"
+      }
+    },
+    {
+      "path": "eval/milestone1/reviews/r3/source-inspection/source-paragraph.txt",
+      "sha256": "50d8a65a274d8117972f0437fdd0a944caa5d45b801a28edf34fac5b3b556a25",
+      "provenance": {
+        "record": "eval/milestone1/reviews/r3/source-inspection/inspection-result.json",
+        "source_pdf_path": "corpus/hksa_2026032600825_kpmg.pdf",
+        "source_pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+        "physical_page": 185,
+        "region": "paragraph (d)"
+      }
+    }
+  ],
+  "historical_scripts_not_executed": [
+    "eval/milestone1/review-support/prepare-r1.py",
+    "eval/milestone1/reviews/r2/tooling/",
+    "eval/milestone1/reviews/r3/tooling/",
+    "eval/reviews/hkex-2025-48/independent-m0-2026-09-10/verify.py"
+  ]
+}

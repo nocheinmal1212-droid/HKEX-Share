@@ -1,0 +1,6 @@
+{
+  "predecessor": "runs/milestone2/flash-context-check-2026-09-17",
+  "change": "Explicit trusted-module path bootstrap for isolated interpreter; unchanged request bodies, labels, routes, budgets and transport implementation.",
+  "new_metadata_calls": 0,
+  "metadata": "Same fresh snapshots as predecessor, before any inference."
+}

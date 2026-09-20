@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "conflicting_discriminator_path"
+  ],
+  "case_id": "S12_conflicting_nested_periods",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "be190b6d1347af797e119e8ce0329e58760bb16c5a653e2e9d56c838c59d2a42",
+  "optional_support": [],
+  "reason": "The same target and contributor paths contain contradictory period labels. Equal horizontal spans at successive rows are legal containment but do not resolve conflicting meanings.",
+  "required_support": null,
+  "summary_relationships": []
+}

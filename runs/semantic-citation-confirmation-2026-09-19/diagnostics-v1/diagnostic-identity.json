@@ -1,0 +1,8 @@
+{
+  "authored_only": true,
+  "expectations_sha256": "d18bca6fe3f06e1934d61d49c78096e42de4359b4e7f8f59fe5a2260fb4bc19a",
+  "external_calls": 0,
+  "live_path_used": false,
+  "model_results": false,
+  "probe_plan_sha256": "38431ce176e7273f79e3989755c1d4c8e4e72f1e9fb54cb92f02ef6b3313bd22"
+}

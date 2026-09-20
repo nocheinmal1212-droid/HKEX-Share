@@ -1,0 +1,119 @@
+{
+  "ancestor_exit": 0,
+  "base_commit": "e8000e2c001983f1f65fac75de97945c628a2287",
+  "binding_values": {
+    "attempt": true,
+    "configurations": true,
+    "operation": true,
+    "policy": true,
+    "prompt": false,
+    "runtime": true,
+    "schema": true
+  },
+  "fixture_freeze": {
+    "count": 123,
+    "mismatches": []
+  },
+  "git_preservation": {
+    "eval/semantic-integration/2026-09-18/independent-review.json": true,
+    "eval/semantic-integration/2026-09-18/pre-inference-freeze.json": true,
+    "eval/semantic-integration/validate.py": true,
+    "schemas/audit_input.schema.json": true,
+    "schemas/error_record.schema.json": true,
+    "schemas/evidence.schema.json": true,
+    "schemas/evidence_manifest.schema.json": true,
+    "schemas/intake_grouping.schema.json": true,
+    "schemas/intake_locations.schema.json": true,
+    "schemas/intake_manifest.schema.json": true,
+    "schemas/intake_review.schema.json": true,
+    "schemas/intake_split.schema.json": true,
+    "schemas/pipeline_artifacts.schema.json": true,
+    "schemas/taxonomy.schema.json": true,
+    "spec/paired-semantic-attempts.md": true,
+    "spec/semantic-operation.md": true
+  },
+  "implementation_artifacts": {
+    "count": 327,
+    "mismatches": []
+  },
+  "implementation_bindings": {
+    "count": 12,
+    "mismatches": []
+  },
+  "installed_files": {
+    "count": 6,
+    "mismatches": []
+  },
+  "original_inventory_matches": true,
+  "original_retained": {
+    "count": 127,
+    "mismatches": []
+  },
+  "pin_files": {
+    "count": 31,
+    "mismatches": []
+  },
+  "pin_matches_commit": {
+    "pyproject.toml": true,
+    "schemas/audit_input.schema.json": true,
+    "schemas/error_record.schema.json": true,
+    "schemas/evidence.schema.json": true,
+    "schemas/evidence_manifest.schema.json": true,
+    "schemas/intake_grouping.schema.json": true,
+    "schemas/intake_locations.schema.json": true,
+    "schemas/intake_manifest.schema.json": true,
+    "schemas/intake_review.schema.json": true,
+    "schemas/intake_split.schema.json": true,
+    "schemas/pipeline_artifacts.schema.json": true,
+    "schemas/taxonomy.schema.json": true,
+    "src/audit_inputs/__init__.py": true,
+    "src/audit_inputs/guard.py": true,
+    "src/audit_inputs/probe.py": true,
+    "src/hkex_audit/__init__.py": true,
+    "src/hkex_audit/__main__.py": true,
+    "src/hkex_audit/adapters/__init__.py": true,
+    "src/hkex_audit/adapters/html_table.py": true,
+    "src/hkex_audit/adapters/mineru.py": true,
+    "src/hkex_audit/artifacts.py": true,
+    "src/hkex_audit/cli.py": true,
+    "src/hkex_audit/consumer.py": true,
+    "src/hkex_audit/contracts.py": true,
+    "src/hkex_audit/evidence.py": true,
+    "src/hkex_audit/evidence_context.py": true,
+    "src/hkex_audit/pipeline_contracts.py": true,
+    "src/hkex_audit/semantic.py": true,
+    "src/hkex_audit/semantic_attempt.py": true,
+    "src/hkex_audit/semantic_cli.py": true,
+    "src/hkex_audit/semantic_transport.py": true
+  },
+  "prior_investigation": {
+    "count": 119,
+    "mismatches": []
+  },
+  "prior_report": {
+    "count": 1,
+    "mismatches": []
+  },
+  "protected_current": {
+    "count": 139,
+    "mismatches": []
+  },
+  "source_review_inputs": {
+    "count": 4,
+    "mismatches": []
+  },
+  "wheel": {
+    "matches_recorded_hash": true,
+    "path": "/private/tmp/hkex-citation-wheel/hkex_audit-0.1.0-py3-none-any.whl",
+    "policy_included": true,
+    "runtime_member_matches": {
+      "header_support.py": true,
+      "header_support_policy.json": true,
+      "semantic.py": true,
+      "semantic_attempt.py": true,
+      "semantic_cli.py": true,
+      "semantic_transport.py": true
+    },
+    "sha256": "e828f0cb9013c80fe6c575231634827988c0990fd9691d429c74deb5705f6673"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bundle_id": "hkex-2025-48",
+  "doc_id": "hksa_2026032600825_kpmg",
+  "owner": "Project user (interim intake and review owner)",
+  "raw_records": "corpus/error_detail.jsonl",
+  "documents": [
+    {
+      "variant_id": "clean",
+      "path": "corpus/hksa_2026032600825_kpmg.pdf"
+    },
+    {
+      "variant_id": "corrupted",
+      "path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf"
+    }
+  ],
+  "exports": [
+    {
+      "variant_id": "clean",
+      "root": "corpus/minerU_vlmout_hksa_2026032600825_kpmg",
+      "origin_pdf": "corpus/minerU_vlmout_hksa_2026032600825_kpmg/hksa_2026032600825_kpmg/vlm/hksa_2026032600825_kpmg_origin.pdf",
+      "middle_json": "corpus/minerU_vlmout_hksa_2026032600825_kpmg/hksa_2026032600825_kpmg/vlm/hksa_2026032600825_kpmg_middle.json"
+    },
+    {
+      "variant_id": "corrupted",
+      "root": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48",
+      "origin_pdf": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_origin.pdf",
+      "middle_json": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json"
+    }
+  ],
+  "lifecycle": "active",
+  "lifecycle_reason": "Explicit intake retention disposition: retain every supplied injection as active and pending; raw open status does not determine readiness or detectability."
+}

@@ -1,0 +1,100 @@
+{
+  "consumption": {
+    "annotation_ids": [
+      "annotation-96ed137fd8c02da413292a7a687a10c7925a66a8294efff4279dba650c483faa"
+    ],
+    "annotations_sha256": "de696771c216b9e751bd8c83ba0cf5f056ff7b3bce14105713a96c3dcb792e73",
+    "blocking_reasons": [],
+    "host_policy": {
+      "analysis_version": "header-source-analysis-1.0.1",
+      "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+      "version": "header-support-policy-1.0.0"
+    },
+    "outcome": "accepted",
+    "primary_attempt_id": "attempt-634a318d0d7b22c52efdf176090debd68635ba71cc6eeab57180f2e1282ba996",
+    "primary_completion_sha256": "d988400643e6e5d7f852826b49f04262ee4334e530d5b1e05a2b26f6ac8d4914",
+    "query_id": "query-6f79822c9b2facb19a5553d6b91dfbd3b4364a00397d8018109aa5c24829497b",
+    "query_sha256": "a4e3c3002cea704fafc213df6c045dc22a8fb4a2dee7d9a67120d5db9cd4c0ac",
+    "selection": {
+      "name": "period_groups",
+      "table_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_gate": "eligible",
+    "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+    "version": "semantic-provenance-1.1.0"
+  },
+  "primary": {
+    "attempt_id": "attempt-634a318d0d7b22c52efdf176090debd68635ba71cc6eeab57180f2e1282ba996",
+    "elapsed_seconds": 0.02859808295033872,
+    "model_calls": 1,
+    "query_id": "query-6f79822c9b2facb19a5553d6b91dfbd3b4364a00397d8018109aa5c24829497b",
+    "role": "primary",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": {
+        "id": "AUTHORED-OFFLINE",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "accepted",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  },
+  "research": {
+    "attempt_id": "attempt-646e0b7f6503269910cc3910689c904e55653785a97e186456a5704a7a9d3928",
+    "elapsed_seconds": 0.02588487497996539,
+    "model_calls": 1,
+    "query_id": "query-6f79822c9b2facb19a5553d6b91dfbd3b4364a00397d8018109aa5c24829497b",
+    "role": "research",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": {
+        "id": "AUTHORED-OFFLINE",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "provider": "Together"
+      },
+      "state": "accepted",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  }
+}

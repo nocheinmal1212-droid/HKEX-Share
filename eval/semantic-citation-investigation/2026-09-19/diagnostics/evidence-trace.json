@@ -1,0 +1,347 @@
+[
+  {
+    "annotation_ids": [
+      "annotation-88830645aef30ed64c7af1fee4b8a622be396f9dd9d664bdf8b78b58c4980618"
+    ],
+    "contributors": [
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+    ],
+    "evaluator": "eval/semantic-integration/validate.py::review_decision",
+    "frozen_review_pointer": "/queries/0",
+    "frozen_support_pass": false,
+    "gate": "eligible",
+    "historical_model_calls": {
+      "primary": 1,
+      "research": 1
+    },
+    "host_pass": true,
+    "input_unit_present": true,
+    "missing_frozen_support": [
+      "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+    ],
+    "missing_source": [
+      {
+        "bbox": null,
+        "column": 0,
+        "column_count": null,
+        "column_span": 1,
+        "content_state": "text",
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 32,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 27
+          }
+        ],
+        "grid_state": null,
+        "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+        "kind": "cell",
+        "merge_hint": null,
+        "native_angle": null,
+        "native_index": null,
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "native_type": "html_cell",
+        "ordinal": 0,
+        "page_index": 178,
+        "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "row": 0,
+        "row_count": null,
+        "row_span": 2,
+        "source_span": {
+          "end": 37,
+          "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+          "start": 11
+        },
+        "text": "港幣百萬元"
+      }
+    ],
+    "name": "total",
+    "paths": {
+      "operational": "runs/paired-semantic-integration-2026-09-18/live-v1/operational/total",
+      "primary": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total",
+      "research": "runs/paired-semantic-integration-2026-09-18/live-v1/research/total"
+    },
+    "primary_attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "primary_state": "accepted",
+    "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+    "replay_annotation_and_provenance_byte_identical": true,
+    "replay_model_calls": 0,
+    "roles_have_equal_semantic_payload": true,
+    "schema_pass": true,
+    "selection_correct": true,
+    "support_refs": [
+      "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+      "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    ],
+    "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+  },
+  {
+    "annotation_ids": [
+      "annotation-eef120a75f0288f7b2eea0acd13f5c6fe27ff9ad2008d9df01f01e2fbeadac02"
+    ],
+    "contributors": [
+      "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+      "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+    ],
+    "evaluator": "eval/semantic-integration/validate.py::review_decision",
+    "frozen_review_pointer": "/queries/1",
+    "frozen_support_pass": false,
+    "gate": "eligible",
+    "historical_model_calls": {
+      "primary": 1,
+      "research": 1
+    },
+    "host_pass": true,
+    "input_unit_present": true,
+    "missing_frozen_support": [
+      "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+    ],
+    "missing_source": [
+      {
+        "bbox": null,
+        "column": 0,
+        "column_count": null,
+        "column_span": 1,
+        "content_state": "text",
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 32,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 27
+          }
+        ],
+        "grid_state": null,
+        "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+        "kind": "cell",
+        "merge_hint": null,
+        "native_angle": null,
+        "native_index": null,
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "native_type": "html_cell",
+        "ordinal": 0,
+        "page_index": 178,
+        "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "row": 0,
+        "row_count": null,
+        "row_span": 2,
+        "source_span": {
+          "end": 37,
+          "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+          "start": 11
+        },
+        "text": "港幣百萬元"
+      }
+    ],
+    "name": "subtotal",
+    "paths": {
+      "operational": "runs/paired-semantic-integration-2026-09-18/live-v1/operational/subtotal",
+      "primary": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal",
+      "research": "runs/paired-semantic-integration-2026-09-18/live-v1/research/subtotal"
+    },
+    "primary_attempt_id": "attempt-99f3e7351ae27114c171364a663df32ad66a742d67b21d6cb600766d417d0c41",
+    "primary_state": "accepted",
+    "query_id": "query-c39ff36a681ed547aae67104e8f064fd3f6c8b0b29437df8101de7a9c868e89f",
+    "replay_annotation_and_provenance_byte_identical": true,
+    "replay_model_calls": 0,
+    "roles_have_equal_semantic_payload": true,
+    "schema_pass": true,
+    "selection_correct": true,
+    "support_refs": [
+      "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+    ],
+    "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+  },
+  {
+    "annotation_ids": [
+      "annotation-f23982e356f2b6a99ccacbd79c9cdad1053f4f1b763a9fad96a2fbf2e0696779"
+    ],
+    "contributors": [
+      "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+      "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+      "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+    ],
+    "evaluator": "eval/semantic-integration/validate.py::review_decision",
+    "frozen_review_pointer": "/queries/2",
+    "frozen_support_pass": false,
+    "gate": "eligible",
+    "historical_model_calls": {
+      "primary": 1,
+      "research": 1
+    },
+    "host_pass": true,
+    "input_unit_present": true,
+    "missing_frozen_support": [
+      "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb"
+    ],
+    "missing_source": [
+      {
+        "bbox": null,
+        "column": 0,
+        "column_count": null,
+        "column_span": 1,
+        "content_state": "text",
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 32,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 27
+          }
+        ],
+        "grid_state": null,
+        "id": "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+        "kind": "cell",
+        "merge_hint": null,
+        "native_angle": null,
+        "native_index": null,
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "native_type": "html_cell",
+        "ordinal": 0,
+        "page_index": 179,
+        "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+        "row": 0,
+        "row_count": null,
+        "row_span": 2,
+        "source_span": {
+          "end": 37,
+          "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+          "start": 11
+        },
+        "text": "港幣百萬元"
+      }
+    ],
+    "name": "period_groups",
+    "paths": {
+      "operational": "runs/paired-semantic-integration-2026-09-18/live-v1/operational/period_groups",
+      "primary": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups",
+      "research": "runs/paired-semantic-integration-2026-09-18/live-v1/research/period_groups"
+    },
+    "primary_attempt_id": "attempt-30fdc7420d5048ad4215b4c8ad2c5080ea1777ef1648e150711aea2bc9cd3486",
+    "primary_state": "accepted",
+    "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd",
+    "replay_annotation_and_provenance_byte_identical": true,
+    "replay_model_calls": 0,
+    "roles_have_equal_semantic_payload": true,
+    "schema_pass": true,
+    "selection_correct": true,
+    "support_refs": [
+      "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+      "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+      "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+      "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+      "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+    ],
+    "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+  },
+  {
+    "annotation_ids": [],
+    "evaluator": "eval/semantic-integration/validate.py::review_decision",
+    "frozen_review_pointer": "/queries/3",
+    "gate": "missing_evidence",
+    "historical_model_calls": {
+      "primary": 0,
+      "research": 0
+    },
+    "name": "missing_target",
+    "paths": {
+      "operational": "runs/paired-semantic-integration-2026-09-18/live-v1/operational/missing_target",
+      "primary": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/missing_target",
+      "research": "runs/paired-semantic-integration-2026-09-18/live-v1/research/missing_target"
+    },
+    "primary_attempt_id": "attempt-e4dba67534c137e52642722782581a9573bad28d6c2aa546c99b477494381901",
+    "primary_state": "missing_evidence",
+    "query_id": "query-e154b1d8f12b597c9233b6b26641aeee83f62aaa0662e7b6272bf71078012045",
+    "replay_annotation_and_provenance_byte_identical": true,
+    "replay_model_calls": 0,
+    "roles_have_equal_semantic_payload": true,
+    "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce"
+  },
+  {
+    "annotation_ids": [
+      "annotation-135d0507d9bdebbb677ff40233f4987361498295b9a9e02658f4e612b9f71227"
+    ],
+    "contributors": [
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+    ],
+    "evaluator": "eval/semantic-integration/validate.py::review_decision",
+    "frozen_review_pointer": "/queries/4",
+    "frozen_support_pass": false,
+    "gate": "eligible",
+    "historical_model_calls": {
+      "primary": 1,
+      "research": 1
+    },
+    "host_pass": true,
+    "input_unit_present": true,
+    "missing_frozen_support": [
+      "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+    ],
+    "missing_source": [
+      {
+        "bbox": null,
+        "column": 0,
+        "column_count": null,
+        "column_span": 1,
+        "content_state": "text",
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 32,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 27
+          }
+        ],
+        "grid_state": null,
+        "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+        "kind": "cell",
+        "merge_hint": null,
+        "native_angle": null,
+        "native_index": null,
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "native_type": "html_cell",
+        "ordinal": 0,
+        "page_index": 178,
+        "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "row": 0,
+        "row_count": null,
+        "row_span": 2,
+        "source_span": {
+          "end": 37,
+          "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+          "start": 11
+        },
+        "text": "港幣百萬元"
+      }
+    ],
+    "name": "varied_total",
+    "paths": {
+      "operational": "runs/paired-semantic-integration-2026-09-18/live-v1/operational/varied_total",
+      "primary": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total",
+      "research": "runs/paired-semantic-integration-2026-09-18/live-v1/research/varied_total"
+    },
+    "primary_attempt_id": "attempt-acd96bd66c57269a9f245c87173636bbe249ccc181ea563547d843acc692ef6e",
+    "primary_state": "accepted",
+    "query_id": "query-4833548b2d3a9d19f415e5dab8c85a93ea420d1a978a8e4c3ff2a134754afb29",
+    "replay_annotation_and_provenance_byte_identical": true,
+    "replay_model_calls": 0,
+    "roles_have_equal_semantic_payload": true,
+    "schema_pass": true,
+    "selection_correct": true,
+    "support_refs": [
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+      "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    ],
+    "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+  }
+]

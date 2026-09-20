@@ -1,0 +1,99 @@
+{
+  "model_calls": 0,
+  "results": [
+    {
+      "annotation_ids": [
+        "annotation-88830645aef30ed64c7af1fee4b8a622be396f9dd9d664bdf8b78b58c4980618"
+      ],
+      "annotations_sha256": "618af3a893a0415bbc71e18d42b8d3fb295c35a2844bbbd99693c31008c22be7",
+      "outcome": "accepted",
+      "primary_attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+      "primary_completion_sha256": "8c6f337eaff6f534523c77b9c1ca09ec4e99fe7d221e25a3d820b78ab39f9414",
+      "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+      "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "selection": {
+        "name": "total",
+        "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "transform": "mask_body_amounts_v1"
+      },
+      "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "version": "semantic-provenance-1.0.0"
+    },
+    {
+      "annotation_ids": [
+        "annotation-eef120a75f0288f7b2eea0acd13f5c6fe27ff9ad2008d9df01f01e2fbeadac02"
+      ],
+      "annotations_sha256": "476045d53a8935d6673fa3e28322ec62ee01a2f1d177294f44214ec89365324d",
+      "outcome": "accepted",
+      "primary_attempt_id": "attempt-99f3e7351ae27114c171364a663df32ad66a742d67b21d6cb600766d417d0c41",
+      "primary_completion_sha256": "fb61cabffd6511a2490cbfd3d531f07f0b3cebe9b1e1d47ac329f120c358c7cc",
+      "query_id": "query-c39ff36a681ed547aae67104e8f064fd3f6c8b0b29437df8101de7a9c868e89f",
+      "query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "selection": {
+        "name": "subtotal",
+        "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "transform": "mask_body_amounts_v1"
+      },
+      "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "version": "semantic-provenance-1.0.0"
+    },
+    {
+      "annotation_ids": [
+        "annotation-f23982e356f2b6a99ccacbd79c9cdad1053f4f1b763a9fad96a2fbf2e0696779"
+      ],
+      "annotations_sha256": "a840c20835fe23b2b826b22bb30a0a5466249f3cae1c1c0ce3c76acd0d351833",
+      "outcome": "accepted",
+      "primary_attempt_id": "attempt-30fdc7420d5048ad4215b4c8ad2c5080ea1777ef1648e150711aea2bc9cd3486",
+      "primary_completion_sha256": "cabb9e8c6acfafa4528906d193def9aca5d4e03b5debdd9ec56abe836286e883",
+      "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd",
+      "query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "selection": {
+        "name": "period_groups",
+        "table_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "transform": "mask_body_amounts_v1"
+      },
+      "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "version": "semantic-provenance-1.0.0"
+    },
+    {
+      "annotation_ids": [],
+      "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "outcome": "missing_evidence",
+      "primary_attempt_id": "attempt-e4dba67534c137e52642722782581a9573bad28d6c2aa546c99b477494381901",
+      "primary_completion_sha256": null,
+      "query_id": "query-e154b1d8f12b597c9233b6b26641aeee83f62aaa0662e7b6272bf71078012045",
+      "query_sha256": "39e15546b0db27dc22358abc25d1d46d1618564eb95c2601fdbdcbf3bee5ec27",
+      "selection": {
+        "name": "missing_target",
+        "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce",
+        "transform": "mask_body_amounts_v1"
+      },
+      "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "version": "semantic-provenance-1.0.0"
+    },
+    {
+      "annotation_ids": [
+        "annotation-135d0507d9bdebbb677ff40233f4987361498295b9a9e02658f4e612b9f71227"
+      ],
+      "annotations_sha256": "524ad2582a5fb868fee469637e028ca918b8f8d67217f14afd2e0ed05aa865e1",
+      "outcome": "accepted",
+      "primary_attempt_id": "attempt-acd96bd66c57269a9f245c87173636bbe249ccc181ea563547d843acc692ef6e",
+      "primary_completion_sha256": "78afd3c5b8e224a3a444e2e6eafc640625c21b9ec1c70bfa8c4026cc6523f085",
+      "query_id": "query-4833548b2d3a9d19f415e5dab8c85a93ea420d1a978a8e4c3ff2a134754afb29",
+      "query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "selection": {
+        "name": "varied_total",
+        "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "transform": "vary_body_amounts_v1"
+      },
+      "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "version": "semantic-provenance-1.0.0"
+    }
+  ],
+  "role": "primary"
+}

@@ -1,0 +1,706 @@
+{
+  "classification": "derived_source_generalization",
+  "files": {
+    "evidence.json": "a43dda6f1cbf2474c14336eae0fe39d78a0ab61d6ccf9b43c575f814fe29e091",
+    "query-v1.json": "bac75490a580d4f8d6d88f521376360c64580a82f1ab0f040bb9505fdf777c43",
+    "source.json": "8f7634859c9c46858f6cac23b7477deb581ccfd6003db7911d879f51badc802a"
+  },
+  "fixture": "G1",
+  "operation_version_for_projection": "direct-contributor-headers-1.0.0",
+  "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+  "source_citations": [
+    {
+      "column": null,
+      "column_span": null,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 16,
+          "source_id": "source-b785154241bbfe444387a82fec56f64edfbf05e5dbb3e5b927f7119a39770a63",
+          "start": 0
+        }
+      ],
+      "id": "block-b97e920876162dd6eea3e95760acda16c1cc2d7d402f5e357290bd0d291b50d0",
+      "parent_id": "block-c191ce1c26ad691369cf08278d001851827a282af0ed688563d64ca5afc5385f",
+      "row": null,
+      "row_span": null,
+      "text": "截至2026年12月31日止年度"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [],
+      "id": "cell-5fa2981160f40a439723583ab20fd2fb79952e12911ee32ad0d1c5d48ea54b70",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 0,
+      "row_span": 2,
+      "text": ""
+    },
+    {
+      "column": 1,
+      "column_span": 3,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 68,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 48
+        }
+      ],
+      "id": "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 0,
+      "row_span": 1,
+      "text": "來自與客戶合約之收入(HKFRS 15)"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 101,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 89
+        }
+      ],
+      "id": "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 0,
+      "row_span": 2,
+      "text": "租賃(HKFRS 16)"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 124,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 122
+        }
+      ],
+      "id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 0,
+      "row_span": 2,
+      "text": "總額"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 151,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 142
+        }
+      ],
+      "id": "cell-836a81a15f5943cf644c2a9dc3deb88738f1269ccb0e4be44d51e235896282d6",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 1,
+      "row_span": 1,
+      "text": "於某一時點確認收入"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 169,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 160
+        }
+      ],
+      "id": "cell-e77e1fe5807a9a3e9140874e3d33f5aa3b64e2a94831a381a62f77d19db89c3d",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 1,
+      "row_span": 1,
+      "text": "隨時間逐步確認收入"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 180,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 178
+        }
+      ],
+      "id": "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 1,
+      "row_span": 1,
+      "text": "合計"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 211,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 198
+        }
+      ],
+      "id": "cell-5883ede7b264a17facb315fcd64a78da9df050135dec4ca2df18c795720b2156",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "租賃收入(附註11(b))"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 221,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 220
+        }
+      ],
+      "id": "cell-e145cb04299ec1fe8f434ecf6ca296fa300c3cffa583f01f597007601ee78647",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 231,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 230
+        }
+      ],
+      "id": "cell-febac8097091be7809e74b9423ffbf8494891061de281b0d5178e6110ec29a52",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 241,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 240
+        }
+      ],
+      "id": "cell-3e16070bf0aab8eda2a09dc70d777be58f0216d1e6ed86ee88176c9a0327731d",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 255,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 250
+        }
+      ],
+      "id": "cell-931b2fb348ff8657d1bbe053fec4332f444e13dcec92966b6631e6c4d2c86465",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "8,245"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 269,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 264
+        }
+      ],
+      "id": "cell-0bab6c27b420dc46467977ce7e1df6ada55c89120566755c7b189190a6588701",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 2,
+      "row_span": 1,
+      "text": "8,245"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 291,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 287
+        }
+      ],
+      "id": "cell-799ea7fcec2340c4f3c1a8e8986df995e6a4a069e13b0154df69604baaf01ce6",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "酒店收入"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 303,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 300
+        }
+      ],
+      "id": "cell-148cdb0a9a369a2e7ed3182f87821d15d2966ea7a17776fb428fce562c037255",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "107"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 315,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 312
+        }
+      ],
+      "id": "cell-10c83a5b157c2e7456b44c88c76c39971d48af3c1a9d0efe0b7d73fa8a41b49f",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "190"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 327,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 324
+        }
+      ],
+      "id": "cell-2cecd03ab5f1acb8ca7d2a10d4bfc33587308765cce90d85a5deefdd41668c5e",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "297"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 337,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 336
+        }
+      ],
+      "id": "cell-8f1de017e9842b9c39af03b90b320ac04312250a38a400ef62c474e376a832c0",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 349,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 346
+        }
+      ],
+      "id": "cell-caf845ffe24fea12743ddaabd9ac8388314ce205589c5d24c2652bbb62ee7d19",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 3,
+      "row_span": 1,
+      "text": "297"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 375,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 367
+        }
+      ],
+      "id": "cell-6e2f37dfb7f7a59a87a93db822cf566ab87cfec2a11a7cb93daf122abfede165",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "已建成物業之銷售"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 387,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 384
+        }
+      ],
+      "id": "cell-8c03f0cc9c2328002640f7395b48789c0009a10aaa03cfb7b8fa7a25ef61ae1b",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "264"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 397,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 396
+        }
+      ],
+      "id": "cell-73f7e1a185a00787e6175af14092b1f6050c7ea0bd055e6a5d94a700e2210dc7",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 409,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 406
+        }
+      ],
+      "id": "cell-7793bcd999a00908b83e1b8af262a583cdf291ba831810d2cbf0044184200139",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "264"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 419,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 418
+        }
+      ],
+      "id": "cell-706759455ecafd21d3690d84c6cb080d6e540c516e48b4ad5964049e7dff3bac",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 431,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 428
+        }
+      ],
+      "id": "cell-d1f157a6e2a9141f8d1aa5496008249a1e3c8c48ee0e069c290935f866a52774",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 4,
+      "row_span": 1,
+      "text": "264"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 463,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 449
+        }
+      ],
+      "id": "cell-e5211c2421d8a53ef092df859c2919966f2e2f75a443b55f638e5ff653ff73a4",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "物業管理費和物業租賃其他收入"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 473,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 472
+        }
+      ],
+      "id": "cell-65febe1b07be542e0fcaf1900c830e2a63da405832f42b6e5eba72fa27e49f53",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 487,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 482
+        }
+      ],
+      "id": "cell-463aa3476c0a4acd9c6c4adc513f51ef65d1a9ad136df99bae7d5d661f499d94",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "1,144"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 501,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 496
+        }
+      ],
+      "id": "cell-a269f264c01f43a3878a40f82271a83bc48140b3678d85c85178dee237ad90c4",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "1,144"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 511,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 510
+        }
+      ],
+      "id": "cell-df98f4ac95de962cb20fb0d16f9fcb83f6a4c6ef3916ac2076a1f5d18facfeb7",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "-"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 525,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 520
+        }
+      ],
+      "id": "cell-8627ccfd309070468464b4e311802373116926b9c964e745e69d9f852debca5b",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 5,
+      "row_span": 1,
+      "text": "1,144"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [],
+      "id": "cell-a7bc6b5a4209c153d4eb4dd7dc28fdb8c95830e9fa7ee86e653b1720fe9b2ac2",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": ""
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 555,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 552
+        }
+      ],
+      "id": "cell-b94fe17cc2c6edc48ada36936a4a175297eb6c9bb078191f3ab087cc927d6c12",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": "371"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 569,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 564
+        }
+      ],
+      "id": "cell-56fcbb025a85d46f8ebd5d1c4baa8fff5c6cf07e8f12575b742641dafc125e80",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": "1,334"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 583,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 578
+        }
+      ],
+      "id": "cell-ec3b1bc6f20f392f0f380e598bcaecdeb82d9cb2f8711821d06aec4deb7322a1",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": "1,706"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 597,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 592
+        }
+      ],
+      "id": "cell-eb856284a962ef6fb48cc35153f3998e6b47109620c1a3ce07e1b1ec4ed82866",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": "8,245"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 611,
+          "source_id": "source-667b60e706afb4e19b75befac9f572f0006ade5690c98754ea89fb0e661d7308",
+          "start": 606
+        }
+      ],
+      "id": "cell-2bc256b0cf525754239cc4cbfc2a3cfcc919599bdff5489d78d38cef4bd4cdd8",
+      "parent_id": "table-7ee70b20f50c1b5ea98856b98cf49e62766ae3f5d09943e4a524fb3a08f2efa2",
+      "row": 6,
+      "row_span": 1,
+      "text": "9,950"
+    }
+  ],
+  "source_provenance": "Authored offline; profile envelope is parser input syntax, not a MinerU run or an actual report.",
+  "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+  "transformation": {
+    "administrative_changes": [
+      "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+    ],
+    "original_html_source": {
+      "artifact_id": "sha256-6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+      "format": "html",
+      "id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+      "pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+      "sha256": "3265e41f813b1a7ea14efebc14fe31a11e9979285b2d2c9245e5b1ad1577e7e3",
+      "text": "<table><tr><td rowspan=\"2\">港幣百萬元</td><td colspan=\"3\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"2\">租賃(HKFRS 16)</td><td rowspan=\"2\">總額</td></tr><tr><td>於某一時點確認收入</td><td>隨時間逐步確認收入</td><td>合計</td></tr><tr><td>租賃收入(附註11(b))</td><td>-</td><td>-</td><td>-</td><td>8,245</td><td>8,245</td></tr><tr><td>酒店收入</td><td>107</td><td>190</td><td>297</td><td>-</td><td>297</td></tr><tr><td>已建成物業之銷售</td><td>264</td><td>-</td><td>264</td><td>-</td><td>264</td></tr><tr><td>物業管理費和物業租賃其他收入</td><td>-</td><td>1,144</td><td>1,144</td><td>-</td><td>1,144</td></tr><tr><td></td><td>371</td><td>1,334</td><td>1,706</td><td>8,245</td><td>9,950</td></tr></table>"
+    },
+    "original_to_derived_cell_ids": {
+      "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce": "cell-a7bc6b5a4209c153d4eb4dd7dc28fdb8c95830e9fa7ee86e653b1720fe9b2ac2",
+      "cell-21e3f8197c0f4cf92dcd5f8c8131ada8a6a69df41fa7746424b9a160389abd5c": "cell-56fcbb025a85d46f8ebd5d1c4baa8fff5c6cf07e8f12575b742641dafc125e80",
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d": "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+      "cell-311cf1d01fa3b0e2cf93ea3bb4dd15a07b8f42304d095eca8063a2a91033ee79": "cell-febac8097091be7809e74b9423ffbf8494891061de281b0d5178e6110ec29a52",
+      "cell-4152cb453a2141805e4d83f00f982aa6ef684a505640f7fb9d3588b2ea452962": "cell-3e16070bf0aab8eda2a09dc70d777be58f0216d1e6ed86ee88176c9a0327731d",
+      "cell-46e2bb63fb30050513f2c861fa91b365cb58885401820cc10ad6ebc6609be429": "cell-73f7e1a185a00787e6175af14092b1f6050c7ea0bd055e6a5d94a700e2210dc7",
+      "cell-477932caa5073036779711cffb03f1a2f69f8cbe2a62877c410d040ef7ffcd18": "cell-65febe1b07be542e0fcaf1900c830e2a63da405832f42b6e5eba72fa27e49f53",
+      "cell-550a81b9501d0a555729a15168e444eee62fc67d8154416ee2f2b3827fc7ca5c": "cell-6e2f37dfb7f7a59a87a93db822cf566ab87cfec2a11a7cb93daf122abfede165",
+      "cell-5a982a5133ca8b201014fe15593d220dde3a05e159b0f75dc523b41b9cbe9594": "cell-e145cb04299ec1fe8f434ecf6ca296fa300c3cffa583f01f597007601ee78647",
+      "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938": "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8",
+      "cell-616b5f998cd0eff56cc72e4eb093034126386a5e329ca4f49072b44541b6a338": "cell-5883ede7b264a17facb315fcd64a78da9df050135dec4ca2df18c795720b2156",
+      "cell-6750fa5a61faa008c60c80801067b699895326c89772878bbc4b4e7d9081a298": "cell-d1f157a6e2a9141f8d1aa5496008249a1e3c8c48ee0e069c290935f866a52774",
+      "cell-6fe2dbcf9185e91c0faa2191d638910d838bdca3eeb82604186cd74377f440bf": "cell-463aa3476c0a4acd9c6c4adc513f51ef65d1a9ad136df99bae7d5d661f499d94",
+      "cell-6fe7a1f8ad462221c4a239ef0230c4daf1c3fa2c2082ea7091a7ed106b529382": "cell-799ea7fcec2340c4f3c1a8e8986df995e6a4a069e13b0154df69604baaf01ce6",
+      "cell-735724cd4a24ac66b84cde61ed8fc706b69b3d2b90c5da15728d3395efac9ca9": "cell-148cdb0a9a369a2e7ed3182f87821d15d2966ea7a17776fb428fce562c037255",
+      "cell-744f0edee7af1abdd044e79f18bb24b9d3b82e33b59ebde54c996158eb213ca1": "cell-8627ccfd309070468464b4e311802373116926b9c964e745e69d9f852debca5b",
+      "cell-755c0ad52c1c001ea83359254772c3b18565d7e78381b9161c07f26f71dc8cd3": "cell-caf845ffe24fea12743ddaabd9ac8388314ce205589c5d24c2652bbb62ee7d19",
+      "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665": "cell-836a81a15f5943cf644c2a9dc3deb88738f1269ccb0e4be44d51e235896282d6",
+      "cell-81302d37f09b1c2215b4cea48cc280f19cce699e454778e4afebec324bdda104": "cell-e5211c2421d8a53ef092df859c2919966f2e2f75a443b55f638e5ff653ff73a4",
+      "cell-8956d1dcdf841e100b83b5fd173155697971e803f2cde079995d23fbc0de021e": "cell-10c83a5b157c2e7456b44c88c76c39971d48af3c1a9d0efe0b7d73fa8a41b49f",
+      "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa": "cell-5fa2981160f40a439723583ab20fd2fb79952e12911ee32ad0d1c5d48ea54b70",
+      "cell-bc403f1b1ec9e7e16970cdf99a25922b0a0f3189a6e1b4eea5ef3f1fbe8e0cca": "cell-931b2fb348ff8657d1bbe053fec4332f444e13dcec92966b6631e6c4d2c86465",
+      "cell-c44cb08dd9a0fc3f139c33f1f81597aa9c0fc2afc004c1b525ddf5cf8e6ea22b": "cell-7793bcd999a00908b83e1b8af262a583cdf291ba831810d2cbf0044184200139",
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27": "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+      "cell-d64cfef25c427a61f7ff34c1509f616022c422b99e5f24f6a02ad7c5e9f8d3b3": "cell-706759455ecafd21d3690d84c6cb080d6e540c516e48b4ad5964049e7dff3bac",
+      "cell-d65ba81d4aafcb9790fbef620b424c86810a6fbad4832cefbffcdab364f10d26": "cell-b94fe17cc2c6edc48ada36936a4a175297eb6c9bb078191f3ab087cc927d6c12",
+      "cell-d8496a3193a8bc71c91dcdb2f79b63bc105d7099455ee950fa02657ebb0013bc": "cell-df98f4ac95de962cb20fb0d16f9fcb83f6a4c6ef3916ac2076a1f5d18facfeb7",
+      "cell-e526613e9fddc2b640314ce4db0be6cc37464c159ec3273bffc6fffb0258a532": "cell-2cecd03ab5f1acb8ca7d2a10d4bfc33587308765cce90d85a5deefdd41668c5e",
+      "cell-e598d027b86dabdced01cd6f3234d6ec47fd6d063876a36d09eb9a8fc5b4258c": "cell-0bab6c27b420dc46467977ce7e1df6ada55c89120566755c7b189190a6588701",
+      "cell-e6c06472b2af61e9f0129ef87510a635a86a11ba8dfd82f384b233864fb8a4a0": "cell-2bc256b0cf525754239cc4cbfc2a3cfcc919599bdff5489d78d38cef4bd4cdd8",
+      "cell-e8356ddf1c0117f9b32778645edf5e01f13190668ecb5b1e35e1f6ea7bd7f9d7": "cell-8c03f0cc9c2328002640f7395b48789c0009a10aaa03cfb7b8fa7a25ef61ae1b",
+      "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c": "cell-e77e1fe5807a9a3e9140874e3d33f5aa3b64e2a94831a381a62f77d19db89c3d",
+      "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+      "cell-f3263c401ff7cda7ef8f28926628ddf29e0b83551d74019cec775a1ce429370b": "cell-ec3b1bc6f20f392f0f380e598bcaecdeb82d9cb2f8711821d06aec4deb7322a1",
+      "cell-f571462b4aa2e0b653a61cc1692b35e2e4139d147c496279af8f33c994e861f8": "cell-8f1de017e9842b9c39af03b90b320ac04312250a38a400ef62c474e376a832c0",
+      "cell-f8fa1af226439d31d25bfeac257775d9cdfbd1c0f88db4a0f604df07850e0809": "cell-eb856284a962ef6fb48cc35153f3998e6b47109620c1a3ce07e1b1ec4ed82866",
+      "cell-fe4a5a2fab989afe022fa0b8a76cffa508e39e0e3da1934db175cb6d001e34dc": "cell-a269f264c01f43a3878a40f82271a83bc48140b3678d85c85178dee237ad90c4"
+    },
+    "parent_packet": {
+      "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+      "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+    },
+    "semantic_edits": [
+      "Replace only the common-unit literal with an explicit blank HTML cell."
+    ]
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "status": "proposed_expectations_not_independently_reviewed",
+  "scope": "evaluator_only_do_not_send_to_model",
+  "cases": [
+    {
+      "id": "S01",
+      "title": "Direct subtotal plus sibling; do not flatten or double-count",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r05",
+        "contributor_ids": [
+          "r01",
+          "r04"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "base",
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S02",
+      "title": "Target the administrative subtotal instead",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r01",
+        "contributor_ids": [
+          "r02",
+          "r03"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S03",
+      "title": "Memo row must not become an extra addend",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r05",
+        "contributor_ids": [
+          "r01",
+          "r04"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "base",
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S04",
+      "title": "Explicit relationship names a contributor whose occurrence is unrecovered",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "missing_evidence"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S05",
+      "title": "Labels alone do not establish which rows are already included",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "ambiguous_relationship"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S06",
+      "title": "Unrelated unresolved table does not block this relationship",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r05",
+        "contributor_ids": [
+          "r01",
+          "r04"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "base",
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S07",
+      "title": "One candidate is company-only while the target is group",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "incompatible_context"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S08",
+      "title": "One candidate belongs to the prior year",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "incompatible_context"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S09",
+      "title": "One candidate has a different currency",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "incompatible_context"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S10",
+      "title": "One candidate is restated while the target is original",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "incompatible_context"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S11",
+      "title": "Candidate header cannot distinguish group and company",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "abstain",
+        "target_id": "r05",
+        "contributor_ids": [],
+        "reason": "unknown_context"
+      },
+      "relation_group": null,
+      "support_requirements": {
+        "required_ids": [],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S12",
+      "title": "Shared unknown scale need not block an explicit local role relationship",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r05",
+        "contributor_ids": [
+          "r01",
+          "r04"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "base",
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S13",
+      "title": "Serialization order changes; literal source and header bindings do not",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "r05",
+        "contributor_ids": [
+          "r01",
+          "r04"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "base",
+      "support_requirements": {
+        "required_ids": [
+          "s05",
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    },
+    {
+      "id": "S14",
+      "title": "Opaque IDs renamed with exact source correspondence",
+      "author_review_status": "proposed_not_independently_reviewed",
+      "expected": {
+        "action": "select",
+        "target_id": "occurrence-163",
+        "contributor_ids": [
+          "occurrence-135",
+          "occurrence-156"
+        ],
+        "reason": "supported_direct_breakdown"
+      },
+      "relation_group": "renamed_base",
+      "evaluation_only_id_map": {
+        "s01": "occurrence-100",
+        "s02": "occurrence-107",
+        "s03": "occurrence-114",
+        "s04": "occurrence-121",
+        "s05": "occurrence-128",
+        "r01": "occurrence-135",
+        "r02": "occurrence-142",
+        "r03": "occurrence-149",
+        "r04": "occurrence-156",
+        "r05": "occurrence-163"
+      },
+      "support_requirements": {
+        "required_ids": [
+          "occurrence-128",
+          "occurrence-100",
+          "occurrence-107",
+          "occurrence-114",
+          "occurrence-121"
+        ],
+        "extra_support_policy": "Other selected evidence IDs require a relevant supporting role; independent review evaluates relevance. Ordering is not scored."
+      }
+    }
+  ],
+  "boundary_scenarios": [
+    {
+      "id": "D01",
+      "name": "target_omitted_from_payload",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "target_not_selected",
+      "fault": "Remove target from selected IDs while retaining it in the selected source snapshot.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D02",
+      "name": "target_absent_from_selected_source",
+      "expected_model_calls": 0,
+      "expected_state": "precondition_abstention",
+      "expected_reason": "target_absent",
+      "fault": "Use a well-formed literal target with no source occurrence; keep the container opportunity.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D03",
+      "name": "duplicate_occurrence_ids",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "duplicate_id",
+      "fault": "Duplicate a source item ID, even if its text is identical.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D04",
+      "name": "foreign_source_binding",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "source_binding_mismatch",
+      "fault": "Keep IDs but bind request to another document, variant or evidence hash.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D05",
+      "name": "payload_changed_after_freeze",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "request_hash_mismatch",
+      "fault": "Change a label after the request snapshot is written, before transport starts.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D06",
+      "name": "bounded_payload_overflow",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "context_limit_exceeded",
+      "fault": "One UTF-8 byte over the declared serialized evidence limit; include multibyte text and a separate exact-limit control.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D07",
+      "name": "blank_required_target",
+      "expected_model_calls": 0,
+      "expected_state": "precondition_abstention",
+      "expected_reason": "target_text_blank",
+      "fault": "Preserve an empty target label as blank, with its existing source ID.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D08",
+      "name": "unsupported_required_target",
+      "expected_model_calls": 0,
+      "expected_state": "precondition_abstention",
+      "expected_reason": "unsupported_target_evidence",
+      "fault": "Keep an existing target ID with unsupported content; do not fabricate text.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D09",
+      "name": "timeout",
+      "expected_model_calls": 1,
+      "expected_state": "transport_failure",
+      "expected_reason": "timeout",
+      "fault": "Inject timeout after recording attempt start.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D10",
+      "name": "refusal",
+      "expected_model_calls": 1,
+      "expected_state": "model_refusal",
+      "expected_reason": "refusal",
+      "fault": "Supply a complete envelope carrying a refusal field.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D11",
+      "name": "truncation",
+      "expected_model_calls": 1,
+      "expected_state": "incomplete_response",
+      "expected_reason": "truncated",
+      "fault": "Supply finish_reason length, including a case whose prefix is parseable JSON.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D12",
+      "name": "wrong_existing_id",
+      "expected_model_calls": 1,
+      "expected_state": "invalid_output",
+      "expected_reason": "id_outside_requested_scope",
+      "fault": "Return an existing source ID excluded from candidate_ids.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D13",
+      "name": "unknown_output_id",
+      "expected_model_calls": 1,
+      "expected_state": "invalid_output",
+      "expected_reason": "unknown_id",
+      "fault": "Return an ID absent from the selected source snapshot.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D14",
+      "name": "semantic_error_with_valid_structure",
+      "expected_model_calls": 1,
+      "expected_state": "structure_accepted",
+      "expected_reason": "semantic_correctness_unverified",
+      "fault": "Return a nested component and its parent subtotal as direct addends. Offline evaluation marks this wrong; structural validation alone cannot.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D15",
+      "name": "request_snapshot_write_failure",
+      "expected_model_calls": 0,
+      "expected_state": "persistence_failure",
+      "expected_reason": "request_not_persisted",
+      "fault": "Inject a failure before request snapshot and start record can be committed. Transport must not run.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D16",
+      "name": "result_write_failure",
+      "expected_model_calls": 1,
+      "expected_state": "persistence_failure",
+      "expected_reason": "result_not_persisted",
+      "fault": "Save start record, dispatch once, then fail response/result persistence. Return failure via an independent observable channel; no complete marker.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D17",
+      "name": "interrupted_attempt_replay",
+      "expected_model_calls": 0,
+      "expected_state": "incomplete_attempt",
+      "expected_reason": "completion_unknown",
+      "fault": "On replay, provide a start record without a terminal result. No automatic resend or inferred successful completion.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D18",
+      "name": "transport_mutates_payload",
+      "expected_model_calls": 1,
+      "expected_state": "invalid_output",
+      "expected_reason": "scope_not_redefined",
+      "fault": "Transport mutates the supplied payload then returns an ID allowed only by that mutation. Validate against the original snapshot.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D19",
+      "name": "missing_limitation_in_projection",
+      "expected_model_calls": 0,
+      "expected_state": "rejected_input",
+      "expected_reason": "projection_preservation_failure",
+      "fault": "Remove the selected container unresolved-region limitation from an otherwise unchanged frozen payload.",
+      "execution_status": "not_executed"
+    },
+    {
+      "id": "D20",
+      "name": "malformed_or_duplicate_json",
+      "expected_model_calls": 1,
+      "expected_state": "invalid_output",
+      "expected_reason": "variant_specific",
+      "fault": "Exercise duplicate keys, nonfinite constants, a malformed envelope, and unexpected tool calls as separately recorded subcases.",
+      "execution_status": "not_executed",
+      "variants": [
+        {
+          "input": "duplicate JSON keys",
+          "expected_reason": "malformed_json"
+        },
+        {
+          "input": "nonfinite constants",
+          "expected_reason": "malformed_json"
+        },
+        {
+          "input": "malformed envelope",
+          "expected_reason": "malformed_response"
+        },
+        {
+          "input": "unexpected tool calls",
+          "expected_reason": "unexpected_response_mode"
+        }
+      ]
+    }
+  ],
+  "future_source_transform": {
+    "name": "amount_invariance",
+    "status": "not_instantiated",
+    "requirement": "Build paired synthetic native/IR source artifacts with changed financial amounts but unchanged label/context relationships. Freeze the same expected contributors before rendering. Verify model-payload identity after code masking and code-only arithmetic differences. This logical fixture set has no amount cells and cannot establish this property."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cells": 8,
+  "detector_performance": "not_executed",
+  "evidence_id": "document-ca8adf8dc60fd13a2e389fd7c432eb7d4c7c553e2df9887b8e44923e3bdf610d",
+  "limitations_by_code": {
+    "missing_discarded_blocks": 1
+  },
+  "native_fidelity": "literal_fragments_verified_against_selected_native",
+  "pages": 1,
+  "pdf_fidelity": "unverified",
+  "source_fragments": 2,
+  "structural_validity": "valid",
+  "table_regions": 1,
+  "tables_by_grid_state": {
+    "resolved": 1
+  },
+  "unresolved_regions": 1
+}

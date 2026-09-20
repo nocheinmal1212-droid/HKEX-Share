@@ -1,0 +1,16 @@
+[
+  {
+    "contributors": [],
+    "gate": "blocked_scope",
+    "name": "outer",
+    "presentation_refs": [],
+    "support": []
+  },
+  {
+    "contributors": [],
+    "gate": "blocked_scope",
+    "name": "subtotal",
+    "presentation_refs": [],
+    "support": []
+  }
+]

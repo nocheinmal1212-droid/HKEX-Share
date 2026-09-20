@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "initial_python_consumer_only",
+  "allowed_files": 2,
+  "forbidden_files_and_symlink": 10,
+  "methods": [
+    "open",
+    "pathlib",
+    "io.open",
+    "os.open"
+  ],
+  "limitations": [
+    "No detector, adapter or prompt builder exists yet.",
+    "Python audit hook is not a hostile-code sandbox; native I/O and future subprocesses need additional tests."
+  ]
+}

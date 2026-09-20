@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "recorded_at": "2026-09-10T03:56:53.086136Z",
+  "owner_authorization": "Approved to promote all 4 cases to `ready`.",
+  "authorization_source": "Current task user message after four-case review packet and closing checklist.",
+  "approved_packet_path": "eval/reviews/hkex-2025-48/packet-r2/index.html",
+  "approved_packet_sha256": "6e68905a02eb5f72db7b1a74a468809bbb22ee97d552fe180567809613fca616",
+  "previous_records_sha256": "9cd7873f6bd8db6ab51838f31d1317e760d2323fb1b0b23b404529c9e22ecf45",
+  "manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "reviewer": "Codex source review under owner-authorized promotion",
+  "propagation_scope": "Reviewed discrepancy relationships and linked statement subtotal chain. Unknown historical generator settings/causality remain unknown; no global no-change claim.",
+  "assessments": [
+    {
+      "error_id": "HL-ERR-0006",
+      "propagated": false,
+      "linked_error_ids": [],
+      "rationale": "No propagated token replacement in the reviewed minimum-tax-rate disclosure: the second minimum-rate occurrence on physical page 185 retains its percent sign. The separate tax-table injection and unrelated loan-rate edit are not propagation of this token."
+    },
+    {
+      "error_id": "HL-ERR-0017",
+      "propagated": false,
+      "linked_error_ids": [],
+      "rationale": "The edited revenue reference is confined to its statement occurrence. Intended revenue-note and actual other-income-note subjects remain identifiable on physical pages 179 and 181. Other reference and heading edits in the supplied metadata are distinct discrepancies, not propagated renumbering of this reference."
+    },
+    {
+      "error_id": "HL-ERR-0025",
+      "propagated": true,
+      "linked_error_ids": [
+        "HL-ERR-0026",
+        "HL-ERR-0027",
+        "HL-ERR-0028",
+        "HL-ERR-0029"
+      ],
+      "rationale": "Observed linked downstream changes in the same statement subtotal chain: operating profit before/after fair-value changes, profit before tax, and the first annual-profit occurrence. Contributors are selected by the disclosed hierarchy, not matching deltas. These downstream sites are outside the approved three-operand gross-profit equation and do not cancel its residual. This describes observed linked edits, not an inferred injector execution order."
+    },
+    {
+      "error_id": "HL-ERR-0041",
+      "propagated": false,
+      "linked_error_ids": [],
+      "rationale": "No propagated revenue-total edit across the reviewed comparison endpoints: statement revenue on physical page 159 and the revenue-disaggregation total on physical page 179 remain unchanged; the edited segment total is on physical page 180. Independent heading and component-subtotal edits are retained in the same frozen group, not treated as propagation of this total."
+    }
+  ],
+  "source_evidence": [
+    "eval/reviews/hkex-2025-48/character-probes.json",
+    "eval/reviews/hkex-2025-48/packet-r2/images.json",
+    "corpus/error_detail.jsonl"
+  ],
+  "approved_record_ids": [
+    "HL-ERR-0006",
+    "HL-ERR-0017",
+    "HL-ERR-0025",
+    "HL-ERR-0041"
+  ]
+}

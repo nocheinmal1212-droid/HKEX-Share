@@ -1,0 +1,6 @@
+{
+  "name": "s02_actual_sibling_subtotal",
+  "table_id": "table-9476b7f1d591d6d3bc556e2782838d2b7b19f02d3b86b53050d8b80be2e5f0ff",
+  "target_id": "cell-a19a6623458b7ae41aa951b2a65b7f454a2203d6df147926050e972468ddf603",
+  "transform": "mask_body_amounts_v1"
+}

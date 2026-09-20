@@ -1,0 +1,11 @@
+{"schema_version": "1.0.0", "stage": "consumer", "state": "crashed", "error_type": "ValueError", "reason": "IR selection document/variant mismatch"}
+{"schema_version": "1.0.0", "stage": "consumer", "state": "crashed", "error_type": "ValueError", "reason": "schema violation: ['schema_version'] const"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "JSONDecodeError", "reason": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "renamed PDF content is forbidden"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "native page inventory missing"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "selected artifact hash mismatch"}
+blocked: blocked_scope
+----------------------------------------------------------------------
+Ran 123 tests in 65.149s
+
+OK

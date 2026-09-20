@@ -1,0 +1,396 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "revision": 3,
+  "predecessor": "3160e3f49ea6099563ab5da0f040a2c45c6878524c852804b9958675b8572d00",
+  "revision_reason": "Owner acceptance of four mappings only; no grouping or site changes.",
+  "manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "locations_sha256": "4265712ad039e9b8da94b7c9d70b87dd40e47ef994dec43f213ea8c00ee7cad3",
+  "sites": [
+    "site-098b96778683ed550c839dfb",
+    "site-17f61418b06f183b79abae0c",
+    "site-18a8aa3b049ba32accdb3334",
+    "site-29372d753e39a9ba16de1f27",
+    "site-2c7739522415f07137a66d87",
+    "site-308312f2480132331e7b6b4b",
+    "site-3270a3a48bfbf38099eae22e",
+    "site-36f1a4986a0006aaeaa7ee74",
+    "site-3f4e5f0fef7f011e2acfb6f8",
+    "site-484f4faf4c483120e2001033",
+    "site-4a786b880cbf78dba80da6b4",
+    "site-5096c6a6ca7e2a7d46805b22",
+    "site-5178a7e4685f1f4e197f17f7",
+    "site-528f0f07aa10e60116945f67",
+    "site-560e9a1e98cb028d15178f69",
+    "site-5e8f044b500f72b7da6b7c16",
+    "site-6dee5ef9d3ddcc227cbd4802",
+    "site-70e0ee355d3f9401b5f61ce3",
+    "site-72d0d8ee0b1dce917e90a65c",
+    "site-742b2df0403a722cf94968b0",
+    "site-7caf33795d8449d2c366364b",
+    "site-8b96ec8a23a54125b323daf4",
+    "site-8e94d449a8bd559f2d862c49",
+    "site-8fa3771f94d53e868312f21a",
+    "site-8fc61805b42fe98f27b15195",
+    "site-8fc9dea4e20bfb1d0421a664",
+    "site-944b58a2082f12b0bcf46be3",
+    "site-9551602354f639c0b4d4e22d",
+    "site-97b6a4cebbc64ee01b75b3cc",
+    "site-98e8b7b99e9039def3700ebe",
+    "site-99ddd43a4100bcb97e321142",
+    "site-9ba093d03c85a993385c618b",
+    "site-a038c376f9346ce551a7ba8d",
+    "site-ae2dbaa39aeee9c72fb974a5",
+    "site-b0a446b573cafd8f5f035fd1",
+    "site-bc4092c443270203e7391e19",
+    "site-c225da99a5ed1b1c0083dabc",
+    "site-c41a89faec8c38f0de1f6d68",
+    "site-c92f1bfeaf50dd72303bbc0e",
+    "site-cae679e87cfbfe08327b9512",
+    "site-cb7c7de734e889cfc9b8f8c4",
+    "site-ce3f7c4654eb8f02aa3f4694",
+    "site-d7c3e2c79eb31033563fe87a",
+    "site-dddb853be28bd7e6cf691a98",
+    "site-e4923a4f28d57f76600f8e91",
+    "site-e4cc077d10c1c4756dcad7ef",
+    "site-f123be64579a31402129efd5",
+    "site-f3fc696796bc8a85ba169464"
+  ],
+  "edges": [
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-17f61418b06f183b79abae0c"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-18a8aa3b049ba32accdb3334"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-29372d753e39a9ba16de1f27"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-2c7739522415f07137a66d87"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-308312f2480132331e7b6b4b"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-3270a3a48bfbf38099eae22e"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-36f1a4986a0006aaeaa7ee74"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-3f4e5f0fef7f011e2acfb6f8"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-484f4faf4c483120e2001033"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-4a786b880cbf78dba80da6b4"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-5096c6a6ca7e2a7d46805b22"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-5178a7e4685f1f4e197f17f7"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-528f0f07aa10e60116945f67"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-560e9a1e98cb028d15178f69"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-5e8f044b500f72b7da6b7c16"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-6dee5ef9d3ddcc227cbd4802"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-70e0ee355d3f9401b5f61ce3"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-72d0d8ee0b1dce917e90a65c"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-742b2df0403a722cf94968b0"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-7caf33795d8449d2c366364b"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-8b96ec8a23a54125b323daf4"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-8e94d449a8bd559f2d862c49"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-8fa3771f94d53e868312f21a"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-8fc61805b42fe98f27b15195"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-8fc9dea4e20bfb1d0421a664"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-944b58a2082f12b0bcf46be3"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-9551602354f639c0b4d4e22d"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-97b6a4cebbc64ee01b75b3cc"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-98e8b7b99e9039def3700ebe"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-99ddd43a4100bcb97e321142"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-9ba093d03c85a993385c618b"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-a038c376f9346ce551a7ba8d"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-ae2dbaa39aeee9c72fb974a5"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-b0a446b573cafd8f5f035fd1"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-bc4092c443270203e7391e19"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-c225da99a5ed1b1c0083dabc"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-c41a89faec8c38f0de1f6d68"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-c92f1bfeaf50dd72303bbc0e"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-cae679e87cfbfe08327b9512"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-cb7c7de734e889cfc9b8f8c4"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-ce3f7c4654eb8f02aa3f4694"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-d7c3e2c79eb31033563fe87a"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-dddb853be28bd7e6cf691a98"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-e4923a4f28d57f76600f8e91"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-e4cc077d10c1c4756dcad7ef"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-f123be64579a31402129efd5"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    },
+    {
+      "sites": [
+        "site-098b96778683ed550c839dfb",
+        "site-f3fc696796bc8a85ba169464"
+      ],
+      "reason": "Conservative bundle containment: source-wide reporting context mutations, statement-note comparisons and unresolved cross-container endpoints. This administrative edge asserts no specific accounting equation."
+    }
+  ],
+  "unresolved": [],
+  "reviewer": "Codex evaluation preparation",
+  "reviewed_at": "2026-09-09T07:24:24.089757Z",
+  "prior_exposure": "Bundle inspected before assignment during design and intake, including raw annotations and clean/corrupted sources. No untouched-holdout claim. No detector tuning or test scores exist.",
+  "strategy": "conservative_bundle",
+  "rationale": "All 48 injection descriptions were inspected. Reporting-period changes span primary statements and notes; reference and statement-note endpoints link containers. Exact connected-component minimality is not established. Grouping the entire single corrupted document prevents any unknown interaction from crossing the split. It intentionally sacrifices independent clusters; no cross-split grouping uncertainty remains because there is one group."
+}

@@ -1,0 +1,36 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "contributor_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "state": {
+      "enum": [
+        "selected",
+        "missing_evidence",
+        "ambiguous",
+        "incompatible_context",
+        "not_a_total"
+      ]
+    },
+    "support_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "target_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "target_id",
+    "state",
+    "contributor_ids",
+    "support_refs"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,586 @@
+--- before/PLAN.md
++++ after/PLAN.md
+@@ -404,6 +404,11 @@
+ All 48 intake records and their frozen hashes/splits remain intact; headline scoring stays UNGATED.
+ 
+ ## 4. Milestone 2 — First complete lifecycle
++
++The 2026-09-19 [bounded execution correction](spec/paired-semantic-attempts-1.2.md) and
++[successor preparation](docs/semantic-citation-deadline-correction-results-2026-09-19.md) address the
++total-time blocker only. Live execution requires separate explicit approval. Saved-IR semantic
++acceptance and all remaining M2 exit conditions remain open; no checkbox is completed here.
+ 
+ - [x] Close the bounded model-selection investigation with the owner-approved provisional policy
+   (2026-09-18). The dated history below remains evidence, not current model-selection instructions.
+--- before/README.md
++++ after/README.md
+@@ -265,6 +265,11 @@
+ host analysis to 1.0.1: recognized nested presentation wrappers remain in evidence but no longer
+ double-count their wrapped header partition. Earlier bindings and runtime bytes remain preserved;
+ see the [offline correction results](docs/semantic-citation-partition-correction-results-2026-09-19.md).
++
++The [execution deadline revision](spec/paired-semantic-attempts-1.2.md) binds new attempts/batches
++as 1.2.0 and supervises preparation through owned-process cleanup under one total ceiling.
++This offline correction does not authorize live inference; see the
++[correction and successor preparation report](docs/semantic-citation-deadline-correction-results-2026-09-19.md).
+ 
+ These routes were tested in the September 17 experiments; future live work must verify availability
+ and served identity. Keep the strict output contract and host ID/context validation. Schema-valid
+--- before/docs/development-logs.md
++++ after/docs/development-logs.md
+@@ -787,3 +787,18 @@
+ semantic confirmation. The single-column presentation contributor scope question is unchanged.
+ No network, credentials, provider calls, dependency installation or commit; M2 and acceptance remain
+ open. Next useful step: review the corrected bindings before separately preparing any confirmation.
++
++## 2026-09-19 — bounded offline deadline correction
++
++The no-go confirmation's 730-second counterexample required supervision outside the thread executor,
++not another reservation check. Execution 1.2 uses an owned process session plus an absolute monotonic
++work cutoff and cleanup reserve inside the total ceiling. Source/output preparation, subprocess
++waits, stuck executor tasks and final receipt writing are supervised. Launch intent is distinct from
++known request-boundary entry; interrupted transport history remains unknown. Historical complete
++artifacts are resolved by exact snapshot replay, never repaired. Semantic policy is unchanged.
++
++The initial probe harness could not use sandboxed process listing; targeted kill(pid,0) on recorded
++owned fixture PIDs supplies the termination observation. Real selected-IR consumers take longer than
++tiny cancellation fixtures, so successful lifecycle tests have separately declared durations. Initial
++failed harness results are retained. See the [results and same-agent review](semantic-citation-deadline-correction-results-2026-09-19.md)
++for final evidence and remaining approval boundary. These exposed cases are not new acceptance data.
+--- before/src/hkex_audit/semantic_attempt.py
++++ after/src/hkex_audit/semantic_attempt.py
+@@ -7,7 +7,7 @@
+ from .artifacts import encode, loads, sha, fingerprint, identity, require
+ from .semantic import validate_answer, validate_query_binding
+ 
+-VERSION = 'paired-semantic-attempt-1.1.0'
++VERSION = 'paired-semantic-attempt-1.2.0'
+ CONFIGS = {
+     'primary': {'model': 'google/gemini-3.8-flash', 'route': 'google-ai-studio', 'served_provider': 'Google AI Studio'},
+     'research': {'model': 'deepseek/deepseek-v4.1-flash', 'route': 'together', 'served_provider': 'Together'},
+@@ -128,7 +128,7 @@
+ def replay(store, query, role, nonce):
+     """Expected query/role/config are supplied by the consumer, never trusted from a completion."""
+     req = request(query, role, nonce)
+-    incomplete = {'state': 'incomplete_attempt', 'attempt_id': req['attempt_id'], 'model_calls': 0}
++    incomplete = {'state': 'incomplete_attempt', 'attempt_id': req['attempt_id'], 'model_calls': 0, 'historical_model_calls': None}
+     try:
+         marker = loads(store.read('completion.json'))
+         require(set(marker) == {'version', 'attempt_id', 'artifacts'} and marker['version'] == VERSION
+--- before/src/hkex_audit/semantic_cli.py
++++ after/src/hkex_audit/semantic_cli.py
+@@ -17,21 +17,22 @@
+ from .semantic import project, verify_query, annotation
+ from .semantic_attempt import CONFIGS, FILES, Store, request, dispatch, replay
+ from .header_support import load_policy, policy_identity
+-
+-BATCH_VERSION = 'semantic-batch-1.1.0'
++from .semantic_deadline import Deadline, DeadlineExpired, supervise
++
++BATCH_VERSION = 'semantic-batch-1.2.0'
+ 
+ 
+ def runtime_identity():
+     return fingerprint({p:sha((Path(__file__).parent/p).read_bytes()) for p in
+                         ('semantic.py','semantic_attempt.py','semantic_cli.py','semantic_transport.py',
+-                         'header_support.py','header_support_policy.json')})
++                         'header_support.py','header_support_policy.json','semantic_deadline.py')})
+ 
+ 
+ def isolated(function, payload, timeout=180):
+     bootstrap = 'import sys,json;sys.path.insert(0,sys.argv[1]);from hkex_audit.semantic_cli import '+function+';'+function+'(json.load(sys.stdin))'
+     proc = subprocess.run([sys.executable, '-I', '-B', '-c', bootstrap, str(Path(__file__).resolve().parents[1])],
+                           input=json.dumps(payload), text=True, capture_output=True, timeout=timeout, close_fds=True,
+-                          env={k:v for k,v in os.environ.items() if k != 'OPENROUTER_API_KEY'})
++                          env={})
+     require(proc.returncode == 0, 'isolated semantic worker failed: ' + proc.stderr[-1200:])
+     return loads(proc.stdout)
+ 
+@@ -90,14 +91,36 @@
+     print(encode({'query_id':query['query_id'],'result':result,'access_attempts':attempts}).decode())
+ 
+ 
+-def transport(job):
++def transport(job, timeout=60):
++    if time.monotonic() >= job['deadline_monotonic']:
++        return {'transport_status':'budget_exhausted','request_started':False}
+     bootstrap = 'import sys;sys.path.insert(0,sys.argv[1]);from hkex_audit.semantic_transport import main;main()'
+     try:
+         proc = subprocess.run([sys.executable,'-I','-B','-c',bootstrap,str(Path(__file__).resolve().parents[1])],
+-                              input=json.dumps(job), text=True, capture_output=True, timeout=60, close_fds=True)
++                              input=json.dumps(job), text=True, capture_output=True, timeout=timeout, close_fds=True)
+         return loads(proc.stdout) if proc.returncode == 0 else {'transport_status':'transport_error'}
+     except subprocess.TimeoutExpired:
+         return {'transport_status':'timeout'}
++
++
++def send_transport(job, prefix, deadline):
++    if time.monotonic() >= deadline.work_end:
++        return {'transport_status':'budget_exhausted','reason':'deadline_prevented_dispatch'}
++    try:
++        write_new(Path(str(prefix)+'-launch.json'), {
++            'mode':job['mode'], 'role':job['role'], 'state':'launch_intent',
++            'issued_http_calls':'unknown_until_return', 'maximum_http_calls':1})
++    except OSError:
++        return {'transport_status':'unavailable','request_started':False,'reason':'launch_journal_failed_before_transport'}
++    # Recheck after persistence; a reservation or launch intent is not an issued call.
++    try:
++        timeout = deadline.remaining(60)
++    except DeadlineExpired:
++        record = {'transport_status':'budget_exhausted','request_started':False}
++    else:
++        record = transport({**job, 'deadline_monotonic':deadline.work_end}, timeout=timeout)
++    write_new(Path(str(prefix)+'-return.json'), record)
++    return record
+ 
+ 
+ def bootstrap_key(root):
+@@ -150,13 +173,58 @@
+ 
+ 
+ def run(args):
++    started = time.monotonic()
++    require(0 < args.max_seconds <= 900, 'invalid total deadline')
++    deadline = Deadline(started, args.max_seconds)
++    output = Path(args.output).absolute()
++    bootstrap = 'import sys,json;sys.path.insert(0,sys.argv[1]);from hkex_audit.semantic_cli import run_worker;run_worker(json.load(sys.stdin))'
++    payload = {k:str(v) if isinstance(v,(Path,Decimal)) else v for k,v in vars(args).items()}
++    payload.update(output=str(output), started=started)
++    result = supervise([sys.executable,'-I','-B','-c',bootstrap,str(Path(__file__).resolve().parents[1])], payload, deadline)
++    success = not result['timed_out'] and result['returncode'] == 0
++    # Receipt I/O is also supervised inside the original cleanup allowance. Keep the
++    # supervisor free of potentially blocking output-file writes and terminal writes.
++    receipt = {**result, 'state':'finished' if success else 'interrupted_or_failed',
++               'historical_http_calls':'see per-call launch/return records; unreturned launches are unknown',
++               'total_ceiling_satisfied': time.monotonic() < deadline.end}
++    receipt_deadline = Deadline(deadline.started, args.max_seconds)
++    receipt_deadline.work_end = deadline.end - min(.05, deadline.cleanup_seconds/4)
++    writer = "import json,sys,pathlib;p=json.load(sys.stdin);d=pathlib.Path(p['output']);assert not any(x.is_symlink() for x in [d,*d.parents]);assert not {'eval','corpus','.git'}.intersection(d.parts);assert json.loads((d/'launch.json').read_text())['started_monotonic']==p['started'];(d/'supervisor.json').open('x').write(json.dumps(p['receipt']))"
++    try:
++        published = supervise([sys.executable,'-I','-B','-c',writer],
++                              {'output':str(output),'receipt':receipt,'started':deadline.started}, receipt_deadline, env={})
++    except DeadlineExpired:
++        return 2
++    return 0 if success and not published['timed_out'] and published['returncode']==0 else 2
++
++
++def run_worker(payload):
++    from types import SimpleNamespace
++    args = SimpleNamespace(**payload)
++    args.max_cost = Decimal(args.max_cost)
++    deadline = Deadline(args.started, args.max_seconds)
++    deadline.remaining(180)
++    output = new_directory(args.output)
++    write_new(output/'launch.json', {'version': BATCH_VERSION, 'started_monotonic': args.started,
++              'deadline_monotonic': deadline.end, 'work_cutoff_monotonic': deadline.work_end,
++              'state':'incomplete_until_supervisor_receipt', 'historical_http_calls':'unknown'})
++    try:
++        code = run_body(args, deadline)
++    except DeadlineExpired:
++        code = 2  # no fabricated attempt outcomes or successful summary
++    raise SystemExit(code)
++
++
++def run_body(args, deadline):
++    deadline.remaining(180)
+     selection = normalized_selection(args.selection)
+     specs = read(json_input(args.queries))
+     require(isinstance(specs,list) and 0 < len(specs) <= 6, 'one to six queries required')
+     require(len({s['name'] for s in specs}) == len(specs), 'duplicate query name')
+-    prepared = isolated('prepare_worker', {'selection':selection,'specs':specs})
++    prepared = isolated('prepare_worker', {'selection':selection,'specs':specs}, timeout=deadline.remaining(180))
++    deadline.remaining(180)
+     needs_model = any(q['gate']=='eligible' for q in prepared['queries'])
+-    output = new_directory(args.output)
++    output = Path(args.output)
+     nonce = output.name
+     config = {'version':BATCH_VERSION,'nonce':nonce,'selection':selection,'specs':specs,
+               'runtime_code_sha256': runtime_identity(), 'host_policy':policy_identity(),
+@@ -167,14 +235,14 @@
+     if needs_model:
+         if args.env_root: bootstrap_key(args.env_root)
+         require(bool(os.environ.get('OPENROUTER_API_KEY')), 'OPENROUTER_API_KEY absent; prepared batch retained, no calls')
+-    start = time.monotonic(); http_calls = 0; metadata = {}; reserves = {}; role_calls = {r:0 for r in CONFIGS}
++    start = deadline.started; http_calls = 0; metadata = {}; reserves = {}; role_calls = {r:0 for r in CONFIGS}
+     # Metadata is part of the declared HTTP/time budget, even when it fails.
+     for role, c in (CONFIGS.items() if needs_model else ()):
+-        if http_calls >= args.max_http_calls or time.monotonic()-start+60 > args.max_seconds:
++        if http_calls >= args.max_http_calls or time.monotonic() >= deadline.work_end:
+             metadata[role]={'transport_status':'budget_exhausted'}; reserves[role]=None
+             write_new(output/(role+'-metadata.json'),metadata[role]); continue
+         http_calls += 1
+-        record=transport({'mode':'metadata','role':role}); metadata[role]=record; reserves[role]=None
++        record=send_transport({'mode':'metadata','role':role}, output/('metadata-'+role), deadline); metadata[role]=record; reserves[role]=None
+         try:
+             require(record['transport_status']=='ok','metadata unavailable')
+             data=loads(base64.b64decode(record['body_base64']))['data']
+@@ -199,6 +267,7 @@
+         write_new(output/(role+'-metadata.json'),record)
+     reserved=Decimal(0); results=[]
+     for query in prepared['queries']:
++        deadline.remaining(180)
+         decisions={}
+         for role in CONFIGS:
+             reason=None; estimate=Decimal(0)
+@@ -209,24 +278,27 @@
+                     prompt,completion=reserves[role]
+                     estimate=Decimal(len(encode(req['payload']))+4096)*prompt+Decimal(4096)*completion
+                     if (http_calls>=args.max_http_calls or role_calls[role]>=args.max_role_calls or
+-                        time.monotonic()-start+60>args.max_seconds or reserved+estimate>args.max_cost): reason='budget_exhausted'
++                        time.monotonic() >= deadline.work_end or reserved+estimate>args.max_cost): reason='budget_exhausted'
+                 if reason is None:
+                     http_calls+=1; role_calls[role]+=1; reserved+=estimate
+             decisions[role]={'reason':reason,'reserved_cost_usd':str(estimate) if reason is None else '0'}
++        write_new(output/(query['selection']['name']+'-reservations.json'), decisions)
+         for role in CONFIGS: (output/role/query['selection']['name']).mkdir(parents=True)
+         dest=output/'operational'/query['selection']['name'];dest.mkdir(parents=True)
+         def send(role):
+             def execute(req):
+                 reason=decisions[role]['reason']
+                 if reason: return {'transport_status':reason,'reason':'pre_dispatch_availability_or_budget'}
+-                return transport({'mode':'completion','role':role,'payload':req['payload']})
++                return send_transport({'mode':'completion','role':role,'payload':req['payload']},
++                                      output/role/query['selection']['name']/'transport', deadline)
+             return execute
+         result=paired(query,nonce,Store(output/'primary'/query['selection']['name']),Store(output/'research'/query['selection']['name']),
+                       send('primary'),send('research'),
+-                      lambda:isolated('consume_worker',{'selection':selection,'spec':query['selection'],'batch':str(output),'output':str(dest),'nonce':nonce}))
++                      lambda:isolated('consume_worker',{'selection':selection,'spec':query['selection'],'batch':str(output),'output':str(dest),'nonce':nonce}, timeout=deadline.remaining(180)))
+         results.append({'name':query['selection']['name'],'query_id':query['query_id'],'dispatch_reservations':decisions,**result})
+         write_new(output/(query['selection']['name']+'-summary.json'),results[-1])
+         print(query['selection']['name']+': '+result['consumption']['outcome'],flush=True)
++    deadline.remaining(180)
+     write_new(output/'summary.json',{'results':results,'http_calls_reserved':http_calls,'completion_calls_reserved':role_calls,
+                                    'cost_reserved_usd':str(reserved),'elapsed_seconds':time.monotonic()-start,
+                                    'limits':config['limits'],'plans_checks_findings':'not_implemented'})
+--- before/src/hkex_audit/semantic_transport.py
++++ after/src/hkex_audit/semantic_transport.py
+@@ -27,6 +27,9 @@
+ 
+ def main():
+     job = json.load(sys.stdin)
++    deadline = job['deadline_monotonic']
++    if time.monotonic() >= deadline:
++        print(json.dumps({'transport_status':'budget_exhausted','request_started':False})); return
+     role = job['role']; config = CONFIGS[role]
+     mode = job['mode']
+     if mode == 'metadata':
+@@ -48,8 +51,12 @@
+     addresses = {i[4][0] for i in socket.getaddrinfo(HOST, 443, type=socket.SOCK_STREAM)}
+     install_transport_guard(addresses)
+     start = time.monotonic()
++    request_started = False
+     try:
+-        connection = http.client.HTTPSConnection(HOST, 443, timeout=config['deadline_seconds'], context=context)
++        connection = http.client.HTTPSConnection(HOST, 443, timeout=min(config['deadline_seconds'], max(.001, deadline-time.monotonic())), context=context)
++        if time.monotonic() >= deadline:
++            print(json.dumps({'transport_status':'budget_exhausted','request_started':False})); return
++        request_started = True  # an exception after this boundary has unknown remote acceptance
+         connection.request('GET' if data is None else 'POST', path, data,
+                            {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json'})
+         response = connection.getresponse(); raw = response.read(2_000_001)
+@@ -63,6 +70,7 @@
+         result = {'transport_status': 'timeout', 'elapsed_seconds': time.monotonic() - start}
+     except Exception:
+         result = {'transport_status': 'transport_error', 'elapsed_seconds': time.monotonic() - start}
++    result['request_started'] = request_started
+     print(json.dumps(result))
+ 
+ if __name__ == '__main__':
+--- /dev/null
++++ after/src/hkex_audit/semantic_deadline.py
+@@ -0,0 +1,57 @@
++"""POSIX owned-session supervisor; cancellation time is inside the launch ceiling."""
++import json
++import os
++import signal
++import subprocess
++import time
++
++
++class DeadlineExpired(TimeoutError):
++    pass
++
++
++class Deadline:
++    def __init__(self, started, seconds):
++        self.started = started
++        self.end = started + seconds
++        self.cleanup_seconds = min(1.0, seconds / 10)
++        self.work_end = self.end - self.cleanup_seconds
++
++    def remaining(self, cap):
++        left = self.work_end - time.monotonic()
++        if left <= 0:
++            raise DeadlineExpired('total deadline: work stopped for owned-process cleanup')
++        return min(cap, left)
++
++
++def supervise(argv, payload, deadline, env=None):
++    """Only this newly created session is killed. No executor exists in the supervisor."""
++    deadline.remaining(180)
++    proc = subprocess.Popen(argv, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
++                            stderr=subprocess.PIPE, text=True, close_fds=True,
++                            start_new_session=True, env=env)
++    timed_out = False
++    stdout = stderr = ''
++    try:
++        try:
++            stdout, stderr = proc.communicate(json.dumps(payload), timeout=deadline.remaining(900))
++        except (subprocess.TimeoutExpired, DeadlineExpired):
++            timed_out = True
++    finally:
++        # Kill the whole owned group even when its leader has exited: a descendant may
++        # retain pipes or outlive it. Nested runtime subprocesses never create sessions.
++        try:
++            os.killpg(proc.pid, signal.SIGKILL)
++        except ProcessLookupError:
++            pass
++        left = deadline.end - time.monotonic()
++        if left <= 0:
++            raise DeadlineExpired('cleanup ceiling exhausted; termination sent, reaping unverified')
++        try:
++            stdout, stderr = proc.communicate(timeout=left)
++        except subprocess.TimeoutExpired as exc:
++            raise DeadlineExpired('owned process cleanup not verified within ceiling') from exc
++    return {'timed_out': timed_out, 'returncode': proc.returncode,
++            'stdout': stdout, 'stderr': stderr, 'pid': proc.pid,
++            'elapsed_seconds': time.monotonic() - deadline.started,
++            'direct_child_reaped': proc.poll() is not None}
+--- /dev/null
++++ after/spec/paired-semantic-attempts-1.2.md
+@@ -0,0 +1,49 @@
++# Paired execution 1.2.0 — total deadline
++
++This execution revision supersedes the batch/attempt execution rules of
++[1.1](paired-semantic-attempts-1.1.md) for new runs only. Operation 1.1.0, analysis 1.0.1,
++prompt, response schema, citation vocabulary, provenance format and both role configurations
++are unchanged. Batch and attempt identifiers are 1.2.0; runtime identity includes
++`semantic_deadline.py`. Old requests and completions are never rebound to new attempts.
++
++The monotonic total clock begins at `run` entry, before preparation. A POSIX supervisor creates
++one owned session for the batch. Preparation/consumption waits retain their 180-second maximum;
++transport waits retain 60 seconds. Each is shortened to the remaining work interval. The last
++`min(1 second, total/10)` is reserved *inside* the total ceiling for SIGKILL of the owned group,
++pipe closure, direct-child reaping and receipt publication. This is not a timeout extension.
++Workers/transports must not detach or create a new session. Guards prohibit descendant execution
++inside source consumers and transports; the supervisor also cancels descendants during bootstrap.
++Thread executor shutdown is confined to the supervised process, never the outer launcher.
++Normal and failed exits both clean the owned group. Failure to verify cleanup is failure, not success.
++
++Reservation does not authorize starting after expiry. Recheck after the durable launch-intent write,
++before subprocess creation, at transport entry and immediately before the HTTP request boundary.
++Already-issued work may be interrupted. Stop all new work at the cleanup cutoff; no retry, repair,
++route fallback or replacement query follows. Primary consumption starts after committed primary
++work returns, before waiting on research; accepted research cannot replace primary failure/abstention.
++
++Exclusive-write attempt artifacts and six-file completion bindings are unchanged. SIGKILL can
++leave partial JSON, a complete result without marker, or an uncertain completion publication.
++Only exact read-only replay resolves the selected role's completion; never overwrite partial files.
++Consumption's annotations/provenance/consumption files can also be partial; absent or invalid
++consumption records are not proof of completed operational persistence. Complete original files
++remain immutable. `summary.json` is produced only after all batch stages finish inside work time;
++`supervisor.json` reports the actual outer outcome. A missing receipt is incomplete, not success.
++
++Per-query `*-reservations.json` records conservative call/cost allocations. Per-transport
++`*-launch.json` records intent, not a proven HTTP call. `*-return.json` records returned evidence:
++`request_started=false` is known zero, `true` means the HTTP boundary was entered (remote acceptance
++may still be unknown); absent/partial return or a timeout without this field means unknown, at most
++one issued call. Do not call such histories zero or infer cost zero. The existing `model_calls` in
++a complete attempt counts transport invocations, not confirmed provider acceptance. Incomplete replay
++makes zero *new* calls and explicitly reports `historical_model_calls=null`. Reservations remain
++conservative and are never recycled within an interrupted run.
++
++The local no-go packet's `prepared-v1/runtime-snapshot` preserves the exact 1.1 execution bytes for
++its authored replay. Verify its recorded inventory first and use the original environment and nonce.
++The separate Task B v1 pinned launcher/manifests remain unchanged. Current replay rejects old batch
++versions or runtime hashes; there is no automatic migration or new inference via historical pins.
++
++No live authorization, semantic acceptance, numerical compatibility or M2 completion follows from
++this execution correction. Historical 0/4 complete frozen support, three research truncations and
++invalid research abstention remain unchanged.
+--- /dev/null
++++ after/tests/test_semantic_deadline.py
+@@ -0,0 +1,182 @@
++"""Offline launch deadlines, owned-process cancellation, accounting and retained replay."""
++import base64
++from decimal import Decimal
++import importlib.util
++import json
++import os
++from pathlib import Path
++import subprocess
++import sys
++import tempfile
++import time
++from types import SimpleNamespace
++import unittest
++from unittest.mock import patch
++from hkex_audit import semantic_cli as cli
++from hkex_audit import semantic_deadline as dl
++from hkex_audit.artifacts import read, write_new
++from hkex_audit.semantic_attempt import Store, request, replay
++
++ROOT=Path(__file__).resolve().parents[1]
++PACKET=ROOT/'eval/semantic-citation-confirmation/2026-09-19/preflight-v2'
++PREP=ROOT/'runs/semantic-citation-confirmation-2026-09-19/prepared-v1'
++EVIDENCE=ROOT/'runs/semantic-citation-confirmation-2026-09-19/deadline-diagnostics-v2'
++spec=importlib.util.spec_from_file_location('offline_worker',PACKET/'offline_worker.py')
++fixture=importlib.util.module_from_spec(spec);spec.loader.exec_module(fixture)
++
++class DeadlineTests(unittest.TestCase):
++    def args(self,out,seconds=600):
++        return SimpleNamespace(selection=PREP/'selection.json',queries=PREP/'queries.json',output=out,
++            max_http_calls=6,max_role_calls=2,max_seconds=seconds,max_cost=Decimal('8'),env_root=None)
++
++    def real_run(self,mode,seconds=3):
++        root=Path(tempfile.mkdtemp(prefix=mode+'-',dir=EVIDENCE));out=root/'batch'
++        actual=cli.supervise
++        def supervised(argv,payload,deadline,env=None):
++            if 'receipt' in payload:
++                return actual(argv,payload,deadline,env={})
++            payload['fixture_mode']=mode
++            return actual([sys.executable,'-I','-B',str(PACKET/'offline_worker.py')],payload,deadline,env={})
++        start=time.monotonic()
++        with patch.object(cli,'supervise',supervised),patch.object(cli.os,'environ',{}):
++            code=cli.run(self.args(out,seconds))
++        elapsed=time.monotonic()-start
++        receipt=read(out/'supervisor.json')
++        self.assertTrue(receipt['direct_child_reaped'])
++        # Polling process state is observation, never an extra runtime cleanup grace.
++        pid_records=[]
++        for p in [out/'stage.json', *out.glob('transport-*.json'), *out.glob('descendant-*.json')]:
++            if p.exists():
++                pid=read(p)['pid']
++                try:
++                    os.kill(pid,0)
++                except ProcessLookupError:
++                    state='absent'
++                else:
++                    state='present'
++                self.assertEqual(state,'absent',(pid,state))
++                pid_records.append({'pid':pid,'state_after_return':state or 'absent'})
++        self.assertFalse((out/'escaped').exists())
++        self.assertLessEqual(elapsed,seconds+.15)
++        write_new(root/'observed.json',{'mode':mode,'returncode':code,'elapsed_seconds':elapsed,'ceiling_seconds':seconds,
++            'measurement_assertion_tolerance_seconds':.15,'production_ceiling_extension':0,'process_observations':pid_records,
++            'offline_only':True,'real_http_calls':0})
++        return out,code
++
++    def test_real_cancellation_stages_and_descendants(self):
++        for mode in ('preparation','metadata','between_metadata','paired','partial_response','consumption','between_queries'):
++            with self.subTest(stage=mode):
++                out,code=self.real_run(mode,20 if mode=='between_queries' else 3)
++                self.assertEqual(code,2)
++                self.assertFalse((out/'summary.json').exists())
++                if mode=='preparation':
++                    self.assertFalse(list(out.glob('*-metadata.json')))
++                if mode in ('metadata','between_metadata'):
++                    role='primary' if mode=='metadata' else 'research'
++                    self.assertEqual(read(out/('metadata-'+role+'-launch.json'))['issued_http_calls'],'unknown_until_return')
++                    self.assertFalse((out/('metadata-'+role+'-return.json')).exists())
++                if mode=='partial_response':
++                    self.assertEqual((out/'primary/total/response.json').read_bytes(),b'{"partial":')
++                    self.assertFalse((out/'primary/total/completion.json').exists())
++                    r=replay(Store(out/'primary/total'),fixture.PREPARED['queries'][0],'primary',out.name)
++                    self.assertEqual(r['state'],'incomplete_attempt');self.assertIsNone(r['historical_model_calls'])
++                if mode=='consumption':
++                    self.assertEqual((out/'operational/total/annotations.json').read_bytes(),b'[')
++                    self.assertFalse((out/'operational/total/consumption.json').exists())
++
++    def test_real_primary_consumed_before_slow_research_and_zero_call_replay(self):
++        out,code=self.real_run('slow_research',20)
++        self.assertEqual(code,2)
++        q=fixture.PREPARED['queries'][0]
++        self.assertEqual(read(out/'operational/total/provenance.json')['outcome'],'accepted')
++        original=[(out/'operational/total'/f).read_bytes() for f in ('annotations.json','provenance.json')]
++        self.assertFalse((out/'research/total/completion.json').exists())
++        dest=out/'replayed';dest.mkdir()
++        with patch.object(cli,'transport',side_effect=AssertionError('replay transport')):
++            cli.isolated('consume_worker',{'selection':read(PREP/'selection.json'),'spec':q['selection'],
++                'batch':str(out),'output':str(dest),'nonce':out.name})
++        self.assertEqual(original,[(dest/f).read_bytes() for f in ('annotations.json','provenance.json')])
++        self.assertEqual(read(dest/'consumption.json')['model_calls'],0)
++        self.assertFalse(any('/research/' in x['path'] or '/eval/' in x['path'] for x in read(dest/'consumption.json')['access_attempts']))
++        # Corrupt only a disposable copy; preserve the completed cancellation artifact.
++        import shutil
++        corrupt=out/'corrupt';shutil.copytree(out/'primary/total',corrupt)
++        (corrupt/'completion.json').write_bytes(b'{')
++        self.assertEqual(replay(Store(corrupt),q,'primary',out.name)['state'],'incomplete_attempt')
++
++    def test_accepted_research_never_promotes_failed_or_abstained_primary(self):
++        for mode in ('primary_failure','primary_abstention'):
++            with self.subTest(mode=mode):
++                out,code=self.real_run(mode,60)
++                self.assertEqual(code,0)
++                for q in fixture.PREPARED['queries']:
++                    n=q['selection']['name']
++                    ann=read(out/'operational'/n/'annotations.json')
++                    self.assertTrue(ann==[] or all(a['links']==[] for a in ann))
++                    self.assertEqual(replay(Store(out/'research'/n),q,'research',out.name)['validation']['state'],'accepted')
++
++    def test_expiry_after_reservation_before_spawn_and_after_launch_intent(self):
++        with tempfile.TemporaryDirectory() as t:
++            prefix=Path(t)/'call';clock=[0.]
++            deadline=dl.Deadline(0,10)
++            original=cli.write_new
++            def write(path,value):
++                original(path,value);clock[0]=deadline.work_end
++            with patch.object(dl.time,'monotonic',lambda:clock[0]),patch.object(cli,'write_new',write),patch.object(cli,'transport',side_effect=AssertionError('expired transport')):
++                result=cli.send_transport({'mode':'metadata','role':'primary'},prefix,deadline)
++                self.assertFalse(result['request_started'])
++                self.assertEqual(result['transport_status'],'budget_exhausted')
++                self.assertEqual(cli.send_transport({'mode':'metadata','role':'research'},Path(t)/'never',deadline)['transport_status'],'budget_exhausted')
++                self.assertFalse((Path(t)/'never-launch.json').exists())
++            # Even a caller that queued transport earlier cannot spawn it after expiry.
++            with patch.object(cli.time,'monotonic',lambda:10),patch.object(cli.subprocess,'run',side_effect=AssertionError('late subprocess')):
++                self.assertFalse(cli.transport({'deadline_monotonic':9})['request_started'])
++
++    def test_original_virtual_730_counterexample_and_stage_boundaries(self):
++        for mode in ('original_730','preparation','before_metadata','between_metadata','between_queries','reservation_gap'):
++            with self.subTest(mode=mode):
++                out=Path(tempfile.mkdtemp(prefix='virtual-'+mode+'-',dir=EVIDENCE))
++                clock=[0.];calls=[];consumers=[0];pairs=[0]
++                deadline=dl.Deadline(0,600)
++                def advance(duration,limit):
++                    spent=min(duration,limit);clock[0]+=spent
++                    if spent<duration:raise dl.DeadlineExpired('authored stage timeout')
++                def isolated(function,payload,timeout=180):
++                    if function=='prepare_worker':
++                        if mode=='preparation':advance(700,timeout)
++                        if mode=='original_730':advance(170,timeout)
++                        if mode=='before_metadata':clock[0]=deadline.work_end
++                        return fixture.PREPARED
++                    consumers[0]+=1
++                    if mode=='original_730':advance(170,timeout)
++                    if mode=='between_queries':clock[0]=deadline.work_end
++                    return {'outcome':'authored-virtual-only'}
++                def transport(job,timeout=60):
++                    self.assertLess(clock[0],deadline.work_end)
++                    calls.append({'mode':job['mode'],'role':job['role'],'time':clock[0]})
++                    if job['mode']=='metadata':
++                        if mode=='original_730':advance(55,timeout)
++                        if mode=='between_metadata':clock[0]=deadline.work_end
++                        return fixture.metadata(job['role'])
++                    target=json.loads(job['payload']['messages'][1]['content'])['target_id']
++                    name=next(q['selection']['name'] for q in fixture.PREPARED['queries'] if q['context']['target_id']==target)
++                    return fixture.response(name,job['role'])
++                actual_paired=cli.paired
++                def paired(*args,**kwargs):
++                    pairs[0]+=1
++                    if mode=='original_730':advance(55,deadline.remaining(60))
++                    if mode=='reservation_gap':clock[0]=deadline.work_end
++                    return actual_paired(*args,**kwargs)
++                with patch.object(cli,'isolated',isolated),patch.object(cli,'transport',transport),patch.object(cli,'paired',paired),patch.object(dl.time,'monotonic',lambda:clock[0]),patch.object(cli.os,'environ',{'OPENROUTER_API_KEY':'INERT-AUTHORED-FIXTURE'}):
++                    with self.assertRaises(dl.DeadlineExpired):cli.run_body(self.args(out),deadline)
++                self.assertLessEqual(clock[0],600)
++                self.assertFalse((out/'summary.json').exists())
++                if mode=='original_730':self.assertEqual(clock[0],599);self.assertEqual(len(calls),6)
++                if mode in ('preparation','before_metadata'):self.assertEqual(len(calls),0)
++                if mode=='between_metadata':self.assertEqual(len(calls),1)
++                if mode=='reservation_gap':self.assertEqual(len(calls),2)
++                write_new(out/'virtual-evidence.json',{'scenario':mode,'virtual_elapsed_from_entry':clock[0],
++                    'mock_calls':calls,'real_http_calls':0,'ceiling':600,'cleanup_reserved_inside_ceiling':1,
++                    'normal_success':False,'original_unchanged_counterexample_elapsed':730})
++
++if __name__=='__main__':unittest.main()

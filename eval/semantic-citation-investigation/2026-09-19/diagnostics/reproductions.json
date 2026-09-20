@@ -1,0 +1,765 @@
+{
+  "cases": [
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R1",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "unchanged_saved_answer",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+      "source_query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "strict_schema_pass": true,
+      "variant": "unchanged"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": true,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+      "source_query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "strict_schema_pass": true,
+      "variant": "unit_added"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+      "source_query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+      "source_query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+      "source_query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R1",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "subtotal",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "response_origin": "unchanged_saved_answer",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+      "source_query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "strict_schema_pass": true,
+      "variant": "unchanged"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": true,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "subtotal",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+      "source_query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "strict_schema_pass": true,
+      "variant": "unit_added"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "subtotal",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+      "source_query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "subtotal",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+      "source_query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "subtotal",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+      "source_query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R1",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "unchanged_saved_answer",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "unchanged"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": true,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "unit_added"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "spanning context support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R3",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "omit_2025"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "incompatible spanning context"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R3",
+      "frozen_selection_correct": false,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "period_groups",
+      "response": {
+        "contributor_ids": [
+          "cell-7bb61fc87cdeacc42e9703eb6dd0c8eea49fafbc7850fdfcf8cce24d785c84f6",
+          "cell-8df6b0bbebc7eaecb56ec8ed7b447d298fd03cd1e97dcdb31fc9c16d8e5d06e4",
+          "cell-92ed1460b2c0454bbcf3135566d21defec78b31472ccb5b8195c8391c00fd56f"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "cell-7bb61fc87cdeacc42e9703eb6dd0c8eea49fafbc7850fdfcf8cce24d785c84f6",
+          "cell-8df6b0bbebc7eaecb56ec8ed7b447d298fd03cd1e97dcdb31fc9c16d8e5d06e4",
+          "cell-92ed1460b2c0454bbcf3135566d21defec78b31472ccb5b8195c8391c00fd56f"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+      "source_query_sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2",
+      "strict_schema_pass": true,
+      "variant": "wrong_2024_peers"
+    },
+    {
+      "annotations": [],
+      "classification": "exposed_reproduction",
+      "fixture": "R4",
+      "frozen_evaluator": [
+        true,
+        null
+      ],
+      "gate": "missing_evidence",
+      "model_calls": 0,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "missing_target",
+      "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R1",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "varied_total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "unchanged_saved_answer",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+      "source_query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "strict_schema_pass": true,
+      "variant": "unchanged"
+    },
+    {
+      "actual_host": {
+        "accepted": true,
+        "error": null
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": true,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "varied_total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+      "source_query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "strict_schema_pass": true,
+      "variant": "unit_added"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "varied_total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+      "source_query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "varied_total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+      "source_query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+    },
+    {
+      "actual_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "classification": "exposed_reproduction",
+      "evaluator_note": "Subset diagnostic calculated even when host rejects; not an accepted evaluation result.",
+      "fixture": "R2",
+      "frozen_selection_correct": true,
+      "frozen_support_subset": false,
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "query": "varied_total",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "response_origin": "authored_diagnostic_copy_not_model_result",
+      "source_query_path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+      "source_query_sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040",
+      "strict_schema_pass": true,
+      "variant": "omit_cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+    }
+  ],
+  "model_calls": 0,
+  "network_calls": 0
+}

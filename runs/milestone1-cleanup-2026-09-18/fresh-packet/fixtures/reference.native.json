@@ -1,0 +1,43 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "type": "table",
+          "blocks": [
+            {
+              "type": "table_body",
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "type": "table",
+                      "html": "<table><tr><td>收入（附註甲）</td><td>10</td></tr></table>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {
+              "spans": [
+                {
+                  "type": "text",
+                  "content": "附註甲 收入分項"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "discarded_blocks": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unresolved_subtotal_scope"
+  ],
+  "case_id": "S11_two_total_markers",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "8f032863134c8e89278a627b123c515fab59497e4cc8c245ccfa205f2bc6282f",
+  "optional_support": [],
+  "reason": "Two total markers have no unique reviewed summary scope; neither may acquire all peers from position or balancing.",
+  "required_support": null,
+  "summary_relationships": []
+}

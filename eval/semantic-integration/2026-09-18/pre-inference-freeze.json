@@ -1,0 +1,50 @@
+{
+  "expectations_reconciliation": "accepted unchanged; header-only scope and all required support IDs retained; no numerical completeness claim",
+  "live_bounds": {
+    "fallbacks": 0,
+    "max_completion_calls_per_role": 4,
+    "max_concurrency": 2,
+    "max_cost_usd": "8",
+    "max_http_calls": 10,
+    "max_seconds": 600,
+    "per_call_seconds": 60,
+    "retries": 0
+  },
+  "operation_sha256": "9dd7e84f3707de3817dff38bd06a0b13c8b559eda7fc19607f44c08434852529",
+  "prior_exposure": "M1 development pages 178–179. No held-back outcomes or evaluator operand lists read. Agent saw literal amounts but did not calculate relationships.",
+  "queries": [
+    {
+      "context_sha256": "d4cad1e09b11de49f9af49a2d5a4ad5094a6e2456b526dcf6b869aadea6f64f4",
+      "gate": "eligible",
+      "name": "total",
+      "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346"
+    },
+    {
+      "context_sha256": "7ddddcd7a8f061187d87a7248bcbd40ef28e7bd075302031989fa0ef554f8cef",
+      "gate": "eligible",
+      "name": "subtotal",
+      "query_id": "query-c39ff36a681ed547aae67104e8f064fd3f6c8b0b29437df8101de7a9c868e89f"
+    },
+    {
+      "context_sha256": "96cb2e80323ed80bda92bdca555849971f17e3631e1e17b902908538b91fc5a6",
+      "gate": "eligible",
+      "name": "period_groups",
+      "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd"
+    },
+    {
+      "context_sha256": "227e0f9c4a7cd72269b55fdc36f1e942007c663dafaadff3ab97f1b229dee84b",
+      "gate": "missing_evidence",
+      "name": "missing_target",
+      "query_id": "query-e154b1d8f12b597c9233b6b26641aeee83f62aaa0662e7b6272bf71078012045"
+    },
+    {
+      "context_sha256": "11535f490766f76ab70297faf0fd42568140dec4d86c4340f7517c4275fcdba4",
+      "gate": "eligible",
+      "name": "varied_total",
+      "query_id": "query-4833548b2d3a9d19f415e5dab8c85a93ea420d1a978a8e4c3ff2a134754afb29"
+    }
+  ],
+  "review_sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789",
+  "source_packet_literal_and_descendant_verification": "passed",
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+}

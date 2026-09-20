@@ -1,0 +1,36 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S03_reordered_timing",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-27d6581495c36fcff5d50bf3bbf3593e63098d3c7f44247a245f16133a9f8204",
+    "cell-693dcfdcbb40d39e46c23c7eaf17b33d0d572a3fdf71f2fa771422e56c2d6eaf"
+  ],
+  "input_sha256": "2897c4018c290c748e1b828606565e79e7f4ad1c266614322f0557a92cd78f69",
+  "optional_support": [],
+  "reason": "Moving the subtotal before the timing cells preserves their literal roles and common scope; column order is not semantic membership.",
+  "required_support": [
+    "cell-27e392f82513bff2a438410c29c29ac28dcb2876bdeb2d40a30d1ef8dd1521cc",
+    "cell-27d6581495c36fcff5d50bf3bbf3593e63098d3c7f44247a245f16133a9f8204",
+    "cell-693dcfdcbb40d39e46c23c7eaf17b33d0d572a3fdf71f2fa771422e56c2d6eaf",
+    "cell-d5a2ed6a5ddbdb3187de388e17e786b88916d6b46c58b0aea8277350a252ce8f"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-231596b1384c2fd4f715cd64ec3dbbd0d0900c56df01a87c7845d926f40f57bb",
+        "cell-34ea5c789c3980fb7d60e330dccf729ec106aa65801d7c8251fec6af3612bdcf"
+      ],
+      "group_id": "cell-d5a2ed6a5ddbdb3187de388e17e786b88916d6b46c58b0aea8277350a252ce8f",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-27d6581495c36fcff5d50bf3bbf3593e63098d3c7f44247a245f16133a9f8204",
+      "support_refs": [
+        "cell-231596b1384c2fd4f715cd64ec3dbbd0d0900c56df01a87c7845d926f40f57bb",
+        "cell-27d6581495c36fcff5d50bf3bbf3593e63098d3c7f44247a245f16133a9f8204",
+        "cell-34ea5c789c3980fb7d60e330dccf729ec106aa65801d7c8251fec6af3612bdcf",
+        "cell-d5a2ed6a5ddbdb3187de388e17e786b88916d6b46c58b0aea8277350a252ce8f"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "associated_prose_uninterpreted"
+  ],
+  "case_id": "S18_caption_and_separate_note",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "c50c1233eb5a0b55b5446202be26946e4d42657a3cafd8a000a761b149295c05",
+  "optional_support": [],
+  "reason": "A valid caption in one subtree cannot mask an independently associated note in another subtree.",
+  "required_support": null,
+  "summary_relationships": []
+}

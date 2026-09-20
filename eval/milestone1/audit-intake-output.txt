@@ -1,0 +1,43 @@
+.venv/bin/python -m eval_formatter --check ../..
+5 file(s) already formatted
+.venv/bin/python -m eval_intake.schema_check --root ../..
+Schema-only validation: taxonomy and 192 records in 4 revisions. Source integrity/readiness require eval-intake validate.
+.venv/bin/python -m unittest discover -s tests -v
+test_bad_json (test_formatting.FormattingTests.test_bad_json) ... ok
+test_discovery_and_corpus_guard (test_formatting.FormattingTests.test_discovery_and_corpus_guard) ... error: no canonical files discovered
+would reformat /private/var/folders/ty/_d4yfmx96yj02kyg_43_dlsh0000gn/T/tmpg3e113wd/eval/records/b/v.jsonl
+error: raw corpus files must not be formatted
+error: raw corpus files must not be formatted
+ok
+test_v2_unicode_geometry_depth_and_idempotence (test_formatting.FormattingTests.test_v2_unicode_geometry_depth_and_idempotence) ... ok
+test_yaml_v2_comments_without_dependency_order (test_formatting.FormattingTests.test_yaml_v2_comments_without_dependency_order) ... ok
+test_duplicate_ids_rejected (test_formatting.PreservationRegressionTests.test_duplicate_ids_rejected) ... ok
+test_unicode_line_separator_is_literal_text (test_formatting.PreservationRegressionTests.test_unicode_line_separator_is_literal_text) ... ok
+test_conversion_and_signed_coefficients (test_intake.ArithmeticTests.test_conversion_and_signed_coefficients) ... ok
+test_invalid_and_incomplete (test_intake.ArithmeticTests.test_invalid_and_incomplete) ... ok
+test_propagation_cancels_and_zero_tolerance (test_intake.ArithmeticTests.test_propagation_cancels_and_zero_tolerance) ... ok
+test_tokens_preserve_distinctions (test_intake.ArithmeticTests.test_tokens_preserve_distinctions) ... ok
+test_total_and_exact_boundaries (test_intake.ArithmeticTests.test_total_and_exact_boundaries) ... ok
+test_bad_records_fail (test_intake.IntakeTests.test_bad_records_fail) ... ok
+test_pending_valid_and_lossless_deterministic (test_intake.IntakeTests.test_pending_valid_and_lossless_deterministic) ... ok
+test_real_file_access_and_counterpart_selection (test_intake.IntakeTests.test_real_file_access_and_counterpart_selection) ... ok
+test_record_schema_allows_deep_relationship_geometry (test_intake.IntakeTests.test_record_schema_allows_deep_relationship_geometry) ... ok
+test_strict_json (test_intake.IntakeTests.test_strict_json) ... ok
+test_tampered_sources_fail (test_intake.IntakeTests.test_tampered_sources_fail) ... ok
+test_development_packet_rejects_test_selection_before_render (test_intake.ReviewApprovalTests.test_development_packet_rejects_test_selection_before_render) ... ok
+test_unknown_grouping_refuses_freeze (test_intake.ReviewApprovalTests.test_unknown_grouping_refuses_freeze) ... ok
+test_unreviewed_mapping_wrong_owner_and_rerolled_split_denied (test_intake.ReviewApprovalTests.test_unreviewed_mapping_wrong_owner_and_rerolled_split_denied) ... ok
+test_valid_owner_review_and_stale_record_denied (test_intake.ReviewApprovalTests.test_valid_owner_review_and_stale_record_denied) ... ok
+test_exact_arithmetic_independent_of_decimal_context (test_intake.SourceAndBoundaryRegressionTests.test_exact_arithmetic_independent_of_decimal_context) ... ok
+test_geometry_compares_numeric_zero_representations (test_intake.SourceAndBoundaryRegressionTests.test_geometry_compares_numeric_zero_representations) ... ok
+test_runtime_has_no_evaluation_imports_or_answer_literals (test_intake.SourceAndBoundaryRegressionTests.test_runtime_has_no_evaluation_imports_or_answer_literals) ... ok
+test_immutable_reroll_refusal (test_intake.SplitTests.test_immutable_reroll_refusal) ... ok
+test_transitive_group_and_order_invariance (test_intake.SplitTests.test_transitive_group_and_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.984s
+
+OK
+reformatted /private/var/folders/ty/_d4yfmx96yj02kyg_43_dlsh0000gn/T/tmpg3e113wd/eval/records/b/v.jsonl
+1 changed; 0 unchanged
+1 file(s) already formatted

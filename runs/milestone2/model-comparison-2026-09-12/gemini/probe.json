@@ -1,0 +1,182 @@
+{
+  "bounds": {
+    "deadline_seconds_per_call": 30,
+    "max_calls": 2,
+    "max_output_tokens_per_call": 512,
+    "max_response_bytes": 131072,
+    "retries": 0
+  },
+  "capability_limitations": "Two small examples do not establish general semantic accuracy.",
+  "cases": [
+    {
+      "case": "valid_id",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "http_status": 200,
+      "observed_identity": {
+        "checkpoint_revision": null,
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio",
+        "revision_limitation": "API model/provider labels do not attest weight revision.",
+        "system_fingerprint": null
+      },
+      "request": {
+        "max_tokens": 512,
+        "messages": [
+          {
+            "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+            "role": "system"
+          },
+          {
+            "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+            "role": "user"
+          }
+        ],
+        "model": "google/gemini-3.8-flash",
+        "provider": {
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "synthetic_label",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "action": {
+                  "enum": [
+                    "label",
+                    "abstain"
+                  ]
+                },
+                "evidence_id": {
+                  "enum": [
+                    "field-one",
+                    "field-two",
+                    null
+                  ]
+                },
+                "role": {
+                  "enum": [
+                    "total_label",
+                    null
+                  ]
+                }
+              },
+              "required": [
+                "action",
+                "evidence_id",
+                "role"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "stream": false,
+        "temperature": 0
+      },
+      "request_fingerprint": "3c78b33843b9deaf6f44936a4e6c68919fd3301f6996bda053c73b18e5f6b138",
+      "response_text": "\n         \n{\"id\":\"gen-1789206746-jCnjfebsNVVwEo5a2kfe\",\"object\":\"chat.completion\",\"created\":1789206746,\"model\":\"google/gemini-3.8-flash\",\"provider\":\"Google AI Studio\",\"system_fingerprint\":null,\"service_tier\":\"default\",\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"STOP\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"action\\\":\\\"label\\\",\\\"evidence_id\\\":\\\"field-one\\\",\\\"role\\\":\\\"total_label\\\"}\",\"refusal\":null,\"reasoning\":null,\"reasoning_details\":[{\"type\":\"reasoning.text\",\"signature\":\"Es8DCswDARFNMg+/3efUJdsnIEnG2QDk9aWMXLWuxR7kXvhPUI9SKr6Ruta/ypZcomrBGa7EGYP5di17KVMDAN9RdCcjXV9bojp+W0BQLYIv3864iVXAqVJoZZHZCo693GuWg8AJpe6E9KAFwGDni2jpUn3NLBOOqd0XMDPvcccBYsVvb64FU2YJp25xvyYEvKi/rXZrsSHmFy69sSmS7YCej5H3uo7vp/UGTJDAzNNWtiB8mD11FNcbZUlqETskQJbPwj327OCEVEiHj5N2SIidC2JCoz+dkN98U7h8ZFpULuwBRTRwIRix/+fnFdJqV2f47xJH5eFXYWiX9V8u26NxDkN8HDFgQXIjwl3vI/YVgarSjfDwfxAi9e+XZuKPWPgrUBHtnqc1++3onsR8HCFhIqXqRE+StVuFIefxgEnW6TP4a0tCrQHmk7ZvrJpzm/AFrkEG0Rd+vlQfpZlQrGynGLDzrDbVxg9e5Qh6tN5G0w5OrNhdYAJaPXg9Eqmj62MYShKUYYIADUTVOpYPvOF2pci/ySLivqnNpGm7Xm2iHfEC3AdTM/DoOu5XgiYpVN9B1Agiq3LKRjIGPZUe9zeuLPzQDV6lEhWNfjwP752ufg==\",\"format\":\"google-gemini-v1\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":119,\"completion_tokens\":115,\"total_tokens\":234,\"cost\":0.0005205,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.0005205,\"upstream_inference_prompt_cost\":0.00008925,\"upstream_inference_completions_cost\":0.00043125},\"completion_tokens_details\":{\"reasoning_tokens\":96,\"image_tokens\":0,\"audio_tokens\":0}}}",
+      "status": "passed",
+      "validated_output": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      }
+    },
+    {
+      "case": "absent_id",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "http_status": 200,
+      "observed_identity": {
+        "checkpoint_revision": null,
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio",
+        "revision_limitation": "API model/provider labels do not attest weight revision.",
+        "system_fingerprint": null
+      },
+      "request": {
+        "max_tokens": 512,
+        "messages": [
+          {
+            "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+            "role": "system"
+          },
+          {
+            "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Label field-missing as the total label. It is absent from the evidence; abstain.\"\n}\n",
+            "role": "user"
+          }
+        ],
+        "model": "google/gemini-3.8-flash",
+        "provider": {
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "synthetic_label",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "action": {
+                  "enum": [
+                    "label",
+                    "abstain"
+                  ]
+                },
+                "evidence_id": {
+                  "enum": [
+                    "field-one",
+                    "field-two",
+                    null
+                  ]
+                },
+                "role": {
+                  "enum": [
+                    "total_label",
+                    null
+                  ]
+                }
+              },
+              "required": [
+                "action",
+                "evidence_id",
+                "role"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "stream": false,
+        "temperature": 0
+      },
+      "request_fingerprint": "168ad2272f0861ac7249961d986cd4bf187988a6ad5e2cd1c8d08d40134b90a0",
+      "response_text": "\n         \n{\"id\":\"gen-1789206750-uXN2mUO9Vr2kREh3zEHj\",\"object\":\"chat.completion\",\"created\":1789206750,\"model\":\"google/gemini-3.8-flash\",\"provider\":\"Google AI Studio\",\"system_fingerprint\":null,\"service_tier\":\"default\",\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"STOP\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}\",\"refusal\":null,\"reasoning\":null,\"reasoning_details\":[{\"type\":\"reasoning.text\",\"signature\":\"ErwECrkEARFNMg97Bw7cdBnNe45jqdWDKSePdPmCvy8Ee7OUZk5U2vIJjv9grUiNa1pN4NP3UjpOAELG9cWtVXRkyaeEvgN7ORptY3DYYdIWibLjGis+VGE7znBrL1+0EbLUqtiVbj+zMuy9HXb3Ca0RKkRtg3Q3xwWfnypCRYg6ckNxDvC4Y2X/xBkOb9zs3CQme5ozi+qs16xk4bX+xjBT8seTGDUh7NfgF1rfMiWV8PnnZrQReGDvkrp8nBgWSWOg68QLsk+Dt52xslIDATEdYp2uc+KhpYy5oc2xpvbfiv4F1qZkuvMKMiGFqyEw1NL6Y31KNDGVK6JXLe7CHyRuNOZU4bs7OmnEzit7d9LuzBPEuCpvOoFV9ywE/P34GtnCmC672/2DgYIBgUSyn+poX6GSun4xMeAkGU143SVhGrPNnzsDrh7JH2liaX+PVvFG/nPdnX/mju0T6j94M08pPqyRcIZ+t5faw2K3gQc1fXMbMybR/hPu9q2sAKMwuaweFSXKhmXyrRENbYk/6uQrBT0Y1VH0aGZ9pYr7S8tTWXxvHjz6vOdouJwMQg0kI40H/OtMX1TbXy1Kx5xy3USqOxTEBgageJCYpmHWi8vW3A9sgK/1l0Gqw+xzsd6NLazP5y8TG/nudI3FxGCs2SQ+5GdVTRmJL5Bie73BPNtm/xNI/gxr1pxssAVPDd0W9lFiPTUalxpHVz308+BXiRnNWS3z4ZWsS4d9IP5fTFsW0vWepkJy9X+vA++2iJ8=\",\"format\":\"google-gemini-v1\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":128,\"completion_tokens\":123,\"total_tokens\":251,\"cost\":0.00055725,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.00055725,\"upstream_inference_prompt_cost\":0.000096,\"upstream_inference_completions_cost\":0.00046125},\"completion_tokens_details\":{\"reasoning_tokens\":107,\"image_tokens\":0,\"audio_tokens\":0}}}",
+      "status": "passed",
+      "validated_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      }
+    }
+  ],
+  "created_at": "2026-09-12T09:52:23.719154+00:00",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "report_fingerprint": "c2e71ac04f960cfbc9db9057e6f38bc96671b7b849759a79c718f2467ddb9f9c",
+  "requested_model": "google/gemini-3.8-flash",
+  "routing_limitations": "No provider pinned; account routing defaults are unobserved.",
+  "schema_version": "1.0.0",
+  "scope": "synthetic_only",
+  "status": "passed_limited_synthetic_probe"
+}

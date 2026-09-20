@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "revision": 1,
+  "predecessor": null,
+  "revision_reason": "Record explicit owner approval and source-backed completion of propagation review for four selected development cases.",
+  "manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "locations_sha256": "4265712ad039e9b8da94b7c9d70b87dd40e47ef994dec43f213ea8c00ee7cad3",
+  "split_sha256": "c3895b9629fd670856fc42f5a52d5d85d3bb377af3693cf8fbf55a0a90209b7b",
+  "owner": "Project user (interim intake and review owner)",
+  "decisions": [
+    {
+      "error_id": "HL-ERR-0006",
+      "decision": "approve",
+      "reviewer": "Project user (interim intake and review owner)",
+      "reviewed_at": "2026-09-10T03:56:53.086136Z",
+      "rationale": "User authorization: Approved to promote all 4 cases to `ready`. Packet cases and calculations accepted. Codex recorded source-backed propagation details under that authorization in promotion-source-review.json; historical unknowns are retained.",
+      "record_sha256": "870293a90226f13ff816131555d6be3cc6fb93832ca1ba22f298541deba7fbf3"
+    },
+    {
+      "error_id": "HL-ERR-0017",
+      "decision": "approve",
+      "reviewer": "Project user (interim intake and review owner)",
+      "reviewed_at": "2026-09-10T03:56:53.086136Z",
+      "rationale": "User authorization: Approved to promote all 4 cases to `ready`. Packet cases and calculations accepted. Codex recorded source-backed propagation details under that authorization in promotion-source-review.json; historical unknowns are retained.",
+      "record_sha256": "08a33c467b7322e65b17d9ef3be16a971214020b3f1c38af884e6830e1c5adf8"
+    },
+    {
+      "error_id": "HL-ERR-0025",
+      "decision": "approve",
+      "reviewer": "Project user (interim intake and review owner)",
+      "reviewed_at": "2026-09-10T03:56:53.086136Z",
+      "rationale": "User authorization: Approved to promote all 4 cases to `ready`. Packet cases and calculations accepted. Codex recorded source-backed propagation details under that authorization in promotion-source-review.json; historical unknowns are retained.",
+      "record_sha256": "9f710c31e93f4f15a1fa7766ff76c2f0ade006a35684cabef3c7fd44adcea54f"
+    },
+    {
+      "error_id": "HL-ERR-0041",
+      "decision": "approve",
+      "reviewer": "Project user (interim intake and review owner)",
+      "reviewed_at": "2026-09-10T03:56:53.086136Z",
+      "rationale": "User authorization: Approved to promote all 4 cases to `ready`. Packet cases and calculations accepted. Codex recorded source-backed propagation details under that authorization in promotion-source-review.json; historical unknowns are retained.",
+      "record_sha256": "1a866a5de1b479b315763f7b21857c42c552195d6f7c614a6ec660123ce0331c"
+    }
+  ]
+}

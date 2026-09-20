@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": "flash-r2-core/call-004",
+    "reported_completion_tokens": 750,
+    "reported_reasoning_tokens": 760,
+    "note": "Returned reasoning count exceeds completion count; retained unchanged. Accounting not reconciled."
+  },
+  {
+    "attempt": "flash-r2-diagnostics/call-001",
+    "reported_completion_tokens": 2048,
+    "reported_reasoning_tokens": 2217,
+    "note": "Returned reasoning count exceeds completion count; retained unchanged. Accounting not reconciled."
+  }
+]

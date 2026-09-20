@@ -1,0 +1,72 @@
+{
+  "consumption": {
+    "annotation_ids": [],
+    "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "blocking_reasons": [],
+    "host_policy": {
+      "analysis_version": "header-source-analysis-1.0.0",
+      "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+      "version": "header-support-policy-1.0.0"
+    },
+    "outcome": "unavailable",
+    "primary_attempt_id": "attempt-c9c85ec1ce8ef5a0d54d32fb14807218492a531d220c21eb35fcef424cc0c75a",
+    "primary_completion_sha256": null,
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "query_sha256": "1871279df80001d5e3795e4680d3e6552c247938626db4664e6477240427ba52",
+    "selection": {
+      "name": "eligible",
+      "table_id": "table-cbe93f99a4d81a1f9758235aa3abdd9e80124644c543a2ed2d08ec6c3e245adb",
+      "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_gate": "eligible",
+    "source_sha256": "b31dbff0dd1b41549db508f10d8c7947aac7d5ee34880278df46c3b4f02a4f72",
+    "version": "semantic-provenance-1.1.0"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": "unavailable",
+      "reserved_cost_usd": "0"
+    },
+    "research": {
+      "reason": "unavailable",
+      "reserved_cost_usd": "0"
+    }
+  },
+  "name": "eligible",
+  "primary": {
+    "attempt_id": "attempt-c9c85ec1ce8ef5a0d54d32fb14807218492a531d220c21eb35fcef424cc0c75a",
+    "elapsed_seconds": 4.720909055322409e-05,
+    "model_calls": 0,
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "role": "primary",
+    "validation": {
+      "answer": null,
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": null,
+      "state": "unavailable",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.1.0"
+  },
+  "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+  "research": {
+    "attempt_id": "attempt-7724e07111eb1e3a8a626370d8d70ea3234123b7e018e41f8d28fe5ee71e2410",
+    "elapsed_seconds": 4.783296026289463e-05,
+    "model_calls": 0,
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "role": "research",
+    "validation": {
+      "answer": null,
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": null,
+      "state": "unavailable",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.1.0"
+  }
+}

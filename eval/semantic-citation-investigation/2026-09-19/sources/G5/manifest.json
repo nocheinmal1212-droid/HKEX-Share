@@ -1,0 +1,111 @@
+{
+  "classification": "synthetic_generalization",
+  "files": {
+    "evidence.json": "c623db9cb2ee4fa480dea6c0ce6e7b4b8a012911c91c9e12890d11cfd502e8f9",
+    "query-v1.json": "47c4a03de3ac7b84e4917007346f8f772ff12c0bf3dd899713ad30909367c856",
+    "source.json": "eae32564b55a09b98f47f055afa63dde298de1554ed93fbb4b2ebda872baadf8"
+  },
+  "fixture": "G5",
+  "operation_version_for_projection": "direct-contributor-headers-1.0.0",
+  "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+  "source_citations": [
+    {
+      "column": 0,
+      "column_span": 2,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 34,
+          "source_id": "source-7f96719cf6ea85ce52025123c810a545163f609bcde35a5c0c7945b75c9c1f3d",
+          "start": 27
+        }
+      ],
+      "id": "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+      "parent_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+      "row": 0,
+      "row_span": 1,
+      "text": "銷售量（千件）"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 64,
+          "source_id": "source-7f96719cf6ea85ce52025123c810a545163f609bcde35a5c0c7945b75c9c1f3d",
+          "start": 55
+        }
+      ],
+      "id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+      "parent_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+      "row": 0,
+      "row_span": 2,
+      "text": "合計（港幣百萬元）"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 85,
+          "source_id": "source-7f96719cf6ea85ce52025123c810a545163f609bcde35a5c0c7945b75c9c1f3d",
+          "start": 82
+        }
+      ],
+      "id": "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+      "parent_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品甲"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 97,
+          "source_id": "source-7f96719cf6ea85ce52025123c810a545163f609bcde35a5c0c7945b75c9c1f3d",
+          "start": 94
+        }
+      ],
+      "id": "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+      "parent_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品乙"
+    },
+    {
+      "column": null,
+      "column_span": null,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 59,
+          "source_id": "source-0e425f94bd123120b72597f1b431356ae19d4083d10dfd2f09c9ba4cacf63c3f",
+          "start": 0
+        }
+      ],
+      "id": "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc",
+      "parent_id": "block-6ddf75e8a18eec9c620dd39a6b935c974ed1b139a8bad74fcd7efa64d78f72d5",
+      "row": null,
+      "row_span": null,
+      "text": "本表僅列銷售量（千件）的產品甲及產品乙作為候選類別；合計僅包含與其同一計量口徑的類別。未列其他類別或計量口徑轉換關係。"
+    }
+  ],
+  "source_provenance": "Authored offline; profile envelope is parser input syntax, not a MinerU run or an actual report.",
+  "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+  "transformation": {
+    "administrative_changes": [
+      "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+    ],
+    "original_html_source": null,
+    "original_to_derived_cell_ids": {},
+    "parent_packet": null,
+    "semantic_edits": [
+      "Author literal groups, headers, and any table-associated note."
+    ]
+  }
+}

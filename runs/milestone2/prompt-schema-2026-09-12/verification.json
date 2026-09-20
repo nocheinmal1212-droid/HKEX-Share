@@ -1,0 +1,153 @@
+{
+  "executed_calls": 24,
+  "local_tests_passed": 39,
+  "records": [
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/00-original-True-valid_id.json",
+      "provider": "Baidu",
+      "sha256": "fb9c22f172af9ca292ddd644c42d2e9f002ebadde762676268d85bf4264cbd3f",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/01-original-True-absent_id.json",
+      "provider": "Baidu",
+      "sha256": "a8dbb75d9be6d0131ff3bbe8df9cc3ed96647bddfa9022ba389c144a33a7024b",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/02-original-True-no_total.json",
+      "provider": "Baidu",
+      "sha256": "2e4da03e85677d2f2e3e1822f78965226c8866a641824f26d81978f37b215eab",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/03-original-False-valid_id.json",
+      "provider": "Baidu",
+      "sha256": "64c37eb015fa526397a26d785114bdd4eee0a75f2a89638459767550fef1f351",
+      "status": "incomplete_response"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/04-original-False-absent_id.json",
+      "provider": "Baidu",
+      "sha256": "52424a206290fb4e368df400747f48a06540c7daacc41a9d3b9ae499034fb573",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/05-original-False-no_total.json",
+      "provider": "Baidu",
+      "sha256": "c0b72e368c867f5b2e4275c37c80a38ac421a789cb8ec19d53e9d68abb3320d7",
+      "status": "incomplete_response"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/06-clarified-True-valid_id.json",
+      "provider": "Baidu",
+      "sha256": "360796f464a0e816f41561bc4b73c50808361092647ed0bdf6ac6c91b2e1e4f7",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/07-clarified-True-absent_id.json",
+      "provider": "Baidu",
+      "sha256": "17e13258eba4778ee6caad585f2a085f173db9f63f34c382cbeeaba6e18569f9",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/08-clarified-True-no_total.json",
+      "provider": "Baidu",
+      "sha256": "549020ac08831967501c4c192b1d5b81baf7517481aad4d55f01930cb2b8e60d",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/09-clarified-False-valid_id.json",
+      "provider": "Baidu",
+      "sha256": "ac2473e68123e8ba0d01f0ea150c52917e0567ccdd970ee8091a35d56cdd1f87",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/10-clarified-False-absent_id.json",
+      "provider": "Baidu",
+      "sha256": "4818a81e80efdfeea3ea686ffa60f82e8d42ee08a384721e8cd34e491093e5e8",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/pro/11-clarified-False-no_total.json",
+      "provider": "Baidu",
+      "sha256": "a89676675cc3a698203d58e3c7af5d87c42419493207e867d9cd48f1980bfec0",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/00-original-True-valid_id.json",
+      "provider": "OpenInference",
+      "sha256": "3c4f7d09f7194c0259625c17e552ce9d6ca4ac76d604d678d728d568231132da",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/01-original-True-absent_id.json",
+      "provider": "OpenInference",
+      "sha256": "3b4d0da6d448d6038b0f00c71dc19319dd9e53b4d35b1aab54845e3c1db01b85",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/02-original-True-no_total.json",
+      "provider": "OpenInference",
+      "sha256": "b1b4c0db9ce086141c1d80d1c277aa4263a3dd30a904ea41b75b58d885af2b22",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/03-original-False-valid_id.json",
+      "provider": "OpenInference",
+      "sha256": "e3f33fe2368d10429affe04d425f3834e0ca602c2096a85fd06513f481472f29",
+      "status": "invalid_output_schema"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/04-original-False-absent_id.json",
+      "provider": "OpenInference",
+      "sha256": "485328a4cd9e74347b0c3ba341fb63a897f703df3ae0b283aa8849e098fc9ca3",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/05-original-False-no_total.json",
+      "provider": "OpenInference",
+      "sha256": "cb83ab262893d5547a1f77cafb293a72b254c854674f7f0a258b41eedae9093b",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/06-clarified-True-valid_id.json",
+      "provider": "OpenInference",
+      "sha256": "29b3423d4029214edf6a3372adfe7ae8e8dbe4117722523edd922643208ea793",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/07-clarified-True-absent_id.json",
+      "provider": "OpenInference",
+      "sha256": "b03c9b43977e5992a84938d9a32814a7ffe55f85c4ab10b9c6ddeef547b7c5a5",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/08-clarified-True-no_total.json",
+      "provider": "OpenInference",
+      "sha256": "25b7e366d92a8e3660eb1c4d9301672bad339d0076dcbaefa7e6de89aa09f4e2",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/09-clarified-False-valid_id.json",
+      "provider": "OpenInference",
+      "sha256": "ef77eb5310e658aee341d3f63628989f0ea1d90bd07fcdb211c71fe0cd485338",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/10-clarified-False-absent_id.json",
+      "provider": "OpenInference",
+      "sha256": "737a931df3e9a006f28c206775f6b17627ebd890b722432eadbecdb0b04dab35",
+      "status": "passed"
+    },
+    {
+      "path": "runs/milestone2/prompt-schema-2026-09-12/flash/11-clarified-False-no_total.json",
+      "provider": "OpenInference",
+      "sha256": "551e3f23409ebc7ca813f8db0a40e5955684328f517a156e84f06dc3b2bd2fc6",
+      "status": "passed"
+    }
+  ],
+  "reported_cost_usd": "0.006283129832",
+  "verification": "All planned requests executed exactly once; fingerprints verified; responses re-assessed offline; original strict positive requests equal historical requests.",
+  "version": "prompt-schema-v1"
+}

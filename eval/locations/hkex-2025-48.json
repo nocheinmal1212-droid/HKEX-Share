@@ -1,0 +1,2129 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "revision": 1,
+  "predecessor": null,
+  "revision_reason": "Candidate source mappings; no user approval recorded.",
+  "manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "coordinates": [
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 158,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 159,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 160,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 161,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 163,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 178,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 179,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 180,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 184,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 186,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 190,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 191,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 192,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 193,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 194,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 200,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 201,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg.pdf",
+      "page_index": 213,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 158,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 159,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 160,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 161,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 163,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 178,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 179,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 180,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 184,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 186,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 190,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 191,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 192,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 193,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 194,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 200,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 201,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    },
+    {
+      "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+      "page_index": 213,
+      "printed_label": null,
+      "width": 595.276,
+      "height": 841.89,
+      "units": "pt",
+      "origin": "top_left",
+      "rotation": 0,
+      "evidence": "All raw rectangles checked against PDF character centers; see character-probes.json. Physical numbering is raw pdf_page minus one. Printed labels await visual review."
+    }
+  ],
+  "entries": [
+    {
+      "error_id": "HL-ERR-0001",
+      "site_id": "site-70e0ee355d3f9401b5f61ce3",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              316.0022,
+              205.0842,
+              343.1512,
+              213.5842
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0002",
+      "site_id": "site-f3fc696796bc8a85ba169464",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              322.701,
+              372.4149,
+              343.152,
+              380.9149
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0003",
+      "site_id": "site-c41a89faec8c38f0de1f6d68",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              316.0023,
+              421.5252,
+              343.1513,
+              430.0252
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0004",
+      "site_id": "site-cb7c7de734e889cfc9b8f8c4",
+      "status": "proposed",
+      "location": {
+        "page_index": 163,
+        "table_id": null,
+        "section_id": "container-8a5ec7a6c83461cf8e56",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:163",
+            "rectangle": [
+              310.3329,
+              450.63539999999995,
+              337.4819,
+              459.13539999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/163/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0005",
+      "site_id": "site-ae2dbaa39aeee9c72fb974a5",
+      "status": "proposed",
+      "location": {
+        "page_index": 163,
+        "table_id": null,
+        "section_id": "container-8a5ec7a6c83461cf8e56",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:163",
+            "rectangle": [
+              310.3329,
+              597.9661,
+              337.4819,
+              606.4661
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/163/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0006",
+      "site_id": "site-a038c376f9346ce551a7ba8d",
+      "status": "proposed",
+      "location": {
+        "page_index": 184,
+        "table_id": null,
+        "section_id": "container-93ec0e87f30e7bed39d2",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:184",
+            "rectangle": [
+              375.7759,
+              410.57169999999996,
+              393.7024,
+              420.07169999999996
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/184/para_blocks/3",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0007",
+      "site_id": "site-5096c6a6ca7e2a7d46805b22",
+      "status": "proposed",
+      "location": {
+        "page_index": 193,
+        "table_id": null,
+        "section_id": "container-86e02c55ca875c350bbd",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:193",
+            "rectangle": [
+              176.3083,
+              505.1997,
+              196.6953,
+              514.6997
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/193/para_blocks/3",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0008",
+      "site_id": "site-8b96ec8a23a54125b323daf4",
+      "status": "proposed",
+      "location": {
+        "page_index": 180,
+        "table_id": null,
+        "section_id": "container-5bea06563913ef563fe6",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:180",
+            "rectangle": [
+              444.5908,
+              727.4581,
+              465.04179999999997,
+              735.9581
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/180/para_blocks/6",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0009",
+      "site_id": "site-bc4092c443270203e7391e19",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              83.0115,
+              88.59140000000002,
+              99.37049999999999,
+              95.59140000000002
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0010",
+      "site_id": "site-d7c3e2c79eb31033563fe87a",
+      "status": "proposed",
+      "location": {
+        "page_index": 159,
+        "table_id": null,
+        "section_id": "container-41b053019bee627b3258",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:159",
+            "rectangle": [
+              77.3422,
+              88.59140000000002,
+              93.7012,
+              95.59140000000002
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/159/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0011",
+      "site_id": "site-484f4faf4c483120e2001033",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              75.80149999999999,
+              88.59140000000002,
+              92.16049999999998,
+              95.59140000000002
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0012",
+      "site_id": "site-98e8b7b99e9039def3700ebe",
+      "status": "proposed",
+      "location": {
+        "page_index": 161,
+        "table_id": null,
+        "section_id": "container-225197d3b4eceb19ab96",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:161",
+            "rectangle": [
+              77.3422,
+              88.5915,
+              93.7012,
+              95.5915
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/161/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0013",
+      "site_id": "site-6dee5ef9d3ddcc227cbd4802",
+      "status": "proposed",
+      "location": {
+        "page_index": 163,
+        "table_id": null,
+        "section_id": "container-8a5ec7a6c83461cf8e56",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:163",
+            "rectangle": [
+              77.3422,
+              88.59140000000002,
+              93.7012,
+              95.59140000000002
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/163/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0014",
+      "site_id": "site-8fc61805b42fe98f27b15195",
+      "status": "proposed",
+      "location": {
+        "page_index": 178,
+        "table_id": null,
+        "section_id": "container-c6a7ab14a77cd8f3f33f",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:178",
+            "rectangle": [
+              133.5258,
+              180.48709999999994,
+              155.6798,
+              189.98709999999994
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0015",
+      "site_id": "site-7caf33795d8449d2c366364b",
+      "status": "proposed",
+      "location": {
+        "page_index": 186,
+        "table_id": null,
+        "section_id": "container-45521b1322ae4310c97c",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:186",
+            "rectangle": [
+              197.835,
+              331.4105,
+              218.319,
+              340.4105
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/186/para_blocks/0",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0016",
+      "site_id": "site-560e9a1e98cb028d15178f69",
+      "status": "proposed",
+      "location": {
+        "page_index": 213,
+        "table_id": null,
+        "section_id": "container-58b630a45ae379376887",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:213",
+            "rectangle": [
+              92.8094,
+              156.47490000000005,
+              109.16839999999999,
+              163.47490000000005
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/213/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0017",
+      "site_id": "site-c92f1bfeaf50dd72303bbc0e",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              268.5949,
+              188.71409999999992,
+              283.4699,
+              197.21409999999992
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0018",
+      "site_id": "site-29372d753e39a9ba16de1f27",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              274.0007,
+              296.93459999999993,
+              283.4612,
+              305.43459999999993
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0019",
+      "site_id": "site-5e8f044b500f72b7da6b7c16",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              268.5949,
+              421.5252,
+              283.4699,
+              430.0252
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0020",
+      "site_id": "site-3f4e5f0fef7f011e2acfb6f8",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              274.0007,
+              325.2732,
+              283.4612,
+              333.7732
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0021",
+      "site_id": "site-e4923a4f28d57f76600f8e91",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              274.0007,
+              340.50939999999997,
+              283.4612,
+              349.00939999999997
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0022",
+      "site_id": "site-2c7739522415f07137a66d87",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              274.0007,
+              401.4543,
+              283.4612,
+              409.9543
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0023",
+      "site_id": "site-9551602354f639c0b4d4e22d",
+      "status": "proposed",
+      "location": {
+        "page_index": 163,
+        "table_id": null,
+        "section_id": "container-8a5ec7a6c83461cf8e56",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:163",
+            "rectangle": [
+              268.3314,
+              205.0842,
+              277.7919,
+              213.5842
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/163/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0024",
+      "site_id": "site-e4cc077d10c1c4756dcad7ef",
+      "status": "proposed",
+      "location": {
+        "page_index": 191,
+        "table_id": null,
+        "section_id": "container-a6f9cdd7b359002ddd23",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:191",
+            "rectangle": [
+              198.2137,
+              578.2212,
+              208.36569999999998,
+              587.2212
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/191/para_blocks/5",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0025",
+      "site_id": "site-b0a446b573cafd8f5f035fd1",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              318.9656,
+              221.4543,
+              340.14759999999995,
+              229.9543
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0026",
+      "site_id": "site-5178a7e4685f1f4e197f17f7",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              318.9656,
+              280.56449999999995,
+              340.14759999999995,
+              289.06449999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0027",
+      "site_id": "site-36f1a4986a0006aaeaa7ee74",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              318.9656,
+              323.3047,
+              340.14759999999995,
+              331.8047
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0028",
+      "site_id": "site-cae679e87cfbfe08327b9512",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              318.9656,
+              405.15509999999995,
+              340.14759999999995,
+              413.65509999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0029",
+      "site_id": "site-c225da99a5ed1b1c0083dabc",
+      "status": "proposed",
+      "location": {
+        "page_index": 158,
+        "table_id": null,
+        "section_id": "container-ec2f1a947f2beb3429d7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:158",
+            "rectangle": [
+              318.9656,
+              437.89529999999996,
+              340.14759999999995,
+              446.39529999999996
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/158/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0030",
+      "site_id": "site-17f61418b06f183b79abae0c",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              309.3035,
+              294.8007,
+              340.15085,
+              303.3007
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0031",
+      "site_id": "site-8fa3771f94d53e868312f21a",
+      "status": "proposed",
+      "location": {
+        "page_index": 160,
+        "table_id": null,
+        "section_id": "container-1f9e9d8eef90849bc919",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:160",
+            "rectangle": [
+              314.1346,
+              370.98179999999996,
+              340.15054999999995,
+              379.48179999999996
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/160/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0032",
+      "site_id": "site-9ba093d03c85a993385c618b",
+      "status": "proposed",
+      "location": {
+        "page_index": 163,
+        "table_id": null,
+        "section_id": "container-8a5ec7a6c83461cf8e56",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:163",
+            "rectangle": [
+              313.2963,
+              270.56449999999995,
+              334.47829999999993,
+              279.06449999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/163/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0033",
+      "site_id": "site-dddb853be28bd7e6cf691a98",
+      "status": "proposed",
+      "location": {
+        "page_index": 178,
+        "table_id": null,
+        "section_id": "container-c6a7ab14a77cd8f3f33f",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:178",
+            "rectangle": [
+              392.6663,
+              327.55949999999996,
+              413.84829999999994,
+              336.05949999999996
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/178/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0034",
+      "site_id": "site-ce3f7c4654eb8f02aa3f4694",
+      "status": "proposed",
+      "location": {
+        "page_index": 180,
+        "table_id": null,
+        "section_id": "container-3ed3265c36b3833d17d3",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:180",
+            "rectangle": [
+              452.3852,
+              523.5121999999999,
+              462.04119999999995,
+              532.0121999999999
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/180/para_blocks/4",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0035",
+      "site_id": "site-72d0d8ee0b1dce917e90a65c",
+      "status": "proposed",
+      "location": {
+        "page_index": 184,
+        "table_id": null,
+        "section_id": "container-39f55ddd5d8cd49e08e6",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:184",
+            "rectangle": [
+              440.8554,
+              319.1491,
+              462.03739999999993,
+              327.6491
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/184/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0036",
+      "site_id": "site-742b2df0403a722cf94968b0",
+      "status": "proposed",
+      "location": {
+        "page_index": 186,
+        "table_id": null,
+        "section_id": "container-45521b1322ae4310c97c",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:186",
+            "rectangle": [
+              496.1351,
+              423.0438,
+              527.2281,
+              431.5438
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/186/para_blocks/0",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0037",
+      "site_id": "site-8e94d449a8bd559f2d862c49",
+      "status": "proposed",
+      "location": {
+        "page_index": 190,
+        "table_id": null,
+        "section_id": "container-62b76185807670d92e74",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:190",
+            "rectangle": [
+              435.812,
+              342.9111,
+              462.0345,
+              351.4111
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/190/para_blocks/3",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0038",
+      "site_id": "site-4a786b880cbf78dba80da6b4",
+      "status": "proposed",
+      "location": {
+        "page_index": 191,
+        "table_id": null,
+        "section_id": "container-a6f9cdd7b359002ddd23",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:191",
+            "rectangle": [
+              435.0161,
+              217.94139999999993,
+              456.36809999999997,
+              226.44139999999993
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/191/para_blocks/0",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0039",
+      "site_id": "site-f123be64579a31402129efd5",
+      "status": "proposed",
+      "location": {
+        "page_index": 192,
+        "table_id": null,
+        "section_id": "container-a340c05b33bf83528673",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:192",
+            "rectangle": [
+              447.469,
+              254.96609999999998,
+              462.03799999999995,
+              263.4661
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/192/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0040",
+      "site_id": "site-8fc9dea4e20bfb1d0421a664",
+      "status": "proposed",
+      "location": {
+        "page_index": 194,
+        "table_id": null,
+        "section_id": "container-82cb94f174f5fc51cdda",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:194",
+            "rectangle": [
+              435.8118,
+              234.31139999999994,
+              462.0343,
+              242.81139999999994
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/194/para_blocks/1",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0041",
+      "site_id": "site-99ddd43a4100bcb97e321142",
+      "status": "proposed",
+      "location": {
+        "page_index": 179,
+        "table_id": null,
+        "section_id": "container-94143f2561aa7cec13c7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:179",
+            "rectangle": [
+              341.6427,
+              270.45619999999997,
+              362.82469999999995,
+              278.95619999999997
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/179/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0042",
+      "site_id": "site-528f0f07aa10e60116945f67",
+      "status": "proposed",
+      "location": {
+        "page_index": 179,
+        "table_id": null,
+        "section_id": "container-94143f2561aa7cec13c7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:179",
+            "rectangle": [
+              341.6426,
+              355.93649999999997,
+              362.8246,
+              364.43649999999997
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/179/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0043",
+      "site_id": "site-3270a3a48bfbf38099eae22e",
+      "status": "proposed",
+      "location": {
+        "page_index": 179,
+        "table_id": null,
+        "section_id": "container-94143f2561aa7cec13c7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:179",
+            "rectangle": [
+              345.378,
+              421.4169,
+              365.83495,
+              429.9169
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/179/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0044",
+      "site_id": "site-18a8aa3b049ba32accdb3334",
+      "status": "proposed",
+      "location": {
+        "page_index": 179,
+        "table_id": null,
+        "section_id": "container-94143f2561aa7cec13c7",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:179",
+            "rectangle": [
+              341.6426,
+              486.8972,
+              362.8246,
+              495.3972
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/179/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0045",
+      "site_id": "site-97b6a4cebbc64ee01b75b3cc",
+      "status": "proposed",
+      "location": {
+        "page_index": 180,
+        "table_id": null,
+        "section_id": "container-0d45e0921b42c16ca271",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:180",
+            "rectangle": [
+              330.3042,
+              319.5665,
+              351.49299999999994,
+              328.0665
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/180/para_blocks/2",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0046",
+      "site_id": "site-098b96778683ed550c839dfb",
+      "status": "proposed",
+      "location": {
+        "page_index": 191,
+        "table_id": null,
+        "section_id": "container-a6f9cdd7b359002ddd23",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:191",
+            "rectangle": [
+              430.1426,
+              578.4372,
+              456.3651,
+              586.9372
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/191/para_blocks/5",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0047",
+      "site_id": "site-944b58a2082f12b0bcf46be3",
+      "status": "proposed",
+      "location": {
+        "page_index": 200,
+        "table_id": null,
+        "section_id": "container-dfdc67212410f98f6a51",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:200",
+            "rectangle": [
+              440.6854,
+              185.20129999999995,
+              462.0374,
+              193.70129999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/200/para_blocks/0",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    },
+    {
+      "error_id": "HL-ERR-0048",
+      "site_id": "site-308312f2480132331e7b6b4b",
+      "status": "proposed",
+      "location": {
+        "page_index": 201,
+        "table_id": null,
+        "section_id": "container-321dbb642c4582d5c4d2",
+        "row_key": null,
+        "column_key": null,
+        "source_anchors": [
+          {
+            "artifact_path": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+            "sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+            "pointer": "page:201",
+            "rectangle": [
+              364.9458,
+              401.14219999999995,
+              391.1683,
+              409.64219999999995
+            ]
+          }
+        ],
+        "corrupted_endpoint": true
+      },
+      "secondary_locations": [],
+      "native_candidates": [
+        {
+          "artifact_path": "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+          "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "pointer": "/pdf_info/201/para_blocks/0",
+          "rectangle": null
+        }
+      ],
+      "reason": "PDF endpoint proposed from verified raw rectangle convention. Semantic container, native occurrence selection, and paired endpoints require owner review; container is not yet eligible for scoring."
+    }
+  ]
+}

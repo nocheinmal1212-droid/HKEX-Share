@@ -1,0 +1,36 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S02_actual_sibling_subtotal",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-ec5a0370413b952023c4de52ec4d05cc2dcbcb119d73cb702a2def78fda6256e",
+    "cell-a3c998f1fd95a6896a124b241ce6adfbd68980b15b36de6f89668e610cd79c79"
+  ],
+  "input_sha256": "72fcf63e7af01729a66ff57dddf55979a8176f863092a16d5e47e00086d249b7",
+  "optional_support": [],
+  "reason": "The subtotal target has the category as context. Its two timing peers are the immediate contributors. The outer total is excluded by the established target category branch.",
+  "required_support": [
+    "cell-a19a6623458b7ae41aa951b2a65b7f454a2203d6df147926050e972468ddf603",
+    "cell-ec5a0370413b952023c4de52ec4d05cc2dcbcb119d73cb702a2def78fda6256e",
+    "cell-a3c998f1fd95a6896a124b241ce6adfbd68980b15b36de6f89668e610cd79c79",
+    "cell-ee9d234d402d5e4b0b0cbec1e17b3d1a81cb227ed33aa3a126ffe41bddebbf89"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-a3c998f1fd95a6896a124b241ce6adfbd68980b15b36de6f89668e610cd79c79",
+        "cell-ec5a0370413b952023c4de52ec4d05cc2dcbcb119d73cb702a2def78fda6256e"
+      ],
+      "group_id": "cell-ee9d234d402d5e4b0b0cbec1e17b3d1a81cb227ed33aa3a126ffe41bddebbf89",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-a19a6623458b7ae41aa951b2a65b7f454a2203d6df147926050e972468ddf603",
+      "support_refs": [
+        "cell-a19a6623458b7ae41aa951b2a65b7f454a2203d6df147926050e972468ddf603",
+        "cell-a3c998f1fd95a6896a124b241ce6adfbd68980b15b36de6f89668e610cd79c79",
+        "cell-ec5a0370413b952023c4de52ec4d05cc2dcbcb119d73cb702a2def78fda6256e",
+        "cell-ee9d234d402d5e4b0b0cbec1e17b3d1a81cb227ed33aa3a126ffe41bddebbf89"
+      ]
+    }
+  ]
+}

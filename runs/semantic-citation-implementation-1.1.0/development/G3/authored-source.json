@@ -1,0 +1,42 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "html": "<table><tr><td colspan=\"2\">銷售額（港幣百萬元）</td><td colspan=\"2\">銷售量（千件）</td><td></td></tr><tr><td>產品甲</td><td>產品乙</td><td>產品甲</td><td>產品乙</td><td>合計</td></tr></table>",
+                      "type": "table"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_body"
+            },
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "content": "合計僅包含與其同一計量口徑的產品甲及產品乙；計量口徑見表頭。",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_footnote"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Source-only review. No answers or expected support lists.",
+  "sources": [
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G1/evidence.json",
+      "fixture": "G1",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G1/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G1/source.json",
+      "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+    },
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G2/evidence.json",
+      "fixture": "G2",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G2/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G2/source.json",
+      "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+    },
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/evidence.json",
+      "fixture": "G2_variation",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/source.json",
+      "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+    },
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G3/evidence.json",
+      "fixture": "G3",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G3/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G3/source.json",
+      "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+    },
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G4/evidence.json",
+      "fixture": "G4",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G4/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G4/source.json",
+      "target_id": "cell-e0467d6b464bd59ac80c05aee9d0cab8e735047dde8a975a76b940e54e563b10"
+    },
+    {
+      "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G5/evidence.json",
+      "fixture": "G5",
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G5/manifest.json",
+      "source": "eval/semantic-citation-investigation/2026-09-19/sources/G5/source.json",
+      "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+    }
+  ]
+}

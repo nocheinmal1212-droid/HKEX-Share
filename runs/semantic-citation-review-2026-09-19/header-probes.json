@@ -1,0 +1,181 @@
+{
+  "base_sha256": "55cc55a33fbf28723651602107ecbc8f98a08e7f7c9094ab7ec10619539a6ec2",
+  "expectation_sha256": "7a29a212bccfefff966bf6ae524e5fa738dfbc90acd5148adbfd35fda07d508a",
+  "exposure": "post-exposure contract diagnostics; no model or provider calls",
+  "probes": [
+    {
+      "analysis": {
+        "groups": {
+          "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62": {
+            "kind": "category",
+            "members": [
+              "cell-17dc992ae95075547e255c836e79ff69bfb4468fb9ece5c8e696277ebffefd57",
+              "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6",
+              "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43"
+            ],
+            "value": "contract_revenue"
+          }
+        },
+        "paths": {
+          "cell-17dc992ae95075547e255c836e79ff69bfb4468fb9ece5c8e696277ebffefd57": [
+            "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62"
+          ],
+          "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62": [],
+          "cell-3c77a88178ac6c3521cf1a993565911a9e4db82d6c69e88c2dc502f1fa1076e1": [],
+          "cell-a36b5c9838f20e8ab4ea8517d375dbab47b39ce31869a25efc7bf7359721859d": [],
+          "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43": [
+            "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62"
+          ],
+          "cell-d590262df663802670f13e98d702ab5cebc63b3da712282c3789571f76e82f43": [],
+          "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6": [
+            "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62"
+          ]
+        },
+        "policy": {
+          "analysis_version": "header-source-analysis-1.0.0",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "presentation_refs": [],
+        "reasons": [],
+        "summary_scopes": {
+          "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43": {
+            "component_ids": [
+              "cell-17dc992ae95075547e255c836e79ff69bfb4468fb9ece5c8e696277ebffefd57",
+              "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6"
+            ],
+            "group_id": "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62",
+            "rule_id": "contract_revenue_recognition_timing",
+            "support_refs": [
+              "cell-17dc992ae95075547e255c836e79ff69bfb4468fb9ece5c8e696277ebffefd57",
+              "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62",
+              "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43",
+              "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6"
+            ]
+          }
+        }
+      },
+      "gate": "eligible",
+      "ir_sha256": "6af97587baa677e1577515f2e44e90b1fb9b3cd1a46107b1dc5354fef75985ca",
+      "name": "control",
+      "query_id": "query-595287d0c4c92c46effa1b6153465ce4a503be84db4e6490281603d462f7026b",
+      "source_sha256": "55cc55a33fbf28723651602107ecbc8f98a08e7f7c9094ab7ec10619539a6ec2"
+    },
+    {
+      "answer": {
+        "contributor_ids": [
+          "cell-3c77a88178ac6c3521cf1a993565911a9e4db82d6c69e88c2dc502f1fa1076e1",
+          "cell-d590262df663802670f13e98d702ab5cebc63b3da712282c3789571f76e82f43"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-3c77a88178ac6c3521cf1a993565911a9e4db82d6c69e88c2dc502f1fa1076e1",
+          "cell-d590262df663802670f13e98d702ab5cebc63b3da712282c3789571f76e82f43",
+          "cell-a36b5c9838f20e8ab4ea8517d375dbab47b39ce31869a25efc7bf7359721859d"
+        ],
+        "target_id": "cell-a36b5c9838f20e8ab4ea8517d375dbab47b39ce31869a25efc7bf7359721859d"
+      },
+      "expected_semantics": "wrong; scope question, not by itself a host correctness bug",
+      "host_outcome": "accepted",
+      "name": "p2_presentation_contributor"
+    },
+    {
+      "analysis": {
+        "groups": {},
+        "paths": {
+          "cell-17dc992ae95075547e255c836e79ff69bfb4468fb9ece5c8e696277ebffefd57": [],
+          "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62": [],
+          "cell-3c77a88178ac6c3521cf1a993565911a9e4db82d6c69e88c2dc502f1fa1076e1": [],
+          "cell-a36b5c9838f20e8ab4ea8517d375dbab47b39ce31869a25efc7bf7359721859d": [],
+          "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43": [],
+          "cell-d590262df663802670f13e98d702ab5cebc63b3da712282c3789571f76e82f43": [],
+          "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6": []
+        },
+        "policy": {
+          "analysis_version": "header-source-analysis-1.0.0",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "presentation_refs": [],
+        "reasons": [
+          {
+            "code": "non_laminar_or_incomplete_hierarchy",
+            "source_refs": [
+              "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62",
+              "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43",
+              "cell-e4a8b9b3577dce0374ba5228b31ee97d74cc3aa6b921f85cae155bbf137738f6"
+            ]
+          },
+          {
+            "code": "unresolved_subtotal_scope",
+            "source_refs": [
+              "cell-ba05435a2f8f40d1c91e6fc1892be4a1fbd6131de5b282f2b5bd4f5f2d251b43"
+            ]
+          },
+          {
+            "code": "unsupported_header_group",
+            "source_refs": [
+              "cell-398e06cdb3b5b1a4fc5bbd8747e599e09122084f81ecbfd49f2e1bb4ee92af62"
+            ]
+          }
+        ],
+        "summary_scopes": {}
+      },
+      "crossing_leaf_in_category_path": false,
+      "name": "p3_crossing_interval"
+    },
+    {
+      "analysis": {
+        "groups": {},
+        "paths": {
+          "cell-1417da10f686e8a8a5205c9496c7fc743706d2b0725091551770f7493dc5d628": [],
+          "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9": [],
+          "cell-31e165c50e98a0318b977235106735e20606f285dbe7cf81d86595f13ba6e520": [],
+          "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171": [],
+          "cell-4d0313c3056be1a18ee85986176c3087720a42e2e70c155fafeee8d16a711811": [],
+          "cell-55800a70803563d96d94e0e97d63b57c263ae9f13a947e0375a0a61e4cc4174b": [],
+          "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b": [],
+          "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b": []
+        },
+        "policy": {
+          "analysis_version": "header-source-analysis-1.0.0",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "presentation_refs": [
+          "cell-4d0313c3056be1a18ee85986176c3087720a42e2e70c155fafeee8d16a711811"
+        ],
+        "reasons": [
+          {
+            "code": "non_laminar_or_incomplete_hierarchy",
+            "source_refs": [
+              "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+              "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171",
+              "cell-4d0313c3056be1a18ee85986176c3087720a42e2e70c155fafeee8d16a711811",
+              "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b",
+              "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b"
+            ]
+          },
+          {
+            "code": "unresolved_subtotal_scope",
+            "source_refs": [
+              "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9"
+            ]
+          },
+          {
+            "code": "unsupported_header_group",
+            "source_refs": [
+              "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171"
+            ]
+          }
+        ],
+        "summary_scopes": {}
+      },
+      "gate": "blocked_scope",
+      "ir_sha256": "137ff68fb2db6e7026413170684a25dcc227fcfd5eb5022b7ebc3861f21dc640",
+      "name": "p1_continued",
+      "query_id": "query-14d844c08fd632cae36f8d375ac8d83726b8438161a93fc81ab9c9b555d50a5a",
+      "source_sha256": "895c7e11847950ccd9c26b448bfc240604bb2c51b6e22c694f8af7a9fd50f13e"
+    }
+  ]
+}

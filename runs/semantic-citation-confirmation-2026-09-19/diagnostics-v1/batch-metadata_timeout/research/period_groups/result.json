@@ -1,0 +1,17 @@
+{
+  "attempt_id": "attempt-8dccefcfcd54fb4dd7bc3762292eec6390ae3229e1ad751c3f32b328ff26b4ad",
+  "elapsed_seconds": 2.779101487249136e-05,
+  "model_calls": 0,
+  "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+  "role": "research",
+  "validation": {
+    "answer": null,
+    "cost": null,
+    "cost_status": "unknown",
+    "revision": null,
+    "served": null,
+    "state": "unavailable",
+    "usage": null
+  },
+  "version": "paired-semantic-attempt-1.1.0"
+}

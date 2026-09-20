@@ -1,0 +1,94 @@
+PYTHONPATH=src tools/eval-format-tools/.venv/bin/python -m unittest discover -s tests -v
+test_all_authored_scenarios_and_persisted_controls (test_direct_contributor_boundary.DirectContributorTests.test_all_authored_scenarios_and_persisted_controls) ... ok
+test_isolated_replay_reads_own_request_but_denies_unselected_data (test_direct_contributor_boundary.DirectContributorTests.test_isolated_replay_reads_own_request_but_denies_unselected_data) ... ok
+test_suite_rejects_false_persistence_success (test_direct_contributor_boundary.DirectContributorTests.test_suite_rejects_false_persistence_success) ... ok
+test_suite_rejects_incomplete_output_acceptance (test_direct_contributor_boundary.DirectContributorTests.test_suite_rejects_incomplete_output_acceptance) ... ok
+test_suite_rejects_precheck_bypass (test_direct_contributor_boundary.DirectContributorTests.test_suite_rejects_precheck_bypass) ... ok
+test_suite_rejects_scope_validation_bypass (test_direct_contributor_boundary.DirectContributorTests.test_suite_rejects_scope_validation_bypass) ... ok
+test_adapter_to_dispatch_to_replay_and_late_fault (test_direct_contributor_live_v2.LiveV2Tests.test_adapter_to_dispatch_to_replay_and_late_fault) ... ok
+test_response_bound_and_secret_redacted (test_direct_contributor_live_v2.LiveV2Tests.test_response_bound_and_secret_redacted) ... ok
+test_response_limit_preserves_explicit_failure (test_direct_contributor_live_v2.LiveV2Tests.test_response_limit_preserves_explicit_failure) ... ok
+test_timeout_is_one_attempt_without_retry (test_direct_contributor_live_v2.LiveV2Tests.test_timeout_is_one_attempt_without_retry) ... ok
+test_wire_request_is_bound_to_dispatch_payload (test_direct_contributor_live_v2.LiveV2Tests.test_wire_request_is_bound_to_dispatch_payload) ... ok
+test_42_write_timing_cases (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_42_write_timing_cases) ... ok
+test_frozen_v1_folders_are_not_implicitly_migrated (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_frozen_v1_folders_are_not_implicitly_migrated) ... ok
+test_fsync_error_never_commits_result_bytes (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_fsync_error_never_commits_result_bytes) ... ok
+test_invalid_marker_inventory_is_not_dereferenced (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_invalid_marker_inventory_is_not_dereferenced) ... ok
+test_isolated_v2_dispatch_and_replay (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_isolated_v2_dispatch_and_replay) ... ok
+test_missing_or_changed_dependencies_invalidate_commit (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_missing_or_changed_dependencies_invalidate_commit) ... ok
+test_mutation_result_only_replay_is_detected (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_mutation_result_only_replay_is_detected) ... ok
+test_readback_failure_never_commits (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_readback_failure_never_commits) ... ok
+test_rehashed_but_inconsistent_bindings_fail (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_rehashed_but_inconsistent_bindings_fail) ... ok
+test_reuse_refused_without_overwriting_or_resending (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_reuse_refused_without_overwriting_or_resending) ... ok
+test_terminal_outcomes_replay_without_transport (test_direct_contributor_persistence_v2.PersistenceV2Tests.test_terminal_outcomes_replay_without_transport) ... ok
+test_fault_injection (test_evidence_contract.ContractTests.test_fault_injection) ... ok
+test_native_span_verification_and_payload (test_evidence_contract.ContractTests.test_native_span_verification_and_payload) ... ok
+test_schemas_and_nonempty_fixture (test_evidence_contract.ContractTests.test_schemas_and_nonempty_fixture) ... ok
+test_strict_json (test_evidence_contract.ContractTests.test_strict_json) ... ok
+test_frozen_replay_relocation_and_no_adapter (test_evidence_replay.ReplayTests.test_frozen_replay_relocation_and_no_adapter) ... ok
+test_ir_version_and_variant_are_rejected (test_evidence_replay.ReplayTests.test_ir_version_and_variant_are_rejected) ... {"schema_version": "1.0.0", "stage": "consumer", "state": "crashed", "error_type": "ValueError", "reason": "IR selection document/variant mismatch"}
+{"schema_version": "1.0.0", "stage": "consumer", "state": "crashed", "error_type": "ValueError", "reason": "schema violation: ['schema_version'] const"}
+ok
+test_tampered_truncated_and_renamed_pdf_fail (test_evidence_replay.ReplayTests.test_tampered_truncated_and_renamed_pdf_fail) ... {"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "JSONDecodeError", "reason": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "renamed PDF content is forbidden"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "native page inventory missing"}
+{"schema_version": "1.0.0", "stage": "adapter", "state": "crashed", "error_type": "ValueError", "reason": "selected artifact hash mismatch"}
+ok
+test_abstention_and_wrong_selection_distinct (test_experimental_fixtures.ExperimentalFixturesTests.test_abstention_and_wrong_selection_distinct) ... ok
+test_identity_refusal_and_duplicate_json (test_experimental_fixtures.ExperimentalFixturesTests.test_identity_refusal_and_duplicate_json) ... ok
+test_ids_derive_from_evidence_and_missing_target_not_allowed (test_experimental_fixtures.ExperimentalFixturesTests.test_ids_derive_from_evidence_and_missing_target_not_allowed) ... ok
+test_manifest_cannot_include_expected_answer_or_mutated_bytes (test_experimental_fixtures.ExperimentalFixturesTests.test_manifest_cannot_include_expected_answer_or_mutated_bytes) ... ok
+test_markdown_wrapped_oracle_answer_remains_format_failure (test_experimental_fixtures.ExperimentalFixturesTests.test_markdown_wrapped_oracle_answer_remains_format_failure) ... ok
+test_prompt_schema_and_budget_axes (test_experimental_fixtures.ExperimentalFixturesTests.test_prompt_schema_and_budget_axes) ... ok
+test_truncation_and_transport_do_not_become_semantic_failures (test_experimental_fixtures.ExperimentalFixturesTests.test_truncation_and_transport_do_not_become_semantic_failures) ... ok
+test_wrong_vocabulary_is_not_repaired (test_experimental_fixtures.ExperimentalFixturesTests.test_wrong_vocabulary_is_not_repaired) ... ok
+test_contract_payloads_unchanged (test_interface_boundary.InterfaceBoundaryTests.test_contract_payloads_unchanged) ... ok
+test_eleven_reviewed_fixtures (test_interface_boundary.InterfaceBoundaryTests.test_eleven_reviewed_fixtures) ... ok
+test_guard_does_not_read_label_meaning (test_interface_boundary.InterfaceBoundaryTests.test_guard_does_not_read_label_meaning) ... ok
+test_literal_ids_and_missing_target (test_interface_boundary.InterfaceBoundaryTests.test_literal_ids_and_missing_target) ... ok
+test_malformed_inputs_never_call (test_interface_boundary.InterfaceBoundaryTests.test_malformed_inputs_never_call) ... ok
+test_output_never_repaired (test_interface_boundary.InterfaceBoundaryTests.test_output_never_repaired) ... ok
+test_transport_cannot_mutate_scope (test_interface_boundary.InterfaceBoundaryTests.test_transport_cannot_mutate_scope) ... ok
+test_pairing_keeps_failures_but_excludes_them_from_efficiency (test_interface_evaluation.InterfaceEvaluationTests.test_pairing_keeps_failures_but_excludes_them_from_efficiency) ... ok
+test_amount_changes_leave_structural_addresses (test_mineru_adapter.AdapterTests.test_amount_changes_leave_structural_addresses) ... ok
+test_bad_grids_never_repaired (test_mineru_adapter.AdapterTests.test_bad_grids_never_repaired) ... ok
+test_benign_proposals_are_portable_native_inputs (test_mineru_adapter.AdapterTests.test_benign_proposals_are_portable_native_inputs) ... ok
+test_entities_multiline_and_markup_spans (test_mineru_adapter.AdapterTests.test_entities_multiline_and_markup_spans) ... ok
+test_geometry_missing_and_unknown (test_mineru_adapter.AdapterTests.test_geometry_missing_and_unknown) ... ok
+test_independently_specified_grid (test_mineru_adapter.AdapterTests.test_independently_specified_grid) ... ok
+test_missing_collection_and_foreign_profile (test_mineru_adapter.AdapterTests.test_missing_collection_and_foreign_profile) ... ok
+test_page_local_not_merged_or_deduplicated (test_mineru_adapter.AdapterTests.test_page_local_not_merged_or_deduplicated) ... ok
+test_commit_and_late_result_failure (test_model_selection_v2.ComparisonTests.test_commit_and_late_result_failure) ... ok
+test_every_configuration_wire_and_model_binding (test_model_selection_v2.ComparisonTests.test_every_configuration_wire_and_model_binding) ... ok
+test_payload_mutation_denied_before_network (test_model_selection_v2.ComparisonTests.test_payload_mutation_denied_before_network) ... ok
+test_secret_redaction (test_model_selection_v2.ComparisonTests.test_secret_redaction) ... ok
+test_timeout_is_one_call_without_retry (test_model_selection_v2.ComparisonTests.test_timeout_is_one_call_without_retry) ... ok
+test_factorial_changes_are_isolated (test_openrouter_diagnostic.DiagnosticTests.test_factorial_changes_are_isolated) ... ok
+test_negative_control_removes_total_without_giving_answer (test_openrouter_diagnostic.DiagnosticTests.test_negative_control_removes_total_without_giving_answer) ... ok
+test_explicit_model_preserves_request_and_checks_identity (test_openrouter_probe.ProbeTests.test_explicit_model_preserves_request_and_checks_identity) ... ok
+test_http_error_redacted_and_no_retry (test_openrouter_probe.ProbeTests.test_http_error_redacted_and_no_retry) ... ok
+test_identity_failures (test_openrouter_probe.ProbeTests.test_identity_failures) ... ok
+test_malformed_duplicate_and_truncated (test_openrouter_probe.ProbeTests.test_malformed_duplicate_and_truncated) ... ok
+test_missing_credential_never_calls (test_openrouter_probe.ProbeTests.test_missing_credential_never_calls) ... ok
+test_network_failure_and_timeout_are_visible (test_openrouter_probe.ProbeTests.test_network_failure_and_timeout_are_visible) ... ok
+test_redirect_denied (test_openrouter_probe.ProbeTests.test_redirect_denied) ... ok
+test_response_bound (test_openrouter_probe.ProbeTests.test_response_bound) ... ok
+test_schema_valid_wrong_role_or_id_fails (test_openrouter_probe.ProbeTests.test_schema_valid_wrong_role_or_id_fails) ... ok
+test_two_fixed_requests_and_identity (test_openrouter_probe.ProbeTests.test_two_fixed_requests_and_identity) ... ok
+test_unknown_ids_and_amounts_rejected (test_openrouter_probe.ProbeTests.test_unknown_ids_and_amounts_rejected) ... ok
+test_linked_examples_and_faults (test_pipeline_contracts.PipelineTests.test_linked_examples_and_faults) ... ok
+test_active_review_rejects_pdf_and_derived_assets_before_open (test_review_packet.ReviewPacketTests.test_active_review_rejects_pdf_and_derived_assets_before_open) ... ok
+test_deterministic_seal_refuses_overwrite_and_symlinks (test_review_packet.ReviewPacketTests.test_deterministic_seal_refuses_overwrite_and_symlinks) ... ok
+test_fixture_amount_mutation_changes_both_bindings (test_review_packet.ReviewPacketTests.test_fixture_amount_mutation_changes_both_bindings) ... ok
+test_original_input_mutation_and_snapshot_mismatch_rejected (test_review_packet.ReviewPacketTests.test_original_input_mutation_and_snapshot_mismatch_rejected) ... ok
+test_partial_content_and_raw_markup_are_visible (test_review_packet.ReviewPacketTests.test_partial_content_and_raw_markup_are_visible) ... ok
+test_report_fixture_and_expectation_tampering_rejected (test_review_packet.ReviewPacketTests.test_report_fixture_and_expectation_tampering_rejected) ... ok
+test_supporting_note_text_pointer_and_ir_are_displayed (test_review_packet.ReviewPacketTests.test_supporting_note_text_pointer_and_ir_are_displayed) ... ok
+test_methods_aliases_descriptors_and_external_access (test_runtime_isolation.IsolationTests.test_methods_aliases_descriptors_and_external_access) ... ok
+test_real_runtime_module_boundaries (test_runtime_isolation.IsolationTests.test_real_runtime_module_boundaries) ... ok
+test_selection_rejects_pdf_answers_and_symlink_parents (test_runtime_isolation.IsolationTests.test_selection_rejects_pdf_answers_and_symlink_parents) ... ok
+
+----------------------------------------------------------------------
+Ran 82 tests in 1.988s
+
+OK

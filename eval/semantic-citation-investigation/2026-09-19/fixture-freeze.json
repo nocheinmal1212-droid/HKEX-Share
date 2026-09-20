@@ -1,0 +1,164 @@
+{
+  "excluded_but_preserved": [
+    "G4"
+  ],
+  "exposed_reproductions": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "files": [
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/fixture-expectations.json",
+      "sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/independent-source-review.json",
+      "sha256": "d094cd59178c5c1f38d4dc40932afe41cdfee67cb3e20629e606f20a8d08b11e"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/independent-source-review.md",
+      "sha256": "7f6a9c355e328c05d7282fc76e18eb0de2db06353176fc0b251cb57ebcc2ef41"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/source-only-index.json",
+      "sha256": "da78c004d6d3cad18f6026cab22cba14c2bb3da85364f76201fc0c138ada7b67"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/source-only-index-revision2.json",
+      "sha256": "e686214f074a10fab002c5ea9fce30f7511d7d62e6f6682a6c7635205e45e547"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2-variation-map.json",
+      "sha256": "eb4475633e6c3ad6ec98ce08698bf0e44fe8efdaca6b6f4e96a23ee736e9e80a"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/source.json",
+      "sha256": "8f7634859c9c46858f6cac23b7477deb581ccfd6003db7911d879f51badc802a"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/evidence.json",
+      "sha256": "a43dda6f1cbf2474c14336eae0fe39d78a0ab61d6ccf9b43c575f814fe29e091"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/query-v1.json",
+      "sha256": "bac75490a580d4f8d6d88f521376360c64580a82f1ab0f040bb9505fdf777c43"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/manifest.json",
+      "sha256": "3da9fa3c99bd09f5b55af38b78937f2ab699c1e450b4fcf28a45320e8cb0df9e"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/source.json",
+      "sha256": "dca066994a3b470f7ee3f2f7b9234b2cde8442c941d54d91f5e5c3ef6f919153"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/evidence.json",
+      "sha256": "e19b4eb697ac471adb8f23fb939f05a0d4127c7f3c76e071199967f783d7fb84"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/query-v1.json",
+      "sha256": "bd95d59441db9d9621e409187d4b8262d22850e73f22d0e0c613fa6d2300b90d"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/manifest.json",
+      "sha256": "66b9424d0bb1282366e148d4ab6bedf13b382c17c54b7d95b731899b090ea31f"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/source.json",
+      "sha256": "1898719969e5e60d8ef9deeba4d856c92de5f627b730efd2724fdf958f48eaf7"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/evidence.json",
+      "sha256": "9de70fd1cb76a640ce9ebe1855afd8d1c964dccc33e1c1ff8fa9408861b3ef03"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/query-v1.json",
+      "sha256": "53e6248fdd94e0ce1afbe3f5c4aef90309140e58339694ba5ac8e8cf9ddf84e3"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/manifest.json",
+      "sha256": "464b10b7ee0b6027354f17f0be20fb6e0eafde7c15417d3aa088c2f23728f68c"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/source.json",
+      "sha256": "27f62bea109db2573f49ad3ca877f37c2e1cd9795888c1c0f5db771240869e80"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/evidence.json",
+      "sha256": "9d20168d32aa6d199f4da92c79cbd1761075053bb49318697d58ce4797f329b3"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/query-v1.json",
+      "sha256": "c09a3a8a190b76ba4033d486d6b5f916600bc9ac8237e950cb66263e7fb8f621"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/manifest.json",
+      "sha256": "02f12b87b0b7e28c8e3ab07d46b115bdb3c92aa10d70eb54cffd877a91166a34"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4/source.json",
+      "sha256": "de0068483260835cfb89c91b7e29d0d104ecde0f50b463e4f0badcf820c2bed8"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4/evidence.json",
+      "sha256": "eaeb0cad1a923b804298c138a36fd748b4e7d86768b2a9bd861175a864bbb167"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4/query-v1.json",
+      "sha256": "b31348e0a9b61ffad6c18d8ebea1788f62d77ed75370fb608543380becc6a27a"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4/manifest.json",
+      "sha256": "bd95850b3f44a11c16bf0824608446e3351dc1567d71914fe11cc63a09773d89"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/source.json",
+      "sha256": "eae32564b55a09b98f47f055afa63dde298de1554ed93fbb4b2ebda872baadf8"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/evidence.json",
+      "sha256": "c623db9cb2ee4fa480dea6c0ce6e7b4b8a012911c91c9e12890d11cfd502e8f9"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/query-v1.json",
+      "sha256": "47c4a03de3ac7b84e4917007346f8f772ff12c0bf3dd899713ad30909367c856"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/manifest.json",
+      "sha256": "d5c0bfe0b2651664e7ba2f5df0292eef790f827d05827172abc580e4bb0c1fda"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/source.json",
+      "sha256": "ecca8e5066c8cc6c83008a05cd50c36a39e3f05f59ee458c111bcdbdbdf595d2"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/evidence.json",
+      "sha256": "3ce3c780a8b05667352df8acdc64db13f98ed7ab0fc3fdc2ee08c44cc39931e7"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/query-v1.json",
+      "sha256": "d5a651bb47a0ada99642dc31c0ace95246e8bc8bfe0b7b6afb7696b296122886"
+    },
+    {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/manifest.json",
+      "sha256": "4e0624d874c83a267042b0b152d78466bdc9348d1c362f17341e7ddedbe3f1f0"
+    }
+  ],
+  "freeze_order": "Source-only agent review and policy/wording reconciliation; sources and expectations frozen here; authored G response diagnostics generated afterward. No prospective model answers exist.",
+  "frozen_at_utc": "2026-09-19T03:59:42.082566+00:00",
+  "future_request_binding": "v1 projections retain literal old prompt/schema/version. Future implementation and actual 1.1 request bytes require a separate freeze; these are not new requests.",
+  "inference_authorized": false,
+  "operation_proposal": "direct-contributor-headers-1.1.0-proposal",
+  "source_ready_generalization": [
+    "G1",
+    "G2",
+    "G2_variation",
+    "G3",
+    "G5",
+    "G4_revision2"
+  ],
+  "status": "review-frozen proposal; no implementation, provider call, human/domain approval or acceptance closure",
+  "version": "citation-policy-review-freeze-1.0.0"
+}

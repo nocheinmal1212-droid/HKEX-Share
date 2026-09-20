@@ -1,0 +1,42 @@
+[
+  {
+    "annotation_id": "annotation-05f5a4a68d7984b284b64df30afb37019ccbadea2b8df7a94b84beb0a7f3272f",
+    "doc_id": "hksa_2026032600825_kpmg",
+    "evidence_refs": [
+      "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+      "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+      "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+      "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    ],
+    "labels": [],
+    "links": [
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+      }
+    ],
+    "method": "model",
+    "schema_version": "1.0.0",
+    "state": "resolved",
+    "variant_id": "corrupted"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"state\": \"structure_accepted\", \"denials\": 6, \"stub_calls\": 1}\n",
+  "stderr": ""
+}

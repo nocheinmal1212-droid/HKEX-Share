@@ -1,0 +1,38 @@
+{
+  "attempt_id": "attempt-eee0ddca278cb1ce996541a8baa020293ebdf5505cea7625c242ff5df951fa93",
+  "elapsed_seconds": 0.00016937509644776583,
+  "model_calls": 1,
+  "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+  "role": "primary",
+  "validation": {
+    "answer": {
+      "contributor_ids": [
+        "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+        "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42"
+      ],
+      "state": "selected",
+      "support_refs": [
+        "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+        "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+        "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42",
+        "cell-a5c0051f1171d96dea43ee14a6d82dfb41b0614fe0e9998c81b00ee5d19ae7c0"
+      ],
+      "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229"
+    },
+    "cost": "0.0001",
+    "cost_status": "reported",
+    "revision": null,
+    "served": {
+      "id": "fixture-response",
+      "model": "google/gemini-3.8-flash",
+      "provider": "Google AI Studio"
+    },
+    "state": "accepted",
+    "usage": {
+      "completion_tokens": 10,
+      "cost": 0.0001,
+      "prompt_tokens": 10
+    }
+  },
+  "version": "paired-semantic-attempt-1.1.0"
+}

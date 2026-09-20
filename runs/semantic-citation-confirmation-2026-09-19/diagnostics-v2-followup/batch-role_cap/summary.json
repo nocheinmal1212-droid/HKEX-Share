@@ -1,0 +1,162 @@
+{
+  "completion_calls_reserved": {
+    "primary": 1,
+    "research": 1
+  },
+  "cost_reserved_usd": "0.889390",
+  "elapsed_seconds": 0.0,
+  "http_calls_reserved": 4,
+  "limits": {
+    "max_completion_calls_per_role": 1,
+    "max_cost_usd": "8",
+    "max_http_calls": 6,
+    "max_seconds": 600
+  },
+  "plans_checks_findings": "not_implemented",
+  "results": [
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "0.444710"
+        },
+        "research": {
+          "reason": null,
+          "reserved_cost_usd": "0.444680"
+        }
+      },
+      "name": "total",
+      "primary": {
+        "attempt_id": "attempt-d699fb131d7d1272b936b16b551ca2eeb1f3ba303644848bf1387b0953a56e4d",
+        "elapsed_seconds": 0.0010900000343099236,
+        "model_calls": 1,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "primary",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "cost": "0.0001",
+          "cost_status": "reported",
+          "revision": null,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted",
+          "usage": {
+            "completion_tokens": 10,
+            "cost": 0.0001,
+            "prompt_tokens": 10
+          }
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      },
+      "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+      "research": {
+        "attempt_id": "attempt-a225200047a959434c87e751249f07ed9128daf5b3120a6f83850856376dc818",
+        "elapsed_seconds": 0.0012771670008078218,
+        "model_calls": 1,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "research",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "cost": "0.0001",
+          "cost_status": "reported",
+          "revision": null,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "accepted",
+          "usage": {
+            "completion_tokens": 10,
+            "cost": 0.0001,
+            "prompt_tokens": 10
+          }
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      }
+    },
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": "budget_exhausted",
+          "reserved_cost_usd": "0"
+        },
+        "research": {
+          "reason": "budget_exhausted",
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "period_groups",
+      "primary": {
+        "attempt_id": "attempt-148314c9378dec5c34e41d963561dd8ec2abf09b59187ece59d65874317d13dd",
+        "elapsed_seconds": 2.9416987672448158e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "budget_exhausted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      },
+      "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+      "research": {
+        "attempt_id": "attempt-beee2f5d0a41135a8712c1bb9555dc66d4b3be9459eb8907d92f5628f8d7838a",
+        "elapsed_seconds": 2.5540939532220364e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "budget_exhausted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      }
+    }
+  ]
+}

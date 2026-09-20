@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eval-format-tools"
+version = "2.0.0"
+description = "Deterministic formatters for evaluation taxonomy YAML and error JSONL"
+requires-python = ">=3.10"
+dependencies = ["ruamel.yaml==0.18.16", "jsonschema==4.26.0", "pypdf==6.10.0"]
+license = {text = "MIT"}
+
+[project.scripts]
+eval-intake = "eval_intake.cli:main"
+eval-fmt = "eval_formatter.cli:main"
+fmt = "eval_formatter.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["eval_formatter*", "eval_intake*"]

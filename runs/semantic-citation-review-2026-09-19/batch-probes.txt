@@ -1,0 +1,9 @@
+g3: blocked_scope
+g4_revision2: blocked_scope
+g5: blocked_scope
+local: blocked_scope
+eligible: accepted
+local: blocked_scope
+eligible: unavailable
+local [('G3', 0), ('G4_revision2', 0), ('G5', 0)]
+mixed [('available', 4, {'primary': 1, 'research': 1}, {'local': 'blocked_scope', 'eligible': 'accepted'}), ('unavailable', 2, {'primary': 0, 'research': 0}, {'local': 'blocked_scope', 'eligible': 'unavailable'})]

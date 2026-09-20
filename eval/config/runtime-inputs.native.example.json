@@ -1,0 +1,17 @@
+{
+  "artifacts": [
+    {
+      "path": "../../corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json",
+      "role": "middle_json",
+      "sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0"
+    }
+  ],
+  "document": {
+    "doc_id": "hksa_2026032600825_kpmg",
+    "source_document_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "source_provenance": "supplied_unverified",
+    "variant_id": "corrupted"
+  },
+  "mode": "native",
+  "schema_version": "1.0.0"
+}

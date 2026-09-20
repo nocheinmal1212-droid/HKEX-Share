@@ -1,0 +1,50 @@
+[
+  {
+    "name": "total",
+    "primary": "accepted",
+    "primary_bytes_identical": true,
+    "replay_model_calls": 0,
+    "research": "incomplete_attempt",
+    "variant": "research_missing"
+  },
+  {
+    "name": "period_groups",
+    "primary": "accepted",
+    "primary_bytes_identical": true,
+    "replay_model_calls": 0,
+    "research": "incomplete_attempt",
+    "variant": "research_missing"
+  },
+  {
+    "name": "total",
+    "primary": "accepted",
+    "primary_bytes_identical": true,
+    "replay_model_calls": 0,
+    "research": "incomplete_attempt",
+    "variant": "research_corrupt"
+  },
+  {
+    "name": "period_groups",
+    "primary": "accepted",
+    "primary_bytes_identical": true,
+    "replay_model_calls": 0,
+    "research": "incomplete_attempt",
+    "variant": "research_corrupt"
+  },
+  {
+    "name": "total",
+    "primary": "incomplete_attempt",
+    "primary_bytes_identical": false,
+    "replay_model_calls": 0,
+    "research": "accepted",
+    "variant": "primary_corrupt"
+  },
+  {
+    "name": "period_groups",
+    "primary": "incomplete_attempt",
+    "primary_bytes_identical": false,
+    "replay_model_calls": 0,
+    "research": "accepted",
+    "variant": "primary_corrupt"
+  }
+]

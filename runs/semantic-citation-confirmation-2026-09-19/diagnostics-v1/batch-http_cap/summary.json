@@ -1,0 +1,141 @@
+{
+  "completion_calls_reserved": {
+    "primary": 1,
+    "research": 0
+  },
+  "cost_reserved_usd": "0.444710",
+  "elapsed_seconds": 0.0,
+  "http_calls_reserved": 3,
+  "limits": {
+    "max_completion_calls_per_role": 2,
+    "max_cost_usd": "8",
+    "max_http_calls": 3,
+    "max_seconds": 600
+  },
+  "plans_checks_findings": "not_implemented",
+  "results": [
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "0.444710"
+        },
+        "research": {
+          "reason": "budget_exhausted",
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "total",
+      "primary": {
+        "attempt_id": "attempt-724277d6d528010f90c4a9d5dc96b543c1687940d685ccf761d8ae973df20afb",
+        "elapsed_seconds": 0.0008390418952330947,
+        "model_calls": 1,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "primary",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "cost": "0.0001",
+          "cost_status": "reported",
+          "revision": null,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted",
+          "usage": {
+            "completion_tokens": 10,
+            "cost": 0.0001,
+            "prompt_tokens": 10
+          }
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+      "research": {
+        "attempt_id": "attempt-6a72ff05aac39f837124acf0fe537f838dafc74f0cd9af5b10a114c58b784d96",
+        "elapsed_seconds": 2.820801455527544e-05,
+        "model_calls": 0,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "budget_exhausted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    },
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": "budget_exhausted",
+          "reserved_cost_usd": "0"
+        },
+        "research": {
+          "reason": "budget_exhausted",
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "period_groups",
+      "primary": {
+        "attempt_id": "attempt-fa153eb9fdea5d7ff3d66a6c04018b1671a1a0b800ec7a8a3381ca2417d81af9",
+        "elapsed_seconds": 2.9749935492873192e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "budget_exhausted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+      "research": {
+        "attempt_id": "attempt-b38ea6219cb332aa20a92fdaed27efc7771558d4391d881df5f2eb9590b8fba6",
+        "elapsed_seconds": 2.645794302225113e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "budget_exhausted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    }
+  ]
+}

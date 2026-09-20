@@ -1,0 +1,11 @@
+test_expiry_after_reservation_before_spawn_and_after_launch_intent (test_semantic_deadline.DeadlineTests.test_expiry_after_reservation_before_spawn_and_after_launch_intent) ... ok
+test_original_virtual_730_counterexample_and_stage_boundaries (test_semantic_deadline.DeadlineTests.test_original_virtual_730_counterexample_and_stage_boundaries) ... total: authored-virtual-only
+period_groups: persistence_failure
+total: authored-virtual-only
+total: persistence_failure
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.119s
+
+OK

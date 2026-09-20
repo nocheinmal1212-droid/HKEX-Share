@@ -1,0 +1,30 @@
+{
+  "diagnostic_variants": 16,
+  "live_calls": 0,
+  "model_or_transport_invocations": 0,
+  "new_operational_outputs": 0,
+  "originals_still_rejected": 4,
+  "prompt_ambiguous_format_sentence": "Return only the schema's IDs and labels.",
+  "prompt_mentions_field_names": {
+    "contributor_ids": false,
+    "state": true,
+    "support_refs": false,
+    "target_id": false
+  },
+  "prompt_mentions_selected_label": false,
+  "prompt_mentions_support_refs": false,
+  "schema_expresses_cross_field_membership": false,
+  "schema_fields_have_descriptions": {
+    "contributor_ids": false,
+    "state": false,
+    "support_refs": false,
+    "target_id": false
+  },
+  "schema_positive_state_available_in_enum": true,
+  "schema_required": [
+    "target_id",
+    "state",
+    "contributor_ids",
+    "support_refs"
+  ]
+}

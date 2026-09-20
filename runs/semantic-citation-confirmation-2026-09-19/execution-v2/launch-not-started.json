@@ -1,0 +1,5 @@
+{
+  "reason": "OPENROUTER_API_KEY absent from launch environment",
+  "http_calls": 0,
+  "live_output_created": false
+}

@@ -1,0 +1,14 @@
+test_accepted_research_never_promotes_failed_or_abstained_primary (test_semantic_deadline.DeadlineTests.test_accepted_research_never_promotes_failed_or_abstained_primary) ... ok
+test_expiry_after_reservation_before_spawn_and_after_launch_intent (test_semantic_deadline.DeadlineTests.test_expiry_after_reservation_before_spawn_and_after_launch_intent) ... ok
+test_original_virtual_730_counterexample_and_stage_boundaries (test_semantic_deadline.DeadlineTests.test_original_virtual_730_counterexample_and_stage_boundaries) ... total: authored-virtual-only
+period_groups: persistence_failure
+total: authored-virtual-only
+total: persistence_failure
+ok
+test_real_cancellation_stages_and_descendants (test_semantic_deadline.DeadlineTests.test_real_cancellation_stages_and_descendants) ... ok
+test_real_primary_consumed_before_slow_research_and_zero_call_replay (test_semantic_deadline.DeadlineTests.test_real_primary_consumed_before_slow_research_and_zero_call_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 100.789s
+
+OK

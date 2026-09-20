@@ -1,0 +1,1 @@
+{"original_bound_members_verified": [3116, 83, 12], "observed_arm_successes": "authored 2/2 per role per arm; not model results", "noninvasive_observation": true, "primary_research_perturbation_invariance": true, "real_http_calls": 0}

@@ -1,0 +1,42 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "content": "截至2026年12月31日止年度",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_caption"
+            },
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "html": "<table><tr><td rowspan=\"2\"></td><td colspan=\"3\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"2\">租賃(HKFRS 16)</td><td rowspan=\"2\">總額</td></tr><tr><td>於某一時點確認收入</td><td>隨時間逐步確認收入</td><td>合計</td></tr><tr><td>租賃收入(附註11(b))</td><td>-</td><td>-</td><td>-</td><td>8,245</td><td>8,245</td></tr><tr><td>酒店收入</td><td>107</td><td>190</td><td>297</td><td>-</td><td>297</td></tr><tr><td>已建成物業之銷售</td><td>264</td><td>-</td><td>264</td><td>-</td><td>264</td></tr><tr><td>物業管理費和物業租賃其他收入</td><td>-</td><td>1,144</td><td>1,144</td><td>-</td><td>1,144</td></tr><tr><td></td><td>371</td><td>1,334</td><td>1,706</td><td>8,245</td><td>9,950</td></tr></table>",
+                      "type": "table"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_body"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

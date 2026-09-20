@@ -1,0 +1,673 @@
+{
+  "artifact_ids": [
+    "sha256-aca81659508f071a3360c59b9ca39ef6f5fa13878dd13d841c8ad809a4fad74a"
+  ],
+  "capabilities": [
+    {
+      "evidence_refs": [],
+      "name": "literal_native_text",
+      "reason": "Selected native strings and source offsets are retained.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "available"
+    },
+    {
+      "evidence_refs": [],
+      "name": "logical_cells",
+      "reason": "Per-table grid states qualify recovered cells.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "available"
+    },
+    {
+      "evidence_refs": [],
+      "name": "cell_geometry",
+      "reason": "This native profile supplies no cell boxes.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "character_geometry",
+      "reason": "Native spans are not character geometry.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "fonts",
+      "reason": "No font evidence is supplied by this profile.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "pdf_fidelity",
+      "reason": "Adapter has no PDF access; schema validity does not establish fidelity.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unknown"
+    },
+    {
+      "evidence_refs": [],
+      "name": "accounting_completeness",
+      "reason": "Relationships are not interpreted by the adapter.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unknown"
+    },
+    {
+      "evidence_refs": [],
+      "name": "semantic_headers",
+      "reason": "HTML cell positions do not establish accounting roles.",
+      "scope_id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+      "state": "unknown"
+    }
+  ],
+  "document": {
+    "doc_id": "authored-header-S11_two_total_markers",
+    "source_document_sha256": null,
+    "source_provenance": "synthetic",
+    "variant_id": "development"
+  },
+  "id": "document-09e31d1763c108573a57ab66cf83eb664a60e5e1c8bbd1e99b9e868c7d175d4a",
+  "identity_policy": "1",
+  "limitations": [],
+  "nodes": [
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": 7,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": "resolved",
+      "id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "kind": "table",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0",
+      "native_type": "table",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": null,
+      "row": null,
+      "row_count": 3,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": null,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": null,
+      "id": "block-f730b2fb01619926c5c85901eaf9873d4bc88137230d32fb8ad5d1f2537c3862",
+      "kind": "block",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0",
+      "native_type": "table_body",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": null,
+      "row_count": null,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": 0,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 32,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 27
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-f3061e51948c979411fab35050b7787474251e38fadf1aaf4398dd56afbae274",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 0,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 0,
+      "row_count": null,
+      "row_span": 2,
+      "source_span": {
+        "end": 37,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 11
+      },
+      "text": "港幣百萬元"
+    },
+    {
+      "bbox": null,
+      "column": 1,
+      "column_count": null,
+      "column_span": 4,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 73,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 53
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-8ac7a84bfd697084afcf872dc62c37b1cc02d79ede7d5c23edeaa0d8b62c552e",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 1,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 0,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 78,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 37
+      },
+      "text": "來自與客戶合約之收入(HKFRS 15)"
+    },
+    {
+      "bbox": null,
+      "column": 5,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 106,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 94
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-822001531be3bef1d18bf4272598682c0818ea72aedadcaecae3b889c6c40544",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 2,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 0,
+      "row_count": null,
+      "row_span": 2,
+      "source_span": {
+        "end": 111,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 78
+      },
+      "text": "租賃(HKFRS 16)"
+    },
+    {
+      "bbox": null,
+      "column": 6,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 129,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 127
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-075ebb66b3ce841a93128505a8f48ccdbaadc2fb8e3ee7b8e15fe40034197448",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 3,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 0,
+      "row_count": null,
+      "row_span": 2,
+      "source_span": {
+        "end": 134,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 111
+      },
+      "text": "總額"
+    },
+    {
+      "bbox": null,
+      "column": 1,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 156,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 147
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-310a5e4d638590390b07d4669148b7b35d01be29d3a4d640a87eaec818a30dd6",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 4,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 161,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 143
+      },
+      "text": "於某一時點確認收入"
+    },
+    {
+      "bbox": null,
+      "column": 2,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 174,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 165
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-b8004d2a6d50ee076200d16cfd981046bb6c1e68de05f0e3c1b2e23b95bd5a26",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 5,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 179,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 161
+      },
+      "text": "隨時間逐步確認收入"
+    },
+    {
+      "bbox": null,
+      "column": 3,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 185,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 183
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-ab1db65a0b64e6ba0b9dfd9d2d9091bcb1766ace897ef044de801b99c7aeb4dd",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 6,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 190,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 179
+      },
+      "text": "合計"
+    },
+    {
+      "bbox": null,
+      "column": 4,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 196,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 194
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-09f4dbaec58332acba384b100730a71fd339b0097ea210660330b7464e6c97e2",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 7,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 201,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 190
+      },
+      "text": "小計"
+    },
+    {
+      "bbox": null,
+      "column": 0,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 216,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 214
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-9a726b8f3e527236abf2c861665ea222e08a209871f41baa2e31358fc55a201e",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 8,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 221,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 210
+      },
+      "text": "收入"
+    },
+    {
+      "bbox": null,
+      "column": 1,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 227,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 225
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-4c159ead7493519dad1e3760ddc23d91dd4c2a8a0b207973d73897c580a770a1",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 9,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 232,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 221
+      },
+      "text": "17"
+    },
+    {
+      "bbox": null,
+      "column": 2,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 237,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 236
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-6642202f096956b15875f1e1526aefe2094f9105c9102536c768aed7998cab20",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 10,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 242,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 232
+      },
+      "text": "3"
+    },
+    {
+      "bbox": null,
+      "column": 3,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 248,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 246
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-c5087fd81d2007af8fb709c1af2d80e6703c420a1b37eade9748808edc4267ad",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 11,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 253,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 242
+      },
+      "text": "20"
+    },
+    {
+      "bbox": null,
+      "column": 4,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 258,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 257
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-c91f74e2a98c149ef6eca3427060c94f06b5857130296527daedb9cbb4b8b105",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 12,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 263,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 253
+      },
+      "text": "4"
+    },
+    {
+      "bbox": null,
+      "column": 5,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 269,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 267
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-efb63769e17354445d6ba6e404cfbbf12a5920ad1826eabada0d09eeda94400a",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 13,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 274,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 263
+      },
+      "text": "24"
+    },
+    {
+      "bbox": null,
+      "column": 6,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 280,
+          "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+          "start": 278
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-f0e42ff18ded16ef35d08ffa0716c366570ec7e67e1a1ea376880cf13d506b31",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "native_type": "html_cell",
+      "ordinal": 14,
+      "page_index": 0,
+      "parent_id": "table-d851f9b4be3ae54439def7ca6bd7fef817cedd4fe492ad49152e96b7d05317c4",
+      "row": 2,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 285,
+        "source_id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+        "start": 274
+      },
+      "text": "17"
+    }
+  ],
+  "pages": [
+    {
+      "coordinate_frame": "native_page",
+      "coordinate_reason": "Native coordinates retained; exact units, origin and page rotation are unverified.",
+      "height": null,
+      "id": "page-92173adc2013d9642dcf35dad32a3393adf56eb2c0a1d72ffb20e3c83ca0a9bf",
+      "native_pointer": "/pdf_info/0",
+      "origin": null,
+      "page_index": 0,
+      "printed_label_refs": [],
+      "rotation": null,
+      "units": null,
+      "width": null
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "artifact_id": "sha256-aca81659508f071a3360c59b9ca39ef6f5fa13878dd13d841c8ad809a4fad74a",
+      "format": "html",
+      "id": "source-eb03dc9619f7fbd3466093f5630da4c6d03b0d8410ab3057571bdb4f58a0daaf",
+      "pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/html",
+      "sha256": "617c3ef4a1e84103ee79c8262b5e553dcb6b2c104d249ea0d824546d3878f099",
+      "text": "<table><tr><td rowspan=\"2\">港幣百萬元</td><td colspan=\"4\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"2\">租賃(HKFRS 16)</td><td rowspan=\"2\">總額</td></tr><tr><td>於某一時點確認收入</td><td>隨時間逐步確認收入</td><td>合計</td><td>小計</td></tr><tr><td>收入</td><td>17</td><td>3</td><td>20</td><td>4</td><td>24</td><td>17</td></tr></table>"
+    }
+  ]
+}

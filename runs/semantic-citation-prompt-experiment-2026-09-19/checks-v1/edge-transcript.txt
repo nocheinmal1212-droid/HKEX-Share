@@ -1,0 +1,1 @@
+{"passed": 6, "real_http_calls": 0}

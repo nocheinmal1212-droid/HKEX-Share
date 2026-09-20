@@ -1,0 +1,8 @@
+{
+  "deadline_monotonic": 817423.405454291,
+  "historical_http_calls": "unknown",
+  "started_monotonic": 817420.405454291,
+  "state": "incomplete_until_supervisor_receipt",
+  "version": "semantic-batch-1.2.0",
+  "work_cutoff_monotonic": 817423.105454291
+}

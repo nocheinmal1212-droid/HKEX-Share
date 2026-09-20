@@ -1,0 +1,19 @@
+{
+  "annotation_ids": [
+    "annotation-eef120a75f0288f7b2eea0acd13f5c6fe27ff9ad2008d9df01f01e2fbeadac02"
+  ],
+  "annotations_sha256": "476045d53a8935d6673fa3e28322ec62ee01a2f1d177294f44214ec89365324d",
+  "outcome": "accepted",
+  "primary_attempt_id": "attempt-99f3e7351ae27114c171364a663df32ad66a742d67b21d6cb600766d417d0c41",
+  "primary_completion_sha256": "fb61cabffd6511a2490cbfd3d531f07f0b3cebe9b1e1d47ac329f120c358c7cc",
+  "query_id": "query-c39ff36a681ed547aae67104e8f064fd3f6c8b0b29437df8101de7a9c868e89f",
+  "query_sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6",
+  "selection": {
+    "name": "subtotal",
+    "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+    "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+  "version": "semantic-provenance-1.0.0"
+}

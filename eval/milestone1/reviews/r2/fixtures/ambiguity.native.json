@@ -1,0 +1,30 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "type": "table",
+          "blocks": [
+            {
+              "type": "table_body",
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "type": "table",
+                      "html": "<table><tr><td>收入</td><td>10</td></tr><tr><td>候選甲</td><td>10</td></tr><tr><td>候選乙</td><td>12</td></tr></table>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "discarded_blocks": []
+    }
+  ]
+}

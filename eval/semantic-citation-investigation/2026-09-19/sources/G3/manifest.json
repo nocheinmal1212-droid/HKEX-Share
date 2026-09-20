@@ -1,0 +1,172 @@
+{
+  "classification": "synthetic_generalization",
+  "files": {
+    "evidence.json": "9d20168d32aa6d199f4da92c79cbd1761075053bb49318697d58ce4797f329b3",
+    "query-v1.json": "c09a3a8a190b76ba4033d486d6b5f916600bc9ac8237e950cb66263e7fb8f621",
+    "source.json": "27f62bea109db2573f49ad3ca877f37c2e1cd9795888c1c0f5db771240869e80"
+  },
+  "fixture": "G3",
+  "operation_version_for_projection": "direct-contributor-headers-1.0.0",
+  "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+  "source_citations": [
+    {
+      "column": 0,
+      "column_span": 2,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 37,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 27
+        }
+      ],
+      "id": "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 0,
+      "row_span": 1,
+      "text": "銷售額（港幣百萬元）"
+    },
+    {
+      "column": 2,
+      "column_span": 2,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 65,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 58
+        }
+      ],
+      "id": "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 0,
+      "row_span": 1,
+      "text": "銷售量（千件）"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [],
+      "id": "cell-3a1a6f2fb7e06de0f6bbd399f4f9ec3d94f0b960205853ce36a4fcd1a3c8a14c",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 0,
+      "row_span": 1,
+      "text": ""
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 95,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 92
+        }
+      ],
+      "id": "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品甲"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 107,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 104
+        }
+      ],
+      "id": "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品乙"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 119,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 116
+        }
+      ],
+      "id": "cell-939d02ba7e73062339f923357b3a76df1153117286b0070cfb85c95d1bdc9121",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品甲"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 131,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 128
+        }
+      ],
+      "id": "cell-cd6698271b5e9ed0e62792c3fa21a9aa2173b53c3c4d1179a650c4a8d8da6a81",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品乙"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 142,
+          "source_id": "source-da4ebce9a4fad987770b8bd92b58207255d741ed9419641ebec03b52a6c22298",
+          "start": 140
+        }
+      ],
+      "id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+      "parent_id": "table-ec41bf372355534b9755245bdcaaffae7f9188651eebe2dad02de135082b9f79",
+      "row": 1,
+      "row_span": 1,
+      "text": "合計"
+    },
+    {
+      "column": null,
+      "column_span": null,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 30,
+          "source_id": "source-2afc9efe0a55802895e2a13ba1f581a90d5768c32993f28ed863be0042885e58",
+          "start": 0
+        }
+      ],
+      "id": "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d",
+      "parent_id": "block-1b44e826386f8375de63d659f6ea8de76156500bd43ec62c9456a7f03f0917a6",
+      "row": null,
+      "row_span": null,
+      "text": "合計僅包含與其同一計量口徑的產品甲及產品乙；計量口徑見表頭。"
+    }
+  ],
+  "source_provenance": "Authored offline; profile envelope is parser input syntax, not a MinerU run or an actual report.",
+  "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+  "transformation": {
+    "administrative_changes": [
+      "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+    ],
+    "original_html_source": null,
+    "original_to_derived_cell_ids": {},
+    "parent_packet": null,
+    "semantic_edits": [
+      "Author literal groups, headers, and any table-associated note."
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "annotations_and_provenance_byte_identical": true,
+  "installed_module": "/private/tmp/hkex-citation-installed/hkex_audit/semantic.py",
+  "model_calls": 0,
+  "network_calls": 0,
+  "policy": {
+    "analysis_version": "header-source-analysis-1.0.0",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "provider_calls": 0,
+  "query_id": "query-a9bdbb4d55670255ff8bd907f07e21581944a73e493146b20697c4d8dff0050e",
+  "runtime_sha256": "673f8f11a510450594360e3e2a146c1bbffb06be45da515f158eb7b1a4d05b83",
+  "wheel_sha256": "e828f0cb9013c80fe6c575231634827988c0990fd9691d429c74deb5705f6673"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://openrouter.ai/api/v1/models",
+    "status": 200,
+    "file": "models.json",
+    "sha256": "ae4a31d742976bc21720ca4a0988df17d312bd3d7b4811c241fd21f11d657b81",
+    "at": "2026-09-17T07:45:13.721553+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints",
+    "status": 200,
+    "file": "moonshotai__kimi-k3.json",
+    "sha256": "7f6822a7d6a02da76a5794ed085bc1bb01ca5843138f905ed9954ccf56d4d9e5",
+    "at": "2026-09-17T07:45:16.125351+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3/endpoints",
+    "status": 200,
+    "file": "z-ai__glm-5.3.json",
+    "sha256": "220c70e26fd09282e85d58cfe9098c9304df00fe61b53356b7daf4b34aff94f7",
+    "at": "2026-09-17T07:45:18.706991+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-2.4t-a95b/endpoints",
+    "status": 200,
+    "file": "qwen__qwen3.8-2.4t-a95b.json",
+    "sha256": "c70f8afcec82c0da083b792a5309590bf9830414795cb501c2ee84e114866cdf",
+    "at": "2026-09-17T07:45:21.056373+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "status": 200,
+    "file": "deepseek__deepseek-v4-pro-0813.json",
+    "sha256": "02e7e1751f1f434ea7f13b2fe749c79176b8fe7b82abd8d09890183fe32743a6",
+    "at": "2026-09-17T07:45:23.805293+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "status": 200,
+    "file": "deepseek__deepseek-v4-flash-0731.json",
+    "sha256": "a6c6ab0d79b04ef7e7d52b81ed2c0b380e69ccd11bf6d5daae865df00b61f8ed",
+    "at": "2026-09-17T07:45:26.587916+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/minimax/minimax-m3/endpoints",
+    "status": 200,
+    "file": "minimax__minimax-m3.json",
+    "sha256": "c223acf33587ac7811ad8d46b1d11efc67889800d02f76f93ef94da7ee803367",
+    "at": "2026-09-17T07:45:29.467195+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "status": 200,
+    "file": "deepseek__deepseek-v4.1-flash.json",
+    "sha256": "26e748e77f49816143ecd19753384faa7be7cb35672a5af990ea5d1b6b961701",
+    "at": "2026-09-17T07:45:31.883779+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3-flash/endpoints",
+    "status": 200,
+    "file": "z-ai__glm-5.3-flash.json",
+    "sha256": "a2089a2f169b83ac6bba6631a278979d87ba85222c2c202b6e984699a82a78ce",
+    "at": "2026-09-17T07:45:34.679509+00:00"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/google/gemini-3.8-flash/endpoints",
+    "status": 200,
+    "file": "google__gemini-3.8-flash.json",
+    "sha256": "5f360d19fe13c640441f5b7ba6ef1da905d39164883541cafe0e4661cc4d62c2",
+    "at": "2026-09-17T07:45:37.074631+00:00"
+  }
+]

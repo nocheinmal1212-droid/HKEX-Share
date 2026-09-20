@@ -1,0 +1,38 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S06_neutral_continued",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-cd365bcadeac320dcf1d41148d090afa8539f474cdec3316a9f2da800c653dea",
+    "cell-a96e3ec6a4428c69d6a94c73e7b2dd9f7186f7472660d2f7a59bd34b0cddc552"
+  ],
+  "input_sha256": "05e9dfe1236c2809805cdbc4dc3d1e345d30595cb275c14eee967510d693b2db",
+  "optional_support": [
+    "cell-63ee5103430be9d39d8d1c940cf4b7c2454d4c25c88d1572156d8efdc2370dc8"
+  ],
+  "reason": "The reviewed whole-label continuation wrapper contributes no membership or discriminator; omit it from mandatory support.",
+  "required_support": [
+    "cell-94ec82f9a3ab67cbfed559e2daa4f21ae4d2378db2eba577f9e6449acd229961",
+    "cell-cd365bcadeac320dcf1d41148d090afa8539f474cdec3316a9f2da800c653dea",
+    "cell-a96e3ec6a4428c69d6a94c73e7b2dd9f7186f7472660d2f7a59bd34b0cddc552",
+    "cell-a73a6e776869caefff5eeab3f7cc93e16bda52ebfa1804883f8635f99837260d"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-91823fd4b55a0531f39912ee49abcd270ee9710ad97fb6a9aa1013d163380687",
+        "cell-b3cebf3c64d93b7a265753a76957c7eecb50a28a6357d6a1408c2ef86e34812d"
+      ],
+      "group_id": "cell-a73a6e776869caefff5eeab3f7cc93e16bda52ebfa1804883f8635f99837260d",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-cd365bcadeac320dcf1d41148d090afa8539f474cdec3316a9f2da800c653dea",
+      "support_refs": [
+        "cell-91823fd4b55a0531f39912ee49abcd270ee9710ad97fb6a9aa1013d163380687",
+        "cell-a73a6e776869caefff5eeab3f7cc93e16bda52ebfa1804883f8635f99837260d",
+        "cell-b3cebf3c64d93b7a265753a76957c7eecb50a28a6357d6a1408c2ef86e34812d",
+        "cell-cd365bcadeac320dcf1d41148d090afa8539f474cdec3316a9f2da800c653dea"
+      ]
+    }
+  ]
+}

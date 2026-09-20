@@ -1,0 +1,30 @@
+{
+  "authorization": "User explicitly requested three comparison models; designated semantic model unchanged.",
+  "first_request_matches_historical_except_model": true,
+  "harness_sha256": "2f30faa5e5c1a3781c2b685749571ad617181c62acd487d95c32148eb058c4e3",
+  "live_calls": 5,
+  "network_failure_record": "runs/milestone2/model-comparison-2026-09-12/deepseek/probe.json",
+  "reported_cost_usd": "0.001121141",
+  "runner_sha256": "5ba8eb84a6b911701294fa9becba586cf5cf6df81afbb9527e14e351c8aced1a",
+  "runs": [
+    {
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "path": "runs/milestone2/model-comparison-2026-09-12/deepseek-network-enabled/probe.json",
+      "sha256": "16a32cb09eb2faab097a1bf9a073314e378d377ab9d5ae4448b5cbc059e5422c",
+      "status": "blocked_probe_failed"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "path": "runs/milestone2/model-comparison-2026-09-12/glm/probe.json",
+      "sha256": "d91a83a84041c0255e21f82ed8e2722b37cce38d2ccf2373e7d4b93a57dbc18d",
+      "status": "passed_limited_synthetic_probe"
+    },
+    {
+      "model": "google/gemini-3.8-flash",
+      "path": "runs/milestone2/model-comparison-2026-09-12/gemini/probe.json",
+      "sha256": "0c76afc61d3f8add9f62975ea6531cf8ecec28a75a70b7cb6a96742989447e7d",
+      "status": "passed_limited_synthetic_probe"
+    }
+  ],
+  "scope": "synthetic_only"
+}

@@ -1,0 +1,29 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "html": "<table><tr><td colspan=\"3\">銷售量（千件）</td><td colspan=\"3\">銷售額（港幣百萬元）</td></tr><tr><td>產品丁</td><td>產品丙</td><td>合計</td><td>產品丁</td><td>產品丙</td><td>合計</td></tr><tr><td>700</td><td>9</td><td>2</td><td>61</td><td>401</td><td>6</td></tr></table>",
+                      "type": "table"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_body"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

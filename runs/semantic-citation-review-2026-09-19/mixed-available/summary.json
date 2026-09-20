@@ -1,0 +1,257 @@
+{
+  "completion_calls_reserved": {
+    "primary": 1,
+    "research": 1
+  },
+  "cost_reserved_usd": "0.511370",
+  "elapsed_seconds": 0.29928645794279873,
+  "http_calls_reserved": 4,
+  "limits": {
+    "max_completion_calls_per_role": 1,
+    "max_cost_usd": "5",
+    "max_http_calls": 4,
+    "max_seconds": 300
+  },
+  "plans_checks_findings": "not_implemented",
+  "results": [
+    {
+      "consumption": {
+        "annotation_ids": [],
+        "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "blocking_reasons": [
+          {
+            "code": "associated_prose_uninterpreted",
+            "source_refs": [
+              "block-57da3463f4be601d2bf1f292adbda0907c035d24f891557f4695bb1f8a1aaf98"
+            ]
+          },
+          {
+            "code": "missing_target_discriminator",
+            "source_refs": [
+              "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+              "cell-1e0e431bfebcbf7457896db96bd8a5f83f73baaca16547313a73171a6173ee46",
+              "cell-7edb28200f649398544bfaa755fa363dc838826f732d6cb86f3ca2f34d5c5900"
+            ]
+          },
+          {
+            "code": "missing_target_discriminator",
+            "source_refs": [
+              "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+              "cell-361d7e81f306e22c59030ae2797d45384e660cca2c5cfe96c89294c482dc014a",
+              "cell-3d05e68c5eb972bf86c87778243a0ab1f95c4a2df0f22700e46f0f18ef543ce6"
+            ]
+          },
+          {
+            "code": "missing_target_discriminator",
+            "source_refs": [
+              "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+              "cell-3d05e68c5eb972bf86c87778243a0ab1f95c4a2df0f22700e46f0f18ef543ce6",
+              "cell-aa345e00233d82ff2095b352b5c893c43ebeb974e50467e8a467a13bc3bccf13"
+            ]
+          },
+          {
+            "code": "missing_target_discriminator",
+            "source_refs": [
+              "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+              "cell-7edb28200f649398544bfaa755fa363dc838826f732d6cb86f3ca2f34d5c5900",
+              "cell-f3f6d60bf7987f75c5e80879ebfb4cb56d586766d95b71fdcb5b8a6b32597b49"
+            ]
+          },
+          {
+            "code": "unsupported_header_group",
+            "source_refs": [
+              "cell-3d05e68c5eb972bf86c87778243a0ab1f95c4a2df0f22700e46f0f18ef543ce6"
+            ]
+          },
+          {
+            "code": "unsupported_header_group",
+            "source_refs": [
+              "cell-7edb28200f649398544bfaa755fa363dc838826f732d6cb86f3ca2f34d5c5900"
+            ]
+          }
+        ],
+        "host_policy": {
+          "analysis_version": "header-source-analysis-1.0.0",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "outcome": "blocked_scope",
+        "primary_attempt_id": "attempt-b4dffe65f52cecd96be9e5a703703f2ce8f63f3cc0c6a6c497a58fbbba81dac9",
+        "primary_completion_sha256": null,
+        "query_id": "query-9f6f874413a632386b7a02d56830a584b8a21c630abf7d3cf29f4211820eb35f",
+        "query_sha256": "5a28183c21020a54260c46de1e717fe8b7de561405f70ae50b076a7433a2063e",
+        "selection": {
+          "name": "local",
+          "table_id": "table-40b551c2f3c839b541baa389c96871891ea7f8737e8838fda2248fe07a837474",
+          "target_id": "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_gate": "blocked_scope",
+        "source_sha256": "b31dbff0dd1b41549db508f10d8c7947aac7d5ee34880278df46c3b4f02a4f72",
+        "version": "semantic-provenance-1.1.0"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "0"
+        },
+        "research": {
+          "reason": null,
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "local",
+      "primary": {
+        "attempt_id": "attempt-b4dffe65f52cecd96be9e5a703703f2ce8f63f3cc0c6a6c497a58fbbba81dac9",
+        "elapsed_seconds": 1.2080417945981026e-06,
+        "model_calls": 0,
+        "query_id": "query-9f6f874413a632386b7a02d56830a584b8a21c630abf7d3cf29f4211820eb35f",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "blocked_scope",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-9f6f874413a632386b7a02d56830a584b8a21c630abf7d3cf29f4211820eb35f",
+      "research": {
+        "attempt_id": "attempt-70782d05d6080959fcff87b2d427dc49884b98b20fd28b637f304b449a9a53df",
+        "elapsed_seconds": 1.00000761449337e-06,
+        "model_calls": 0,
+        "query_id": "query-9f6f874413a632386b7a02d56830a584b8a21c630abf7d3cf29f4211820eb35f",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "blocked_scope",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    },
+    {
+      "consumption": {
+        "annotation_ids": [
+          "annotation-ccb0ad554bfaac71f986df78e46ff758ae290a7665de225100a671c33e4061f2"
+        ],
+        "annotations_sha256": "416f06106671ee5bc6d955b6f707949d7a1f6280d0bae81daae6ed7a7ab62ef8",
+        "blocking_reasons": [],
+        "host_policy": {
+          "analysis_version": "header-source-analysis-1.0.0",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "outcome": "accepted",
+        "primary_attempt_id": "attempt-eee0ddca278cb1ce996541a8baa020293ebdf5505cea7625c242ff5df951fa93",
+        "primary_completion_sha256": "52329830426d850a6e2617caf0fd882f5819558fe7f12be0493d398c4b923a62",
+        "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+        "query_sha256": "1871279df80001d5e3795e4680d3e6552c247938626db4664e6477240427ba52",
+        "selection": {
+          "name": "eligible",
+          "table_id": "table-cbe93f99a4d81a1f9758235aa3abdd9e80124644c543a2ed2d08ec6c3e245adb",
+          "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_gate": "eligible",
+        "source_sha256": "b31dbff0dd1b41549db508f10d8c7947aac7d5ee34880278df46c3b4f02a4f72",
+        "version": "semantic-provenance-1.1.0"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "0.255700"
+        },
+        "research": {
+          "reason": null,
+          "reserved_cost_usd": "0.255670"
+        }
+      },
+      "name": "eligible",
+      "primary": {
+        "attempt_id": "attempt-eee0ddca278cb1ce996541a8baa020293ebdf5505cea7625c242ff5df951fa93",
+        "elapsed_seconds": 0.00016937509644776583,
+        "model_calls": 1,
+        "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+        "role": "primary",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+              "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+              "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+              "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42",
+              "cell-a5c0051f1171d96dea43ee14a6d82dfb41b0614fe0e9998c81b00ee5d19ae7c0"
+            ],
+            "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229"
+          },
+          "cost": "0.0001",
+          "cost_status": "reported",
+          "revision": null,
+          "served": {
+            "id": "fixture-response",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted",
+          "usage": {
+            "completion_tokens": 10,
+            "cost": 0.0001,
+            "prompt_tokens": 10
+          }
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+      "research": {
+        "attempt_id": "attempt-ef43346662f572be2d0f631bab8b7eaf79851b37b9e1938cc622e72ab25d5b66",
+        "elapsed_seconds": 0.00011199992150068283,
+        "model_calls": 1,
+        "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+        "role": "research",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+              "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+              "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+              "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42",
+              "cell-a5c0051f1171d96dea43ee14a6d82dfb41b0614fe0e9998c81b00ee5d19ae7c0"
+            ],
+            "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229"
+          },
+          "cost": "0.0001",
+          "cost_status": "reported",
+          "revision": null,
+          "served": {
+            "id": "fixture-response",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "accepted",
+          "usage": {
+            "completion_tokens": 10,
+            "cost": 0.0001,
+            "prompt_tokens": 10
+          }
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    }
+  ]
+}

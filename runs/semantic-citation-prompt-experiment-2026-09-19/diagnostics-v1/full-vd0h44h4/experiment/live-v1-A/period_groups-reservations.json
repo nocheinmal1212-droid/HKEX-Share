@@ -1,0 +1,10 @@
+{
+  "primary": {
+    "http_calls_reserved": 17,
+    "reserved_cost_usd": "1.385110"
+  },
+  "research": {
+    "http_calls_reserved": 18,
+    "reserved_cost_usd": "1.385080"
+  }
+}

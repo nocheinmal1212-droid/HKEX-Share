@@ -1,0 +1,10 @@
+test_commit_and_late_result_failure (test_model_selection_v2.ComparisonTests.test_commit_and_late_result_failure) ... ok
+test_every_configuration_wire_and_model_binding (test_model_selection_v2.ComparisonTests.test_every_configuration_wire_and_model_binding) ... ok
+test_new_pair_single_source_change (test_model_selection_v2.ComparisonTests.test_new_pair_single_source_change) ... ok
+test_payload_mutation_denied_before_network (test_model_selection_v2.ComparisonTests.test_payload_mutation_denied_before_network) ... ok
+test_secret_redaction (test_model_selection_v2.ComparisonTests.test_secret_redaction) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK

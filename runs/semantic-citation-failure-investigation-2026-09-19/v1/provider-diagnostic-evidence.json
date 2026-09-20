@@ -1,0 +1,23 @@
+[
+  {
+    "case": "total",
+    "limitation": "Self-report; cannot establish provider schema injection or causal decoding behavior.",
+    "provider_returned_diagnostic_excerpt": "whether this array includes the target ID, contributor IDs, and source groups, or just contextual support",
+    "role": "primary",
+    "source_response_sha256": "ab5e3dbdfc9326c78a893fc473221040e1b5262681ec7f85d3dc65349a15ad44"
+  },
+  {
+    "case": "total",
+    "limitation": "Self-report; cannot establish provider schema injection or causal decoding behavior.",
+    "provider_returned_diagnostic_excerpt": "The prompt says \"Return only the schema's IDs and labels.\" It doesn't specify JSON schema.",
+    "role": "research",
+    "source_response_sha256": "98fde6a2f92d065ce8e0f2372a53c394cccf3bc5a0c40fc9351dcfc0eadf6f0f"
+  },
+  {
+    "case": "period_groups",
+    "limitation": "Self-report; cannot establish provider schema injection or causal decoding behavior.",
+    "provider_returned_diagnostic_excerpt": "Since no abstention.",
+    "role": "research",
+    "source_response_sha256": "239da2b2cb1f9eeb97e3cd8b6bcaefbbce90d69e2aaa4158779c4f15aaa84e19"
+  }
+]

@@ -1,0 +1,11 @@
+test_01_full_schedule_observation_and_bindings (__main__.ExperimentTests.test_01_full_schedule_observation_and_bindings) ... ok
+test_02_real_metadata_cancellation (__main__.ExperimentTests.test_02_real_metadata_cancellation) ... ok
+test_03_real_completed_primary_cancelled_research (__main__.ExperimentTests.test_03_real_completed_primary_cancelled_research) ... ok
+test_04_research_never_promotes_primary (__main__.ExperimentTests.test_04_research_never_promotes_primary) ... ok
+test_05_expired_reservation_and_metadata_validation (__main__.ExperimentTests.test_05_expired_reservation_and_metadata_validation) ... ok
+test_06_consumer_denies_unselected_access (__main__.ExperimentTests.test_06_consumer_denies_unselected_access) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 362.444s
+
+OK

@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "status": 200,
+    "at": "2026-09-17T12:53:28.835070+00:00",
+    "file": "deepseek__deepseek-v4-flash-0731.json",
+    "sha256": "5c824fc100bc7faddb66da348a838d0037c0dd0e51e87cf9c85507a44f1fd0e7"
+  },
+  {
+    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "status": 200,
+    "at": "2026-09-17T12:53:31.780223+00:00",
+    "file": "deepseek__deepseek-v4.1-flash.json",
+    "sha256": "6d4617092adbe8329734287b49b70e49b1c54b52d230b3532089ace3194b4381"
+  }
+]

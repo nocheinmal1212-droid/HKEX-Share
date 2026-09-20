@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unresolved_subtotal_scope"
+  ],
+  "case_id": "S08_extra_memo_branch",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "da58f6bd166d29a064db1baf5abd1e834a59ad472969eec0d832bd6317b1cadb",
+  "optional_support": [],
+  "reason": "The category contains an extra immediate branch. Its subtotal scope is outside the exact three-role profile even though structural category qualification can succeed.",
+  "required_support": null,
+  "summary_relationships": []
+}

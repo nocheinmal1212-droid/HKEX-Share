@@ -1,0 +1,78 @@
+{
+  "http_boundary_lower_bound": 6,
+  "http_boundary_upper_bound": 6,
+  "remote_acceptance": "not established by entry into request boundary",
+  "calls": [
+    {
+      "mode": "metadata",
+      "role": "primary",
+      "case": null,
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "mode": "metadata",
+      "role": "research",
+      "case": null,
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "mode": "completion",
+      "role": "primary",
+      "case": "total",
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "mode": "completion",
+      "role": "research",
+      "case": "total",
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "mode": "completion",
+      "role": "primary",
+      "case": "period_groups",
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "mode": "completion",
+      "role": "research",
+      "case": "period_groups",
+      "state": "request_boundary_entered",
+      "lower": 1,
+      "upper": 1
+    }
+  ],
+  "completion_reservations": {
+    "total": {
+      "primary": {
+        "reason": null,
+        "reserved_cost_usd": "0.444710"
+      },
+      "research": {
+        "reason": null,
+        "reserved_cost_usd": "0.444680"
+      }
+    },
+    "period_groups": {
+      "primary": {
+        "reason": null,
+        "reserved_cost_usd": "1.385110"
+      },
+      "research": {
+        "reason": null,
+        "reserved_cost_usd": "1.385080"
+      }
+    }
+  },
+  "new_http_calls": 0
+}

@@ -1,0 +1,52 @@
+{
+  "ancestry_verified": true,
+  "base_ancestor": "e8000e2c001983f1f65fac75de97945c628a2287",
+  "commits": false,
+  "git_diff_check": "pass",
+  "git_status_after": " M PLAN.md\n M README.md\n M docs/development-logs.md\n M pyproject.toml\n M src/hkex_audit/semantic.py\n M src/hkex_audit/semantic_attempt.py\n M src/hkex_audit/semantic_cli.py\n?? docs/semantic-citation-acceptance-investigation-handoff-2026-09-18.md\n?? docs/semantic-citation-confirmation-preparation-handoff-2026-09-19.md\n?? docs/semantic-citation-confirmation-preparation-results-2026-09-19.md\n?? docs/semantic-citation-implementation-plan-2026-09-19.md\n?? docs/semantic-citation-implementation-results-2026-09-19.md\n?? docs/semantic-citation-implementation-review-2026-09-19.md\n?? docs/semantic-citation-implementation-review-handoff-2026-09-19.md\n?? docs/semantic-citation-investigation-results-2026-09-19.md\n?? docs/semantic-citation-partition-correction-results-2026-09-19.md\n?? eval/semantic-citation-confirmation/\n?? eval/semantic-citation-implementation/\n?? eval/semantic-citation-investigation/\n?? spec/header-source-analysis-1.0.1.md\n?? spec/paired-semantic-attempts-1.1.md\n?? spec/semantic-operation-1.1.md\n?? src/hkex_audit/header_support.py\n?? src/hkex_audit/header_support_policy.json\n?? tests/test_header_support.py\n?? tests/test_pinned_semantic_replay.py\n?? tests/test_presentation_partition.py\n?? tools/replay-semantic-v1/\n?? tools/replay_semantic_v1.py\n",
+  "head": "e8000e2c001983f1f65fac75de97945c628a2287",
+  "historical_outcome_unchanged": "0/4 complete frozen support; 3 research truncations; invalid research abstention",
+  "live_output_exists": false,
+  "manifests": {
+    "corrected_bindings": {
+      "manifest": "eval/semantic-citation-implementation/1.1.1/implementation-bindings.json",
+      "manifest_sha256": "0d50f418f3686aa5239b39bb0788407a50e2f10f79d002d3cf9982e08d7e56fa",
+      "matched": 18,
+      "members": 18
+    },
+    "correction_artifacts": {
+      "manifest": "eval/semantic-citation-implementation/1.1.1/artifact-integrity.json",
+      "manifest_sha256": "11b064ffc194008f563f13424922830bfbf3630a77fbf6ebb5001b8bf2cd73ad",
+      "matched": 183,
+      "members": 183
+    },
+    "fixture_freeze": {
+      "manifest": "eval/semantic-citation-implementation/1.1.1/fixture-freeze.json",
+      "manifest_sha256": "83ee460102008f8480aca8a3bb34d9bffb57ab59755e43d2860386523d8f6dc2",
+      "matched": 68,
+      "members": 68
+    },
+    "investigation_members": {
+      "manifest": "eval/semantic-citation-investigation/2026-09-19/bundle-integrity.json",
+      "manifest_sha256": "0336aa1d196fe23c9f9957a71b2d2a39f4be5e3f02c43a9fb851d8e23bb4db06",
+      "matched": 119,
+      "members": 119
+    },
+    "original_retained": {
+      "manifest": "eval/semantic-integration/2026-09-18/retained-artifacts.json",
+      "manifest_sha256": "2357b69fc3f910cf1b1c48a75db23a8793501e38320125f7e02993fd1d1e8411",
+      "matched": 127,
+      "members": 127
+    }
+  },
+  "network_provider_metadata_calls": 0,
+  "new_paths_only": [
+    "eval/semantic-citation-confirmation/2026-09-19/preflight-v1",
+    "runs/semantic-citation-confirmation-2026-09-19",
+    "docs/semantic-citation-confirmation-preparation-results-2026-09-19.md"
+  ],
+  "no_live_attempt_started": true,
+  "runtime_edits": false,
+  "runtime_schema_config_files_unchanged": 33,
+  "verified_at_utc": "2026-09-19T08:21:16.669819+00:00"
+}

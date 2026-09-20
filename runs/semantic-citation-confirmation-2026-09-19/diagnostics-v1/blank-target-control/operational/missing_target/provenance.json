@@ -1,0 +1,67 @@
+{
+  "annotation_ids": [],
+  "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "blocking_reasons": [
+    {
+      "code": "non_laminar_or_incomplete_hierarchy",
+      "source_refs": [
+        "cell-21e3f8197c0f4cf92dcd5f8c8131ada8a6a69df41fa7746424b9a160389abd5c",
+        "cell-311cf1d01fa3b0e2cf93ea3bb4dd15a07b8f42304d095eca8063a2a91033ee79",
+        "cell-4152cb453a2141805e4d83f00f982aa6ef684a505640f7fb9d3588b2ea452962",
+        "cell-46e2bb63fb30050513f2c861fa91b365cb58885401820cc10ad6ebc6609be429",
+        "cell-477932caa5073036779711cffb03f1a2f69f8cbe2a62877c410d040ef7ffcd18",
+        "cell-5a982a5133ca8b201014fe15593d220dde3a05e159b0f75dc523b41b9cbe9594",
+        "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "cell-6fe2dbcf9185e91c0faa2191d638910d838bdca3eeb82604186cd74377f440bf",
+        "cell-735724cd4a24ac66b84cde61ed8fc706b69b3d2b90c5da15728d3395efac9ca9",
+        "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+        "cell-8956d1dcdf841e100b83b5fd173155697971e803f2cde079995d23fbc0de021e",
+        "cell-c44cb08dd9a0fc3f139c33f1f81597aa9c0fc2afc004c1b525ddf5cf8e6ea22b",
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-d65ba81d4aafcb9790fbef620b424c86810a6fbad4832cefbffcdab364f10d26",
+        "cell-e526613e9fddc2b640314ce4db0be6cc37464c159ec3273bffc6fffb0258a532",
+        "cell-e8356ddf1c0117f9b32778645edf5e01f13190668ecb5b1e35e1f6ea7bd7f9d7",
+        "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+        "cell-f3263c401ff7cda7ef8f28926628ddf29e0b83551d74019cec775a1ce429370b",
+        "cell-fe4a5a2fab989afe022fa0b8a76cffa508e39e0e3da1934db175cb6d001e34dc"
+      ]
+    },
+    {
+      "code": "unresolved_subtotal_scope",
+      "source_refs": [
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      ]
+    },
+    {
+      "code": "unresolved_subtotal_scope",
+      "source_refs": [
+        "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      ]
+    },
+    {
+      "code": "unsupported_header_group",
+      "source_refs": [
+        "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+      ]
+    }
+  ],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "missing_evidence",
+  "primary_attempt_id": "attempt-ffe44cbd390d70b8a2924de9a4010a125c2ba1cc631adbdcd2cb644fbdb61a6b",
+  "primary_completion_sha256": null,
+  "query_id": "query-8a479e0e8c8ea476d4d35c932b65434fb20e8c07103fceba10c481e6636cd77f",
+  "query_sha256": "c172c8dbc7254307de2e9e41f0a80298ff88815d82cef68e209fe6a26315f275",
+  "selection": {
+    "name": "missing_target",
+    "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+    "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "missing_evidence",
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+  "version": "semantic-provenance-1.1.0"
+}

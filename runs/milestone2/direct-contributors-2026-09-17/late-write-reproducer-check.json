@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "stdout": "{\n  \"dispatch\": \"persistence_failure\",\n  \"replay\": \"structure_accepted\",\n  \"requirement_passed\": false\n}\n",
+  "stderr": "",
+  "interpretation": "Expected failure reproduced; prototype defect remains unresolved."
+}

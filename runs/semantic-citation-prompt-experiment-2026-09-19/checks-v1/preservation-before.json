@@ -1,0 +1,17 @@
+[
+  {
+    "manifest": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/freeze.json",
+    "sha256": "46c1b25173abf95490caf42b1d589de84237284afde81ce198910f9c9475c0ae",
+    "members": 3116
+  },
+  {
+    "manifest": "runs/semantic-citation-confirmation-2026-09-19/evaluation-v2/artifact-integrity.json",
+    "sha256": "8f8987c488be674918f5e1f6038b03e30a61be2426f1bd033206d2b66a986c09",
+    "members": 83
+  },
+  {
+    "manifest": "runs/semantic-citation-failure-investigation-2026-09-19/v1/integrity.json",
+    "sha256": "b90435982e207f7d53a4ad5d7d3cf8be2f8f5b033b930306963cc4236f11f7aa",
+    "members": 12
+  }
+]

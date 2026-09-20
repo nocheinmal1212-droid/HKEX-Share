@@ -1,0 +1,247 @@
+---
+spec_version: 1.0.0
+taxonomy_version: 1.0.0
+categories:
+  # Structural parsing must execute first: table geometry errors produce phantom arithmetic failures.
+  - code: table_structural_integrity
+    revision: 1
+    name: Table Structural Integrity
+    status: active
+    scope: tables
+    description: >-
+      Structural anomalies in tabular presentation including misaligned
+      row/column headers, missing or duplicated headers, incorrect indentations,
+      and improperly merged cells.
+    detection_strategy: deterministic
+    depends_on: []
+    rounding_sensitive: false
+    requires_ir_features:
+      - cell_bbox
+      - row_hierarchy
+    precision_target: "0.95"
+    recall_target: "0.90"
+    positive_fixtures:
+      - ERR-00001
+    negative_fixtures:
+      - DIS-00001
+    examples:
+      - Shifted numerical column due to merged cell splitting error
+      - Inconsistent column headers between comparative periods
+      - Missing subheader categorization for current versus non-current assets
+
+  # Surface presentation syntax checks execute independently at the document periphery.
+  - code: formatting_typography_validation
+    revision: 1
+    name: Formatting and Typography Validation
+    status: active
+    scope: presentation
+    description: >-
+      Syntactic and typographic presentation errors such as missing thousand
+      separators, irregular negative number formatting, incorrect currency
+      symbols, date format inconsistencies, or abnormal font styling.
+    detection_strategy: deterministic
+    depends_on: []
+    rounding_sensitive: false
+    requires_ir_features:
+      - cell_bbox
+    precision_target: "0.98"
+    recall_target: "0.95"
+    positive_fixtures:
+      - ERR-00002
+    negative_fixtures:
+      - DIS-00002
+    examples:
+      - Missing commas in thousands separator (e.g., 1000000 instead of 1,000,000)
+      - Inconsistent negative representation mixing parentheses '(1,234)' and minus signs '-1,234'
+      - Mismatched currency symbols (e.g., RMB symbol '¥' used instead of 'HK$')
+
+  # Narrative consistency runs independently across unstructured blocks.
+  - code: textual_semantic_integrity
+    revision: 1
+    name: Textual and Semantic Integrity
+    status: active
+    scope: narrative
+    description: >-
+      Textual inaccuracies including typographical errors, omissions, unintended
+      additions, altered disclosure wording, or corrupted accounting and legal
+      terminology.
+    detection_strategy: llm
+    depends_on: []
+    rounding_sensitive: false
+    requires_ir_features:
+      - cell_bbox
+    precision_target: "0.90"
+    recall_target: "0.85"
+    positive_fixtures:
+      - ERR-00003
+    negative_fixtures:
+      - DIS-00003
+    examples:
+      - Omission of critical qualifying words such as 'material' or 'unmodified' in the auditor's opinion
+      - Typographical transposition of keywords altering policy meanings
+      - Truncated or corrupted footnote explanations
+
+  # Global metadata consistency validates top-level entities and units across sections.
+  - code: document_wide_consistency
+    revision: 1
+    name: Document-Wide Consistency
+    status: active
+    scope: global
+    description: >-
+      Inconsistencies across different sections of the document regarding
+      entity names, fiscal reporting years, base currency, reporting units, or
+      accounting policy descriptions.
+    detection_strategy: hybrid
+    depends_on: []
+    rounding_sensitive: false
+    requires_ir_features:
+      - cell_bbox
+    precision_target: "0.95"
+    recall_target: "0.90"
+    positive_fixtures:
+      - ERR-00004
+    negative_fixtures:
+      - DIS-00004
+    examples:
+      - Mismatched company legal name or stock code across cover page and table headers
+      - Report year cited as 2024 in narrative text while reporting 2025 financial figures
+      - Unit listed as HK$ Million in financial statements but described as HK$ Thousand in director report summary
+
+  # Reference index resolution executes prior to cross-note or statement-to-note reconciliation.
+  - code: disclosure_reference_verification
+    revision: 1
+    name: Disclosure and Reference Verification
+    status: active
+    scope: cross_references
+    description: >-
+      Erroneous, dangling, or nonexistent cross-references to note numbers, page
+      numbers, exhibits, or sections.
+    detection_strategy: deterministic
+    depends_on: []
+    rounding_sensitive: false
+    requires_ir_features:
+      - cell_bbox
+      - row_hierarchy
+    precision_target: "0.95"
+    recall_target: "0.90"
+    positive_fixtures:
+      - ERR-00007
+      - ERR-00019
+    negative_fixtures:
+      - DIS-00005
+    examples:
+      - Statement item references Note 15, but relevant disclosure appears under Note 16
+      - Table of contents or text cites non-existent page number or missing appendix section
+      - Broken intra-document hyperlinks or mislabeled note indexes
+
+  # Validates mathematical footings within isolated primary statement tables.
+  - code: primary_statement_articulation
+    revision: 1
+    name: Primary Financial Statement Articulation
+    status: active
+    scope: financial_statements
+    description: >-
+      Internal mathematical and logical relationship errors within primary
+      financial statements (e.g., total row footings, Assets = Liabilities +
+      Equity balance checks).
+    detection_strategy: deterministic
+    depends_on:
+      - table_structural_integrity
+    rounding_sensitive: true
+    requires_ir_features:
+      - cell_bbox
+      - row_hierarchy
+    precision_target: "0.98"
+    recall_target: "0.95"
+    positive_fixtures:
+      - ERR-00005
+    negative_fixtures:
+      - DIS-00006
+    examples:
+      - Sum of line items does not match total assets or total liabilities
+      - Operating profit calculation discrepancy from constituent revenue and expense lines
+      - Balance sheet fundamental identity equation violation
+
+  # Validates footings and roll-forwards within single isolated disclosure notes.
+  - code: internal_note_reconciliation
+    revision: 1
+    name: Internal Note Reconciliation
+    status: active
+    scope: single_note
+    description: >-
+      Subtotal, footing, or roll-forward calculation discrepancies within an
+      individual disclosure note.
+    detection_strategy: deterministic
+    depends_on:
+      - table_structural_integrity
+    rounding_sensitive: true
+    requires_ir_features:
+      - cell_bbox
+      - row_hierarchy
+    precision_target: "0.95"
+    recall_target: "0.90"
+    positive_fixtures:
+      - ERR-00006
+    negative_fixtures:
+      - DIS-00007
+    examples:
+      - Beginning balance plus additions minus disposals does not equal ending balance in PPE schedule
+      - Subtotal of maturity analysis intervals does not equal total lease liabilities within note
+
+  # Articulates statement line items to note totals; requires working references and table structures.
+  - code: statement_to_note_articulation
+    revision: 1
+    name: Statement-to-Note Articulation
+    status: active
+    scope: cross_statement_and_notes
+    description: >-
+      Cross-reconciliation discrepancies where amounts reported on the face of
+      the primary financial statements do not match the corresponding breakdown
+      totals in disclosure notes.
+    detection_strategy: hybrid
+    depends_on:
+      - table_structural_integrity
+      - disclosure_reference_verification
+      - primary_statement_articulation
+      - internal_note_reconciliation
+    rounding_sensitive: true
+    requires_ir_features:
+      - note_reference_column
+      - row_hierarchy
+    precision_target: "0.95"
+    recall_target: "0.90"
+    positive_fixtures:
+      - ERR-00031
+    negative_fixtures:
+      - DIS-00008
+    examples:
+      - Cash and cash equivalents on statement of financial position differing from opening balance in Note 21
+      - Revenue on statement of profit or loss not matching segment reporting breakdown total
+
+  # Articulates values across disparate notes; requires resolving targets and note subtotals.
+  - code: inter_note_articulation
+    revision: 1
+    name: Inter-Note Articulation
+    status: active
+    scope: cross_notes
+    description: >-
+      Cross-reference discrepancies or inconsistent values, policies, and
+      classifications cited between two separate disclosure notes.
+    detection_strategy: hybrid
+    depends_on:
+      - table_structural_integrity
+      - disclosure_reference_verification
+      - internal_note_reconciliation
+    rounding_sensitive: true
+    requires_ir_features:
+      - note_reference_column
+      - row_hierarchy
+    precision_target: "0.92"
+    recall_target: "0.88"
+    positive_fixtures:
+      - ERR-00008
+    negative_fixtures:
+      - DIS-00009
+    examples:
+      - Depreciation charge reported in Property, Plant and Equipment note differing from depreciation expense itemized in Operating Expenses note
+      - Related party balance cited in Note 33 differing from counter-entry cited in Note 18

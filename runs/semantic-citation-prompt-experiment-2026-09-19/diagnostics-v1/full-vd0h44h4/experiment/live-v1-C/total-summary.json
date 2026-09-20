@@ -1,0 +1,96 @@
+{
+  "consumption": {
+    "annotation_ids": [
+      "annotation-f1953d3b60b8b618e6b8b002111f3a2d88e1da0d8c6afcef926e5274612b6da6"
+    ],
+    "annotations_sha256": "81d7a0fcb5e474780673c90a56d3f29886e14df482e063daf6554785fa45334c",
+    "blocking_reasons": [],
+    "host_policy": {
+      "analysis_version": "header-source-analysis-1.0.1",
+      "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+      "version": "header-support-policy-1.0.0"
+    },
+    "outcome": "accepted",
+    "primary_attempt_id": "attempt-f265553c8dfd6aeb7c6101cd305a21a15a3773133b4e0a47ca48c1045c406705",
+    "primary_completion_sha256": "a498d246fe12a61b07e11c3e606adabf609837707fbafe19d4f15ce92650a531",
+    "query_id": "query-862838ed175d33d8bc8a836b1327375ee26c6449fafc117632f60f4d4fa00ae0",
+    "query_sha256": "973a6b945bd48c36642dc520be345d93f7f105e06ffa3e8c1ed75fa4665f38bf",
+    "selection": {
+      "name": "total",
+      "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_gate": "eligible",
+    "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+    "version": "semantic-provenance-1.1.0"
+  },
+  "primary": {
+    "attempt_id": "attempt-f265553c8dfd6aeb7c6101cd305a21a15a3773133b4e0a47ca48c1045c406705",
+    "elapsed_seconds": 0.026192791992798448,
+    "model_calls": 1,
+    "query_id": "query-862838ed175d33d8bc8a836b1327375ee26c6449fafc117632f60f4d4fa00ae0",
+    "role": "primary",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": {
+        "id": "AUTHORED-OFFLINE",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "accepted",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  },
+  "research": {
+    "attempt_id": "attempt-af528f9ac751b95ea2100cb2543cac20b813b88a6ee8d918f31f6e12db906fe4",
+    "elapsed_seconds": 0.024545458029024303,
+    "model_calls": 1,
+    "query_id": "query-862838ed175d33d8bc8a836b1327375ee26c6449fafc117632f60f4d4fa00ae0",
+    "role": "research",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": {
+        "id": "AUTHORED-OFFLINE",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "provider": "Together"
+      },
+      "state": "accepted",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  }
+}

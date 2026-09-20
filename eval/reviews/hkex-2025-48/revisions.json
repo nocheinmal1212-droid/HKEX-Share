@@ -1,0 +1,31 @@
+{
+  "source_manifest": {
+    "path": "eval/manifests/hkex-2025-48.json",
+    "sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7"
+  },
+  "record_revisions": [
+    {
+      "path": "eval/records/hkex-2025-48/corrupted.initial.jsonl",
+      "sha256": "83431095325484a28d0f2c67ded0ac360b417ba3d8c279c2d045826d615cb71a",
+      "predecessor": null,
+      "reason": "Lossless pending intake."
+    },
+    {
+      "path": "eval/records/hkex-2025-48/corrupted.jsonl",
+      "sha256": "c3212d5a3cbe7997ee8e861cca582ec0dfa1bd18eb94f9aeec2b2be8d2887342",
+      "predecessor": "83431095325484a28d0f2c67ded0ac360b417ba3d8c279c2d045826d615cb71a",
+      "reason": "Attach proposed mapping and frozen groups."
+    },
+    {
+      "path": "eval/records/hkex-2025-48/corrupted.r2.jsonl",
+      "sha256": "9cd7873f6bd8db6ab51838f31d1317e760d2323fb1b0b23b404529c9e22ecf45",
+      "predecessor": "c3212d5a3cbe7997ee8e861cca582ec0dfa1bd18eb94f9aeec2b2be8d2887342",
+      "reason": "Attach selected development proposals and refined mappings."
+    }
+  ],
+  "correspondence_correction": {
+    "predecessor": "pdf-correspondence.json",
+    "current": "pdf-correspondence.r2.json",
+    "reason": "Numeric PDF rectangle zeros represented as 0 and 0.0 must compare numerically. Original false geometry mismatch retained as historical diagnostic."
+  }
+}

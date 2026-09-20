@@ -1,0 +1,11 @@
+{
+  "all_required_checks_completed": true,
+  "correction": "Use nested safe .get only in this new follow-up reporting helper.",
+  "expected_outcomes_changed": false,
+  "initial_failure": "Diagnostic-only KeyError while reporting successful research replay; eager dict.get default referenced absent top-level state.",
+  "known_execution_blocker": "Current CLI cannot enforce a hard 600-second total ceiling.",
+  "metadata_calls": 0,
+  "model_calls": 0,
+  "old_outputs_overwritten": false,
+  "runtime_changed": false
+}

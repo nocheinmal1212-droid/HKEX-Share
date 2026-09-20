@@ -1,0 +1,140 @@
+[
+  {
+    "finish_reason": "length",
+    "model_calls": 0,
+    "name": "total",
+    "replayed_state": "truncation",
+    "usage": {
+      "completion_tokens": 4096,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0081081,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0049152,
+        "upstream_inference_cost": 0.0081081,
+        "upstream_inference_prompt_cost": 0.0031929
+      },
+      "is_byok": false,
+      "prompt_tokens": 10643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 14739
+    }
+  },
+  {
+    "finish_reason": "length",
+    "model_calls": 0,
+    "name": "subtotal",
+    "replayed_state": "truncation",
+    "usage": {
+      "completion_tokens": 4096,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.005020476,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0049152,
+        "upstream_inference_cost": 0.005020476,
+        "upstream_inference_prompt_cost": 0.000105276
+      },
+      "is_byok": false,
+      "prompt_tokens": 10637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 10496,
+        "video_tokens": 0
+      },
+      "total_tokens": 14733
+    }
+  },
+  {
+    "answer": {
+      "contributor_ids": [
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      ],
+      "state": "ambiguous",
+      "support_refs": [
+        "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+        "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb"
+      ],
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    },
+    "finish_reason": "stop",
+    "host": {
+      "accepted": false,
+      "error": "abstention contains contributors"
+    },
+    "model_calls": 0,
+    "name": "period_groups",
+    "replayed_state": "invalid_output",
+    "schema_pass": true,
+    "usage": {
+      "completion_tokens": 3724,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 3270
+      },
+      "cost": 0.017404404,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0044688,
+        "upstream_inference_cost": 0.017404404,
+        "upstream_inference_prompt_cost": 0.012935604
+      },
+      "is_byok": false,
+      "prompt_tokens": 43495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 384,
+        "video_tokens": 0
+      },
+      "total_tokens": 47219
+    }
+  },
+  {
+    "finish_reason": "length",
+    "model_calls": 0,
+    "name": "varied_total",
+    "replayed_state": "truncation",
+    "usage": {
+      "completion_tokens": 4096,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.007091904,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0049152,
+        "upstream_inference_cost": 0.007091904,
+        "upstream_inference_prompt_cost": 0.002176704
+      },
+      "is_byok": false,
+      "prompt_tokens": 10768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 3584,
+        "video_tokens": 0
+      },
+      "total_tokens": 14864
+    }
+  }
+]

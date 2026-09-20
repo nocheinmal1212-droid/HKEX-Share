@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "ambiguous": "source prerequisite blocks annotation",
+    "incompatible_context": "source prerequisite blocks annotation",
+    "missing_evidence": "source prerequisite blocks annotation",
+    "not_a_total": "source prerequisite blocks annotation",
+    "selected": "source prerequisite blocks annotation"
+  },
+  "edited_projection_annotation": "query/projection/source mismatch",
+  "edited_projection_verify_query": "query/projection/source mismatch",
+  "gate": "blocked_scope",
+  "reasons": [
+    {
+      "code": "nonliteral_associated_context",
+      "source_refs": [
+        "formula-8f14ffd6a6ea0d0a054146cfebac7a3e1e948ffcebdbc166b16e1bfdd3e1a656"
+      ]
+    }
+  ],
+  "source_parent_sha256": "ece4ed8afa483e57a2c2262a763fab3de2f7c54bbb4069013f55d6b5d9cf2304",
+  "source_sha256": "0e95af87a0e47d0a350e219382877d81c55012f4ec48ace9e83072ae1ecf9401"
+}

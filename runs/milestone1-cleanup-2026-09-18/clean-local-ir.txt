@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "clean",
+    "evidence_sha256": "2ee521a9788eb27a19252a1d4d8f3fafdd219dd366a7c45a77d96d391cc8547b",
+    "replay": "byte_identical_context",
+    "adapter_imported": false
+  },
+  {
+    "variant": "corrupted",
+    "evidence_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+    "replay": "byte_identical_context",
+    "adapter_imported": false
+  }
+]

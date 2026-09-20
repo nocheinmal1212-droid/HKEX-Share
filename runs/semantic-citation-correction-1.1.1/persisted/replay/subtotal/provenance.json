@@ -1,0 +1,26 @@
+{
+  "annotation_ids": [
+    "annotation-ab467496f8139887b33f33b406aa1cc6f5ec21b42df602a898974214c68efeba"
+  ],
+  "annotations_sha256": "8e8da7585ebdc1c1a4ae04134522b5f82f3ba4caf618641d949668c9079bf089",
+  "blocking_reasons": [],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "accepted",
+  "primary_attempt_id": "attempt-dc29554241591c1ebca07acc28411ad8d6b4b1cfcb31ac57924c7e1d541b53cc",
+  "primary_completion_sha256": "849cc9bb23b4b0ef376c7ab35f896179d068c728410a50cc1e08854ce666d51f",
+  "query_id": "query-f2e10b95ba8a2b4a009158f5fdae2da209f40a63f64b65eb7ca1e00d6fef82a4",
+  "query_sha256": "3b0516911139d2623a610009749c2d92a325cd6beb5e94fb4809ef325e48c2fb",
+  "selection": {
+    "name": "subtotal",
+    "table_id": "table-64e62f8ba3fc4275191ac0983f3f568418d0b267dfcf36991050fb2dea17348e",
+    "target_id": "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "eligible",
+  "source_sha256": "137ff68fb2db6e7026413170684a25dcc227fcfd5eb5022b7ebc3861f21dc640",
+  "version": "semantic-provenance-1.1.0"
+}

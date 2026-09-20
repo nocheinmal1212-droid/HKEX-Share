@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "associated_prose_uninterpreted"
+  ],
+  "case_id": "S22_innocuous_associated_prose",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "2dbb9fcdb4eb60a99d82ce36f840f296f5a29216ce40b7df2c481d82a83b2f52",
+  "optional_support": [],
+  "reason": "The operational boundary applies even when the prose appears harmless; the bounded host does not certify natural-language note relevance.",
+  "required_support": null,
+  "summary_relationships": []
+}

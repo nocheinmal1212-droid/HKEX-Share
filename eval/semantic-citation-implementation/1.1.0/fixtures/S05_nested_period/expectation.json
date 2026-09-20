@@ -1,0 +1,39 @@
+{
+  "assertions": [
+    "Do not derive a period-level aggregate summary from wrapper containment."
+  ],
+  "blocker_reason_classes": [],
+  "case_id": "S05_nested_period",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-9b6d638c6f9bf44d352f8fd35ad6301cd20b237d4296032e9a11ffce1c0b7862",
+    "cell-c1c78f76464c88a4f9b4252205246dd02299c7f42057f21437ab8c42c33cf623"
+  ],
+  "input_sha256": "1ccbeef4bf62d6036374ae9ae23a1b05fdd5d02c9ca6a736b1f18185c4aaa876",
+  "optional_support": [],
+  "reason": "A common period wraps the complete revenue/lease/outer-total structure. It is context for every selected header; the only established summary edge is still the revenue timing relation.",
+  "required_support": [
+    "cell-48afd3d98688d844353cb7e7272cc9864cf02ba5398e6f144222b776d601e225",
+    "cell-9b6d638c6f9bf44d352f8fd35ad6301cd20b237d4296032e9a11ffce1c0b7862",
+    "cell-c1c78f76464c88a4f9b4252205246dd02299c7f42057f21437ab8c42c33cf623",
+    "cell-ceec8ed5fb0cb4dddf35cbfba8d96ecda088933233a1e5f056f600e2b5853c94",
+    "cell-e350a0c215bc3533b19d24d1c56e940573ddb4f9f2e1ade5af10802a3e18aaf9"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-175b49e19193f163010a6d46c9286142cf49bff3d5674d68401f5277328ce3b1",
+        "cell-3a8d0a3eb609d684602829a6a3bab67445562b604aa0377663ab2e79324cad4c"
+      ],
+      "group_id": "cell-ceec8ed5fb0cb4dddf35cbfba8d96ecda088933233a1e5f056f600e2b5853c94",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-9b6d638c6f9bf44d352f8fd35ad6301cd20b237d4296032e9a11ffce1c0b7862",
+      "support_refs": [
+        "cell-175b49e19193f163010a6d46c9286142cf49bff3d5674d68401f5277328ce3b1",
+        "cell-3a8d0a3eb609d684602829a6a3bab67445562b604aa0377663ab2e79324cad4c",
+        "cell-9b6d638c6f9bf44d352f8fd35ad6301cd20b237d4296032e9a11ffce1c0b7862",
+        "cell-ceec8ed5fb0cb4dddf35cbfba8d96ecda088933233a1e5f056f600e2b5853c94"
+      ]
+    }
+  ]
+}

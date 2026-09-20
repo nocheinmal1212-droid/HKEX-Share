@@ -1,0 +1,26 @@
+{
+  "annotation_ids": [
+    "annotation-c274b48f54dd2f4dc132001cc853efb3001ea357cbb44e08b9160d73a483033d"
+  ],
+  "annotations_sha256": "d5e75f8f2093c083f2d27e2800443e50608838db205d31fd7de412d500c3d45f",
+  "blocking_reasons": [],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "accepted",
+  "primary_attempt_id": "attempt-f51f0980fa6246fe5e56dbf5ed80c193ba3ca857767231bcba9d02f3098000c7",
+  "primary_completion_sha256": "b00b88b8621e98176baa37e8594dad8835ca59a728138b0ea108ded1bee81372",
+  "query_id": "query-ff932e6f334d7c2aceb0dc912815d8a3576fe3f74f58aca5cb7e7d3d16b38d05",
+  "query_sha256": "cb9a273e284c00606b5ebabd4f4a49f8adb4a8b839077e16603fc4647f872668",
+  "selection": {
+    "name": "period_groups",
+    "table_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+    "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "eligible",
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+  "version": "semantic-provenance-1.1.0"
+}

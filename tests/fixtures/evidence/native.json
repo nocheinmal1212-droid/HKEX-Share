@@ -1,0 +1,68 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "page_size": [
+        100,
+        200
+      ],
+      "preproc_blocks": [
+        {
+          "type": "table",
+          "index": 0,
+          "bbox": [
+            0,
+            10,
+            90,
+            100
+          ],
+          "blocks": [
+            {
+              "type": "table_body",
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "type": "table",
+                      "html": "<table><tr><td rowspan=\"2\">項目&amp;甲</td><td colspan=\"2\">年度</td></tr><tr><td>0</td><td>—</td></tr><tr><td>重複</td><td></td><td>重複</td></tr></table>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {
+              "spans": [
+                {
+                  "type": "text",
+                  "content": "原文 保留 é"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "discarded_blocks": [
+        {
+          "type": "page_number",
+          "lines": [
+            {
+              "spans": [
+                {
+                  "type": "text",
+                  "content": "i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

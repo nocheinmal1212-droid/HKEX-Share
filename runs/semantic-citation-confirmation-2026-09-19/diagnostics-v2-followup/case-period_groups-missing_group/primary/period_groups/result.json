@@ -1,0 +1,29 @@
+{
+  "attempt_id": "attempt-f8ccc9a6a5e43499db8c173c1be633c9c0322cdfb5f9b49f1971b0cb2f351bcb",
+  "elapsed_seconds": 2.9416056349873543e-05,
+  "model_calls": 1,
+  "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+  "role": "primary",
+  "validation": {
+    "answer": null,
+    "cost": "0.0001",
+    "cost_status": "reported",
+    "diagnostic": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "required header context support absent: cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+    },
+    "revision": null,
+    "served": {
+      "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+      "model": "google/gemini-3.8-flash",
+      "provider": "Google AI Studio"
+    },
+    "state": "invalid_output",
+    "usage": {
+      "completion_tokens": 10,
+      "cost": 0.0001,
+      "prompt_tokens": 10
+    }
+  },
+  "version": "paired-semantic-attempt-1.2.0"
+}

@@ -1,0 +1,38 @@
+total: accepted
+period_groups: accepted
+budget diagnostic: baseline 6 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: route_missing 2 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: metadata_identity 2 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: over_price 2 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: metadata_timeout 2 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: cost_cap 2 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: http_cap 3 0.0
+total: authored-budget-control-only
+period_groups: authored-budget-control-only
+budget diagnostic: role_cap 4 0.0
+case diagnostic: total missing_group invalid_output
+case diagnostic: period_groups missing_group invalid_output
+case diagnostic: period_groups wrong_period invalid_output
+case diagnostic: total contradictory_abstention invalid_output
+case diagnostic: total timeout timeout
+case diagnostic: total truncation truncation
+case diagnostic: total schema_invalid invalid_output
+case diagnostic: total identity_mismatch identity_mismatch
+case diagnostic: total unit_plus_lease accepted
+case diagnostic: total abstention abstained
+role isolation: research_missing
+role isolation: research_corrupt
+role isolation: primary_corrupt
+Authored budget/evaluator/isolation diagnostics complete; deadline probes are separate.

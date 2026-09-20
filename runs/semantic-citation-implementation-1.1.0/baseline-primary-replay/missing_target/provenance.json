@@ -1,0 +1,17 @@
+{
+  "annotation_ids": [],
+  "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "outcome": "missing_evidence",
+  "primary_attempt_id": "attempt-e4dba67534c137e52642722782581a9573bad28d6c2aa546c99b477494381901",
+  "primary_completion_sha256": null,
+  "query_id": "query-e154b1d8f12b597c9233b6b26641aeee83f62aaa0662e7b6272bf71078012045",
+  "query_sha256": "39e15546b0db27dc22358abc25d1d46d1618564eb95c2601fdbdcbf3bee5ec27",
+  "selection": {
+    "name": "missing_target",
+    "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+    "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+  "version": "semantic-provenance-1.0.0"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "baseline": "5e30566e939a404975d0efdfcff53c8d55745fe0",
+  "closure_commit": "0b2a712",
+  "current_head": "18c6722780d7d6646cf3685499a1cff688af3967",
+  "source_files_verified": 788,
+  "packet_images_verified": 18,
+  "closure_bound_files_unchanged": {
+    "records": "e3d6509125324f9e33cf6e453fbab4de53bebc9d6a053537e28d3dadfbca572f",
+    "locations": "4265712ad039e9b8da94b7c9d70b87dd40e47ef994dec43f213ea8c00ee7cad3",
+    "splits": "c3895b9629fd670856fc42f5a52d5d85d3bb377af3693cf8fbf55a0a90209b7b",
+    "review": "22505bc0da81a02caf1ae2041e13102b7b190cb08632514f35d0d0c342ffc3e8"
+  },
+  "historical_packet_and_split_preserved": true,
+  "intake_validation": {
+    "structural_validity": "valid",
+    "records": 48,
+    "ready": 4,
+    "pending": 44,
+    "category_counts": {
+      "disclosure_reference_verification": 8,
+      "document_wide_consistency": 8,
+      "formatting_typography_validation": 8,
+      "internal_note_reconciliation": 8,
+      "primary_statement_articulation": 8,
+      "statement_to_note_articulation": 8
+    },
+    "band_counts": {
+      "above_tolerance": 2,
+      "not_applicable": 2,
+      "unknown": 44
+    },
+    "null_or_unknown_field_counts": {
+      "created_at": 48,
+      "detectability_band": 44,
+      "expected_detectable": 44,
+      "injected_value": 46,
+      "injection_stage": 44,
+      "injector_version": 48,
+      "original_value": 46,
+      "propagated": 44,
+      "propagation_sites": 44,
+      "relation": 46,
+      "seed": 48,
+      "updated_at": 44,
+      "value_delta": 46
+    },
+    "mapping_counts": {
+      "proposed": 44,
+      "reviewed": 4
+    },
+    "publication_status": "UNGATED",
+    "headline": null,
+    "limitations": [
+      "Intake validation alone does not establish publication gates or source fidelity."
+    ]
+  },
+  "independent_arithmetic": {
+    "HL-ERR-0025": {
+      "original_residual": "0",
+      "injected_residual": "-10",
+      "bound": "1.5",
+      "change": "-10",
+      "band": "above_tolerance"
+    },
+    "HL-ERR-0041": {
+      "original_residual": "0",
+      "injected_residual": "-10",
+      "bound": "1.0",
+      "change": "-10",
+      "band": "above_tolerance"
+    }
+  },
+  "primary_ir_candidates_verified": 8,
+  "operand_occurrences_verified": 10,
+  "saved_ir_sha256": {
+    "clean": "2ee521a9788eb27a19252a1d4d8f3fafdd219dd366a7c45a77d96d391cc8547b",
+    "corrupted": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+  },
+  "publication_status": "UNGATED",
+  "limits": [
+    "PDF bytes hashed only; visual review uses existing packet images.",
+    "No detector execution, new approval, or new pending-record label.",
+    "IR occurrence verification does not approve semantic relationships."
+  ]
+}
+

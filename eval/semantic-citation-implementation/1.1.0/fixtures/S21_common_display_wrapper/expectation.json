@@ -1,0 +1,38 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S21_common_display_wrapper",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-3e7d42c1ac378c1192f354faf9d897058d971214e13e6a1a39f31349881fb26d",
+    "cell-e84ab012f217c0894670342a760506d03d6b4c60798c767903f598687581fd10"
+  ],
+  "input_sha256": "b58f98f1a43013d7a1db9e5e15702788f6b7c67c3e434f691dd1cfb55add937b",
+  "optional_support": [
+    "cell-f25ee13c4e4ebad30e2ff668ed881ac1c95ec6b0d44a2898a18bc865def3573e"
+  ],
+  "reason": "The recognized unit wrapper covers the entire header inventory uniformly. It is optional display context and does not supply membership.",
+  "required_support": [
+    "cell-fae29eb5f0c35014aa4ec4f0c8d7ed7657e8540829d027ccca6aae8eda4f1cdf",
+    "cell-3e7d42c1ac378c1192f354faf9d897058d971214e13e6a1a39f31349881fb26d",
+    "cell-e84ab012f217c0894670342a760506d03d6b4c60798c767903f598687581fd10",
+    "cell-4859c6b715da802f645f3bfac41e91a8c38f63dc34a5cb922d58f19db8133dc9"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-3f9c3974ed0d052b139746c27a778ad5091a22d496c01f6c30efb4b8e1300d73",
+        "cell-da732cfdd6e4d0c85067b2396f5fc03a74358fe14aab3fb12eb576fdcd5f1ac1"
+      ],
+      "group_id": "cell-4859c6b715da802f645f3bfac41e91a8c38f63dc34a5cb922d58f19db8133dc9",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-3e7d42c1ac378c1192f354faf9d897058d971214e13e6a1a39f31349881fb26d",
+      "support_refs": [
+        "cell-3e7d42c1ac378c1192f354faf9d897058d971214e13e6a1a39f31349881fb26d",
+        "cell-3f9c3974ed0d052b139746c27a778ad5091a22d496c01f6c30efb4b8e1300d73",
+        "cell-4859c6b715da802f645f3bfac41e91a8c38f63dc34a5cb922d58f19db8133dc9",
+        "cell-da732cfdd6e4d0c85067b2396f5fc03a74358fe14aab3fb12eb576fdcd5f1ac1"
+      ]
+    }
+  ]
+}

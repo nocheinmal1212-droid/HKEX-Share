@@ -1,0 +1,1 @@
+{"intact_research": 0, "research_states": ["truncation", "truncation", "invalid_output", "missing_evidence", "truncation"], "missing_directory": 0, "corrupt_response": 0, "missing_manifest": 0, "corrupt_manifest": 0, "primary_manifest": 2, "new_query_binding": 2, "pin_bytes": 2}

@@ -1,0 +1,341 @@
+{
+  "method": "pdfplumber 0.11.9 character centers within raw rectangle plus 0.2pt; sorted by x0. Physical index=raw pdf_page-1. This is evidence, not approval.",
+  "records": [
+    {
+      "error_id": "HL-ERR-0001",
+      "clean_center_text": "(3,423)",
+      "corrupted_center_text": "-3,423",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0002",
+      "clean_center_text": "(920)",
+      "corrupted_center_text": "-920",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0003",
+      "clean_center_text": "(1,633)",
+      "corrupted_center_text": "-1,633",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0009",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0017",
+      "clean_center_text": "2(a)",
+      "corrupted_center_text": "3(a)",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0018",
+      "clean_center_text": "10",
+      "corrupted_center_text": "11",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0019",
+      "clean_center_text": "7(a)",
+      "corrupted_center_text": "8(a)",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0025",
+      "clean_center_text": "6,527",
+      "corrupted_center_text": "6,537",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0026",
+      "clean_center_text": "5,929",
+      "corrupted_center_text": "5,939",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0027",
+      "clean_center_text": "4,878",
+      "corrupted_center_text": "4,888",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0028",
+      "clean_center_text": "3,961",
+      "corrupted_center_text": "3,971",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0029",
+      "clean_center_text": "2,328",
+      "corrupted_center_text": "2,338",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0004",
+      "clean_center_text": "(2,421)",
+      "corrupted_center_text": "-2,421",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0005",
+      "clean_center_text": "(7,748)",
+      "corrupted_center_text": "-7,748",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0013",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0023",
+      "clean_center_text": "22",
+      "corrupted_center_text": "23",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0032",
+      "clean_center_text": "5,864",
+      "corrupted_center_text": "5,874",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0006",
+      "clean_center_text": "15%",
+      "corrupted_center_text": "15",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0035",
+      "clean_center_text": "1,633",
+      "corrupted_center_text": "1,634",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0007",
+      "clean_center_text": "2.7%",
+      "corrupted_center_text": "2.7",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0008",
+      "clean_center_text": "(920)",
+      "corrupted_center_text": "-920",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0034",
+      "clean_center_text": "54",
+      "corrupted_center_text": "55",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0045",
+      "clean_center_text": "6,335",
+      "corrupted_center_text": "6,345",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0010",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0011",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0020",
+      "clean_center_text": "14",
+      "corrupted_center_text": "13",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0021",
+      "clean_center_text": "15",
+      "corrupted_center_text": "16",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0022",
+      "clean_center_text": "17",
+      "corrupted_center_text": "16",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0030",
+      "clean_center_text": "199,613",
+      "corrupted_center_text": "199,623",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0031",
+      "clean_center_text": "23,299",
+      "corrupted_center_text": "23,399",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0012",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0014",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0033",
+      "clean_center_text": "1,705",
+      "corrupted_center_text": "1,706",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0015",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0036",
+      "clean_center_text": "199,004",
+      "corrupted_center_text": "199,005",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0016",
+      "clean_center_text": "2025",
+      "corrupted_center_text": "2026",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0024",
+      "clean_center_text": "17",
+      "corrupted_center_text": "18",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0038",
+      "clean_center_text": "6,335",
+      "corrupted_center_text": "6,336",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0046",
+      "clean_center_text": "53,589",
+      "corrupted_center_text": "53,689",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0037",
+      "clean_center_text": "12,733",
+      "corrupted_center_text": "12,734",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0039",
+      "clean_center_text": "176",
+      "corrupted_center_text": "177",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0040",
+      "clean_center_text": "10,167",
+      "corrupted_center_text": "10,168",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0041",
+      "clean_center_text": "9,950",
+      "corrupted_center_text": "9,960",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0042",
+      "clean_center_text": "5,929",
+      "corrupted_center_text": "5,919",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0043",
+      "clean_center_text": "(920)",
+      "corrupted_center_text": "(921)",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0044",
+      "clean_center_text": "3,961",
+      "corrupted_center_text": "3,951",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0047",
+      "clean_center_text": "3,961",
+      "corrupted_center_text": "3,981",
+      "original_matches": true,
+      "injected_matches": true
+    },
+    {
+      "error_id": "HL-ERR-0048",
+      "clean_center_text": "53,589",
+      "corrupted_center_text": "53,689",
+      "original_matches": true,
+      "injected_matches": true
+    }
+  ]
+}

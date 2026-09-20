@@ -1,0 +1,24 @@
+{
+  "version": "header-support-policy-1.0.0",
+  "total_markers": ["合計", "小計", "總額", "Total", "Subtotal"],
+  "period_pattern": "[0-9]{4}年?",
+  "groups": {
+    "來自與客戶合約之收入": ["category", "contract_revenue"],
+    "來自與客戶合約之收入(HKFRS 15)": ["category", "contract_revenue"],
+    "銷售額(港幣百萬元)": ["dimension", "sales_value"],
+    "銷售量(千件)": ["dimension", "sales_volume"]
+  },
+  "continuation_markers": ["續", "(續)", "Continued"],
+  "common_display_labels": ["港幣百萬元"],
+  "caption_pattern": "截至[0-9]{4}年[0-9]{1,2}月[0-9]{1,2}日止年度",
+  "summary_rules": [
+    {
+      "id": "contract_revenue_recognition_timing",
+      "group": ["category", "contract_revenue"],
+      "component_roles": {
+        "recognition_at_point_in_time": ["於某一時點確認收入"],
+        "recognition_over_time": ["隨時間逐步確認收入"]
+      }
+    }
+  ]
+}

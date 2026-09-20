@@ -1,0 +1,21 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "discarded_blocks": [],
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "html": "<table><tr><td rowspan=\"3\">港幣百萬元</td><td colspan=\"3\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"3\">租賃(HKFRS 16)</td><td rowspan=\"3\">總額</td></tr><tr><td colspan=\"3\">Continued</td></tr><tr><td>隨時間逐步確認收入</td><td>於某一時點確認收入</td><td>合計</td></tr><tr><td>收入</td><td>701</td><td>9</td><td>12</td><td>803</td><td>5</td></tr></table>",
+              "type": "table_body"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

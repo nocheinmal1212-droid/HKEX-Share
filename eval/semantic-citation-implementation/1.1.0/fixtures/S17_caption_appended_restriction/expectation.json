@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "associated_prose_uninterpreted"
+  ],
+  "case_id": "S17_caption_appended_restriction",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "d30dd70b28e06d494c8c7e81cb7c73e8533f461e9dfef36f8e19e82b14c8c6f4",
+  "optional_support": [],
+  "reason": "The whole occurrence includes a restriction and therefore is not the whole narrow caption form; prefix recognition is insufficient.",
+  "required_support": null,
+  "summary_relationships": []
+}

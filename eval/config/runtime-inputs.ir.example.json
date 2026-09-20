@@ -1,0 +1,18 @@
+{
+  "document": {
+    "doc_id": "hksa_2026032600825_kpmg",
+    "source_document_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "source_provenance": "supplied_unverified",
+    "variant_id": "corrupted"
+  },
+  "evidence": {
+    "path": "../../runs/milestone1-r1/corrupted/evidence.json",
+    "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+  },
+  "manifest": {
+    "path": "../../runs/milestone1-r1/corrupted/manifest.json",
+    "sha256": "8000b5d158fc755cc700c1a89f0afd109ee0485661425f76de7174f33a8522d2"
+  },
+  "mode": "ir",
+  "schema_version": "1.0.0"
+}

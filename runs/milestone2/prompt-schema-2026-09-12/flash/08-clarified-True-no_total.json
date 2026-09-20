@@ -1,0 +1,85 @@
+{
+  "case": "no_total",
+  "created_at": "2026-09-12T09:59:08.947644+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "021928972052411e3521729875b1ab3a0407ab6c0eba8b286b4c6dd55e2b4ce1",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": "OpenInference",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": "vllm-dev-ep-2b83873d"
+  },
+  "prompt": "clarified",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. This is text-label classification only, not verification of an accounting total. No amounts or surrounding table are needed to recognize a total label. The role total_label means text explicitly naming a total. When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role. Return a JSON object with exactly action, evidence_id, and role; no other text.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"成本\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "response_format": {
+      "json_schema": {
+        "name": "synthetic_label",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "enum": [
+                "label",
+                "abstain"
+              ]
+            },
+            "evidence_id": {
+              "enum": [
+                "field-one",
+                "field-two",
+                null
+              ]
+            },
+            "role": {
+              "enum": [
+                "total_label",
+                null
+              ]
+            }
+          },
+          "required": [
+            "action",
+            "evidence_id",
+            "role"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "e1e41cd69e1cbb56a836ea980708934d7b7a9f5febd45d0fb39155f869cdc87d",
+  "response_text": "\n         \n{\"id\":\"gen-1789207151-23NwEdMDZI45Je5ogzUg\",\"object\":\"chat.completion\",\"created\":1789207151,\"model\":\"deepseek/deepseek-v4-flash-0731\",\"provider\":\"OpenInference\",\"system_fingerprint\":\"vllm-dev-ep-2b83873d\",\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"action\\\": \\\"abstain\\\", \\\"evidence_id\\\": null, \\\"role\\\": null}\",\"refusal\":null,\"reasoning\":\"我们根据指令，从提供的证据中选择总标签。证据中只有\\\"成本\\\"和\\\"收入\\\"，没有明确的总标签。因此，应返回abstain，evidence_id为null，role为null。\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"我们根据指令，从提供的证据中选择总标签。证据中只有\\\"成本\\\"和\\\"收入\\\"，没有明确的总标签。因此，应返回abstain，evidence_id为null，role为null。\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":207,\"completion_tokens\":64,\"total_tokens\":271,\"cost\":0.000005263,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":201,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.000005263,\"upstream_inference_prompt_cost\":7.83e-7,\"upstream_inference_completions_cost\":0.00000448},\"completion_tokens_details\":{\"reasoning_tokens\":43,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": true,
+  "validated_output": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  }
+}

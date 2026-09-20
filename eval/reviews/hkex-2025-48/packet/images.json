@@ -1,0 +1,168 @@
+[
+  {
+    "path": "clean-p185-d0398fa341.png",
+    "sha256": "bcd2350425bc88abdf455f47d7645fc246d373d1b97f07c4bd4d1a1693bab04b",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 184,
+    "source_rectangle_pt": [
+      375.7759,
+      410.57169999999996,
+      393.7024,
+      420.07169999999996
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p185-6579e9ff3a.png",
+    "sha256": "87ed5ea28d57e42b661bda88c025a93522227350534a432ff08b4dbe75012d8f",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 184,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p185-4f6fff2514.png",
+    "sha256": "07f7e7ac0eb6e5d4cf353647633d46bef85641a03d70745b6190a8765492e334",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 184,
+    "source_rectangle_pt": [
+      375.7759,
+      410.57169999999996,
+      393.7024,
+      420.07169999999996
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p185-e0f47847c0.png",
+    "sha256": "8f281170a014bfbf590d6dd2fcf61e46d1b0605ebd8ecb4425c0e85536bfefbf",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 184,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p159-f7dc095fa0.png",
+    "sha256": "46d4d9c086eb0acc5a65f9349b84c5668ae2dfac2450bf0d01c141a7648a226f",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 158,
+    "source_rectangle_pt": [
+      268.5949,
+      188.71409999999992,
+      283.4699,
+      197.21409999999992
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p159-d4b1666f9a.png",
+    "sha256": "39adc722d14623c2f58b889bcc156ce606f062a10828da165ab7f27ea081628b",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 158,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p159-e7e6d6974b.png",
+    "sha256": "2919daa7e700618e2c6549411c08afd2ff073f6d41f415b395d3acaf07ba3c46",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 158,
+    "source_rectangle_pt": [
+      268.5949,
+      188.71409999999992,
+      283.4699,
+      197.21409999999992
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p159-cfcfdbcaf8.png",
+    "sha256": "a878be6c3885730db07df94cfdd6f7cf60c629ec4fd50148f590e23ba9098652",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 158,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p159-d80227ba2c.png",
+    "sha256": "5d6c244a1091a8498b3a3c34bc933eb22a4bf4d53af99daa55f3f480c259a7fd",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 158,
+    "source_rectangle_pt": [
+      318.9656,
+      221.4543,
+      340.14759999999995,
+      229.9543
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p159-5be41bac80.png",
+    "sha256": "8d604e50012b51e12fe40a3166937760bc04a2133122f4a8591d90c4833c1c31",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 158,
+    "source_rectangle_pt": [
+      318.9656,
+      221.4543,
+      340.14759999999995,
+      229.9543
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p180-53782edd85.png",
+    "sha256": "d6451d5df67bd10375d753172c69276f19fe0a70126d5334073ccb0093371a6f",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 179,
+    "source_rectangle_pt": [
+      341.6427,
+      270.45619999999997,
+      362.82469999999995,
+      278.95619999999997
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "clean-p180-cddc047b4b.png",
+    "sha256": "6b8ace6bb21518efc169f882ff51cb69b0ae177b1feec2a465ceccd51cdf2122",
+    "pdf_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+    "page_index": 179,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p180-1bf0d7416f.png",
+    "sha256": "15794704b6f49434c0309cddedff1cfaeed1b60bd4b794a879021fd4c0b6bc16",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 179,
+    "source_rectangle_pt": [
+      341.6427,
+      270.45619999999997,
+      362.82469999999995,
+      278.95619999999997
+    ],
+    "renderer": "pdftoppm",
+    "dpi": 120
+  },
+  {
+    "path": "corrupted-p180-936e906228.png",
+    "sha256": "b7c9b4a69b0263a499d2bbb40e1a60a02548970062ef8fc5493f5c4a3d3bc958",
+    "pdf_sha256": "1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d",
+    "page_index": 179,
+    "source_rectangle_pt": null,
+    "renderer": "pdftoppm",
+    "dpi": 120
+  }
+]

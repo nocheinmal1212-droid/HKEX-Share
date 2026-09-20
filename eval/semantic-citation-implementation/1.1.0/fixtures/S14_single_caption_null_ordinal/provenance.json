@@ -1,0 +1,14 @@
+{
+  "authorship": "authored development fixture; not native evidence",
+  "operation_version": "direct-contributor-headers-1.1.0",
+  "source_case_sha256": "65e3990e34f2d93c35bb6a5c6f828d85d342aa197e8d036e4e0bb7a8a6a4b33a",
+  "status": "exposed authored development; no model completion",
+  "transformations": [
+    {
+      "ordinal": null,
+      "reason": "authored identity/order boundary contrast",
+      "source_id_after": "block-597da8d6fdceae62d0f514c6cc0c4028160b230aeb9ff0143e1f31c257b43b40",
+      "source_id_before": "block-597da8d6fdceae62d0f514c6cc0c4028160b230aeb9ff0143e1f31c257b43b40"
+    }
+  ]
+}

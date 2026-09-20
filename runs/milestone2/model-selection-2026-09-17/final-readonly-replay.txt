@@ -1,0 +1,158 @@
+{
+  "kimi": {
+    "attempts": 2,
+    "outcomes": {
+      "correct_selection": 1,
+      "timeout": 1
+    },
+    "full_pass": 1,
+    "usable": 1,
+    "source_correct": 1,
+    "reason_correct": 1,
+    "support_complete": 1,
+    "reported_cost_usd": "0.00723045",
+    "unknown_cost_attempts": 1,
+    "median_latency": 43.571031,
+    "max_latency": 60.003135
+  },
+  "glm": {
+    "attempts": 7,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "unsupported_selection": 4,
+      "invalid_output": 1
+    },
+    "full_pass": 1,
+    "usable": 6,
+    "source_correct": 2,
+    "reason_correct": 1,
+    "support_complete": 6,
+    "reported_cost_usd": "0.0069820360",
+    "unknown_cost_attempts": 0,
+    "median_latency": 7.752221,
+    "max_latency": 35.656089
+  },
+  "qwen": {
+    "attempts": 2,
+    "outcomes": {
+      "correct_selection": 1,
+      "service_error": 1
+    },
+    "full_pass": 1,
+    "usable": 1,
+    "source_correct": 1,
+    "reason_correct": 1,
+    "support_complete": 1,
+    "reported_cost_usd": "0.00696",
+    "unknown_cost_attempts": 1,
+    "median_latency": 14.539957999999999,
+    "max_latency": 23.956207
+  },
+  "pro": {
+    "attempts": 4,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "timeout": 1,
+      "service_error": 1
+    },
+    "full_pass": 2,
+    "usable": 2,
+    "source_correct": 2,
+    "reason_correct": 2,
+    "support_complete": 2,
+    "reported_cost_usd": "0.00939048",
+    "unknown_cost_attempts": 2,
+    "median_latency": 17.5437705,
+    "max_latency": 60.005413
+  },
+  "v4flash": {
+    "attempts": 4,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "service_error": 1,
+      "invalid_output": 1
+    },
+    "full_pass": 2,
+    "usable": 2,
+    "source_correct": 2,
+    "reason_correct": 2,
+    "support_complete": 2,
+    "reported_cost_usd": "0.00023969",
+    "unknown_cost_attempts": 1,
+    "median_latency": 25.637520000000002,
+    "max_latency": 33.968411
+  },
+  "minimax": {
+    "attempts": 4,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "service_error": 1,
+      "invalid_output": 1
+    },
+    "full_pass": 2,
+    "usable": 2,
+    "source_correct": 2,
+    "reason_correct": 2,
+    "support_complete": 2,
+    "reported_cost_usd": "0.00103918",
+    "unknown_cost_attempts": 1,
+    "median_latency": 3.5683485,
+    "max_latency": 5.12389
+  },
+  "v41flash": {
+    "attempts": 4,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "service_error": 2
+    },
+    "full_pass": 2,
+    "usable": 2,
+    "source_correct": 2,
+    "reason_correct": 2,
+    "support_complete": 2,
+    "reported_cost_usd": "0.001084472",
+    "unknown_cost_attempts": 2,
+    "median_latency": 8.934282999999999,
+    "max_latency": 18.267793
+  },
+  "glmflash": {
+    "attempts": 5,
+    "outcomes": {
+      "correct_selection": 1,
+      "correct_abstention": 1,
+      "service_error": 2,
+      "invalid_output": 1
+    },
+    "full_pass": 1,
+    "usable": 2,
+    "source_correct": 2,
+    "reason_correct": 2,
+    "support_complete": 1,
+    "reported_cost_usd": "0.00041515",
+    "unknown_cost_attempts": 2,
+    "median_latency": 5.212649,
+    "max_latency": 8.377705
+  },
+  "gemini": {
+    "attempts": 14,
+    "outcomes": {
+      "correct_selection": 3,
+      "correct_abstention": 9,
+      "invalid_output": 2
+    },
+    "full_pass": 12,
+    "usable": 12,
+    "source_correct": 12,
+    "reason_correct": 12,
+    "support_complete": 12,
+    "reported_cost_usd": "0.05579025",
+    "unknown_cost_attempts": 0,
+    "median_latency": 6.3005645,
+    "max_latency": 7.256715
+  }
+}

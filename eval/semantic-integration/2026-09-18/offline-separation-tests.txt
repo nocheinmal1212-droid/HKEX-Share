@@ -1,0 +1,22 @@
+test_actual_protected_reads_and_operational_research_denial (test_semantic_integration.SemanticTests.test_actual_protected_reads_and_operational_research_denial) ... ok
+test_all_write_faults_early_and_late_both_roles (test_semantic_integration.SemanticTests.test_all_write_faults_early_and_late_both_roles) ... ok
+test_altered_query_rejected_before_dispatch (test_semantic_integration.SemanticTests.test_altered_query_rejected_before_dispatch) ... ok
+test_amount_invariance_and_literal_headers (test_semantic_integration.SemanticTests.test_amount_invariance_and_literal_headers) ... ok
+test_answer_validation_scope_support_and_duplicates (test_semantic_integration.SemanticTests.test_answer_validation_scope_support_and_duplicates) ... ok
+test_completion_corruption_and_wrong_config (test_semantic_integration.SemanticTests.test_completion_corruption_and_wrong_config) ... ok
+test_exhaustion_is_visible (test_semantic_integration.SemanticTests.test_exhaustion_is_visible) ... ok
+test_full_response_failures (test_semantic_integration.SemanticTests.test_full_response_failures) ... ok
+test_invalid_selection_vs_missing_source (test_semantic_integration.SemanticTests.test_invalid_selection_vs_missing_source) ... ok
+test_operational_noninterference_persisted_matrix (test_semantic_integration.SemanticTests.test_operational_noninterference_persisted_matrix) ... ok
+test_operational_persistence_failure_is_visible (test_semantic_integration.SemanticTests.test_operational_persistence_failure_is_visible) ... ok
+test_paired_hashes_and_no_cache_collision (test_semantic_integration.SemanticTests.test_paired_hashes_and_no_cache_collision) ... ok
+test_primary_failure_and_abstention_never_promote (test_semantic_integration.SemanticTests.test_primary_failure_and_abstention_never_promote) ... ok
+test_replay_has_zero_transport_calls (test_semantic_integration.SemanticTests.test_replay_has_zero_transport_calls) ... ok
+test_research_promotion_fault_detected_by_real_consumer (test_semantic_integration.SemanticTests.test_research_promotion_fault_detected_by_real_consumer) ... ok
+test_stalled_research_consumption_synchronization (test_semantic_integration.SemanticTests.test_stalled_research_consumption_synchronization) ... ok
+test_transport_file_and_host_denials_without_network (test_semantic_integration.SemanticTests.test_transport_file_and_host_denials_without_network) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.054s
+
+OK

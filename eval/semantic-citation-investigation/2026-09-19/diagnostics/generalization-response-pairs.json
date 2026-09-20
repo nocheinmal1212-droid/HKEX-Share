@@ -1,0 +1,1016 @@
+{
+  "cases": [
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G1",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8"
+        ],
+        "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G1",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8"
+        ],
+        "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G1",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8"
+        ],
+        "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G1",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8"
+        ],
+        "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G1",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+        ],
+        "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "spanning context support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "incompatible spanning context"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-98e39e25408420359d35bcdb0cfbd355aeba43975b14e2faf48192ec4bf4e23c",
+          "cell-39013672b6d87b9d399c6257e518f642cdf348082dfdb3f50c08dd969546e0d4"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b",
+          "cell-98e39e25408420359d35bcdb0cfbd355aeba43975b14e2faf48192ec4bf4e23c",
+          "cell-39013672b6d87b9d399c6257e518f642cdf348082dfdb3f50c08dd969546e0d4"
+        ],
+        "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+      },
+      "strict_schema_pass": true,
+      "variant": "wrong_quantity_group"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "contributor support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "spanning context support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "incompatible spanning context"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G2_variation",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-91b89e1b4f36554cbec4737fc926ffe2f133537df0a93dd6e89ed189bb167119",
+          "cell-81d512a117456a21ffcb9f8a925b595ba8268954002da26dddcb52ef54aea64b"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906",
+          "cell-91b89e1b4f36554cbec4737fc926ffe2f133537df0a93dd6e89ed189bb167119",
+          "cell-81d512a117456a21ffcb9f8a925b595ba8268954002da26dddcb52ef54aea64b"
+        ],
+        "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+      },
+      "strict_schema_pass": true,
+      "variant": "wrong_quantity_group"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "abstention contains contributors"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10"
+        ],
+        "state": "missing_evidence",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d",
+          "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "abstention_retains_contributors"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G3",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d",
+          "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10"
+        ],
+        "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+      },
+      "strict_schema_pass": true,
+      "variant": "unsupported_selected_pair"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "abstention contains contributors"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d"
+        ],
+        "state": "incompatible_context",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "abstention_retains_contributors"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G5",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc"
+        ],
+        "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+      },
+      "strict_schema_pass": true,
+      "variant": "unsupported_selected_pair"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": true,
+      "response": {
+        "contributor_ids": [],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "positive"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "target support absent"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "omit_block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "abstention contains contributors"
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a"
+        ],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405",
+          "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "abstention_retains_contributors"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true,
+        "error": null
+      },
+      "enforcement_status": "structural host only; new semantic/citation prerequisites are not implemented",
+      "executed_host_version": "direct-contributor-headers-1.0.0",
+      "fixture": "G4_revision2",
+      "operation_policy": "direct-contributor-headers-1.1.0-proposal",
+      "origin": "authored_response_fixture_after_source_only_review; not model output or annotation",
+      "proposed_review_acceptance": false,
+      "response": {
+        "contributor_ids": [
+          "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405",
+          "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a"
+        ],
+        "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+      },
+      "strict_schema_pass": true,
+      "variant": "unsupported_selected_pair"
+    }
+  ],
+  "interpretation": "Authored response probes establish current host behavior, not model capability or implemented 1.1 acceptance.",
+  "model_calls": 0,
+  "network_calls": 0
+}

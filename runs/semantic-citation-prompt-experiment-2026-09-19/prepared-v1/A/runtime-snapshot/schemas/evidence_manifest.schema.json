@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "identity_policy": {
+      "const": "1"
+    },
+    "document": {
+      "type": "object",
+      "properties": {
+        "doc_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variant_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_document_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_provenance": {
+          "enum": [
+            "supplied_unverified",
+            "synthetic"
+          ]
+        }
+      },
+      "required": [
+        "doc_id",
+        "variant_id",
+        "source_document_sha256",
+        "source_provenance"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "artifact_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "artifact_id",
+          "sha256",
+          "role",
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "producer": {
+      "type": "object",
+      "properties": {
+        "engine": {
+          "type": "string",
+          "minLength": 1
+        },
+        "backend": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "checkpoint": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "settings": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unknown_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "engine",
+        "backend",
+        "version",
+        "checkpoint",
+        "settings",
+        "unknown_reason"
+      ],
+      "additionalProperties": false
+    },
+    "adapter": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "name",
+        "version",
+        "code_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "schema_hashes": {
+      "type": "object",
+      "properties": {
+        "evidence": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "evidence_manifest": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "audit_input": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "pipeline_artifacts": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "evidence",
+        "evidence_manifest",
+        "audit_input",
+        "pipeline_artifacts"
+      ],
+      "additionalProperties": false
+    },
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "max_json_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_html_chars": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_cells": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_grid_slots": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_native_depth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_view": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "max_json_bytes",
+        "max_html_chars",
+        "max_cells",
+        "max_grid_slots",
+        "max_native_depth",
+        "source_view"
+      ],
+      "additionalProperties": false
+    },
+    "configuration_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "required": [
+    "schema_version",
+    "identity_policy",
+    "document",
+    "evidence_id",
+    "evidence_sha256",
+    "inputs",
+    "producer",
+    "adapter",
+    "schema_hashes",
+    "configuration",
+    "configuration_sha256"
+  ],
+  "additionalProperties": false
+}

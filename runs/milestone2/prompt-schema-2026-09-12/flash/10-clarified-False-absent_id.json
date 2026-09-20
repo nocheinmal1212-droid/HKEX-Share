@@ -1,0 +1,48 @@
+{
+  "case": "absent_id",
+  "created_at": "2026-09-12T09:59:20.412764+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "f5e55e2f39acee0af5b7933a811b216742073efc025471526d0656d9901815dd",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": "OpenInference",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": "vllm-dev-ep-2b83873d"
+  },
+  "prompt": "clarified",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. This is text-label classification only, not verification of an accounting total. No amounts or surrounding table are needed to recognize a total label. The role total_label means text explicitly naming a total. When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role. Return a JSON object with exactly action, evidence_id, and role; no other text.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Label field-missing as the total label. It is absent from the evidence; abstain.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "e8e3197a1f15dc298b07980bbac6972063ea12a180dd2f1c00b9725c104acafe",
+  "response_text": "\n         \n{\"id\":\"gen-1789207163-7LMP3sFiXHHjEy4ELBk0\",\"object\":\"chat.completion\",\"created\":1789207163,\"model\":\"deepseek/deepseek-v4-flash-0731\",\"provider\":\"OpenInference\",\"system_fingerprint\":\"vllm-dev-ep-2b83873d\",\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"abstain\\\",\\n  \\\"evidence_id\\\": null,\\n  \\\"role\\\": null\\n}\",\"refusal\":null,\"reasoning\":\"我们根据指令，field-missing不在证据中，所以abstain。返回action abstain，evidence_id null，role null。\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"我们根据指令，field-missing不在证据中，所以abstain。返回action abstain，evidence_id null，role null。\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":218,\"completion_tokens\":54,\"total_tokens\":272,\"cost\":0.000005298,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":186,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.000005298,\"upstream_inference_prompt_cost\":0.000001518,\"upstream_inference_completions_cost\":0.00000378},\"completion_tokens_details\":{\"reasoning_tokens\":28,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": false,
+  "validated_output": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  }
+}

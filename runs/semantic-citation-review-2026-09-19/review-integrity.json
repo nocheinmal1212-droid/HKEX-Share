@@ -1,0 +1,39 @@
+{
+  "classification": "independent implementation review; post-exposure offline diagnostics; not semantic confirmation",
+  "files": {
+    "docs/semantic-citation-implementation-review-2026-09-19.md": "3eebcc977b414eebfa395b7181d4bd936cd87351d8a37ad05a57527aff0819e7",
+    "runs/semantic-citation-review-2026-09-19/batch-probe-plan-initial.md": "233d4afee159f684e798ad843e6279d3cf7a7811413e9f8655b2bf80a2cdc452",
+    "runs/semantic-citation-review-2026-09-19/batch-probe-plan.md": "c784fd5c043d42ea0eb68927cb46463b8d5b8ba2c50c7662b394844323448051",
+    "runs/semantic-citation-review-2026-09-19/batch-probes.json": "c1a20bbf363d5a36dcbc496b44f01ef4c4cbd4daaaf86a4691db1f24d2464249",
+    "runs/semantic-citation-review-2026-09-19/batch-probes.txt": "55b9f039f2b6e5347d0fb8b0c327f2b138a184b3a05c90b340bc41aee751310e",
+    "runs/semantic-citation-review-2026-09-19/header-probes.json": "18767442615d81c3fbbc682c7a26d98e459574869a2ad0035cecb9ce8a558cf7",
+    "runs/semantic-citation-review-2026-09-19/header-tests.txt": "55c8aaa46415ba1929fcff14dfcc92ca33fa60af77e0640c133e2580cc5911ca",
+    "runs/semantic-citation-review-2026-09-19/installed-probe.json": "aef282f78e9ad6b0e0f86bd3a2f157ba778e9e6a2419d90b2a51ecb2f7a95ece",
+    "runs/semantic-citation-review-2026-09-19/integration-tests.txt": "e3f49311addbfa2a53fbb299ede4d72e04f55845d5800ec54853512916b28c7b",
+    "runs/semantic-citation-review-2026-09-19/integrity-clarifications.json": "aab6054f6ce786dafcbfd73b910d4f60c2f160655815927f2d278005899b078c",
+    "runs/semantic-citation-review-2026-09-19/integrity.json": "7ddf8852972ef71801bb4ccf423ed9a096b507ac92b57ac41672bc42a23493db",
+    "runs/semantic-citation-review-2026-09-19/pinned-tests.txt": "813c20f9f54fa4a9785573f97722ddcc00f0bc667996957c4ce650300827ba2a",
+    "runs/semantic-citation-review-2026-09-19/probe-plan.md": "7a29a212bccfefff966bf6ae524e5fa738dfbc90acd5148adbfd35fda07d508a",
+    "runs/semantic-citation-review-2026-09-19/probe_batches.py": "f86447f1c48f66b49994c93bb4b108ff4524f5cf717ec3c5d30d21061ba95064",
+    "runs/semantic-citation-review-2026-09-19/probe_headers.py": "1f214a858e2f13a3973d6df08f02db2cc0e30cde245b974e08227fab0194443e",
+    "runs/semantic-citation-review-2026-09-19/probe_installed.py": "d25c3910acadf320a0b9917f8fa6e063715643926f626a2654afeffe6bc82187",
+    "runs/semantic-citation-review-2026-09-19/probe_prose.py": "769357d3b391e4e0a73255542e8af5dc45d242ccc7ec0bdfbb59e30fcd631155",
+    "runs/semantic-citation-review-2026-09-19/probe_replay.py": "f69404ede8cf37257f5adfa688f32dd61b5b17ef5f1654c72669de6047864726",
+    "runs/semantic-citation-review-2026-09-19/prose-evidence.json": "8d3efb2d7ba3805cb2ed036a4cea7886f3fdcef9ded16d6eb570b1834c349c08",
+    "runs/semantic-citation-review-2026-09-19/prose-probes.json": "35b09b5def01e1c405ff511785d61d98983ca21675d0a1bfe30b4f8a1e821b44",
+    "runs/semantic-citation-review-2026-09-19/prose-query.json": "754bd5807f102bbb22bf5addbcb40d76bf8b06b15ba08a099e0272cd351649b1",
+    "runs/semantic-citation-review-2026-09-19/prose-source.json": "0e95af87a0e47d0a350e219382877d81c55012f4ec48ace9e83072ae1ecf9401",
+    "runs/semantic-citation-review-2026-09-19/replay-probes.json": "ef0df51155049cd8683e3633df356b81bc7ce85b6cf73165ef886d8889692322",
+    "runs/semantic-citation-review-2026-09-19/replay-probes.txt": "938f1af43bdddecbd0b3d35b1413b87caecd8a31fd2b1e98186c665ceba3caa7",
+    "runs/semantic-citation-review-2026-09-19/verify_integrity.py": "ca72bae2d70360464d89823c0e2dfa345379ae1d2632aa28c2d51e6c554aa6bc"
+  },
+  "network_calls": 0,
+  "original_implementation_bindings_and_artifacts_rechecked_unchanged": true,
+  "provider_calls": 0,
+  "report_links_checked": 12,
+  "tests_rerun": {
+    "header": 10,
+    "integration": 19,
+    "pinned_replay": 3
+  }
+}

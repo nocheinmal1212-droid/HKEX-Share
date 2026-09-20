@@ -1,0 +1,25 @@
+{
+  "files": {
+    "eval/semantic-citation-failure-investigation/2026-09-19/v1/probe-plan.md": "d67b7f06d3a180c41d367e46eec8428d65e6f285c5f9077137ab61baa0198f21",
+    "eval/semantic-citation-failure-investigation/2026-09-19/v1/probe.py": "460727a7383b55fa5b0c9f8b88803846c716c0b1390c78ccbaa17956a1b59192",
+    "eval/semantic-citation-failure-investigation/2026-09-19/v1/proposed-output-instructions.md": "0828c68da6affe8220a47ed845e45766f5d959051ed8832d632979694e227baf",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/after.json": "b327f4d5f64192d4e6cc667161ca6d84a55da3b347d34e6e123fc849ed47438e",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/before.json": "b327f4d5f64192d4e6cc667161ca6d84a55da3b347d34e6e123fc849ed47438e",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/interface-audit-corrected.json": "0e36b6003299f261a14538c524a63d840d40b05fcc606c419a097b6fd364202d",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/interface-audit.json": "9cbdfce47b6bee9707fc37fac68a45099b9abf1bbfeadf906f2e90e1f7fd6a46",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/localization.json": "5c4096940d4d5b91598163a6df967df79b4142f70d3cb2ce3a6c53189f002bc8",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/provider-diagnostic-evidence.json": "4e29a03e4be202ed0d0ba3c1ad498dc6a0a1a814cd54dcae772b8ed507d09859",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/request-response-integrity.json": "7fd66faabbf92c445ac6dc8262c6d7f344b03d9ee160e7877e07352feafdf456",
+    "runs/semantic-citation-failure-investigation-2026-09-19/v1/transcript.txt": "92ba8de09c618c83ffe5a357e90805a56974c0269df7182e4c1256c17b64db73",
+    "docs/semantic-citation-failure-investigation-2026-09-19.md": "779734ff300dc1bdd2e882295b3d03ab45f847e7dc67766ab6fff1e4dc55e69f"
+  },
+  "members": 12,
+  "original_approved_members_unchanged": 3116,
+  "original_live_result_members_unchanged": 83,
+  "probe_plan_sha256": "d67b7f06d3a180c41d367e46eec8428d65e6f285c5f9077137ab61baa0198f21",
+  "runtime_changes": false,
+  "live_calls": 0,
+  "credential_access": false,
+  "ancestry_verified": true,
+  "git_diff_check": "pass"
+}

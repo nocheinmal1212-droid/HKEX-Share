@@ -1,0 +1,85 @@
+{
+  "case": "no_total",
+  "created_at": "2026-09-12T09:59:21.847358+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "f339ddf372477d256a508c1d95696573fb7f90c8bd369c74a0f302bfe80d8b1b",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": null
+  },
+  "prompt": "clarified",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. This is text-label classification only, not verification of an accounting total. No amounts or surrounding table are needed to recognize a total label. The role total_label means text explicitly naming a total. When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role. Return a JSON object with exactly action, evidence_id, and role; no other text.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"成本\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "response_format": {
+      "json_schema": {
+        "name": "synthetic_label",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "enum": [
+                "label",
+                "abstain"
+              ]
+            },
+            "evidence_id": {
+              "enum": [
+                "field-one",
+                "field-two",
+                null
+              ]
+            },
+            "role": {
+              "enum": [
+                "total_label",
+                null
+              ]
+            }
+          },
+          "required": [
+            "action",
+            "evidence_id",
+            "role"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "11cc4e7a1909fd0bd17eb4953aa1269136ce95c70d6eab4ff10611e5ba4e2f3b",
+  "response_text": "\n         \n\n         \n{\"id\":\"gen-1789207164-IBMOanWCLFTyLThCzzIM\",\"object\":\"chat.completion\",\"created\":1789207164,\"model\":\"deepseek/deepseek-v4-pro-0813\",\"provider\":\"Baidu\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}\",\"refusal\":null,\"reasoning\":\"我们需要回答用户。需要判断两个字段\\\"成本\\\"和\\\"收入\\\"哪个是total label? 指令：Select the total label from the supplied evidence. 提供的evidence id field-one text 成本, field-two text 收入。需要识别total label。 total_label意味着文本明确命名总额。成本/收入都不是总额。可能需要 abstain。但是要注意要求：\\\"When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role.\\\" 所以没有文本明确命名总额，应该abstain。输出JSON对象 exactly action evidence_id role。需要遵循schema: action enum label/abstain, evidence_id enum field-one field-two null, role enum total_label null. 因此返回 {\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}. 不能有其他文本。\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"我们需要回答用户。需要判断两个字段\\\"成本\\\"和\\\"收入\\\"哪个是total label? 指令：Select the total label from the supplied evidence. 提供的evidence id field-one text 成本, field-two text 收入。需要识别total label。 total_label意味着文本明确命名总额。成本/收入都不是总额。可能需要 abstain。但是要注意要求：\\\"When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role.\\\" 所以没有文本明确命名总额，应该abstain。输出JSON对象 exactly action evidence_id role。需要遵循schema: action enum label/abstain, evidence_id enum field-one field-two null, role enum total_label null. 因此返回 {\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}. 不能有其他文本。\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":497,\"completion_tokens\":211,\"total_tokens\":708,\"cost\":0.0006533208,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.0006533208,\"upstream_inference_prompt_cost\":0.00028734552,\"upstream_inference_completions_cost\":0.00036597528},\"completion_tokens_details\":{\"reasoning_tokens\":193,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": true,
+  "validated_output": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  }
+}

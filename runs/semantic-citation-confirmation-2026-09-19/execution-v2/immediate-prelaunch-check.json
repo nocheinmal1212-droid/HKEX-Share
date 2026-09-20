@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"bindings_verified\": true, \"live_authorized\": false, \"ready\": \"GO_PENDING_EXPLICIT_LIVE_APPROVAL\", \"queries\": [\"total\", \"period_groups\"], \"model_calls\": 0, \"metadata_calls\": 0}\n",
+  "stderr": ""
+}

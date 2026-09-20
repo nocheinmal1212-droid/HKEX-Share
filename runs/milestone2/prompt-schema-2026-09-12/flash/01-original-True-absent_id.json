@@ -1,0 +1,85 @@
+{
+  "case": "absent_id",
+  "created_at": "2026-09-12T09:58:29.942614+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "de2ff2c2b2dee2d25184cb52ab09888c89975628af5ca4a1cead2917e761acf1",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": "OpenInference",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": "vllm-dev-ep-2b83873d"
+  },
+  "prompt": "original",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Label field-missing as the total label. It is absent from the evidence; abstain.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "response_format": {
+      "json_schema": {
+        "name": "synthetic_label",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "enum": [
+                "label",
+                "abstain"
+              ]
+            },
+            "evidence_id": {
+              "enum": [
+                "field-one",
+                "field-two",
+                null
+              ]
+            },
+            "role": {
+              "enum": [
+                "total_label",
+                null
+              ]
+            }
+          },
+          "required": [
+            "action",
+            "evidence_id",
+            "role"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "91818d2d75a3f1592290a504d87927aa684a96467312c7ce5ac38025163d1479",
+  "response_text": "\n         \n{\"id\":\"gen-1789207112-jU8DuXWd6MfCOaiGd2oS\",\"object\":\"chat.completion\",\"created\":1789207112,\"model\":\"deepseek/deepseek-v4-flash-0731\",\"provider\":\"OpenInference\",\"system_fingerprint\":\"vllm-dev-ep-2b83873d\",\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"abstain\\\",\\n  \\\"evidence_id\\\": null,\\n  \\\"role\\\": null\\n}\",\"refusal\":null,\"reasoning\":\"我们根据指令，field-missing不在证据中，所以abstain，evidence_id为null，role为null。输出JSON。\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"我们根据指令，field-missing不在证据中，所以abstain，evidence_id为null，role为null。输出JSON。\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":117,\"completion_tokens\":54,\"total_tokens\":171,\"cost\":0.00000432,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":110,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.00000432,\"upstream_inference_prompt_cost\":5.4e-7,\"upstream_inference_completions_cost\":0.00000378},\"completion_tokens_details\":{\"reasoning_tokens\":28,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": true,
+  "validated_output": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ready_selector": "eval/reviews/hkex-2025-48/ready-development.json",
+  "source_config": "eval/config/hkex-2025-48.sources.json",
+  "source_manifest": "eval/manifests/hkex-2025-48.json",
+  "cases": [
+    {"error_id":"HL-ERR-0006","page_index":184,"block_index":3,"row":null,"column":null},
+    {"error_id":"HL-ERR-0017","page_index":158,"block_index":2,"row":1,"column":1},
+    {"error_id":"HL-ERR-0025","page_index":158,"block_index":2,"row":3,"column":2},
+    {"error_id":"HL-ERR-0041","page_index":179,"block_index":2,"row":5,"column":4}
+  ],
+  "additional_evidence": [
+    {"page_index":158,"block_index":3,"purpose":"Concatenated reference-currency tokens; preserve ambiguity."},
+    {"page_index":178,"block_index":2,"purpose":"Revenue-reference target and merged headers."},
+    {"page_index":186,"block_index":0,"purpose":"Property movement table; relationship review remains pending."},
+    {"page_index":122,"block_index":0,"purpose":"First continued-table fragment; native page location preserved."},
+    {"page_index":123,"block_index":0,"purpose":"Later continued-table fragment removed in paragraph view."}
+  ],
+  "expected_pages_per_run": 228,
+  "expected_table_regions_per_run": 132,
+  "expected_cells_per_run": 6415,
+  "review_status": "pending",
+  "mode": "fixture",
+  "publication_status": "UNGATED"
+}

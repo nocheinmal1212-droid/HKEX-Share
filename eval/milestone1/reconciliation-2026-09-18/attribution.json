@@ -1,0 +1,21 @@
+{
+  "starting_head": "f539e9de1f93cc6a33b6d8c332f912411f11ab50",
+  "starting_pending_paths": 207,
+  "original_pending_files_changed_by_task_a": [
+    ".gitignore",
+    "PLAN.md",
+    "README.md",
+    "eval/milestone1/README.md",
+    "eval/milestone1/native-review-guide.md",
+    "eval/milestone1/packet.py",
+    "eval/milestone1/prepare.py",
+    "tests/test_review_packet.py",
+    "docs/development-logs.md"
+  ],
+  "new_task_a_paths": [
+    "eval/milestone1/validate.py (tracked, previously unchanged)",
+    "eval/milestone1/reconciliation-2026-09-18/",
+    "docs/milestone1-cleanup-results-2026-09-18.md (handoff)"
+  ],
+  "all_other_starting_hashes": "unchanged; derived attachments checked separately against sealed manifests"
+}

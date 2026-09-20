@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unsupported_header_group"
+  ],
+  "case_id": "S20_unknown_category_suffix",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "b62f8f248c95fb8faf1221dbf5cfae3669884bca2c63c76deab30c719e436bf9",
+  "optional_support": [],
+  "reason": "Only the exact category and optional literal standard suffix were reviewed. A further semantic suffix is not removable normalization.",
+  "required_support": null,
+  "summary_relationships": []
+}

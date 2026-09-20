@@ -1,0 +1,36 @@
+[
+  {
+    "contributors": [
+      "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+      "cell-55800a70803563d96d94e0e97d63b57c263ae9f13a947e0375a0a61e4cc4174b"
+    ],
+    "gate": "eligible",
+    "name": "outer",
+    "presentation_refs": [
+      "cell-4d0313c3056be1a18ee85986176c3087720a42e2e70c155fafeee8d16a711811"
+    ],
+    "support": [
+      "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+      "cell-31e165c50e98a0318b977235106735e20606f285dbe7cf81d86595f13ba6e520",
+      "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171",
+      "cell-55800a70803563d96d94e0e97d63b57c263ae9f13a947e0375a0a61e4cc4174b"
+    ]
+  },
+  {
+    "contributors": [
+      "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b",
+      "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b"
+    ],
+    "gate": "eligible",
+    "name": "subtotal",
+    "presentation_refs": [
+      "cell-4d0313c3056be1a18ee85986176c3087720a42e2e70c155fafeee8d16a711811"
+    ],
+    "support": [
+      "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+      "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171",
+      "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b",
+      "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b"
+    ]
+  }
+]

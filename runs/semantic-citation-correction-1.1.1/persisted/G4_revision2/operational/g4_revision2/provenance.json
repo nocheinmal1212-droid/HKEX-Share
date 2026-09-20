@@ -1,0 +1,31 @@
+{
+  "annotation_ids": [],
+  "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "blocking_reasons": [
+    {
+      "code": "associated_prose_uninterpreted",
+      "source_refs": [
+        "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405"
+      ]
+    }
+  ],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "blocked_scope",
+  "primary_attempt_id": "attempt-9429831e9621f3c2d8253265a48c19fcee7abf8e2ab6c45ef199b9a086a0fa3a",
+  "primary_completion_sha256": null,
+  "query_id": "query-90d3d6656550fd97759694d737c045cdf29d321bfff262587e4fdc3cfe2075c0",
+  "query_sha256": "f4a2964a2e389323a4e6c76656f8ca9749cdb6295b3846999a6763bd35944610",
+  "selection": {
+    "name": "g4_revision2",
+    "table_id": "table-243f199ef2ef7f06a2e80fe631a8135540b8645b5638cffe4f7eabd9afbeab32",
+    "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "blocked_scope",
+  "source_sha256": "3ce3c780a8b05667352df8acdc64db13f98ed7ab0fc3fdc2ee08c44cc39931e7",
+  "version": "semantic-provenance-1.1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "consumption": {
+    "outcome": "authored-budget-control-only"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": "unavailable",
+      "reserved_cost_usd": "0"
+    },
+    "research": {
+      "reason": "unavailable",
+      "reserved_cost_usd": "0"
+    }
+  },
+  "name": "period_groups",
+  "primary": {
+    "attempt_id": "attempt-3305f75e4e7f9c63c27f9fd44a8fc7d48303665fd9d459d58826d1b3c045b512",
+    "elapsed_seconds": 2.4832901544868946e-05,
+    "model_calls": 0,
+    "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+    "role": "primary",
+    "validation": {
+      "answer": null,
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": null,
+      "state": "unavailable",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  },
+  "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+  "research": {
+    "attempt_id": "attempt-22e899b70b264adc9eb7948b9d10d0e402f8d5d84956f8104b31a4a1e6c558d0",
+    "elapsed_seconds": 2.3417058400809765e-05,
+    "model_calls": 0,
+    "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+    "role": "research",
+    "validation": {
+      "answer": null,
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": null,
+      "state": "unavailable",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  }
+}

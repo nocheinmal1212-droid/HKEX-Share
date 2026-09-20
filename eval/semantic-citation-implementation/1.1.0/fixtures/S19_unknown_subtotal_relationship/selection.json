@@ -1,0 +1,6 @@
+{
+  "name": "s19_unknown_subtotal_relationship",
+  "table_id": "table-1525f2bc5bf744c100679fa9f9cf9a0ced401711cdaa0018553f4b4638007b1e",
+  "target_id": "cell-5077507fecb2e5a468027cbe9e1a5bcac7abeb812e332a3af1c46ff634b50a58",
+  "transform": "mask_body_amounts_v1"
+}

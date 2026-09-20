@@ -1,0 +1,9 @@
+test_fixed_categories_without_exception_text (test_model_selection_transport_v3.ClassificationTests.test_fixed_categories_without_exception_text) ... ok
+test_http_error_is_preserved_as_http (test_model_selection_transport_v3.ClassificationTests.test_http_error_is_preserved_as_http) ... ok
+test_http_status_survives_read_failure (test_model_selection_transport_v3.ClassificationTests.test_http_status_survives_read_failure) ... ok
+test_wrapped_timeout_one_call (test_model_selection_transport_v3.ClassificationTests.test_wrapped_timeout_one_call) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

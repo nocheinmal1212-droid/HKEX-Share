@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "request.json": "4d5ccbadc9d35c2c49afaa5790590450e3c0adfce4a9eddc4e0e4fa4b231c5a1",
+    "response.json": "a3d83f53f3ad1e2f641528694fe33f1dae853c1f4670b248e03fa7587dda4b51",
+    "result.json": "45c36a6a70f8281260a4119e77d65190fd616e5528fffbb99d3117fcc8cc4b5b",
+    "started.json": "bc8cdeee842c2282f76c5cd779471c0dbda169bce4fb710302c3d27fe39c3c83"
+  },
+  "attempt_id": "attempt-d543ab980d3530ed560244a169ae8c283aae75fcb3f044c556a42f6d3f17b22c",
+  "version": "paired-semantic-attempt-1.2.0"
+}

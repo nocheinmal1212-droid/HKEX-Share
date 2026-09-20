@@ -1,0 +1,14 @@
+{
+  "boundary_scenarios_specified_not_executed": 20,
+  "files_sha256": {
+    "spec/diagnostics/direct-contributors-expectations-v1.json": "32789812dac8fa00c0bee816df11446f3d7ab08d281c891ac2918e58603c8505",
+    "spec/diagnostics/direct-contributors-inputs-v1.json": "8d88bad2fde7a62d12a43224efd44ab354e2853d44e11dc9de57283ba6c86498"
+  },
+  "interpretation_cases_executed": 0,
+  "interpretation_cases_prepared": 14,
+  "limitation": "Static references/control checks only. No semantic correctness, real IR fidelity, runtime isolation, dispatch, persistence, amount invariance or provider acceptance claim.",
+  "max_draft_logical_payload_bytes": 1924,
+  "model_calls": 0,
+  "production_integration": false,
+  "status": "proposal_consistency_checks_passed"
+}

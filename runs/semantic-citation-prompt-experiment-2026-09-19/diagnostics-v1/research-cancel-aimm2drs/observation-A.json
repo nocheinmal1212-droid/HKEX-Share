@@ -1,0 +1,130 @@
+{
+  "result": {
+    "arm": "A",
+    "denominator_per_role": 2,
+    "model_calls": 0,
+    "primary_complete_successes": 1,
+    "research_successes": 0,
+    "results": [
+      {
+        "case": "total",
+        "complete_primary_success": true,
+        "primary_persistence_available": true,
+        "roles": {
+          "primary": {
+            "availability": "ok",
+            "contributors_cited": true,
+            "cost": null,
+            "exact_contributors": true,
+            "finish_reason": "stop",
+            "groups_cited": true,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "accepted",
+            "replay_calls": 0,
+            "schema_valid": true,
+            "served": {
+              "id": "AUTHORED-OFFLINE",
+              "model": "google/gemini-3.8-flash",
+              "provider": "Google AI Studio"
+            },
+            "state": true,
+            "state_list_consistent": true,
+            "success": true,
+            "target": true,
+            "target_cited": true,
+            "usage": null
+          },
+          "research": {
+            "availability": "unavailable",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": null,
+            "host_diagnostic": null,
+            "host_state": "incomplete_attempt",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          }
+        }
+      },
+      {
+        "case": "period_groups",
+        "complete_primary_success": false,
+        "primary_persistence_available": false,
+        "roles": {
+          "primary": {
+            "availability": "unavailable",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": null,
+            "host_diagnostic": null,
+            "host_state": "incomplete_attempt",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          },
+          "research": {
+            "availability": "unavailable",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": null,
+            "host_diagnostic": null,
+            "host_state": "incomplete_attempt",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          }
+        }
+      }
+    ]
+  },
+  "two_reads_equal": true,
+  "writer_artifacts_unchanged": {
+    "operational/total/annotations.json": "e9077e5a59bd7d8210e171ad410de87835baa0fc9864adbe704815d77eb87e64",
+    "operational/total/consumption.json": "948b82cbf431b9a33bb394b828b1ca45205e9e8687779c7d86237af7a85f190a",
+    "operational/total/provenance.json": "96f3db2fbaf788409c443a1c7f673ebf107f4ac656ac8d76e3eb383ab0c6ea9b",
+    "primary/total/completion.json": "12a34f07e23d5f10ad4be58188d79864ea3a402ca35730c1d45d0b374c07dd9b",
+    "primary/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "primary/total/request.json": "54fed09e564c6fb01fab4eb708d5486dab94a5f1d2f9616d74011c0563236b3b",
+    "primary/total/response.json": "3bd9853d39cb4530781139d885804677a3fe05ecd22d12089e434bda70391d0e",
+    "primary/total/result.json": "c0197fb4af2096dea2b40055325e8599280209a509a36cb0cfeed6fceb676c63",
+    "primary/total/started.json": "939279e12fca40d558622995f955200fd3bb90700dc875b90277c6f9e19eeabd",
+    "primary/total/transport-launch.json": "9d2782be725b468791e1d5f623788f2cf99e8578f828f8a7be0026a8a7063063",
+    "primary/total/transport-return.json": "3bd9853d39cb4530781139d885804677a3fe05ecd22d12089e434bda70391d0e",
+    "research/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "research/total/request.json": "e08776844a6c6335ced466d9cc0dc8996d090efbd110aa5c76a5f65643af4908",
+    "research/total/started.json": "a99ba9fc82cae8ceab3b64128cfc7710895fcdf7ad5112c2e79107abac6e845d",
+    "research/total/transport-descendant.pid": "c06c50f5dac1c0a65352403c62012ef4f94ab18aa95007b937abba210fcac41d",
+    "research/total/transport-launch.json": "499e8bce746a531838020d95aff5184b4a33c6b1909f74de274d01394f0a2131",
+    "research/total/transport-worker.pid": "379f31961d75dc35097dba882c844f49d712a5e030509308b52661a169910394",
+    "total-reservations.json": "aa722c1209d7b654fbc683bb6371d52b7a5991fddf0bad1175fd1f65f20377e2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unresolved_subtotal_scope"
+  ],
+  "case_id": "S19_unknown_subtotal_relationship",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "689f9fdfe3f26d8b8d5ccf5a00be8ecc16addbb0a85e00cd3b27db22c4b2b04b",
+  "optional_support": [],
+  "reason": "The literal revenue category and total may qualify as context, but product labels have no reviewed summary profile. Do not generalize the timing profile to arbitrary siblings.",
+  "required_support": null,
+  "summary_relationships": []
+}

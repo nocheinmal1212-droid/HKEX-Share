@@ -1,0 +1,38 @@
+{
+  "attempt_id": "attempt-7f6f6b14b5a56df3ec204100eee280fe9e394604bc14117a976726981242d468",
+  "elapsed_seconds": 6.47080596536398e-05,
+  "model_calls": 1,
+  "query_id": "query-f2e10b95ba8a2b4a009158f5fdae2da209f40a63f64b65eb7ca1e00d6fef82a4",
+  "role": "research",
+  "validation": {
+    "answer": {
+      "contributor_ids": [
+        "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b",
+        "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b"
+      ],
+      "state": "selected",
+      "support_refs": [
+        "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9",
+        "cell-3d828772c2dde37b5a689f360347e65096c86d5688b1cb2f0385fecaf920c171",
+        "cell-9a7749157817cb6ab9a5970f8d30212c636a299247aa01634caa77b3ee2e912b",
+        "cell-e84eccbb714a516114e417b9ab8af0244b966eb8f336cb675b2ce1e1e476591b"
+      ],
+      "target_id": "cell-2fa05481516215afc5a4d2ccc2f2b8efbedd615315734ba141b771cbbf7e64e9"
+    },
+    "cost": "0.0001",
+    "cost_status": "reported",
+    "revision": null,
+    "served": {
+      "id": "fixture-response",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together"
+    },
+    "state": "accepted",
+    "usage": {
+      "completion_tokens": 10,
+      "cost": 0.0001,
+      "prompt_tokens": 10
+    }
+  },
+  "version": "paired-semantic-attempt-1.1.0"
+}

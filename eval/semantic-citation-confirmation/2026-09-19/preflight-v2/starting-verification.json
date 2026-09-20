@@ -1,0 +1,11 @@
+{
+  "old_freeze_members": 760,
+  "old_freeze_all_match": true,
+  "manifests": {
+    "eval/semantic-citation-implementation/1.1.1/implementation-bindings.json": 18,
+    "eval/semantic-citation-implementation/1.1.1/artifact-integrity.json": 183,
+    "eval/semantic-citation-implementation/1.1.1/fixture-freeze.json": 68,
+    "eval/semantic-integration/2026-09-18/retained-artifacts.json": 127,
+    "eval/semantic-citation-investigation/2026-09-19/bundle-integrity.json": 119
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "s24_missing_target_discriminator",
+  "table_id": "table-c8ad793f1e16e22245e585fd298c933b3173ff0e1343c526c47e46f8ed7c6bb3",
+  "target_id": "cell-a554527767a234207c2a4ea628e3962db00e28e807118043e8e3c94a20964d09",
+  "transform": "mask_body_amounts_v1"
+}

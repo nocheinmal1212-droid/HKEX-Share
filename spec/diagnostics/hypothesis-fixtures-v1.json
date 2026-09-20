@@ -1,0 +1,441 @@
+{
+  "acceptance": "One frozen P11 prompt and output contract must pass all nine core cases on each supported reviewed model/endpoint, with planned repeat evidence reported separately. No per-model prompt variants, field-position shortcuts, automatic fallback, or output repair. Unsupported routes are explicit capability failures, not semantic passes. Passing this finite suite does not guarantee success for every underlying model.",
+  "candidate_shared_prompt": "P11",
+  "cases": [
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "id": "zh_total",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "總計"
+          },
+          {
+            "id": "field-two",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "總計 explicitly names a total; 收入 names revenue."
+    },
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "id": "reordered",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-two",
+            "text": "收入"
+          },
+          {
+            "id": "field-one",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Reordering evidence must not change the selected occurrence."
+    },
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-two",
+        "role": "total_label"
+      },
+      "id": "rebound_ids",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "收入"
+          },
+          {
+            "id": "field-two",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Selection follows text, not a memorized ID."
+    },
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "id": "renamed_ids",
+      "input": {
+        "evidence": [
+          {
+            "id": "source-17",
+            "text": "總計"
+          },
+          {
+            "id": "source-42",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Permitted IDs come from the supplied evidence, not fixed field names."
+    },
+    {
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "no_total",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "成本"
+          },
+          {
+            "id": "field-two",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Neither cost nor revenue explicitly names a total."
+    },
+    {
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "missing_target",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "總計"
+          },
+          {
+            "id": "field-two",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Classify field-missing as a total label if supported by the supplied evidence."
+      },
+      "rationale": "An existing total label does not authorize substituting it for an absent requested ID."
+    },
+    {
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "id": "ambiguous_total",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "總計"
+          },
+          {
+            "id": "field-two",
+            "text": "總計"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Two distinct qualifying occurrences; unique selection is unsupported."
+    },
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "id": "english_total",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "Total"
+          },
+          {
+            "id": "field-two",
+            "text": "Revenue"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "English recognition control with otherwise identical input."
+    },
+    {
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "id": "simplified_total",
+      "input": {
+        "evidence": [
+          {
+            "id": "field-one",
+            "text": "总计"
+          },
+          {
+            "id": "field-two",
+            "text": "收入"
+          }
+        ],
+        "instruction": "Select the total label from the supplied evidence."
+      },
+      "rationale": "Simplified Chinese recognition control with otherwise identical input."
+    }
+  ],
+  "controls": {
+    "case_ids": [
+      "zh_total",
+      "no_total",
+      "missing_target"
+    ],
+    "deadline_seconds": 30,
+    "max_response_bytes": 131072,
+    "provider_resolution": "Use currently available routing metadata to resolve recorded display names, then freeze exact endpoint slugs and supported parameters before requests. Unavailable routes are blocked, not substituted silently.",
+    "retries": 0,
+    "transport_policy": "Original TLS transport, no proxies, no redirects, no fallback; save each attempt."
+  },
+  "evaluation": {
+    "diagnostic_fields": "For parseable JSON, preserve selected evidence_id and action/role violations separately; never repair the official result. Returned reasoning is supplementary generated text, not causal ground truth.",
+    "negative_controls": "Both null fields and abstain required; never normalize invalid output into abstention.",
+    "pass": "Complete response; expected model and pinned provider verified; no refusal/tool call; valid JSON and instantiated schema; exact expected output.",
+    "reporting": "Show every planned/executed/blocked case by model and endpoint, first attempts and repeats separately, raw output, usage, latency, request hashes, and unknown model revision. No aggregate score can hide a failed control.",
+    "separate_failures": [
+      "access_or_parameter_unsupported",
+      "identity_mismatch",
+      "timeout",
+      "transport_error",
+      "truncated",
+      "refusal",
+      "malformed_json",
+      "invalid_schema",
+      "unexpected_abstention",
+      "wrong_selection",
+      "failure_to_abstain"
+    ]
+  },
+  "execution_performed": false,
+  "fixtures": [
+    {
+      "arms": [
+        "P00 strict",
+        "P10 strict",
+        "P01 strict",
+        "P11 strict"
+      ],
+      "case_ids": [
+        "zh_total",
+        "no_total",
+        "missing_target"
+      ],
+      "comparison": "Compare P00 vs P10 and P01 vs P11. Only the vocabulary paragraph differs within each pair.",
+      "hypothesis": "Successful output vocabulary is not communicated clearly enough.",
+      "id": "H1",
+      "limit": "A single passing pair does not establish a repeatable improvement; use H4 repetitions.",
+      "models": "both DeepSeek models",
+      "priority": "primary",
+      "support": "Explicit vocabulary improves contract-correct selection without breaking negative controls."
+    },
+    {
+      "arms": [
+        "P00 strict",
+        "P01 strict",
+        "P10 strict",
+        "P11 strict"
+      ],
+      "case_ids": [
+        "zh_total",
+        "no_total",
+        "missing_target"
+      ],
+      "comparison": "Reuse H1 factorial calls. Compare P00 vs P01 and P10 vs P11. Only the scope paragraph differs within each pair.",
+      "hypothesis": "Evidence sufficiency or task scope is interpreted too cautiously.",
+      "id": "H2",
+      "limit": "The scope paragraph also clarifies selection rules. It tests that instruction package, not subjective model confidence.",
+      "models": "both DeepSeek models",
+      "priority": "secondary",
+      "support": "Scope clarification improves positive selection while no-total and missing-target cases still abstain."
+    },
+    {
+      "arms": [
+        "P11 strict",
+        "P11 unconstrained"
+      ],
+      "case_ids": [
+        "zh_total",
+        "no_total",
+        "missing_target"
+      ],
+      "comparison": "Same exact messages with explicit vocabulary in both arms. Change response_format only; require the same pinned endpoint to support both.",
+      "hypothesis": "Strict API schema handling contributes to divergent decisions or output failures.",
+      "id": "H3",
+      "limit": "This cannot distinguish gateway schema translation, provider prompting, or constrained decoding without serving-side evidence.",
+      "models": "all four models",
+      "priority": "primary",
+      "support": "A repeated outcome difference between modes on the same endpoint."
+    },
+    {
+      "arms": [
+        "P00 strict",
+        "P11 strict"
+      ],
+      "case_ids": [
+        "zh_total",
+        "no_total",
+        "missing_target"
+      ],
+      "comparison": "Repeat byte-identical requests three times on one pinned endpoint. Interleave paired arms with fixed case order; freeze order in the execution manifest. Reuse first observations from H1 only if endpoint, requests, and schedule match. Optional provider comparison repeats the same schedule on a second verified endpoint for Pro.",
+      "hypothesis": "Serving path or repeated-call variability explains the original intermittent abstention.",
+      "id": "H4",
+      "limit": "Pinning a provider/fingerprint does not attest underlying weights or eliminate hidden serving changes; three successes do not prove reliability.",
+      "models": "both DeepSeek models, with optional second verified Pro route",
+      "priority": "primary",
+      "repetitions_per_arm_and_case": 3,
+      "support": "Different outcomes for identical requests establish observed instability. Repeated endpoint-associated differences support a serving-path effect."
+    },
+    {
+      "arms": [
+        "P00 unconstrained, max_tokens=512",
+        "P00 unconstrained, max_tokens=2048"
+      ],
+      "case_ids": [
+        "zh_total",
+        "no_total"
+      ],
+      "comparison": "Change max_tokens only, same pinned endpoint and 30-second deadline; record timeouts separately.",
+      "hypothesis": "Insufficient completion budget explains the newly observed no-schema truncation.",
+      "id": "H5",
+      "limit": "More tokens can solve completion while leaving wrong vocabulary. It cannot explain the original stop-completed abstention; no automatic production budget increase.",
+      "models": [
+        "deepseek/deepseek-v4-pro-0813"
+      ],
+      "priority": "secondary; distinct from original completed abstention",
+      "support": "512 ends with length and no final answer; 2048 completes. Also assess final output against the unchanged contract."
+    },
+    {
+      "arms": [
+        "P11 strict"
+      ],
+      "case_ids": [
+        "zh_total",
+        "reordered",
+        "rebound_ids",
+        "renamed_ids",
+        "no_total",
+        "missing_target",
+        "ambiguous_total",
+        "english_total",
+        "simplified_total"
+      ],
+      "comparison": "Shared prompt, schema construction and validation across models; compare language, evidence order and ID changes with explicit expected selections.",
+      "hypothesis": "Residual lexical, language, or occurrence-binding weakness.",
+      "id": "H6",
+      "limit": "A failure need not establish intrinsic model incapability. These nine examples test lexical selection only, not accounting interpretation or universal model support.",
+      "models": "all four models",
+      "priority": "low-probability control and portability requirement",
+      "support": "Completed, well-formed wrong decisions persist for a specific language or changed occurrence binding."
+    }
+  ],
+  "models": [
+    "deepseek/deepseek-v4-pro-0813",
+    "deepseek/deepseek-v4-flash-0731",
+    "z-ai/glm-5.3-flash",
+    "google/gemini-3.8-flash"
+  ],
+  "prompt_axes": {
+    "scope": {
+      "explicit": [
+        "P01",
+        "P11"
+      ],
+      "original": [
+        "P00",
+        "P10"
+      ]
+    },
+    "vocabulary": {
+      "absent": [
+        "P00",
+        "P01"
+      ],
+      "explicit": [
+        "P10",
+        "P11"
+      ]
+    }
+  },
+  "prompts": {
+    "P00": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+    "P01": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. This task classifies label text, not financial amounts or accounting relationships. A label explicitly naming a total is sufficient; no amounts, table, or surrounding context are needed. If the instruction targets an ID, consider only that ID; an absent target requires abstention. Otherwise select only when exactly one supplied label explicitly names a total. If none or more than one qualify, abstain; do not guess or select by order.",
+    "P10": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. Output vocabulary: action must be exactly \"label\" or \"abstain\". For a selection, use action \"label\", the selected evidence ID, and role \"total_label\". For abstention, use action \"abstain\", evidence_id null, and role null. Return exactly these three JSON keys: action, evidence_id, role; no other text.",
+    "P11": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. Output vocabulary: action must be exactly \"label\" or \"abstain\". For a selection, use action \"label\", the selected evidence ID, and role \"total_label\". For abstention, use action \"abstain\", evidence_id null, and role null. Return exactly these three JSON keys: action, evidence_id, role; no other text. This task classifies label text, not financial amounts or accounting relationships. A label explicitly naming a total is sufficient; no amounts, table, or surrounding context are needed. If the instruction targets an ID, consider only that ID; an absent target requires abstention. Otherwise select only when exactly one supplied label explicitly names a total. If none or more than one qualify, abstain; do not guess or select by order."
+  },
+  "request_construction": {
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "max_tokens": 512,
+    "model": "Exact model ID under test",
+    "provider": {
+      "allow_fallbacks": false,
+      "only": "Resolve and freeze one actual provider endpoint slug per model before execution; this placeholder is not an API request.",
+      "require_parameters": true
+    },
+    "stream": false,
+    "strict_mode": "Add original response_format wrapper with instantiated schema.",
+    "system_message": "Exact selected prompts entry",
+    "temperature": 0,
+    "unconstrained_mode": "Omit response_format only; all message bytes and other request parameters remain identical.",
+    "user_message": "hkex_audit.artifacts.encode(case.input).decode(): UTF-8, sorted keys, indent=2, trailing newline"
+  },
+  "schema_instantiation": "Replace evidence_id.enum with all distinct IDs in the supplied evidence, in evidence order, then null. Do not include absent target IDs.",
+  "schema_template": {
+    "additionalProperties": false,
+    "properties": {
+      "action": {
+        "enum": [
+          "label",
+          "abstain"
+        ]
+      },
+      "evidence_id": {
+        "enum": [
+          "field-one",
+          "field-two",
+          null
+        ]
+      },
+      "role": {
+        "enum": [
+          "total_label",
+          null
+        ]
+      }
+    },
+    "required": [
+      "action",
+      "evidence_id",
+      "role"
+    ],
+    "type": "object"
+  },
+  "scope": "synthetic_only",
+  "status": "proposed_pending_owner_review",
+  "version": "hypothesis-fixtures-v1"
+}

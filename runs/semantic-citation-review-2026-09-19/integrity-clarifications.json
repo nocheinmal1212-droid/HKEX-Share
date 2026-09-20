@@ -1,0 +1,11 @@
+{
+  "initial_batch_expectation_sha256": "233d4afee159f684e798ad843e6279d3cf7a7811413e9f8655b2bf80a2cdc452",
+  "matches_executed_batch_record": true,
+  "note": "The later prose declaration was appended after the batch probe. This file preserves the original batch declaration bytes. No expected outcome was changed.",
+  "prompt_binding": {
+    "encoding": "UTF-8 literal PROMPT bytes, not JSON-encoded string",
+    "expected": "bf071b1efd8bcf4b7c4d7dca848c979ba01ccf835da7d7e151568e965011258c",
+    "actual": "bf071b1efd8bcf4b7c4d7dca848c979ba01ccf835da7d7e151568e965011258c",
+    "diagnostic_json_string_hash": "766c96c52d189080132f06d6924393cc92052475c2a8cddea3337b6776da46eb"
+  }
+}

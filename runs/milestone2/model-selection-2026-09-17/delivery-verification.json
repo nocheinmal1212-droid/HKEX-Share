@@ -1,0 +1,6 @@
+{
+  "report_local_links_checked": 17,
+  "inventory_hashes_verified": 413,
+  "report_sha256": "33cd4ad57a1fcb51868f84499a884eb77d14416f800d8dfc6ede97c8afd012d2",
+  "scope": "Read-only artifact replay/hash checks; report creation only. No inference."
+}

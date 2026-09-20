@@ -1,0 +1,72 @@
+{
+  "consumption": {
+    "outcome": "authored-budget-control-only"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": null,
+      "reserved_cost_usd": "0.444710"
+    },
+    "research": {
+      "reason": "budget_exhausted",
+      "reserved_cost_usd": "0"
+    }
+  },
+  "name": "total",
+  "primary": {
+    "attempt_id": "attempt-ca8c49c7fe5b7a8118161070b124f74872116df066af12134832425ffb77b80c",
+    "elapsed_seconds": 0.001230417052283883,
+    "model_calls": 1,
+    "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+    "role": "primary",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "cost": "0.0001",
+      "cost_status": "reported",
+      "revision": null,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "accepted",
+      "usage": {
+        "completion_tokens": 10,
+        "cost": 0.0001,
+        "prompt_tokens": 10
+      }
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  },
+  "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+  "research": {
+    "attempt_id": "attempt-a9b418039eee57bb56b03d71fc0078cf01f58bd8a50a99e88cc68cdd1022f874",
+    "elapsed_seconds": 2.6416033506393433e-05,
+    "model_calls": 0,
+    "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+    "role": "research",
+    "validation": {
+      "answer": null,
+      "cost": null,
+      "cost_status": "unknown",
+      "revision": null,
+      "served": null,
+      "state": "budget_exhausted",
+      "usage": null
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "evidence_id": "document-3b1f44320c5829138076ab6b458d87992dc4ee4772b0205e027bd542007bf2f4",
+  "items": [
+    {
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 32,
+          "source_id": "source-fc96ed45b16f8c08a12ec67463d76534bf979f405c09017cbd70eb6b05694178",
+          "start": 27
+        }
+      ],
+      "id": "cell-1417da10f686e8a8a5205c9496c7fc743706d2b0725091551770f7493dc5d628",
+      "kind": "cell",
+      "limitations": [],
+      "page_index": 0,
+      "parent_id": "table-64e62f8ba3fc4275191ac0983f3f568418d0b267dfcf36991050fb2dea17348e",
+      "text": "港幣百萬元"
+    }
+  ]
+}

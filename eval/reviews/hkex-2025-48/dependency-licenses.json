@@ -1,0 +1,229 @@
+[
+  {
+    "name": "ruamel.yaml",
+    "version": "0.18.16",
+    "license_expression": "MIT license",
+    "license_files": [
+      {
+        "path": "ruamel.yaml-0.18.16.dist-info/licenses/LICENSE",
+        "sha256": "0ce9ad6a9d4f0829296a72c77d07795dd67f42751e2922be56c051d39ae1c011",
+        "first_lines": [
+          " The MIT License (MIT)",
+          "",
+          " Copyright (c) 2014-2025 Anthon van der Neut, Ruamel bvba",
+          "",
+          " Permission is hereby granted, free of charge, to any person obtaining a copy",
+          " of this software and associated documentation files (the \"Software\"), to deal",
+          " in the Software without restriction, including without limitation the rights",
+          " to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+        ]
+      }
+    ],
+    "requires": [
+      "ruamel.yaml.clib>=0.2.7; platform_python_implementation == \"CPython\" and python_version < \"3.14\"",
+      "ruamel.yaml.jinja2>=0.2; extra == \"jinja2\"",
+      "ryd; extra == \"docs\"",
+      "mercurial>5.7; extra == \"docs\""
+    ]
+  },
+  {
+    "name": "ruamel.yaml.clib",
+    "version": "0.2.15",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "ruamel_yaml_clib-0.2.15.dist-info/licenses/LICENSE",
+        "sha256": "f8ad7efe71dde909f2d694f7dc69470d3dbe07c001c0b30c6bd9951e472077fa",
+        "first_lines": [
+          " The MIT License (MIT)",
+          "",
+          " Copyright (c) 2019-2025 Anthon van der Neut, Ruamel bvba",
+          "",
+          " Permission is hereby granted, free of charge, to any person obtaining a copy",
+          " of this software and associated documentation files (the \"Software\"), to deal",
+          " in the Software without restriction, including without limitation the rights",
+          " to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+        ]
+      }
+    ],
+    "requires": null
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "jsonschema-4.26.0.dist-info/licenses/COPYING",
+        "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+        "first_lines": [
+          "Copyright (c) 2013 Julian Berman",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal",
+          "in the Software without restriction, including without limitation the rights",
+          "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+          "copies of the Software, and to permit persons to whom the Software is",
+          "furnished to do so, subject to the following conditions:"
+        ]
+      }
+    ],
+    "requires": [
+      "attrs>=22.2.0",
+      "jsonschema-specifications>=2023.03.6",
+      "referencing>=0.28.4",
+      "rpds-py>=0.25.0",
+      "fqdn; extra == 'format'",
+      "idna; extra == 'format'",
+      "isoduration; extra == 'format'",
+      "jsonpointer>1.13; extra == 'format'",
+      "rfc3339-validator; extra == 'format'",
+      "rfc3987; extra == 'format'",
+      "uri-template; extra == 'format'",
+      "webcolors>=1.11; extra == 'format'",
+      "fqdn; extra == 'format-nongpl'",
+      "idna; extra == 'format-nongpl'",
+      "isoduration; extra == 'format-nongpl'",
+      "jsonpointer>1.13; extra == 'format-nongpl'",
+      "rfc3339-validator; extra == 'format-nongpl'",
+      "rfc3986-validator>0.1.0; extra == 'format-nongpl'",
+      "rfc3987-syntax>=1.1.0; extra == 'format-nongpl'",
+      "uri-template; extra == 'format-nongpl'",
+      "webcolors>=24.6.0; extra == 'format-nongpl'"
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "attrs-26.1.0.dist-info/licenses/LICENSE",
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+        "first_lines": [
+          "The MIT License (MIT)",
+          "",
+          "Copyright (c) 2015 Hynek Schlawack and the attrs contributors",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal",
+          "in the Software without restriction, including without limitation the rights",
+          "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+        ]
+      }
+    ],
+    "requires": null
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+        "first_lines": [
+          "Copyright (c) 2022 Julian Berman",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal",
+          "in the Software without restriction, including without limitation the rights",
+          "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+          "copies of the Software, and to permit persons to whom the Software is",
+          "furnished to do so, subject to the following conditions:"
+        ]
+      }
+    ],
+    "requires": [
+      "referencing>=0.31.0"
+    ]
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "referencing-0.37.0.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+        "first_lines": [
+          "Copyright (c) 2022 Julian Berman",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal",
+          "in the Software without restriction, including without limitation the rights",
+          "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+          "copies of the Software, and to permit persons to whom the Software is",
+          "furnished to do so, subject to the following conditions:"
+        ]
+      }
+    ],
+    "requires": [
+      "attrs>=22.2.0",
+      "rpds-py>=0.7.0",
+      "typing-extensions>=4.4.0; python_version < '3.13'"
+    ]
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.6.3",
+    "license_expression": "MIT",
+    "license_files": [
+      {
+        "path": "rpds_py-2026.6.3.dist-info/licenses/LICENSE",
+        "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+        "first_lines": [
+          "Copyright (c) 2023 Julian Berman",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal",
+          "in the Software without restriction, including without limitation the rights",
+          "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+          "copies of the Software, and to permit persons to whom the Software is",
+          "furnished to do so, subject to the following conditions:"
+        ]
+      }
+    ],
+    "requires": null
+  },
+  {
+    "name": "pypdf",
+    "version": "6.10.0",
+    "license_expression": "BSD-3-Clause",
+    "license_files": [
+      {
+        "path": "pypdf-6.10.0.dist-info/licenses/LICENSE",
+        "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524",
+        "first_lines": [
+          "Copyright (c) 2006-2008, Mathieu Fenniak",
+          "Some contributions copyright (c) 2007, Ashish Kulkarni <kulkarni.ashish@gmail.com>",
+          "Some contributions copyright (c) 2014, Steve Witham <switham_github@mac-guyver.com>",
+          "",
+          "All rights reserved.",
+          "",
+          "Redistribution and use in source and binary forms, with or without",
+          "modification, are permitted provided that the following conditions are"
+        ]
+      }
+    ],
+    "requires": [
+      "typing_extensions >= 4.0; python_version < '3.11'",
+      "cryptography ; extra == \"crypto\"",
+      "PyCryptodome ; extra == \"cryptodome\"",
+      "flit ; extra == \"dev\"",
+      "pip-tools ; extra == \"dev\"",
+      "pre-commit ; extra == \"dev\"",
+      "pytest-cov ; extra == \"dev\"",
+      "pytest-socket ; extra == \"dev\"",
+      "pytest-timeout ; extra == \"dev\"",
+      "pytest-xdist ; extra == \"dev\"",
+      "wheel ; extra == \"dev\"",
+      "myst_parser ; extra == \"docs\"",
+      "sphinx ; extra == \"docs\"",
+      "sphinx_rtd_theme ; extra == \"docs\"",
+      "cryptography ; extra == \"full\"",
+      "Pillow>=8.0.0 ; extra == \"full\"",
+      "Pillow>=8.0.0 ; extra == \"image\""
+    ]
+  }
+]

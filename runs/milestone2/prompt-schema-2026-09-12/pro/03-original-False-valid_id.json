@@ -1,0 +1,43 @@
+{
+  "case": "valid_id",
+  "created_at": "2026-09-12T09:58:45.253548+00:00",
+  "expected": {
+    "action": "label",
+    "evidence_id": "field-one",
+    "role": "total_label"
+  },
+  "fingerprint": "6a38ef0de3b6406ca19263618a9d68a6493e614a9f9305e5781ff05854dfde9e",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": null
+  },
+  "prompt": "original",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "d073d6e9c9951d181c39dc586eeb062ce44679315ddbaa5c12201680a0a51e64",
+  "response_text": "\n         \n\n         \n\n         \n{\"id\":\"gen-1789207127-JcSd3HjwkR48hRUDG7ni\",\"object\":\"chat.completion\",\"created\":1789207127,\"model\":\"deepseek/deepseek-v4-pro-0813\",\"provider\":\"Baidu\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"length\",\"native_finish_reason\":\"length\",\"message\":{\"role\":\"assistant\",\"content\":null,\"refusal\":null,\"reasoning\":\"We need answer user. Need understand task. We have evidence array with two fields: id field-one text \\\"總計\\\" (total), field-two text \\\"收入\\\" (income). Instruction: Select the total label from supplied evidence. Need return JSON object? Probably with action? They said \\\"Return only requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\" So need select total label. Evidence ID field-one text 總計. Need output JSON maybe {\\\"action\\\":\\\"select\\\",\\\"evidence_id\\\":\\\"field-one\\\",\\\"role\\\":\\\"total\\\"}? Need infer schema. They mention \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely action and evidence_id and role. Need include selected? Hmm.\\n\\nWe need decide exact JSON. User asks \\\"Select the total label from the supplied evidence.\\\" We have evidence. \\\"總計\\\" means total. \\\"收入\\\" means income. Need select total label. The action probably \\\"select\\\", evidence_id \\\"field-one\\\", role \\\"total\\\"? Or maybe \\\"label\\\": \\\"total\\\"? Need parse \\\"Return only requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\"\\n\\nThis resembles some extraction tasks where output format is:\\n{\\n  \\\"action\\\": \\\"select\\\" | \\\"abstain\\\",\\n  \\\"evidence_id\\\": \\\"field-one\\\",\\n  \\\"role\\\": \\\"total\\\"\\n}\\nMaybe \\\"role\\\" should be label? They mention \\\"role\\\". \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely when sufficient, include role. Need set \\\"role\\\" to \\\"total\\\"? They said select the total label. But total label maybe \\\"總計\\\" not English? \\\"Interpret labels using supplied evidence IDs.\\\" Could be \\\"evidence_id\\\": \\\"field-one\\\", \\\"role\\\": \\\"total\\\"? Hmm.\\n\\nNeed inspect wording: \\\"Select the total label from the supplied evidence.\\\" Labels are text in evidence? \\\"總計\\\" is label total. They want select total label. Could output evidence_id only? But instruction says \\\"Interpret labels using supplied evidence IDs. Never invent an ID...\\\" The JSON object likely:\\n{\\\"action\\\":\\\"select\\\",\\\"evidence_id\\\":\\\"field-one\\\",\\\"role\\\":\\\"total\\\"}\\n\\nNeed ensure not invent role? \\\"role\\\" maybe from ontology: \\\"total\\\". But if label in Chinese \\\"總計\\\" maps\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"We need answer user. Need understand task. We have evidence array with two fields: id field-one text \\\"總計\\\" (total), field-two text \\\"收入\\\" (income). Instruction: Select the total label from supplied evidence. Need return JSON object? Probably with action? They said \\\"Return only requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\" So need select total label. Evidence ID field-one text 總計. Need output JSON maybe {\\\"action\\\":\\\"select\\\",\\\"evidence_id\\\":\\\"field-one\\\",\\\"role\\\":\\\"total\\\"}? Need infer schema. They mention \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely action and evidence_id and role. Need include selected? Hmm.\\n\\nWe need decide exact JSON. User asks \\\"Select the total label from the supplied evidence.\\\" We have evidence. \\\"總計\\\" means total. \\\"收入\\\" means income. Need select total label. The action probably \\\"select\\\", evidence_id \\\"field-one\\\", role \\\"total\\\"? Or maybe \\\"label\\\": \\\"total\\\"? Need parse \\\"Return only requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\"\\n\\nThis resembles some extraction tasks where output format is:\\n{\\n  \\\"action\\\": \\\"select\\\" | \\\"abstain\\\",\\n  \\\"evidence_id\\\": \\\"field-one\\\",\\n  \\\"role\\\": \\\"total\\\"\\n}\\nMaybe \\\"role\\\" should be label? They mention \\\"role\\\". \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely when sufficient, include role. Need set \\\"role\\\" to \\\"total\\\"? They said select the total label. But total label maybe \\\"總計\\\" not English? \\\"Interpret labels using supplied evidence IDs.\\\" Could be \\\"evidence_id\\\": \\\"field-one\\\", \\\"role\\\": \\\"total\\\"? Hmm.\\n\\nNeed inspect wording: \\\"Select the total label from the supplied evidence.\\\" Labels are text in evidence? \\\"總計\\\" is label total. They want select total label. Could output evidence_id only? But instruction says \\\"Interpret labels using supplied evidence IDs. Never invent an ID...\\\" The JSON object likely:\\n{\\\"action\\\":\\\"select\\\",\\\"evidence_id\\\":\\\"field-one\\\",\\\"role\\\":\\\"total\\\"}\\n\\nNeed ensure not invent role? \\\"role\\\" maybe from ontology: \\\"total\\\". But if label in Chinese \\\"總計\\\" maps\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":186,\"completion_tokens\":512,\"total_tokens\":698,\"cost\":0.00099559152,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.00099559152,\"upstream_inference_prompt_cost\":0.00010753776,\"upstream_inference_completions_cost\":0.00088805376},\"completion_tokens_details\":{\"reasoning_tokens\":512,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "incomplete_response",
+  "strict_schema": false
+}

@@ -1,0 +1,1 @@
+{"timed_out": true, "returncode": -9, "stdout": "", "stderr": "", "pid": 9837, "elapsed_seconds": 2.7085299170576036, "direct_child_reaped": true, "state": "interrupted_or_failed", "historical_http_calls": "see per-call launch/return records; unreturned launches are unknown", "total_ceiling_satisfied": true}

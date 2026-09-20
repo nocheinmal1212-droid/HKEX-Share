@@ -1,0 +1,14 @@
+[
+  {
+    "name": "outer",
+    "table_id": "table-80bd7d821bfc4bef5936f1d9f31362ce355a7165606405bba7a1b5719dfb81f7",
+    "target_id": "cell-1cb2c6319222c6ead5e6d9919cb87887d8e6a564b5be261e409bf4d78882a77e",
+    "transform": "mask_body_amounts_v1"
+  },
+  {
+    "name": "subtotal",
+    "table_id": "table-80bd7d821bfc4bef5936f1d9f31362ce355a7165606405bba7a1b5719dfb81f7",
+    "target_id": "cell-9291057f6781b15efe27257beccd14907af73872b82ad7a5dfaf9e6dda33936a",
+    "transform": "mask_body_amounts_v1"
+  }
+]

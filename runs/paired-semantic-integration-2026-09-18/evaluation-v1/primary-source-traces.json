@@ -1,0 +1,373 @@
+[
+  {
+    "annotation_id": "annotation-88830645aef30ed64c7af1fee4b8a622be396f9dd9d664bdf8b78b58c4980618",
+    "evidence": [
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 106,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 94
+          }
+        ],
+        "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "租賃(HKFRS 16)"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 73,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 53
+          }
+        ],
+        "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "來自與客戶合約之收入(HKFRS 15)"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 185,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 183
+          }
+        ],
+        "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "合計"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 129,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 127
+          }
+        ],
+        "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "總額"
+      }
+    ],
+    "links": [
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      }
+    ],
+    "primary_attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "query": "total",
+    "selected_target": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+  },
+  {
+    "annotation_id": "annotation-eef120a75f0288f7b2eea0acd13f5c6fe27ff9ad2008d9df01f01e2fbeadac02",
+    "evidence": [
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 73,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 53
+          }
+        ],
+        "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "來自與客戶合約之收入(HKFRS 15)"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 156,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 147
+          }
+        ],
+        "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "於某一時點確認收入"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 185,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 183
+          }
+        ],
+        "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "合計"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 174,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 165
+          }
+        ],
+        "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "隨時間逐步確認收入"
+      }
+    ],
+    "links": [
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+      }
+    ],
+    "primary_attempt_id": "attempt-99f3e7351ae27114c171364a663df32ad66a742d67b21d6cb600766d417d0c41",
+    "query": "subtotal",
+    "selected_target": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+  },
+  {
+    "annotation_id": "annotation-f23982e356f2b6a99ccacbd79c9cdad1053f4f1b763a9fad96a2fbf2e0696779",
+    "evidence": [
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 128,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 124
+          }
+        ],
+        "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "page_index": 179,
+        "text": "物業銷售"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 139,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 137
+          }
+        ],
+        "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "page_index": 179,
+        "text": "總額"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 115,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 113
+          }
+        ],
+        "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "page_index": 179,
+        "text": "酒店"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 104,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 100
+          }
+        ],
+        "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "page_index": 179,
+        "text": "物業租賃"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 57,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 53
+          }
+        ],
+        "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+        "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+        "page_index": 179,
+        "text": "2025"
+      }
+    ],
+    "links": [
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+        ],
+        "target_id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a"
+      }
+    ],
+    "primary_attempt_id": "attempt-30fdc7420d5048ad4215b4c8ad2c5080ea1777ef1648e150711aea2bc9cd3486",
+    "query": "period_groups",
+    "selected_target": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+  },
+  {
+    "annotation_id": "annotation-135d0507d9bdebbb677ff40233f4987361498295b9a9e02658f4e612b9f71227",
+    "evidence": [
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 106,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 94
+          }
+        ],
+        "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "租賃(HKFRS 16)"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 73,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 53
+          }
+        ],
+        "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "來自與客戶合約之收入(HKFRS 15)"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 185,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 183
+          }
+        ],
+        "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "合計"
+      },
+      {
+        "fragments": [
+          {
+            "encoding": "literal",
+            "end": 129,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 127
+          }
+        ],
+        "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+        "page_index": 178,
+        "text": "總額"
+      }
+    ],
+    "links": [
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      },
+      {
+        "role": "direct_contributor_header",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      }
+    ],
+    "primary_attempt_id": "attempt-acd96bd66c57269a9f245c87173636bbe249ccc181ea563547d843acc692ef6e",
+    "query": "varied_total",
+    "selected_target": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+  }
+]

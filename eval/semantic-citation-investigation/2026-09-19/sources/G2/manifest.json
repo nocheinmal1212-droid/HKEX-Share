@@ -1,0 +1,264 @@
+{
+  "classification": "synthetic_generalization",
+  "files": {
+    "evidence.json": "e19b4eb697ac471adb8f23fb939f05a0d4127c7f3c76e071199967f783d7fb84",
+    "query-v1.json": "bd95d59441db9d9621e409187d4b8262d22850e73f22d0e0c613fa6d2300b90d",
+    "source.json": "dca066994a3b470f7ee3f2f7b9234b2cde8442c941d54d91f5e5c3ef6f919153"
+  },
+  "fixture": "G2",
+  "operation_version_for_projection": "direct-contributor-headers-1.0.0",
+  "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+  "source_citations": [
+    {
+      "column": 0,
+      "column_span": 3,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 37,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 27
+        }
+      ],
+      "id": "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 0,
+      "row_span": 1,
+      "text": "銷售額（港幣百萬元）"
+    },
+    {
+      "column": 3,
+      "column_span": 3,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 65,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 58
+        }
+      ],
+      "id": "cell-5d4eb39e9a0719ba2d36398cb02fb1c3c3888bf3732505c49ffd8980bf69d79f",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 0,
+      "row_span": 1,
+      "text": "銷售量（千件）"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 86,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 83
+        }
+      ],
+      "id": "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品甲"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 98,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 95
+        }
+      ],
+      "id": "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品乙"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 109,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 107
+        }
+      ],
+      "id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "合計"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 121,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 118
+        }
+      ],
+      "id": "cell-98e39e25408420359d35bcdb0cfbd355aeba43975b14e2faf48192ec4bf4e23c",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品甲"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 133,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 130
+        }
+      ],
+      "id": "cell-39013672b6d87b9d399c6257e518f642cdf348082dfdb3f50c08dd969546e0d4",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "產品乙"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 144,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 142
+        }
+      ],
+      "id": "cell-368d0db6c91341f2e200389809c542753ce88056c532f931b792ade741bcdeee",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 1,
+      "row_span": 1,
+      "text": "合計"
+    },
+    {
+      "column": 0,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 164,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 162
+        }
+      ],
+      "id": "cell-70e0fb8d99a0bf4185ddaf5c81c01295e21f59f5bb7b2d3506bbc5f0617cd398",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "17"
+    },
+    {
+      "column": 1,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 175,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 173
+        }
+      ],
+      "id": "cell-465e141290f6b7599937141bed94f9c341e326c83f1a7cc4ca466bfe431c4420",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "23"
+    },
+    {
+      "column": 2,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 186,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 184
+        }
+      ],
+      "id": "cell-460bd6176a17182aa8b129ef54cecd62b07c82d07d7fed2b36e42f84063fbafb",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "91"
+    },
+    {
+      "column": 3,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 196,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 195
+        }
+      ],
+      "id": "cell-e2c3baf6487abcdbb1b8be9ce40e60063245bc8b9dbea1814349e27111e5fe9f",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "5"
+    },
+    {
+      "column": 4,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 206,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 205
+        }
+      ],
+      "id": "cell-7abbee05f297eb158f151e8079df3f0bea1538f4057cb6e783670f23351f16fd",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "8"
+    },
+    {
+      "column": 5,
+      "column_span": 1,
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 217,
+          "source_id": "source-b855134144723249bf2e0c34c92248eff192e6bb377a585043607cf8738fbc64",
+          "start": 215
+        }
+      ],
+      "id": "cell-35fd227abf41583d131738b3a91e6437fc724385406e84406d0ec25c84f9fdff",
+      "parent_id": "table-fca6a9c2087a032a61b5831809c6ab170f2becf518010014921b1f3eaea1ced9",
+      "row": 2,
+      "row_span": 1,
+      "text": "42"
+    }
+  ],
+  "source_provenance": "Authored offline; profile envelope is parser input syntax, not a MinerU run or an actual report.",
+  "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+  "transformation": {
+    "administrative_changes": [
+      "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+    ],
+    "original_html_source": null,
+    "original_to_derived_cell_ids": {},
+    "parent_packet": null,
+    "semantic_edits": [
+      "Author literal groups, headers, and any table-associated note."
+    ]
+  }
+}

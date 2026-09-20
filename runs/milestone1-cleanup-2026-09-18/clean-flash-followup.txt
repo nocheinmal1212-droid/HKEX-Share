@@ -1,0 +1,235 @@
+{
+  "attempts": 11,
+  "stages": {
+    "flash-r2-core": {
+      "v4flash": {
+        "attempts": 2,
+        "outcomes": {
+          "timeout": 1,
+          "unsupported_selection": 1
+        },
+        "full_pass": 0,
+        "usable": 1,
+        "source_correct": 0,
+        "reason_correct": 0,
+        "support_complete": 1,
+        "reported_cost_usd": "0.00018864",
+        "unknown_cost_attempts": 1,
+        "median_latency": 36.976378,
+        "max_latency": 60.004016
+      },
+      "v41flash": {
+        "attempts": 2,
+        "outcomes": {
+          "correct_abstention": 2
+        },
+        "full_pass": 2,
+        "usable": 2,
+        "source_correct": 2,
+        "reason_correct": 2,
+        "support_complete": 2,
+        "reported_cost_usd": "0.004125108",
+        "unknown_cost_attempts": 0,
+        "median_latency": 9.201591,
+        "max_latency": 9.312541
+      }
+    },
+    "flash-r2-confirmation": {
+      "v41flash": {
+        "attempts": 4,
+        "outcomes": {
+          "correct_abstention": 3,
+          "correct_selection": 1
+        },
+        "full_pass": 4,
+        "usable": 4,
+        "source_correct": 4,
+        "reason_correct": 4,
+        "support_complete": 4,
+        "reported_cost_usd": "0.007014660",
+        "unknown_cost_attempts": 0,
+        "median_latency": 21.862848,
+        "max_latency": 29.079698
+      }
+    },
+    "flash-r2-diagnostics": {
+      "v4flash": {
+        "attempts": 1,
+        "outcomes": {
+          "truncation": 1
+        },
+        "full_pass": 0,
+        "usable": 0,
+        "source_correct": 0,
+        "reason_correct": 0,
+        "support_complete": 0,
+        "reported_cost_usd": "0.0004002",
+        "unknown_cost_attempts": 0,
+        "median_latency": 34.75204,
+        "max_latency": 34.75204
+      },
+      "v41flash": {
+        "attempts": 2,
+        "outcomes": {
+          "invalid_output": 2
+        },
+        "full_pass": 0,
+        "usable": 0,
+        "source_correct": 0,
+        "reason_correct": 0,
+        "support_complete": 0,
+        "reported_cost_usd": "0.003383952",
+        "unknown_cost_attempts": 0,
+        "median_latency": 10.004152,
+        "max_latency": 11.35902
+      }
+    }
+  },
+  "reported_cost_usd": "0.015112560",
+  "unknown_cost_attempts": 1,
+  "reported_prompt_tokens": 10154,
+  "reported_completion_tokens": 14116,
+  "requested_completion_caps": 38912,
+  "elapsed_sum_seconds": 226.914583,
+  "dispatch_wall_seconds": 227.31111097335815,
+  "http_statuses": {
+    "200": 11
+  },
+  "exceptions": [
+    {
+      "attempt": "flash-r2-core/call-001",
+      "errno": null,
+      "kind": "timeout",
+      "phase": "read_response",
+      "wrapped_url_error": false,
+      "http_status": 200
+    }
+  ],
+  "diagnostic_schema_valid": 2,
+  "diagnostic_item_citations_valid": 2,
+  "completion_records_verified": 11,
+  "prior_hashes_verified": 413,
+  "denials": [
+    {
+      "stage": "flash-r2-core",
+      "preflight": 14,
+      "live": 14
+    },
+    {
+      "stage": "flash-r2-confirmation",
+      "preflight": 14,
+      "live": 14
+    },
+    {
+      "stage": "flash-r2-diagnostics",
+      "preflight": 14,
+      "live": 14
+    }
+  ],
+  "oracle_comparisons": [
+    {
+      "attempt": "flash-r2-core/call-002",
+      "oracle_attempt": "model-selection-2026-09-17/screen-s08/call-005",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    },
+    {
+      "attempt": "flash-r2-core/call-003",
+      "oracle_attempt": "model-selection-2026-09-17/screen-s11/call-002",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    },
+    {
+      "attempt": "flash-r2-core/call-004",
+      "oracle_attempt": "model-selection-2026-09-17/screen-s11/call-002",
+      "relationship_agrees": false,
+      "reason_agrees": false
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-001",
+      "oracle_attempt": "model-selection-2026-09-17/screen-s09/call-001",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-002",
+      "oracle_attempt": "model-selection-2026-09-17/screen-s10/call-001",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-003",
+      "oracle_attempt": "model-selection-2026-09-17/confirmation/call-001",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-004",
+      "oracle_attempt": "model-selection-2026-09-17/confirmation/call-002",
+      "relationship_agrees": true,
+      "reason_agrees": true
+    }
+  ],
+  "identities": [
+    {
+      "attempt": "flash-r2-core/call-002",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-core/call-003",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-core/call-004",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "provider": "DeepInfra",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-001",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-002",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-003",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-confirmation/call-004",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-diagnostics/call-001",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "provider": "DeepInfra",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-diagnostics/call-002",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    },
+    {
+      "attempt": "flash-r2-diagnostics/call-003",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together",
+      "http_status": 200
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "case": "total",
+    "role": "primary",
+    "candidate_state": "selected",
+    "contributor_ids_match_reviewed_set": true,
+    "state_matches_reviewed_selected": true,
+    "required_support_missing": [
+      {
+        "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "literal_text": "總額"
+      },
+      {
+        "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "literal_text": "合計"
+      },
+      {
+        "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "literal_text": "租賃(HKFRS 16)"
+      }
+    ],
+    "supplied_support": [
+      {
+        "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "literal_text": "來自與客戶合約之收入(HKFRS 15)"
+      }
+    ],
+    "runtime_first_rejection": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "target support absent"
+    },
+    "candidate_is_diagnostic_only": true,
+    "accepted_operational_annotation": false
+  },
+  {
+    "case": "total",
+    "role": "research",
+    "candidate_state": "ambiguous",
+    "contributor_ids_match_reviewed_set": true,
+    "state_matches_reviewed_selected": false,
+    "required_support_missing": [
+      {
+        "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "literal_text": "總額"
+      },
+      {
+        "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "literal_text": "合計"
+      },
+      {
+        "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "literal_text": "租賃(HKFRS 16)"
+      }
+    ],
+    "supplied_support": [
+      {
+        "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "literal_text": "來自與客戶合約之收入(HKFRS 15)"
+      }
+    ],
+    "runtime_first_rejection": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "target support absent"
+    },
+    "candidate_is_diagnostic_only": true,
+    "accepted_operational_annotation": false
+  },
+  {
+    "case": "period_groups",
+    "role": "primary",
+    "candidate_state": "selected",
+    "contributor_ids_match_reviewed_set": true,
+    "state_matches_reviewed_selected": true,
+    "required_support_missing": [
+      {
+        "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "literal_text": "總額"
+      },
+      {
+        "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "literal_text": "物業租賃"
+      },
+      {
+        "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "literal_text": "酒店"
+      },
+      {
+        "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "literal_text": "物業銷售"
+      }
+    ],
+    "supplied_support": [
+      {
+        "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+        "literal_text": "2025"
+      }
+    ],
+    "runtime_first_rejection": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "target support absent"
+    },
+    "candidate_is_diagnostic_only": true,
+    "accepted_operational_annotation": false
+  },
+  {
+    "case": "period_groups",
+    "role": "research",
+    "candidate_state": "not_a_total",
+    "contributor_ids_match_reviewed_set": true,
+    "state_matches_reviewed_selected": false,
+    "required_support_missing": [
+      {
+        "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "literal_text": "總額"
+      },
+      {
+        "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "literal_text": "物業租賃"
+      },
+      {
+        "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "literal_text": "酒店"
+      },
+      {
+        "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "literal_text": "物業銷售"
+      }
+    ],
+    "supplied_support": [
+      {
+        "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+        "literal_text": "2025"
+      }
+    ],
+    "runtime_first_rejection": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "target support absent"
+    },
+    "candidate_is_diagnostic_only": true,
+    "accepted_operational_annotation": false
+  }
+]

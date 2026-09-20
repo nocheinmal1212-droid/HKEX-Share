@@ -1,0 +1,16 @@
+{
+  "assertions": [
+    "The source must block before dispatch. Unsupported-group analysis may take precedence over subtotal-scope reporting."
+  ],
+  "blocker_reason_classes": [
+    "unsupported_header_group_or_unresolved_subtotal_scope"
+  ],
+  "case_id": "S09_missing_timing_role",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "6e7f7e21d933bbabae4290163feacd06619bf9f226e252948cc2921e7cc89d6b",
+  "optional_support": [],
+  "reason": "A blank immediate branch does not supply the missing over-time role. Keep the blank occurrence; do not infer its label or a summary scope.",
+  "required_support": null,
+  "summary_relationships": []
+}

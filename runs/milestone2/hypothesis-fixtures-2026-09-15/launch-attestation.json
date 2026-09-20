@@ -1,0 +1,10 @@
+{
+  "request_manifest_sha256": "da16d9dc2bbfb1571556d5045f63d51e0d952a687bbb7452659da7a7bcac2619",
+  "worker_sha256": "228d1f90851700d2d711db7116bea1e329c5226a6c9fa33f4fe4ad1ce4e36253",
+  "actual_sandbox_sha256": "5535929efbff538dbc3d1e67bfa0020816be3395fe6f81e26132ab74535918b1",
+  "source_plan": "execution-plan.json",
+  "offline_preflight": "responses/preflight-v2.json",
+  "revision_reason": "Broad OS runtime read allowlist failed at interpreter startup before network calls. Final OS profile denies project file content and restricts writes; Python audit allowlist restricts other reads after imports. File metadata remains OS-visible. Original profiles and successful preflights preserved.",
+  "credential_boundary": "Bootstrap reads only the authorized .env key when environment key absent; worker receives only key in a minimal environment. No evaluator data inherited.",
+  "requests_unchanged": true
+}

@@ -1,0 +1,11 @@
+{
+  "always_abstain": {
+    "correct": 7,
+    "cases": 14
+  },
+  "always_first_two_candidates": {
+    "correct": 1,
+    "cases": 14
+  },
+  "scope": "Offline trivial decision policies against frozen expected relations; no model calls or detector implementation."
+}

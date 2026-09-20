@@ -1,0 +1,64 @@
+{
+  "attempt_version": "paired-semantic-attempt-1.1.0",
+  "configurations": {
+    "primary": {
+      "allow_fallbacks": false,
+      "deadline_seconds": 60,
+      "max_price": {
+        "completion": 20,
+        "prompt": 5,
+        "request": 0
+      },
+      "max_tokens": 4096,
+      "model": "google/gemini-3.8-flash",
+      "reasoning": "native_default",
+      "require_parameters": true,
+      "role": "primary",
+      "route": "google-ai-studio",
+      "served_provider": "Google AI Studio",
+      "temperature": 0
+    },
+    "research": {
+      "allow_fallbacks": false,
+      "deadline_seconds": 60,
+      "max_price": {
+        "completion": 20,
+        "prompt": 5,
+        "request": 0
+      },
+      "max_tokens": 4096,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "reasoning": "native_default",
+      "require_parameters": true,
+      "role": "research",
+      "route": "together",
+      "served_provider": "Together",
+      "temperature": 0
+    }
+  },
+  "files": {
+    "docs/semantic-citation-implementation-results-2026-09-19.md": "624e0f13b70d7d4246ac6e635bfca6eb19bb9c5f714fc0d860223a792692fbeb",
+    "pyproject.toml": "303041f759613dcc99c4d380d9765a803a3ff41e77385ae6c8e2f73801743099",
+    "spec/paired-semantic-attempts-1.1.md": "d776974dd8b317328d7573f6ea5463cca2c9c5d255c39edd47321a7a7df64541",
+    "spec/semantic-operation-1.1.md": "d3ab7491e3ebd0140144dfeb4d3c53c6dbe3fb6526775f374cd6c2cb89a3652a",
+    "src/hkex_audit/header_support.py": "9a3bc0bff44eec867ae68249637e674803c61a0c9fb6e71becb2ee27a227b5f5",
+    "src/hkex_audit/header_support_policy.json": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "src/hkex_audit/semantic.py": "aae9496d2a90ba3fa3994d4d4eb9c14f1d72887451bb8edd904721aa1b1c91f4",
+    "src/hkex_audit/semantic_attempt.py": "11275a15f0ef4518d2d5f67d981e4b916662dc045e8f0537563260fc98f69d17",
+    "src/hkex_audit/semantic_cli.py": "ad560480ae585747ef95f3b6ed905cf8d472c6ae2e07d36b20c1bb53acdb942b",
+    "tests/test_header_support.py": "3aba15a5fc91ff93c06a316e120e0b90ed848b872f6dc4f9d31ae51da146040e",
+    "tests/test_pinned_semantic_replay.py": "f5c0a482edc4a665aebf66bfee1a7d76bd9be226b68275329d1f86457a0fff1f",
+    "tools/replay_semantic_v1.py": "50572a7a2a00c86e39dd1394ebd2abd4b7332d28200532c64c1be6c17428127e"
+  },
+  "future_inference_requires": "separate bindings, expectations, selected cases and explicitly authorized budget",
+  "operation_version": "direct-contributor-headers-1.1.0",
+  "policy": {
+    "analysis_version": "header-source-analysis-1.0.0",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "prompt_sha256": "bf071b1efd8bcf4b7c4d7dca848c979ba01ccf835da7d7e151568e965011258c",
+  "runtime_sha256": "673f8f11a510450594360e3e2a146c1bbffb06be45da515f158eb7b1a4d05b83",
+  "schema_sha256": "9019af0a893fb8e998d4ddd78d65e709085da332dd2fd364e70bc5ea24c46cd4",
+  "status": "offline development bindings; not prospective live authorization"
+}

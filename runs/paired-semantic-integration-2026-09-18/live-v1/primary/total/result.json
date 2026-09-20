@@ -1,0 +1,56 @@
+{
+  "attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+  "elapsed_seconds": 12.384523499989882,
+  "model_calls": 1,
+  "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+  "role": "primary",
+  "validation": {
+    "answer": {
+      "contributor_ids": [
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      ],
+      "state": "selected",
+      "support_refs": [
+        "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      ],
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    "cost": "0.02210175",
+    "cost_status": "reported",
+    "revision": null,
+    "served": {
+      "id": "gen-1789711432-wRusk6C6IbAZekdTLB4t",
+      "model": "google/gemini-3.8-flash",
+      "provider": "Google AI Studio"
+    },
+    "state": "accepted",
+    "usage": {
+      "completion_tokens": 3093,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 2848
+      },
+      "cost": 0.02210175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01159875,
+        "upstream_inference_cost": 0.02210175,
+        "upstream_inference_prompt_cost": 0.010503
+      },
+      "is_byok": false,
+      "prompt_tokens": 14004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 17097
+    }
+  },
+  "version": "paired-semantic-attempt-1.0.0"
+}

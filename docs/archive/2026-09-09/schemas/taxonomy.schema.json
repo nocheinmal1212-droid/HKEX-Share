@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/taxonomy.schema.json",
+  "title": "TaxonomySchema",
+  "description": "JSON Schema 2020-12 contract validating L1 canonical taxonomy.yaml.",
+  "type": "object",
+  "required": [
+    "spec_version",
+    "taxonomy_version",
+    "categories"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "spec_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "taxonomy_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+  "$defs": {
+    "category": {
+      "type": "object",
+      "required": [
+        "code",
+        "revision",
+        "name",
+        "status",
+        "scope",
+        "description",
+        "detection_strategy",
+        "depends_on",
+        "rounding_sensitive",
+        "requires_ir_features",
+        "precision_target",
+        "recall_target",
+        "positive_fixtures",
+        "negative_fixtures"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "superseded_by": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "scope": {
+          "type": "string",
+          "enum": [
+            "financial_statements",
+            "cross_statement_and_notes",
+            "single_note",
+            "cross_notes",
+            "global",
+            "tables",
+            "cross_references",
+            "presentation",
+            "narrative"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "detection_strategy": {
+          "type": "string",
+          "enum": [
+            "deterministic",
+            "hybrid",
+            "llm"
+          ]
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "rounding_sensitive": {
+          "type": "boolean"
+        },
+        "requires_ir_features": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "cell_bbox",
+              "inline_reference_spans",
+              "note_index",
+              "note_reference_column",
+              "page_index",
+              "row_hierarchy"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "precision_target": {
+          "type": "string",
+          "pattern": "^(0(\\.[0-9]+)?|1(\\.0+)?)$"
+        },
+        "recall_target": {
+          "type": "string",
+          "pattern": "^(0(\\.[0-9]+)?|1(\\.0+)?)$"
+        },
+        "positive_fixtures": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^ERR-[0-9]{5}$"
+          },
+          "uniqueItems": true
+        },
+        "negative_fixtures": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^DIS-[0-9]{5}$"
+          },
+          "uniqueItems": true
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "active"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "superseded_by": false
+            },
+            "not": {
+              "required": [
+                "superseded_by"
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "superseded_by"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

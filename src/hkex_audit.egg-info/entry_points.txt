@@ -1,0 +1,3 @@
+[console_scripts]
+hkex-audit = hkex_audit.cli:main
+hkex-semantic = hkex_audit.semantic_cli:main

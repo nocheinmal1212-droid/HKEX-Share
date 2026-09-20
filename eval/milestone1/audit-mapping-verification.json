@@ -1,0 +1,183 @@
+{
+  "mappings": [
+    {
+      "column": null,
+      "error_id": "HL-ERR-0006",
+      "evidence_id": "block-f90fbdd38af09393555cc82472a6b313d43356143dd102f09f6db8996d57270a",
+      "native_pointer": "/pdf_info/184/preproc_blocks/3/lines/0/spans/0",
+      "native_source_strings": "exact_match",
+      "row": null,
+      "saved_ir_fields": "exact_match",
+      "token": "15%",
+      "token_offsets": [
+        [
+          203,
+          206
+        ]
+      ],
+      "variant": "clean"
+    },
+    {
+      "column": 1,
+      "error_id": "HL-ERR-0017",
+      "evidence_id": "cell-136412262d60635a4bea8e3ca8d92ffd977fceb5d5aa53e415ed4972beccfe16",
+      "native_pointer": "/pdf_info/158/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 1,
+      "saved_ir_fields": "exact_match",
+      "token": "2(a)",
+      "token_offsets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "variant": "clean"
+    },
+    {
+      "column": 2,
+      "error_id": "HL-ERR-0025",
+      "evidence_id": "cell-ff81ad496b68f2dc72fbd8a4b38692e431f06fbc911c4f9d23e5aadc50a97e04",
+      "native_pointer": "/pdf_info/158/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 3,
+      "saved_ir_fields": "exact_match",
+      "token": "6,527",
+      "token_offsets": [
+        [
+          0,
+          5
+        ]
+      ],
+      "variant": "clean"
+    },
+    {
+      "column": 4,
+      "error_id": "HL-ERR-0041",
+      "evidence_id": "cell-76b7d6b50695d12f65f52c3a07bdff3c0f387ff42e2c8f0b4afb369373a00e8b",
+      "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 5,
+      "saved_ir_fields": "exact_match",
+      "token": "9,950",
+      "token_offsets": [
+        [
+          0,
+          5
+        ]
+      ],
+      "variant": "clean"
+    },
+    {
+      "column": null,
+      "error_id": "HL-ERR-0006",
+      "evidence_id": "block-4ca4a923977cd4a063eb64bee45aec7205ffc1a6e90420eec5153ff59b1d23ec",
+      "native_pointer": "/pdf_info/184/preproc_blocks/3/lines/0/spans/0",
+      "native_source_strings": "exact_match",
+      "row": null,
+      "saved_ir_fields": "exact_match",
+      "token": "15",
+      "token_offsets": [
+        [
+          203,
+          205
+        ]
+      ],
+      "variant": "corrupted"
+    },
+    {
+      "column": 1,
+      "error_id": "HL-ERR-0017",
+      "evidence_id": "cell-59c0a6372c729c9184246af00907fe94d5be085afa2c53de1f3a292ac6659404",
+      "native_pointer": "/pdf_info/158/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 1,
+      "saved_ir_fields": "exact_match",
+      "token": "3(a)",
+      "token_offsets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "variant": "corrupted"
+    },
+    {
+      "column": 2,
+      "error_id": "HL-ERR-0025",
+      "evidence_id": "cell-616276486b5a466a1b2241207504ffe54f4c339aa9b8e397f36c3b830f1013cc",
+      "native_pointer": "/pdf_info/158/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 3,
+      "saved_ir_fields": "exact_match",
+      "token": "6,537",
+      "token_offsets": [
+        [
+          0,
+          5
+        ]
+      ],
+      "variant": "corrupted"
+    },
+    {
+      "column": 4,
+      "error_id": "HL-ERR-0041",
+      "evidence_id": "cell-0d30917ad2dded636d8e7762ebad88b2522344fc324203556717cc21a8501acc",
+      "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+      "native_source_strings": "exact_match",
+      "row": 5,
+      "saved_ir_fields": "exact_match",
+      "token": "9,960",
+      "token_offsets": [
+        [
+          0,
+          5
+        ]
+      ],
+      "variant": "corrupted"
+    }
+  ],
+  "r1_fingerprint_verified": "8e1c3ff054c3f9ff6ab96e4fbaa0d7a3ed2912e7cbaa14367108043ce3d249d5",
+  "variants": {
+    "clean": {
+      "evidence_sha256": "2ee521a9788eb27a19252a1d4d8f3fafdd219dd366a7c45a77d96d391cc8547b",
+      "native_sha256": "52f4113d857b95ae1e96d8736cdeccff736f39ff34cf10075b301704663d8620",
+      "partial_tables": [
+        {
+          "native_pointer": "/pdf_info/88/preproc_blocks/3",
+          "page_index": 88
+        },
+        {
+          "native_pointer": "/pdf_info/125/preproc_blocks/3",
+          "page_index": 125
+        },
+        {
+          "native_pointer": "/pdf_info/221/preproc_blocks/1",
+          "page_index": 221
+        }
+      ]
+    },
+    "corrupted": {
+      "evidence_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+      "native_sha256": "6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+      "partial_tables": [
+        {
+          "native_pointer": "/pdf_info/88/preproc_blocks/3",
+          "page_index": 88
+        },
+        {
+          "native_pointer": "/pdf_info/123/preproc_blocks/0",
+          "page_index": 123
+        },
+        {
+          "native_pointer": "/pdf_info/125/preproc_blocks/3",
+          "page_index": 125
+        },
+        {
+          "native_pointer": "/pdf_info/221/preproc_blocks/1",
+          "page_index": 221
+        }
+      ]
+    }
+  }
+}

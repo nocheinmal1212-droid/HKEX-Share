@@ -1,0 +1,40 @@
+{
+  "authored": true,
+  "cost_reserved_usd": "14.710160",
+  "elapsed_seconds": 0.0,
+  "http_calls_reserved": 18,
+  "schedule": [
+    {
+      "arm": "A",
+      "case": "total"
+    },
+    {
+      "arm": "B",
+      "case": "total"
+    },
+    {
+      "arm": "D",
+      "case": "total"
+    },
+    {
+      "arm": "C",
+      "case": "total"
+    },
+    {
+      "arm": "C",
+      "case": "period_groups"
+    },
+    {
+      "arm": "D",
+      "case": "period_groups"
+    },
+    {
+      "arm": "B",
+      "case": "period_groups"
+    },
+    {
+      "arm": "A",
+      "case": "period_groups"
+    }
+  ]
+}

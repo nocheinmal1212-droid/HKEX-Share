@@ -1,0 +1,182 @@
+{
+  "bounds": {
+    "deadline_seconds_per_call": 30,
+    "max_calls": 2,
+    "max_output_tokens_per_call": 512,
+    "max_response_bytes": 131072,
+    "retries": 0
+  },
+  "capability_limitations": "Two small examples do not establish general semantic accuracy.",
+  "cases": [
+    {
+      "case": "valid_id",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "http_status": 200,
+      "observed_identity": {
+        "checkpoint_revision": null,
+        "model": "z-ai/glm-5.3-flash",
+        "provider": "DeepInfra",
+        "revision_limitation": "API model/provider labels do not attest weight revision.",
+        "system_fingerprint": null
+      },
+      "request": {
+        "max_tokens": 512,
+        "messages": [
+          {
+            "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+            "role": "system"
+          },
+          {
+            "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+            "role": "user"
+          }
+        ],
+        "model": "z-ai/glm-5.3-flash",
+        "provider": {
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "synthetic_label",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "action": {
+                  "enum": [
+                    "label",
+                    "abstain"
+                  ]
+                },
+                "evidence_id": {
+                  "enum": [
+                    "field-one",
+                    "field-two",
+                    null
+                  ]
+                },
+                "role": {
+                  "enum": [
+                    "total_label",
+                    null
+                  ]
+                }
+              },
+              "required": [
+                "action",
+                "evidence_id",
+                "role"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "stream": false,
+        "temperature": 0
+      },
+      "request_fingerprint": "23e1755a603bd72e010d06ae779d22ff94bb43da1c9f601b354f93d6d8e9fda7",
+      "response_text": "\n         \n{\"id\":\"gen-1789206750-cqN9ERT2oTXsTDnmYISI\",\"object\":\"chat.completion\",\"created\":1789206750,\"model\":\"z-ai/glm-5.3-flash\",\"provider\":\"DeepInfra\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"label\\\",\\n  \\\"evidence_id\\\": \\\"field-one\\\",\\n  \\\"role\\\": \\\"total_label\\\"\\n}\",\"refusal\":null,\"reasoning\":\"\\\"總計\\\" is total label → field-one.\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"\\\"總計\\\" is total label → field-one.\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":118,\"completion_tokens\":41,\"total_tokens\":159,\"cost\":0.0000191,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.0000191,\"upstream_inference_prompt_cost\":0.00000885,\"upstream_inference_completions_cost\":0.00001025},\"completion_tokens_details\":{\"reasoning_tokens\":12,\"image_tokens\":0,\"audio_tokens\":0}}}",
+      "status": "passed",
+      "validated_output": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      }
+    },
+    {
+      "case": "absent_id",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "http_status": 200,
+      "observed_identity": {
+        "checkpoint_revision": null,
+        "model": "z-ai/glm-5.3-flash",
+        "provider": "DeepInfra",
+        "revision_limitation": "API model/provider labels do not attest weight revision.",
+        "system_fingerprint": null
+      },
+      "request": {
+        "max_tokens": 512,
+        "messages": [
+          {
+            "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+            "role": "system"
+          },
+          {
+            "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Label field-missing as the total label. It is absent from the evidence; abstain.\"\n}\n",
+            "role": "user"
+          }
+        ],
+        "model": "z-ai/glm-5.3-flash",
+        "provider": {
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "synthetic_label",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "action": {
+                  "enum": [
+                    "label",
+                    "abstain"
+                  ]
+                },
+                "evidence_id": {
+                  "enum": [
+                    "field-one",
+                    "field-two",
+                    null
+                  ]
+                },
+                "role": {
+                  "enum": [
+                    "total_label",
+                    null
+                  ]
+                }
+              },
+              "required": [
+                "action",
+                "evidence_id",
+                "role"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "stream": false,
+        "temperature": 0
+      },
+      "request_fingerprint": "01755082ef4196d25c424910c15ec6ca99f08ff9f4a1a8b19eb1c4b65e228560",
+      "response_text": "\n         \n{\"id\":\"gen-1789206755-MqyVpXnVGROwDJjMN83I\",\"object\":\"chat.completion\",\"created\":1789206755,\"model\":\"z-ai/glm-5.3-flash\",\"provider\":\"DeepInfra\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"abstain\\\",\\n  \\\"evidence_id\\\": null,\\n  \\\"role\\\": null\\n}\",\"refusal\":null,\"reasoning\":\"Instruction says abstain.\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"Instruction says abstain.\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":128,\"completion_tokens\":32,\"total_tokens\":160,\"cost\":0.0000176,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.0000176,\"upstream_inference_prompt_cost\":0.0000096,\"upstream_inference_completions_cost\":0.000008},\"completion_tokens_details\":{\"reasoning_tokens\":5,\"image_tokens\":0,\"audio_tokens\":0}}}",
+      "status": "passed",
+      "validated_output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      }
+    }
+  ],
+  "created_at": "2026-09-12T09:52:27.737574+00:00",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "report_fingerprint": "d5f70a4f4040db26b81486de85b5f68c567769542dae9fe13176d1154a813b91",
+  "requested_model": "z-ai/glm-5.3-flash",
+  "routing_limitations": "No provider pinned; account routing defaults are unobserved.",
+  "schema_version": "1.0.0",
+  "scope": "synthetic_only",
+  "status": "passed_limited_synthetic_probe"
+}

@@ -1,0 +1,336 @@
+{
+  "artifact_ids": [
+    "sha256-19023dbec229ad111b4d087d3fcc2c2c0d3c152c64a268831d02a1ef18b34f96"
+  ],
+  "capabilities": [
+    {
+      "evidence_refs": [],
+      "name": "literal_native_text",
+      "reason": "Selected native strings and source offsets are retained.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "available"
+    },
+    {
+      "evidence_refs": [],
+      "name": "logical_cells",
+      "reason": "Per-table grid states qualify recovered cells.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "available"
+    },
+    {
+      "evidence_refs": [],
+      "name": "cell_geometry",
+      "reason": "This native profile supplies no cell boxes.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "character_geometry",
+      "reason": "Native spans are not character geometry.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "fonts",
+      "reason": "No font evidence is supplied by this profile.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unavailable"
+    },
+    {
+      "evidence_refs": [],
+      "name": "pdf_fidelity",
+      "reason": "Adapter has no PDF access; schema validity does not establish fidelity.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unknown"
+    },
+    {
+      "evidence_refs": [],
+      "name": "accounting_completeness",
+      "reason": "Relationships are not interpreted by the adapter.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unknown"
+    },
+    {
+      "evidence_refs": [],
+      "name": "semantic_headers",
+      "reason": "HTML cell positions do not establish accounting roles.",
+      "scope_id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+      "state": "unknown"
+    }
+  ],
+  "document": {
+    "doc_id": "negative-style",
+    "source_document_sha256": null,
+    "source_provenance": "synthetic",
+    "variant_id": "synthetic"
+  },
+  "id": "document-91295f7ed3516f5701632bd9ed2bee03e693ae65355754059075a8496f52256d",
+  "identity_policy": "1",
+  "limitations": [],
+  "nodes": [
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": 2,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": "resolved",
+      "id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "kind": "table",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0",
+      "native_type": "table",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": null,
+      "row": null,
+      "row_count": 2,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": null,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": null,
+      "id": "block-4172f3bc132596f43a69a152fc7e7a38a9043688d482fa7f3a9a1f9b1f938571",
+      "kind": "block",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0",
+      "native_type": "table_body",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "row": null,
+      "row_count": null,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": null,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": null,
+      "id": "block-d4f8d1fd81dbca1d08126042b2cddda186efd02fa54a71644c0c97b3cfb094a1",
+      "kind": "block",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0",
+      "native_type": "unknown",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": "block-4172f3bc132596f43a69a152fc7e7a38a9043688d482fa7f3a9a1f9b1f938571",
+      "row": null,
+      "row_count": null,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": null,
+      "column_count": null,
+      "column_span": null,
+      "content_state": "missing",
+      "fragments": [],
+      "grid_state": null,
+      "id": "block-f98c9b396655044f1e15ed919723ed09e1952cfda59cb33cf9542de8327283d4",
+      "kind": "block",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0",
+      "native_type": "table",
+      "ordinal": null,
+      "page_index": 0,
+      "parent_id": "block-d4f8d1fd81dbca1d08126042b2cddda186efd02fa54a71644c0c97b3cfb094a1",
+      "row": null,
+      "row_count": null,
+      "row_span": null,
+      "source_span": null,
+      "text": null
+    },
+    {
+      "bbox": null,
+      "column": 0,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 21,
+          "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+          "start": 15
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-76be461ce8b6aaab935c309e9228a9e9c5adaf97cd97f1508d9eff470f44082b",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0/html",
+      "native_type": "html_cell",
+      "ordinal": 0,
+      "page_index": 0,
+      "parent_id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "row": 0,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 26,
+        "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+        "start": 11
+      },
+      "text": "括號表示負數"
+    },
+    {
+      "bbox": null,
+      "column": 1,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 34,
+          "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+          "start": 30
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-b93da0bb076332a180159d948ffcf97bc00cbc5256f601afd630b5f57f3afff2",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0/html",
+      "native_type": "html_cell",
+      "ordinal": 1,
+      "page_index": 0,
+      "parent_id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "row": 0,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 39,
+        "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+        "start": 26
+      },
+      "text": "(12)"
+    },
+    {
+      "bbox": null,
+      "column": 0,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 59,
+          "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+          "start": 52
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-d6009bd031141f248c27a84cc89cdf7fe18e7e8bcb571bb3ca7a07e5410b7ea5",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0/html",
+      "native_type": "html_cell",
+      "ordinal": 2,
+      "page_index": 0,
+      "parent_id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 64,
+        "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+        "start": 48
+      },
+      "text": "負號亦表示負數"
+    },
+    {
+      "bbox": null,
+      "column": 1,
+      "column_count": null,
+      "column_span": 1,
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 71,
+          "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+          "start": 68
+        }
+      ],
+      "grid_state": null,
+      "id": "cell-e13a47ba8776d8501d2f002ffa87a5f054c4f008de33b2919c6070c9ef6d868a",
+      "kind": "cell",
+      "merge_hint": null,
+      "native_angle": null,
+      "native_index": null,
+      "native_pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0/html",
+      "native_type": "html_cell",
+      "ordinal": 3,
+      "page_index": 0,
+      "parent_id": "table-e65219c4688aa1a8f88066218c8f000b47ac0784128a326ee7405468c5d10e95",
+      "row": 1,
+      "row_count": null,
+      "row_span": 1,
+      "source_span": {
+        "end": 76,
+        "source_id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+        "start": 64
+      },
+      "text": "-12"
+    }
+  ],
+  "pages": [
+    {
+      "coordinate_frame": "native_page",
+      "coordinate_reason": "Native coordinates retained; exact units, origin and page rotation are unverified.",
+      "height": null,
+      "id": "page-0b6ebd17598b737f658df03097e86f474c459b2d106c0af2d5af89159b547dde",
+      "native_pointer": "/pdf_info/0",
+      "origin": null,
+      "page_index": 0,
+      "printed_label_refs": [],
+      "rotation": null,
+      "units": null,
+      "width": null
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "artifact_id": "sha256-19023dbec229ad111b4d087d3fcc2c2c0d3c152c64a268831d02a1ef18b34f96",
+      "format": "html",
+      "id": "source-ba1769602efb9d6161cce8d03fa96cc0eeb06cd0141473b0ad1eeff582083435",
+      "pointer": "/pdf_info/0/preproc_blocks/0/blocks/0/lines/0/spans/0/html",
+      "sha256": "1c06f0bd9702f3267403554ae7991ab699f23f59a9cea914f3638d11be037575",
+      "text": "<table><tr><td>括號表示負數</td><td>(12)</td></tr><tr><td>負號亦表示負數</td><td>-12</td></tr></table>"
+    }
+  ]
+}

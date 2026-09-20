@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "review_status": "pending",
+  "cases": {
+    "HL-ERR-0006": "Physical page 185, IR index 184, printed label 183. Support the unique 15% / 15 token occurrences. The saved targeted clean-source inspection and native text both use 採用 and contain 雙重機制. The earlier claimed word substitution and substantive paraphrase are withdrawn. Diagnostic agreement for the clean paragraph ignores whitespace and fullwidth/ASCII parentheses; it does not certify literal typography or whole-document fidelity.",
+    "HL-ERR-0017": "Physical page 159, IR index 158, printed label 157. Revenue reference cell r1 c1: 2(a) / 3(a). Support the occurrence mapping. The existing page-179 image and additional IR region show the revenue note; target selection and runtime reference reasoning are not implemented.",
+    "HL-ERR-0025": "Physical page 159, IR index 158, printed label 157. Subtotal cell r3 c2: 6,527 / 6,537, 2025 HKD millions. Preserve its blank row label. Support the occurrence mapping, not a generated equation or approved operand selection.",
+    "HL-ERR-0041": "Physical page 180, IR index 179, printed label 178. Total cell r5 c4: 9,950 / 9,960. The merged 2025 header covers this column. Support the occurrence mapping, not a generated statement-note comparison plan."
+  },
+  "fixtures": {
+    "rounding": "Accept only assuming a complete two-addend total, coefficients +1,+1,-1, unit rounding steps and independent nearest rounding. Exact residual magnitude is 1 and the bound including the total is 1.5. The table alone does not establish the rounding policy.",
+    "contexts": "Accept only the group/parent scope incompatibility example. It does not test period, scale or presentation-basis differences.",
+    "reference": "The separate literal block 附註甲 收入分項 supports 收入（附註甲）. Both the native pointer and newly adapted IR are supplied. This is a proposed benign example, not measured reference-check accuracy.",
+    "negative-style": "Local labels explicitly support parentheses and minus notation. Accept that notation alone is benign in this fixture, not every mixed-style document.",
+    "percentage": "Accept as a minimal valid percent-token fixture. Repeated conventions and full narrative cases in the broader negatives plan are still missing.",
+    "ambiguity": "Accept a minimal insufficient-evidence abstention example. Generic candidate labels do not make this a strong test between two semantically plausible note targets. Amount equality cannot justify selection."
+  },
+  "limits": [
+    "Primary occurrence mappings only; copied secondary evaluation locations have not all been mapped to IR IDs.",
+    "Structural validation and literal native preservation do not establish complete accounting evidence or whole-document PDF fidelity.",
+    "Additional property movement and continued-table relationships remain unreviewed; no runtime relationships were inferred.",
+    "New IR and fixture approvals require an explicit owner decision binding this packet's approval fingerprint.",
+    "No detector, model, OCR or scoring run. Four ready development records, 44 pending; no independent holdout. UNGATED."
+  ],
+  "fidelity_statement": "Source-wording erratum: the clean source and native text both use 採用. The earlier 採取/採用 discrepancy and substantive-paraphrase claim were incorrect and are withdrawn. The saved clean-paragraph inspection supports diagnostic text agreement only; it does not certify whole-document fidelity. See the inspection evidence and explicit erratum below."
+}

@@ -1,0 +1,132 @@
+{
+  "consumption": {
+    "annotation_ids": [],
+    "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "blocking_reasons": [],
+    "host_policy": {
+      "analysis_version": "header-source-analysis-1.0.1",
+      "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+      "version": "header-support-policy-1.0.0"
+    },
+    "outcome": "invalid_output",
+    "primary_attempt_id": "attempt-17d2f9c9a5381e646005167274d638ad6e4c43a9d6991501513b2f1ba37a3618",
+    "primary_completion_sha256": null,
+    "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+    "query_sha256": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "selection": {
+      "name": "total",
+      "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_gate": "eligible",
+    "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+    "version": "semantic-provenance-1.1.0"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": null,
+      "reserved_cost_usd": "0.444710"
+    },
+    "research": {
+      "reason": null,
+      "reserved_cost_usd": "0.444680"
+    }
+  },
+  "name": "total",
+  "primary": {
+    "attempt_id": "attempt-17d2f9c9a5381e646005167274d638ad6e4c43a9d6991501513b2f1ba37a3618",
+    "elapsed_seconds": 12.504236457985826,
+    "model_calls": 1,
+    "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+    "role": "primary",
+    "validation": {
+      "answer": null,
+      "cost": "0.02370975",
+      "cost_status": "reported",
+      "diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "target support absent"
+      },
+      "revision": null,
+      "served": {
+        "id": "gen-1789809136-BwXPMengUieU0Rc8cgPn",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "invalid_output",
+      "usage": {
+        "completion_tokens": 3504,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 3354
+        },
+        "cost": 0.02370975,
+        "cost_details": {
+          "upstream_inference_completions_cost": 0.01314,
+          "upstream_inference_cost": 0.02370975,
+          "upstream_inference_prompt_cost": 0.01056975
+        },
+        "is_byok": false,
+        "prompt_tokens": 14093,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        },
+        "total_tokens": 17597
+      }
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  },
+  "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+  "research": {
+    "attempt_id": "attempt-9dbaed76230075a1502c94eb7e22db8f851063a1edb8567b8eb1a7de1aa90015",
+    "elapsed_seconds": 18.567136334022507,
+    "model_calls": 1,
+    "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+    "role": "research",
+    "validation": {
+      "answer": null,
+      "cost": "0.0080631",
+      "cost_status": "reported",
+      "diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "target support absent"
+      },
+      "revision": null,
+      "served": {
+        "id": "gen-1789809136-T4GFhRvORnRscETzPw4s",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "provider": "Together"
+      },
+      "state": "invalid_output",
+      "usage": {
+        "completion_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 3831
+        },
+        "cost": 0.0080631,
+        "cost_details": {
+          "upstream_inference_completions_cost": 0.0048444,
+          "upstream_inference_cost": 0.0080631,
+          "upstream_inference_prompt_cost": 0.0032187
+        },
+        "is_byok": false,
+        "prompt_tokens": 10729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        },
+        "total_tokens": 14766
+      }
+    },
+    "version": "paired-semantic-attempt-1.2.0"
+  }
+}

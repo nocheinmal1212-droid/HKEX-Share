@@ -1,0 +1,818 @@
+{
+  "full_offline_run": "runs/semantic-citation-prompt-experiment-2026-09-19/diagnostics-v1/full-vd0h44h4",
+  "full_elapsed_seconds": 143.21660120796878,
+  "accounting_authored_only": {
+    "http_calls_min": 18,
+    "http_calls_max": 18,
+    "entries": [
+      {
+        "prefix": "metadata-primary",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "metadata-research",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-A/primary/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-A/research/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-A/primary/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-A/research/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-B/primary/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-B/research/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-B/primary/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-B/research/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-C/primary/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-C/research/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-C/primary/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-C/research/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-D/primary/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-D/research/total/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-D/primary/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      },
+      {
+        "prefix": "live-v1-D/research/period_groups/transport",
+        "issued_min": 1,
+        "issued_max": 1,
+        "state": "entered_http_boundary",
+        "authored_transport": true
+      }
+    ],
+    "remote_acceptance": "Not established by entering the local HTTP boundary",
+    "new_calls_on_inspection": 0,
+    "authored_note": "Authored transport rows count simulated boundaries, not real HTTP calls."
+  },
+  "interrupted_metadata_accounting_authored_only": {
+    "http_calls_min": 0,
+    "http_calls_max": 1,
+    "entries": [
+      {
+        "prefix": "metadata-primary",
+        "issued_min": 0,
+        "issued_max": 1,
+        "state": "unknown_incomplete",
+        "authored_transport": true
+      },
+      {
+        "prefix": "metadata-research",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-A/primary/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-A/research/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-A/primary/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-A/research/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-B/primary/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-B/research/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-B/primary/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-B/research/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-C/primary/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-C/research/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-C/primary/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-C/research/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-D/primary/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-D/research/total/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-D/primary/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      },
+      {
+        "prefix": "live-v1-D/research/period_groups/transport",
+        "issued_min": 0,
+        "issued_max": 0,
+        "state": "no_launch_record",
+        "authored_transport": false
+      }
+    ],
+    "remote_acceptance": "Not established by entering the local HTTP boundary",
+    "new_calls_on_inspection": 0,
+    "authored_note": "Authored transport rows count simulated boundaries, not real HTTP calls."
+  },
+  "fixed_primary_replay_bytes_equal_with_perturbed_research": {
+    "annotations.json": "e9077e5a59bd7d8210e171ad410de87835baa0fc9864adbe704815d77eb87e64",
+    "provenance.json": "db8e7c36447080154fe77333d56f64291e04243e171ac59171f403e7bcd6144f"
+  },
+  "distinct_execution_annotation_bytes_equal": true,
+  "distinct_execution_provenance_completion_hashes_intentionally_differ": true,
+  "observations": [
+    {
+      "arm": "A",
+      "denominator_per_role": 2,
+      "model_calls": 0,
+      "primary_complete_successes": 2,
+      "research_successes": 2,
+      "results": [
+        {
+          "case": "total",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        },
+        {
+          "case": "period_groups",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "arm": "B",
+      "denominator_per_role": 2,
+      "model_calls": 0,
+      "primary_complete_successes": 2,
+      "research_successes": 2,
+      "results": [
+        {
+          "case": "total",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        },
+        {
+          "case": "period_groups",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "arm": "C",
+      "denominator_per_role": 2,
+      "model_calls": 0,
+      "primary_complete_successes": 2,
+      "research_successes": 2,
+      "results": [
+        {
+          "case": "total",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        },
+        {
+          "case": "period_groups",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "arm": "D",
+      "denominator_per_role": 2,
+      "model_calls": 0,
+      "primary_complete_successes": 2,
+      "research_successes": 2,
+      "results": [
+        {
+          "case": "total",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        },
+        {
+          "case": "period_groups",
+          "complete_primary_success": true,
+          "primary_persistence_available": true,
+          "roles": {
+            "primary": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "google/gemini-3.8-flash",
+                "provider": "Google AI Studio"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            },
+            "research": {
+              "availability": "ok",
+              "contributors_cited": true,
+              "cost": null,
+              "exact_contributors": true,
+              "finish_reason": "stop",
+              "groups_cited": true,
+              "historical_transport_invocations": 1,
+              "host_diagnostic": null,
+              "host_state": "accepted",
+              "replay_calls": 0,
+              "schema_valid": true,
+              "served": {
+                "id": "AUTHORED-OFFLINE",
+                "model": "deepseek/deepseek-v4.1-flash",
+                "provider": "Together"
+              },
+              "state": true,
+              "state_list_consistent": true,
+              "success": true,
+              "target": true,
+              "target_cited": true,
+              "usage": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "real_cancellation": [
+    {
+      "path": "runs/semantic-citation-prompt-experiment-2026-09-19/diagnostics-v1/metadata-cancel-cxyngj6j",
+      "authored": true,
+      "ceiling_extension_seconds": 0,
+      "ceiling_seconds": 3,
+      "elapsed_seconds": 2.705450832960196,
+      "owned_pids": [
+        {
+          "immediately_after_return": "absent",
+          "pid": 20273
+        },
+        {
+          "immediately_after_return": "absent",
+          "pid": 20274
+        }
+      ],
+      "real_http_calls": 0,
+      "result": {
+        "direct_child_reaped": true,
+        "elapsed_seconds": 2.705364749999717,
+        "pid": 20272,
+        "returncode": -9,
+        "stderr": "",
+        "stdout": "",
+        "timed_out": true
+      },
+      "test_measurement_tolerance_seconds": 0.15
+    },
+    {
+      "path": "runs/semantic-citation-prompt-experiment-2026-09-19/diagnostics-v1/research-cancel-aimm2drs",
+      "authored": true,
+      "ceiling_extension_seconds": 0,
+      "ceiling_seconds": 25,
+      "elapsed_seconds": 24.008335667080246,
+      "owned_pids": [
+        {
+          "immediately_after_return": "absent",
+          "pid": 20278
+        },
+        {
+          "immediately_after_return": "absent",
+          "pid": 20279
+        }
+      ],
+      "real_http_calls": 0,
+      "result": {
+        "direct_child_reaped": true,
+        "elapsed_seconds": 24.008289625053294,
+        "pid": 20275,
+        "returncode": -9,
+        "stderr": "",
+        "stdout": "",
+        "timed_out": true
+      },
+      "test_measurement_tolerance_seconds": 0.15
+    }
+  ],
+  "real_http_calls": 0,
+  "model_behavior_established": false
+}

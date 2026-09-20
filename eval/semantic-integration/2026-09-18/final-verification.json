@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "94c6b3f",
+  "clean_export_tests": 110,
+  "final_implementation_commit": "58e210b",
+  "final_primary_artifacts": "all five queries byte-identical annotations/provenance to live artifacts",
+  "final_research_replay": "all five saved outcomes, zero model calls",
+  "final_wheel_sha256": "bbf4d8d75f172ae924a7622d7476331dee3863ff6811e8ca6e92db016eb4430d",
+  "focused_tests": 21,
+  "full_milestone2": "not_complete",
+  "intake_tests": 26,
+  "live_calls_after_bound_exhaustion": 0,
+  "live_implementation_commit": "6b6e713",
+  "saved_ir_acceptance": "open: four missing required unit citations",
+  "source_expectations_changed": false,
+  "source_ir_or_native_modified": false,
+  "source_ir_required_for_replay": "explicit ignored corrupted evidence.json and manifest.json",
+  "verified_at_utc": "2026-09-18T06:13:46.484689+00:00",
+  "wheel_build": "offline --no-deps --no-build-isolation --no-index; existing local setuptools81.0.0",
+  "workspace_tests": 110
+}

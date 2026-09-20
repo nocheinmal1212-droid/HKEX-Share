@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unsupported_header_group"
+  ],
+  "case_id": "S07_unknown_wrapper",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "1fa58ae9a4de76edba7ea99854555abc71b51a157581fef314f3588d5267e94e",
+  "optional_support": [],
+  "reason": "An unknown spanning context could change the interpretation; the model cannot evade it by leaving it uncited.",
+  "required_support": null,
+  "summary_relationships": []
+}

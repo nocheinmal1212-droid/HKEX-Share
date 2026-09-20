@@ -1,0 +1,124 @@
+{
+  "accepted_scope": [
+    "Eight primary native-to-IR occurrence mappings.",
+    "Displayed evidence limitations and unsupported-content handling.",
+    "Six qualified fixture expectations; no detector result."
+  ],
+  "approval_fingerprint": "c17c4855a026deaec52e0c6bbf7b92a3b5ee0236856f928f8e621a0fb97f0bf4",
+  "authorization": "Approve — for R4’s explicitly limited native-evidence scope. The fixtures are accepted with their existing qualifications, particularly the rounding assumptions and minimal percentage/ambiguity examples. Record my approval against fingerprint c17c4855a026deaec52e0c6bbf7b92a3b5ee0236856f928f8e621a0fb97f0bf4, and continue the work.",
+  "decision": "accepted_with_existing_qualifications",
+  "exclusions": [
+    "OCR quality and raw-PDF fidelity",
+    "Detector performance or headline scoring readiness",
+    "Secondary IR mapping adoption into frozen canonical evaluation",
+    "Runtime relationship/operand selection and comparison plans",
+    "Broader negative-benchmark adequacy",
+    "Future model identity/capability or independent holdout claims"
+  ],
+  "fixture_acceptances": [
+    {
+      "expected_behavior": "Independent nearest rounding, complete two-addend total; future verifier should accept residual magnitude 1 within bound 1.5. Assumption and operand roles need reviewer acceptance.",
+      "fixture_id": "rounding",
+      "generated_ir_sha256": "15823ed4343f6ddb0f332bd86b29c5a803bc16af5625403cd91a9d029d5702e5",
+      "input_sha256": "f4db069f19546aef7af3aeb4caefd42c4e8038e7de4d193569d7bcf50c966e2f",
+      "qualification": "Accept only assuming a complete two-addend total, coefficients +1,+1,-1, unit rounding steps and independent nearest rounding. Exact residual magnitude is 1 and the bound including the total is 1.5. The table alone does not establish the rounding policy."
+    },
+    {
+      "expected_behavior": "Group and parent amounts are not an equality relationship; preserve scope labels.",
+      "fixture_id": "contexts",
+      "generated_ir_sha256": "83cbb954ff093270279bc422d633c69513a9ab0841111664cb365a7fd926bcae",
+      "input_sha256": "416a5a7254eb61be5903b3f9a4c9cc539be446c9dbbd09858500ccdb3534433e",
+      "qualification": "Accept only the group/parent scope incompatibility example. It does not test period, scale or presentation-basis differences."
+    },
+    {
+      "expected_behavior": "Matching reference subject in accompanying text; future reference check should not alert.",
+      "fixture_id": "reference",
+      "generated_ir_sha256": "55e1973ce8759dd3eb510d5915b7f61d9a4b480e8be8e96990694493155ab49e",
+      "input_sha256": "c76ef8df5b40e6e8cd9a71e649473b703843d68689f0fb861649764d3c524571",
+      "qualification": "The separate literal block 附註甲 收入分項 supports 收入（附註甲）. Both the native pointer and newly adapted IR are supplied. This is a proposed benign example, not measured reference-check accuracy."
+    },
+    {
+      "expected_behavior": "Explicitly supported local negative styles; differing notation alone is not an error.",
+      "fixture_id": "negative-style",
+      "generated_ir_sha256": "3bbda7d91d6e973bb5612b670988e07e79b2336162d180d36da13c114b92e485",
+      "input_sha256": "19023dbec229ad111b4d087d3fcc2c2c0d3c152c64a268831d02a1ef18b34f96",
+      "qualification": "Local labels explicitly support parentheses and minus notation. Accept that notation alone is benign in this fixture, not every mixed-style document."
+    },
+    {
+      "expected_behavior": "Valid percent symbol remains literal; no typography discrepancy is expected.",
+      "fixture_id": "percentage",
+      "generated_ir_sha256": "a3d0f901373eb5469626107a44e01bb0ca465bed0b9ae1dff36cc355bb15bb90",
+      "input_sha256": "6db36373648075cd16a0d6a9d28468fa7991ab83899c82bfce2925050dadd830",
+      "qualification": "Accept as a minimal valid percent-token fixture. Repeated conventions and full narrative cases in the broader negatives plan are still missing."
+    },
+    {
+      "expected_behavior": "Two targets without sufficient scope/period evidence; future planner must abstain rather than select by matching amount.",
+      "fixture_id": "ambiguity",
+      "generated_ir_sha256": "d22373e9adf2bed233ee931de5009679cca181eedd1d67a6a48e725c4ab513cb",
+      "input_sha256": "2a0f1ddd92cd86f17f2dfb09da43a04b26dbefe3ff87b986b6d3bbca2be2a244",
+      "qualification": "Accept a minimal insufficient-evidence abstention example. Generic candidate labels do not make this a strong test between two semantically plausible note targets. Amount equality cannot justify selection."
+    }
+  ],
+  "integrity_verified_at_recording": {
+    "original_inputs": 29,
+    "packet_files": 25,
+    "status": "passed"
+  },
+  "milestone_1_status": "complete_within_approved_native_evidence_scope",
+  "packet_manifest_sha256": "cd8d9e31d5854a8392e21bd774958a7e0889d214a4b6f1c972b64099054e88d7",
+  "packet_path": "eval/milestone1/reviews/r4",
+  "packet_revision": "r4",
+  "primary_mappings": [
+    {
+      "error_id": "HL-ERR-0006",
+      "variants": {
+        "clean": [
+          "block-f90fbdd38af09393555cc82472a6b313d43356143dd102f09f6db8996d57270a"
+        ],
+        "corrupted": [
+          "block-4ca4a923977cd4a063eb64bee45aec7205ffc1a6e90420eec5153ff59b1d23ec"
+        ]
+      }
+    },
+    {
+      "error_id": "HL-ERR-0017",
+      "variants": {
+        "clean": [
+          "cell-136412262d60635a4bea8e3ca8d92ffd977fceb5d5aa53e415ed4972beccfe16"
+        ],
+        "corrupted": [
+          "cell-59c0a6372c729c9184246af00907fe94d5be085afa2c53de1f3a292ac6659404"
+        ]
+      }
+    },
+    {
+      "error_id": "HL-ERR-0025",
+      "variants": {
+        "clean": [
+          "cell-ff81ad496b68f2dc72fbd8a4b38692e431f06fbc911c4f9d23e5aadc50a97e04"
+        ],
+        "corrupted": [
+          "cell-616276486b5a466a1b2241207504ffe54f4c339aa9b8e397f36c3b830f1013cc"
+        ]
+      }
+    },
+    {
+      "error_id": "HL-ERR-0041",
+      "variants": {
+        "clean": [
+          "cell-76b7d6b50695d12f65f52c3a07bdff3c0f387ff42e2c8f0b4afb369373a00e8b"
+        ],
+        "corrupted": [
+          "cell-0d30917ad2dded636d8e7762ebad88b2522344fc324203556717cc21a8501acc"
+        ]
+      }
+    }
+  ],
+  "publication_status": "UNGATED",
+  "record_fingerprint": "293d1cd31da4489026e2d9233a383ec0cf7537c8989a0bb9dbc4b71a4dfc5525",
+  "review_content_fingerprint": "609ff1e8b402034b252d585ddb2ff152f6aa7163676ff145a262981ed884cb94",
+  "reviewed_date": "2026-09-11",
+  "reviewer": "Project user (interim domain/review owner)",
+  "schema_version": "1.0.0",
+  "sealed_packet_modified": false
+}

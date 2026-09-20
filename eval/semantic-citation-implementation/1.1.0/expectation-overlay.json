@@ -1,0 +1,237 @@
+{
+  "classification": "exposed development; operational conservative scope overlay, no changed source adjudication",
+  "fixtures": [
+    {
+      "allowed_contributor_set": [
+        "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+        "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+      ],
+      "fixture": "G1",
+      "independent_semantic_state": "selected",
+      "operational_gate": "eligible",
+      "operational_use": "eligible for independent semantic judgment; no model behavior tested",
+      "optional_support": [
+        {
+          "id": "cell-836a81a15f5943cf644c2a9dc3deb88738f1269ccb0e4be44d51e235896282d6",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-e77e1fe5807a9a3e9140874e3d33f5aa3b64e2a94831a381a62f77d19db89c3d",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "required_support": [
+        {
+          "id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+        "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+      ],
+      "fixture": "G2",
+      "independent_semantic_state": "selected",
+      "operational_gate": "eligible",
+      "operational_use": "eligible for independent semantic judgment; no model behavior tested",
+      "optional_support": [
+        {
+          "id": "cell-5d4eb39e9a0719ba2d36398cb02fb1c3c3888bf3732505c49ffd8980bf69d79f",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        }
+      ],
+      "required_support": [
+        {
+          "id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+        "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+      ],
+      "fixture": "G2_variation",
+      "independent_semantic_state": "selected",
+      "operational_gate": "eligible",
+      "operational_use": "eligible for independent semantic judgment; no model behavior tested",
+      "optional_support": [
+        {
+          "id": "cell-537dceb4e84c0761d37cf6f09219c5572061b3c993f185377106b3fde2ed3126",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        }
+      ],
+      "required_support": [
+        {
+          "id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "allowed_contributor_set": [],
+      "fixture": "G3",
+      "independent_semantic_state": "missing_evidence",
+      "operational_gate": "blocked_scope",
+      "operational_use": "no annotations; unknown prose is not certified",
+      "optional_support": [
+        {
+          "id": "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-939d02ba7e73062339f923357b3a76df1153117286b0070cfb85c95d1bdc9121",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-cd6698271b5e9ed0e62792c3fa21a9aa2173b53c3c4d1179a650c4a8d8da6a81",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "required_support": [
+        {
+          "id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d",
+          "reason": "Associated literal table note supplies the scope condition or conflicting statement needed for this abstention."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "allowed_contributor_set": [],
+      "fixture": "G5",
+      "independent_semantic_state": "incompatible_context",
+      "operational_gate": "blocked_scope",
+      "operational_use": "no annotations; unknown prose is not certified",
+      "optional_support": [],
+      "required_support": [
+        {
+          "id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "reason": "Identifies a candidate whose known group context supports the incompatibility decision."
+        },
+        {
+          "id": "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "reason": "Identifies a candidate whose known group context supports the incompatibility decision."
+        },
+        {
+          "id": "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc",
+          "reason": "Associated literal table note supplies the scope condition or conflicting statement needed for this abstention."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    },
+    {
+      "allowed_contributor_set": [],
+      "fixture": "G4_revision2",
+      "independent_semantic_state": "ambiguous",
+      "operational_gate": "blocked_scope",
+      "operational_use": "no annotations; unknown prose is not certified",
+      "optional_support": [
+        {
+          "id": "cell-db0c9b476a506e5e23d61e63bce9cfc5eaf04fad2cdfa512a7196628f1d7470b",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        },
+        {
+          "id": "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-78fdbd411f0bed5db2563fd98f6b052953370b7f5e4007c147bfd3897ea40c7f",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-669c889afbd5e430f0c8b38d442dab8b8c514601c90730a8ea0bc2bf43ff1952",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "required_support": [
+        {
+          "id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405",
+          "reason": "Literal associated note both asserts quantity membership and expressly makes that membership mutually exclusive with the still-effective monetary spanning-header membership; no precedence or correction resolves the conflict."
+        }
+      ],
+      "source_expectation_sha256": "e326a00dbce73c65e4661f7583b2589564432832d471c635d6147d10b1375a83"
+    }
+  ],
+  "historical_support_result": "0/4 unchanged",
+  "proposed_policy": "spec/semantic-operation-1.1.md",
+  "source_only_review": "eval/semantic-citation-investigation/2026-09-19/independent-source-review.json",
+  "version": "header-expectation-overlay-1.1.0"
+}

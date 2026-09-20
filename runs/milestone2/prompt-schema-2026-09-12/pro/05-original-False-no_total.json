@@ -1,0 +1,43 @@
+{
+  "case": "no_total",
+  "created_at": "2026-09-12T09:59:01.531280+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "1418ffe9e6071239e05f2eefc842af58b32cce37e4c3a2491c2a1b68fde257fa",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": null
+  },
+  "prompt": "original",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"成本\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "de593654e81a2a3425be279ba9164a9c0c811358094eb1b7d397506c34c83696",
+  "response_text": "\n         \n\n         \n\n         \n{\"id\":\"gen-1789207144-Qek6nNj1qs8lFkTx1PK3\",\"object\":\"chat.completion\",\"created\":1789207144,\"model\":\"deepseek/deepseek-v4-pro-0813\",\"provider\":\"Baidu\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"length\",\"native_finish_reason\":\"length\",\"message\":{\"role\":\"assistant\",\"content\":null,\"refusal\":null,\"reasoning\":\"We need answer JSON only. Need interpret labels using supplied evidence IDs. User asks Select the total label from supplied evidence. Evidence has two fields: field-one \\\"成本\\\" (cost), field-two \\\"收入\\\" (income/revenue). \\\"total label\\\" maybe \\\"收入\\\" is total? Need infer. Need output JSON with action? We need return requested JSON object. Need know schema? Instruction says \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely response format: {\\\"action\\\": \\\"select\\\", \\\"evidence_id\\\": \\\"...\\\", \\\"role\\\": \\\"...\\\"}? Need determine \\\"total label\\\" from supplied evidence. \\\"成本\\\" means cost, \\\"收入\\\" means income. Total label maybe \\\"收入\\\"? But \\\"total\\\" could refer to total amount? There is no amount. We need select label from evidence. The evidence has IDs. Which is total label? In accounting, total label might include \\\"收入\\\" maybe total revenue? But \\\"total label\\\" might be \\\"收入\\\" vs \\\"成本\\\". Hmm.\\n\\nNeed carefully parse. User instruction: \\\"Select the total label from the supplied evidence.\\\" They provide evidence with two fields: field-one text \\\"成本\\\" (cost), field-two text \\\"收入\\\" (income). We need select the total label. In many forms, \\\"total label\\\" maybe \\\"收入\\\" because \\\"收入\\\" is top line? But \\\"成本\\\" and \\\"收入\\\" are categories. \\\"Total label\\\" likely means \\\"总收入\\\"? But no.\\n\\nCould be from a task: \\\"Select the total label from the supplied evidence\\\" perhaps total is sum? Need select \\\"field-two\\\" because \\\"收入\\\" is revenue, total label? But not sure.\\n\\nNeed answer in JSON. The prompt says \\\"Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\" It mentions include \\\"evidence_id\\\" and \\\"role\\\". Maybe role is label role? Need infer values. We must output action and evidence_id and role. Could be \\\"select\\\" action for selecting evidence. Role maybe \\\"total\\\"? The selected label's role? \\\"role\\\": \\\"total\\\"? Let's examine wording: \\\"Select the total label from the supplied evidence.\\\" The evidence fields include labels. \\\"Interpret labels using supplied evidence IDs.\\\" So result should identify which evidence is total label. \\\"role\\\" might be \\\"total\\\". So output maybe:\\n{\\n  \\\"action\\\": \\\"select\\\",\\n  \\\"evidence_id\\\": \\\"field-two\\\",\\n\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"We need answer JSON only. Need interpret labels using supplied evidence IDs. User asks Select the total label from supplied evidence. Evidence has two fields: field-one \\\"成本\\\" (cost), field-two \\\"收入\\\" (income/revenue). \\\"total label\\\" maybe \\\"收入\\\" is total? Need infer. Need output JSON with action? We need return requested JSON object. Need know schema? Instruction says \\\"For insufficient evidence return action abstain with null evidence_id and role.\\\" So likely response format: {\\\"action\\\": \\\"select\\\", \\\"evidence_id\\\": \\\"...\\\", \\\"role\\\": \\\"...\\\"}? Need determine \\\"total label\\\" from supplied evidence. \\\"成本\\\" means cost, \\\"收入\\\" means income. Total label maybe \\\"收入\\\"? But \\\"total\\\" could refer to total amount? There is no amount. We need select label from evidence. The evidence has IDs. Which is total label? In accounting, total label might include \\\"收入\\\" maybe total revenue? But \\\"total label\\\" might be \\\"收入\\\" vs \\\"成本\\\". Hmm.\\n\\nNeed carefully parse. User instruction: \\\"Select the total label from the supplied evidence.\\\" They provide evidence with two fields: field-one text \\\"成本\\\" (cost), field-two text \\\"收入\\\" (income). We need select the total label. In many forms, \\\"total label\\\" maybe \\\"收入\\\" because \\\"收入\\\" is top line? But \\\"成本\\\" and \\\"收入\\\" are categories. \\\"Total label\\\" likely means \\\"总收入\\\"? But no.\\n\\nCould be from a task: \\\"Select the total label from the supplied evidence\\\" perhaps total is sum? Need select \\\"field-two\\\" because \\\"收入\\\" is revenue, total label? But not sure.\\n\\nNeed answer in JSON. The prompt says \\\"Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.\\\" It mentions include \\\"evidence_id\\\" and \\\"role\\\". Maybe role is label role? Need infer values. We must output action and evidence_id and role. Could be \\\"select\\\" action for selecting evidence. Role maybe \\\"total\\\"? The selected label's role? \\\"role\\\": \\\"total\\\"? Let's examine wording: \\\"Select the total label from the supplied evidence.\\\" The evidence fields include labels. \\\"Interpret labels using supplied evidence IDs.\\\" So result should identify which evidence is total label. \\\"role\\\" might be \\\"total\\\". So output maybe:\\n{\\n  \\\"action\\\": \\\"select\\\",\\n  \\\"evidence_id\\\": \\\"field-two\\\",\\n\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":185,\"completion_tokens\":512,\"total_tokens\":697,\"cost\":0.00099501336,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.00099501336,\"upstream_inference_prompt_cost\":0.0001069596,\"upstream_inference_completions_cost\":0.00088805376},\"completion_tokens_details\":{\"reasoning_tokens\":512,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "incomplete_response",
+  "strict_schema": false
+}

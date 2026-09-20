@@ -1,0 +1,22 @@
+{
+  "evidence_id": "document-2935ff4a572a4cc59c4f49418ab4ce0ccd1f9276a76200499fb931a785bd7ed5",
+  "items": [
+    {
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 34,
+          "source_id": "source-7f96719cf6ea85ce52025123c810a545163f609bcde35a5c0c7945b75c9c1f3d",
+          "start": 27
+        }
+      ],
+      "id": "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+      "kind": "cell",
+      "limitations": [],
+      "page_index": 0,
+      "parent_id": "table-53658ff2c3f6969268070e4285e0a2bfb4fb17c4ec2925f413e4171c747c8858",
+      "text": "銷售量（千件）"
+    }
+  ]
+}

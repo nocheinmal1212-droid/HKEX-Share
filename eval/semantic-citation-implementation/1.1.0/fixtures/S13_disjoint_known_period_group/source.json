@@ -1,0 +1,21 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "discarded_blocks": [],
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "html": "<table><tr><td rowspan=\"2\">港幣百萬元</td><td colspan=\"4\">2025</td><td colspan=\"4\">2024</td></tr><tr><td>甲</td><td>乙</td><td>丙</td><td>總額</td><td>丁</td><td>戊</td><td>己</td><td>總額</td></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr></table>",
+              "type": "table_body"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

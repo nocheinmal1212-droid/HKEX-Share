@@ -1,0 +1,15 @@
+test_active_review_rejects_pdf_and_derived_assets_before_open (test_review_packet.ReviewPacketTests.test_active_review_rejects_pdf_and_derived_assets_before_open) ... ok
+test_deterministic_seal_refuses_overwrite_and_symlinks (test_review_packet.ReviewPacketTests.test_deterministic_seal_refuses_overwrite_and_symlinks) ... ok
+test_fixture_amount_mutation_changes_both_bindings (test_review_packet.ReviewPacketTests.test_fixture_amount_mutation_changes_both_bindings) ... ok
+test_original_input_mutation_and_snapshot_mismatch_rejected (test_review_packet.ReviewPacketTests.test_original_input_mutation_and_snapshot_mismatch_rejected) ... ok
+test_original_inputs_reject_derived_assets_and_symlinks_before_open (test_review_packet.ReviewPacketTests.test_original_inputs_reject_derived_assets_and_symlinks_before_open) ... ok
+test_packet_directory_symlink_is_rejected (test_review_packet.ReviewPacketTests.test_packet_directory_symlink_is_rejected) ... ok
+test_partial_content_and_raw_markup_are_visible (test_review_packet.ReviewPacketTests.test_partial_content_and_raw_markup_are_visible) ... ok
+test_preparation_intake_rejects_prohibited_selector_before_open (test_review_packet.ReviewPacketTests.test_preparation_intake_rejects_prohibited_selector_before_open) ... ok
+test_report_fixture_and_expectation_tampering_rejected (test_review_packet.ReviewPacketTests.test_report_fixture_and_expectation_tampering_rejected) ... ok
+test_supporting_note_text_pointer_and_ir_are_displayed (test_review_packet.ReviewPacketTests.test_supporting_note_text_pointer_and_ir_are_displayed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.105s
+
+OK

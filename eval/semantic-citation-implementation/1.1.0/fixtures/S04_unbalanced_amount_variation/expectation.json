@@ -1,0 +1,36 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S04_unbalanced_amount_variation",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-197815454b1fba290d9e647c87283fc9b66f0467b8f96cc23d31cd0f242d5b24",
+    "cell-94f0c16dfee08b48345062fdeaec1fd458b7903a8c66b0599552e7efe43e7de7"
+  ],
+  "input_sha256": "041e92558f69517362ec5fb0b4cfc1474d2bf7c1c8314fa3fa4c24c8171c8bfe",
+  "optional_support": [],
+  "reason": "Body amounts deliberately do not establish a balancing equation. Header eligibility, summary scope and support remain those of S01.",
+  "required_support": [
+    "cell-2580f10bc9992b3fa33bafe8620288ec1d5faa88200602d7057dbd74c6593f80",
+    "cell-197815454b1fba290d9e647c87283fc9b66f0467b8f96cc23d31cd0f242d5b24",
+    "cell-94f0c16dfee08b48345062fdeaec1fd458b7903a8c66b0599552e7efe43e7de7",
+    "cell-ef562aedbb7af50c8febc613419877b447b97ebc1cccab7134c6a96105a0c6c0"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-7f6a6438c9cbd2fd8c9db93215b65691de2c3503445287222ca0a24f334f9ac1",
+        "cell-a2041c2d52b95427738743f4521a3df96905dbf5a81b6b36217f24ebc56985b9"
+      ],
+      "group_id": "cell-ef562aedbb7af50c8febc613419877b447b97ebc1cccab7134c6a96105a0c6c0",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-197815454b1fba290d9e647c87283fc9b66f0467b8f96cc23d31cd0f242d5b24",
+      "support_refs": [
+        "cell-197815454b1fba290d9e647c87283fc9b66f0467b8f96cc23d31cd0f242d5b24",
+        "cell-7f6a6438c9cbd2fd8c9db93215b65691de2c3503445287222ca0a24f334f9ac1",
+        "cell-a2041c2d52b95427738743f4521a3df96905dbf5a81b6b36217f24ebc56985b9",
+        "cell-ef562aedbb7af50c8febc613419877b447b97ebc1cccab7134c6a96105a0c6c0"
+      ]
+    }
+  ]
+}

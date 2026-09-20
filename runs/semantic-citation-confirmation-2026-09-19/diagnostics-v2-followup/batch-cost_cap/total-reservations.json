@@ -1,0 +1,10 @@
+{
+  "primary": {
+    "reason": "budget_exhausted",
+    "reserved_cost_usd": "0"
+  },
+  "research": {
+    "reason": "budget_exhausted",
+    "reserved_cost_usd": "0"
+  }
+}

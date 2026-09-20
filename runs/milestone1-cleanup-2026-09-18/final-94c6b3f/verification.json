@@ -1,0 +1,14 @@
+{
+  "final_head": "94c6b3f93424c44b9776c2fae135792f2bdca5eb",
+  "export": "/private/var/folders/ty/_d4yfmx96yj02kyg_43_dlsh0000gn/T/m1-final-xfk2nyvp",
+  "checks_exit_codes": {
+    "tests": 0,
+    "approval": 0,
+    "links": 0
+  },
+  "portable_tests": 89,
+  "clean_export_links": "49/50; only documented optional prior local review absent",
+  "all_starting_207_paths_tracked": true,
+  "protected_runtime_contract_model_R1_paths": "unchanged",
+  "git_status_porcelain": ""
+}

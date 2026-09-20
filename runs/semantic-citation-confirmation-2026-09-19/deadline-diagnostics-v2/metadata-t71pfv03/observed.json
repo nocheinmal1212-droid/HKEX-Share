@@ -1,0 +1,24 @@
+{
+  "ceiling_seconds": 3,
+  "elapsed_seconds": 2.743594625033438,
+  "measurement_assertion_tolerance_seconds": 0.15,
+  "mode": "metadata",
+  "offline_only": true,
+  "process_observations": [
+    {
+      "pid": 10456,
+      "state_after_return": "absent"
+    },
+    {
+      "pid": 10457,
+      "state_after_return": "absent"
+    },
+    {
+      "pid": 10458,
+      "state_after_return": "absent"
+    }
+  ],
+  "production_ceiling_extension": 0,
+  "real_http_calls": 0,
+  "returncode": 2
+}

@@ -1,0 +1,15 @@
+{"id": "call-001", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-002", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-003", "dispatch": "structure_accepted", "replay": "structure_accepted", "persisted": true, "network_attempts": 1}
+{"id": "call-004", "dispatch": "model_abstention", "replay": "model_abstention", "persisted": true, "network_attempts": 1}
+{"id": "call-005", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-006", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-007", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-008", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-009", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-010", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-011", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-012", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-013", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-014", "dispatch": "transport_failure", "replay": "transport_failure", "persisted": true, "network_attempts": 1}
+{"id": "call-015", "dispatch": "persistence_failure", "replay": "incomplete_attempt", "persisted": false, "network_attempts": 1}

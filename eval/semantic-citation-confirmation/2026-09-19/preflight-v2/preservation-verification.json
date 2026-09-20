@@ -1,0 +1,116 @@
+{
+  "ancestry_verified": true,
+  "current_runtime_files": 34,
+  "git_diff_check": "pass",
+  "historical_claim": "0/4 complete frozen support; three research truncations; invalid research abstention",
+  "inventories": [
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [
+        {
+          "current_sha256": "5947b1ffcbc3f9c99130ebfee3a5e7f00ce6efd04fa4790bc101a2c444fd8cfd",
+          "old_sha256": "9ef583dc16605b693ad714f70988c908bc3cd33b3fd1b919fb80139b7b8c2c5d",
+          "path": "PLAN.md",
+          "retained_original": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/prior-authorities/PLAN.md"
+        },
+        {
+          "current_sha256": "78fac131098af655e629b5cdb2d5c4889030331994ea9b67da9df94bf730c2b1",
+          "old_sha256": "6ba50aa415d6ab65664efa84542566a37b3e724dd4b2f6793091b6f9ca50ff48",
+          "path": "README.md",
+          "retained_original": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/prior-authorities/README.md"
+        },
+        {
+          "current_sha256": "f4acbcbfbb0a59e0bcad55306efd170d5e29bc05e0ef85815d2aa6d9e8bd83b0",
+          "old_sha256": "11275a15f0ef4518d2d5f67d981e4b916662dc045e8f0537563260fc98f69d17",
+          "path": "src/hkex_audit/semantic_attempt.py",
+          "retained_original": "runs/semantic-citation-confirmation-2026-09-19/prepared-v1/runtime-snapshot/src/hkex_audit/semantic_attempt.py"
+        },
+        {
+          "current_sha256": "9f141c284aad766c085b2d58cbfdef480af9d350aa8d7bc664f94cffa13d5e68",
+          "old_sha256": "ad560480ae585747ef95f3b6ed905cf8d472c6ae2e07d36b20c1bb53acdb942b",
+          "path": "src/hkex_audit/semantic_cli.py",
+          "retained_original": "runs/semantic-citation-confirmation-2026-09-19/prepared-v1/runtime-snapshot/src/hkex_audit/semantic_cli.py"
+        },
+        {
+          "current_sha256": "183f4a2d10d4e3b7f438be7f6d926e1426685f5c2db768419e49487c674d06aa",
+          "old_sha256": "15153e2d350a773b0ed06364d609af07d4d9ee321ed21f4a5b31fee58739215a",
+          "path": "src/hkex_audit/semantic_transport.py",
+          "retained_original": "runs/semantic-citation-confirmation-2026-09-19/prepared-v1/runtime-snapshot/src/hkex_audit/semantic_transport.py"
+        }
+      ],
+      "label": "no_go_freeze",
+      "members": 760,
+      "unchanged_current_members": 755
+    },
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [
+        {
+          "current_sha256": "5947b1ffcbc3f9c99130ebfee3a5e7f00ce6efd04fa4790bc101a2c444fd8cfd",
+          "old_sha256": "9ef583dc16605b693ad714f70988c908bc3cd33b3fd1b919fb80139b7b8c2c5d",
+          "path": "PLAN.md",
+          "retained_original": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/prior-authorities/PLAN.md"
+        },
+        {
+          "current_sha256": "78fac131098af655e629b5cdb2d5c4889030331994ea9b67da9df94bf730c2b1",
+          "old_sha256": "6ba50aa415d6ab65664efa84542566a37b3e724dd4b2f6793091b6f9ca50ff48",
+          "path": "README.md",
+          "retained_original": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/prior-authorities/README.md"
+        },
+        {
+          "current_sha256": "28eb1d6e9bbead33b4c788d596034e79e747631d7f00037e066a082825e80f36",
+          "old_sha256": "85f3998776d0de77a119f51eb0f76fba1d7866de03a3a28c0f22198a90dae41d",
+          "path": "docs/development-logs.md",
+          "retained_original": "eval/semantic-citation-confirmation/2026-09-19/preflight-v2/prior-authorities/development-logs.md"
+        },
+        {
+          "current_sha256": "f4acbcbfbb0a59e0bcad55306efd170d5e29bc05e0ef85815d2aa6d9e8bd83b0",
+          "old_sha256": "11275a15f0ef4518d2d5f67d981e4b916662dc045e8f0537563260fc98f69d17",
+          "path": "src/hkex_audit/semantic_attempt.py",
+          "retained_original": "runs/semantic-citation-confirmation-2026-09-19/prepared-v1/runtime-snapshot/src/hkex_audit/semantic_attempt.py"
+        },
+        {
+          "current_sha256": "9f141c284aad766c085b2d58cbfdef480af9d350aa8d7bc664f94cffa13d5e68",
+          "old_sha256": "ad560480ae585747ef95f3b6ed905cf8d472c6ae2e07d36b20c1bb53acdb942b",
+          "path": "src/hkex_audit/semantic_cli.py",
+          "retained_original": "runs/semantic-citation-confirmation-2026-09-19/prepared-v1/runtime-snapshot/src/hkex_audit/semantic_cli.py"
+        }
+      ],
+      "label": "correction_bindings",
+      "members": 18,
+      "unchanged_current_members": 13
+    },
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [],
+      "label": "correction_artifacts",
+      "members": 183,
+      "unchanged_current_members": 183
+    },
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [],
+      "label": "fixture_freeze",
+      "members": 68,
+      "unchanged_current_members": 68
+    },
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [],
+      "label": "original_retained",
+      "members": 127,
+      "unchanged_current_members": 127
+    },
+    {
+      "all_original_bytes_verified": true,
+      "intentional_current_deltas": [],
+      "label": "investigation_members",
+      "members": 119,
+      "unchanged_current_members": 119
+    }
+  ],
+  "live_paths_absent": true,
+  "new_runtime_snapshot_members_verified": 34,
+  "old_freeze_rehashed": false,
+  "old_runtime_snapshot_members_verified": 33
+}

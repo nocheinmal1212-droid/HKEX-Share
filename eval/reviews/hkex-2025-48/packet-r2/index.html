@@ -1,0 +1,1055 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Development intake review</title><style>body{font:16px system-ui;max-width:1180px;margin:36px auto;padding:0 24px;color:#182632;background:#f4f6f7}article{padding:24px;background:white;margin:24px 0;border:1px solid #ccd5da;border-radius:8px}h1{font-size:32px}h2{font-size:20px}.pair{display:flex;gap:16px;flex-wrap:wrap}figure{margin:8px 0;flex:1;min-width:320px}img{max-width:100%;border:1px solid #bbb}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}.token{font-family:monospace}a{color:#075c92}table{border-collapse:collapse}td,th{border:1px solid #ccd5da;padding:8px;text-align:left}</style><h1>Development intake review</h1><p><strong>Pending your review · No scored results · UNGATED</strong></p><p>Four proposed development cases cover a missing percent token, revenue-note reference, three-operand gross-profit equation, and statement-note revenue comparison. All sites are development because the conservative bundle has one frozen group. No untouched holdout or cluster interval is available.</p><p><strong>Observed source artifacts:</strong> white replacement patches on shaded cells, changed typography, and lost title characters on physical page 159. These may make injected sites visually distinctive. Artifact-only baseline performance has not been measured.</p><p>Source images are evidence; proposed mappings and numeric assessments are not approved. Click a crop for the full source page. All record details shown here belong to development sites.</p><article><h2>HL-ERR-0006 — formatting_typography_validation</h2><p>Percentage sign is omitted from the minimum effective tax rate.</p><p class="token">15% → 15</p><div class="pair"><figure><figcaption>clean — physical page 185</figcaption><a href="clean-p185-6579e9ff3a.png"><img src="clean-p185-d0398fa341.png" alt="Source crop"></a><p><a href="clean-p185-6579e9ff3a.png">Full page and context</a></p></figure><figure><figcaption>corrupted — physical page 185</figcaption><a href="corrupted-p185-e0f47847c0.png"><img src="corrupted-p185-4f6fff2514.png" alt="Source crop"></a><p><a href="corrupted-p185-e0f47847c0.png">Full page and context</a></p></figure></div><p>Related source pages: <a href="clean-p179-be810a203f.png">clean physical page 179</a> · <a href="corrupted-p179-5a02b995ab.png">corrupted physical page 179</a> · <a href="clean-p181-7a2a52a492.png">clean physical page 181</a> · <a href="corrupted-p181-75a838a588.png">corrupted physical page 181</a></p><details><summary>Proposed record, evidence pointers and calculations</summary><pre>{
+  &quot;schema_version&quot;: &quot;2.0.0&quot;,
+  &quot;error_id&quot;: &quot;HL-ERR-0006&quot;,
+  &quot;bundle_id&quot;: &quot;hkex-2025-48&quot;,
+  &quot;variant_id&quot;: &quot;corrupted&quot;,
+  &quot;doc_id&quot;: &quot;hksa_2026032600825_kpmg&quot;,
+  &quot;source_ref&quot;: {
+    &quot;path&quot;: &quot;corpus/error_detail.jsonl&quot;,
+    &quot;sha256&quot;: &quot;0fb5a72adb15c1f101fc17fb31445fda7404a8a3ae34f57eb6fa59d6ef1d6f47&quot;,
+    &quot;original_record_id&quot;: &quot;HL-ERR-0006&quot;,
+    &quot;line_number&quot;: 18,
+    &quot;original_taxonomy&quot;: {
+      &quot;version&quot;: &quot;1.0.0&quot;,
+      &quot;revision&quot;: 1,
+      &quot;scope&quot;: &quot;presentation&quot;
+    }
+  },
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;ingestion_status&quot;: &quot;pending&quot;,
+  &quot;category_code&quot;: &quot;formatting_typography_validation&quot;,
+  &quot;category_revision&quot;: 2,
+  &quot;scoring_status&quot;: &quot;scored&quot;,
+  &quot;site_id&quot;: &quot;site-a038c376f9346ce551a7ba8d&quot;,
+  &quot;split_group_id&quot;: &quot;group-571a446e3c84ade0e3fe5499&quot;,
+  &quot;split&quot;: &quot;dev&quot;,
+  &quot;location&quot;: {
+    &quot;page_index&quot;: 184,
+    &quot;table_id&quot;: null,
+    &quot;section_id&quot;: &quot;container-93ec0e87f30e7bed39d2&quot;,
+    &quot;row_key&quot;: null,
+    &quot;column_key&quot;: null,
+    &quot;source_anchors&quot;: [
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+        &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+        &quot;pointer&quot;: &quot;page:184&quot;,
+        &quot;rectangle&quot;: [
+          375.7759,
+          410.57169999999996,
+          393.7024,
+          420.07169999999996
+        ]
+      }
+    ],
+    &quot;corrupted_endpoint&quot;: true
+  },
+  &quot;secondary_locations&quot;: [],
+  &quot;original_text&quot;: &quot;15%&quot;,
+  &quot;injected_text&quot;: &quot;15&quot;,
+  &quot;original_value&quot;: null,
+  &quot;injected_value&quot;: null,
+  &quot;value_delta&quot;: null,
+  &quot;relation&quot;: null,
+  &quot;detectability_band&quot;: &quot;not_applicable&quot;,
+  &quot;expected_detectable&quot;: true,
+  &quot;injection_stage&quot;: &quot;pre_ocr_pdf&quot;,
+  &quot;injector_version&quot;: null,
+  &quot;seed&quot;: null,
+  &quot;propagated&quot;: null,
+  &quot;propagation_sites&quot;: null,
+  &quot;description&quot;: &quot;Percentage sign is omitted from the minimum effective tax rate.&quot;,
+  &quot;review_notes&quot;: [
+    {
+      &quot;field&quot;: &quot;site_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split_group_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;location&quot;,
+      &quot;reason&quot;: &quot;Page indexing, container and coordinates require source review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;original_value&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injected_value&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;value_delta&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injector_version&quot;,
+      &quot;reason&quot;: &quot;Not supplied.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;seed&quot;,
+      &quot;reason&quot;: &quot;Not supplied; exact regeneration unavailable.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagated&quot;,
+      &quot;reason&quot;: &quot;Linked changes require review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagation_sites&quot;,
+      &quot;reason&quot;: &quot;Unknown, not reviewed none.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;created_at&quot;,
+      &quot;reason&quot;: &quot;Source timestamp lacks a timezone; cannot assert UTC.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;status&quot;,
+      &quot;reason&quot;: &quot;Explicit intake retention disposition: retain every supplied injection as active and pending; raw open status does not determine readiness or detectability.&quot;,
+      &quot;reviewer&quot;: &quot;Project user (interim intake and review owner)&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;secondary_locations&quot;,
+      &quot;reason&quot;: &quot;Other endpoints have not yet been reviewed.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;relation&quot;,
+      &quot;reason&quot;: &quot;Non-numeric token/reference discrepancy; no financial tolerance applies.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;expected_detectable&quot;,
+      &quot;reason&quot;: &quot;Agent proposal true: inspect source wording and repeated percent convention.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injection_stage&quot;,
+      &quot;reason&quot;: &quot;Original/injected characters verified at all 48 PDF rectangles. Native corrupted export is separately inventoried. Exact injector version and seed remain unknown.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;ingestion_status&quot;,
+      &quot;reason&quot;: &quot;Awaiting owner review of this evidence packet; no approval recorded.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    }
+  ],
+  &quot;created_at&quot;: null,
+  &quot;updated_at&quot;: &quot;2026-09-09T07:26:54.646002Z&quot;
+}</pre></details><p>Review: container and endpoints; visual replacement artifacts; complete contributors/context; rounding; detectability; propagation. No approval has been recorded.</p></article><article><h2>HL-ERR-0017 — disclosure_reference_verification</h2><p>Revenue line points to an incorrect note reference.</p><p class="token">2(a) → 3(a)</p><div class="pair"><figure><figcaption>clean — physical page 159</figcaption><a href="clean-p159-d4b1666f9a.png"><img src="clean-p159-f7dc095fa0.png" alt="Source crop"></a><p><a href="clean-p159-d4b1666f9a.png">Full page and context</a></p></figure><figure><figcaption>corrupted — physical page 159</figcaption><a href="corrupted-p159-cfcfdbcaf8.png"><img src="corrupted-p159-e7e6d6974b.png" alt="Source crop"></a><p><a href="corrupted-p159-cfcfdbcaf8.png">Full page and context</a></p></figure></div><p>Related source pages: <a href="clean-p179-be810a203f.png">clean physical page 179</a> · <a href="corrupted-p179-5a02b995ab.png">corrupted physical page 179</a> · <a href="clean-p181-7a2a52a492.png">clean physical page 181</a> · <a href="corrupted-p181-75a838a588.png">corrupted physical page 181</a></p><details><summary>Proposed record, evidence pointers and calculations</summary><pre>{
+  &quot;schema_version&quot;: &quot;2.0.0&quot;,
+  &quot;error_id&quot;: &quot;HL-ERR-0017&quot;,
+  &quot;bundle_id&quot;: &quot;hkex-2025-48&quot;,
+  &quot;variant_id&quot;: &quot;corrupted&quot;,
+  &quot;doc_id&quot;: &quot;hksa_2026032600825_kpmg&quot;,
+  &quot;source_ref&quot;: {
+    &quot;path&quot;: &quot;corpus/error_detail.jsonl&quot;,
+    &quot;sha256&quot;: &quot;0fb5a72adb15c1f101fc17fb31445fda7404a8a3ae34f57eb6fa59d6ef1d6f47&quot;,
+    &quot;original_record_id&quot;: &quot;HL-ERR-0017&quot;,
+    &quot;line_number&quot;: 5,
+    &quot;original_taxonomy&quot;: {
+      &quot;version&quot;: &quot;1.0.0&quot;,
+      &quot;revision&quot;: 1,
+      &quot;scope&quot;: &quot;cross_references&quot;
+    }
+  },
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;ingestion_status&quot;: &quot;pending&quot;,
+  &quot;category_code&quot;: &quot;disclosure_reference_verification&quot;,
+  &quot;category_revision&quot;: 2,
+  &quot;scoring_status&quot;: &quot;scored&quot;,
+  &quot;site_id&quot;: &quot;site-c92f1bfeaf50dd72303bbc0e&quot;,
+  &quot;split_group_id&quot;: &quot;group-571a446e3c84ade0e3fe5499&quot;,
+  &quot;split&quot;: &quot;dev&quot;,
+  &quot;location&quot;: {
+    &quot;page_index&quot;: 158,
+    &quot;table_id&quot;: null,
+    &quot;section_id&quot;: &quot;container-ec2f1a947f2beb3429d7&quot;,
+    &quot;row_key&quot;: null,
+    &quot;column_key&quot;: null,
+    &quot;source_anchors&quot;: [
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+        &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+        &quot;pointer&quot;: &quot;page:158&quot;,
+        &quot;rectangle&quot;: [
+          268.5949,
+          188.71409999999992,
+          283.4699,
+          197.21409999999992
+        ]
+      }
+    ],
+    &quot;corrupted_endpoint&quot;: true
+  },
+  &quot;secondary_locations&quot;: [
+    {
+      &quot;page_index&quot;: 178,
+      &quot;table_id&quot;: &quot;note-revenue-disaggregation&quot;,
+      &quot;section_id&quot;: null,
+      &quot;row_key&quot;: null,
+      &quot;column_key&quot;: null,
+      &quot;source_anchors&quot;: [
+        {
+          &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+          &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+          &quot;pointer&quot;: &quot;page:178&quot;,
+          &quot;rectangle&quot;: [
+            77,
+            150,
+            530,
+            350
+          ]
+        },
+        {
+          &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+          &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+          &quot;pointer&quot;: &quot;page:178&quot;,
+          &quot;rectangle&quot;: [
+            77,
+            150,
+            530,
+            350
+          ]
+        }
+      ],
+      &quot;corrupted_endpoint&quot;: null
+    }
+  ],
+  &quot;original_text&quot;: &quot;2(a)&quot;,
+  &quot;injected_text&quot;: &quot;3(a)&quot;,
+  &quot;original_value&quot;: null,
+  &quot;injected_value&quot;: null,
+  &quot;value_delta&quot;: null,
+  &quot;relation&quot;: null,
+  &quot;detectability_band&quot;: &quot;not_applicable&quot;,
+  &quot;expected_detectable&quot;: true,
+  &quot;injection_stage&quot;: &quot;pre_ocr_pdf&quot;,
+  &quot;injector_version&quot;: null,
+  &quot;seed&quot;: null,
+  &quot;propagated&quot;: null,
+  &quot;propagation_sites&quot;: null,
+  &quot;description&quot;: &quot;Revenue line points to an incorrect note reference.&quot;,
+  &quot;review_notes&quot;: [
+    {
+      &quot;field&quot;: &quot;site_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split_group_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;location&quot;,
+      &quot;reason&quot;: &quot;Page indexing, container and coordinates require source review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;original_value&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injected_value&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;value_delta&quot;,
+      &quot;reason&quot;: &quot;Not applicable to this token/reference assessment; literal source text retained.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injector_version&quot;,
+      &quot;reason&quot;: &quot;Not supplied.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;seed&quot;,
+      &quot;reason&quot;: &quot;Not supplied; exact regeneration unavailable.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagated&quot;,
+      &quot;reason&quot;: &quot;Linked changes require review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagation_sites&quot;,
+      &quot;reason&quot;: &quot;Unknown, not reviewed none.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;created_at&quot;,
+      &quot;reason&quot;: &quot;Source timestamp lacks a timezone; cannot assert UTC.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;status&quot;,
+      &quot;reason&quot;: &quot;Explicit intake retention disposition: retain every supplied injection as active and pending; raw open status does not determine readiness or detectability.&quot;,
+      &quot;reviewer&quot;: &quot;Project user (interim intake and review owner)&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;secondary_locations&quot;,
+      &quot;reason&quot;: &quot;Other endpoints have not yet been reviewed.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;relation&quot;,
+      &quot;reason&quot;: &quot;Non-numeric token/reference discrepancy; no financial tolerance applies.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;expected_detectable&quot;,
+      &quot;reason&quot;: &quot;Agent proposal true: revenue reference changed to an unrelated note. Review both note subjects; do not use amount agreement to resolve it.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injection_stage&quot;,
+      &quot;reason&quot;: &quot;Original/injected characters verified at all 48 PDF rectangles. Native corrupted export is separately inventoried. Exact injector version and seed remain unknown.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;ingestion_status&quot;,
+      &quot;reason&quot;: &quot;Awaiting owner review of this evidence packet; no approval recorded.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    }
+  ],
+  &quot;created_at&quot;: null,
+  &quot;updated_at&quot;: &quot;2026-09-09T07:26:54.646002Z&quot;
+}</pre></details><p>Review: container and endpoints; visual replacement artifacts; complete contributors/context; rounding; detectability; propagation. No approval has been recorded.</p></article><article><h2>HL-ERR-0025 — primary_statement_articulation</h2><p>Gross profit no longer equals revenue less direct costs and operating expenses.</p><p class="token">6,527 → 6,537</p><div class="pair"><figure><figcaption>clean — physical page 159</figcaption><a href="clean-p159-d4b1666f9a.png"><img src="clean-p159-d80227ba2c.png" alt="Source crop"></a><p><a href="clean-p159-d4b1666f9a.png">Full page and context</a></p></figure><figure><figcaption>corrupted — physical page 159</figcaption><a href="corrupted-p159-cfcfdbcaf8.png"><img src="corrupted-p159-5be41bac80.png" alt="Source crop"></a><p><a href="corrupted-p159-cfcfdbcaf8.png">Full page and context</a></p></figure></div><p>Related source pages: <a href="clean-p179-be810a203f.png">clean physical page 179</a> · <a href="corrupted-p179-5a02b995ab.png">corrupted physical page 179</a> · <a href="clean-p181-7a2a52a492.png">clean physical page 181</a> · <a href="corrupted-p181-75a838a588.png">corrupted physical page 181</a></p><h3>Proposed calculation</h3><table><tr><th>Operand</th><th>Sign</th><th>Original</th><th>Injected</th><th>Rounding step</th></tr><tr><td>revenue</td><td>1</td><td>9,950</td><td>9,950</td><td>1</td></tr><tr><td>direct-costs</td><td>1</td><td>(3,423)</td><td>-3,423</td><td>1</td></tr><tr><td>gross-profit</td><td>-1</td><td>6,527</td><td>6,537</td><td>1</td></tr></table><p>Original residual: 0; injected residual: -10; change: -10; conservative bound: 1.5. Proposed band: above_tolerance.</p><details><summary>Proposed record, evidence pointers and calculations</summary><pre>{
+  &quot;schema_version&quot;: &quot;2.0.0&quot;,
+  &quot;error_id&quot;: &quot;HL-ERR-0025&quot;,
+  &quot;bundle_id&quot;: &quot;hkex-2025-48&quot;,
+  &quot;variant_id&quot;: &quot;corrupted&quot;,
+  &quot;doc_id&quot;: &quot;hksa_2026032600825_kpmg&quot;,
+  &quot;source_ref&quot;: {
+    &quot;path&quot;: &quot;corpus/error_detail.jsonl&quot;,
+    &quot;sha256&quot;: &quot;0fb5a72adb15c1f101fc17fb31445fda7404a8a3ae34f57eb6fa59d6ef1d6f47&quot;,
+    &quot;original_record_id&quot;: &quot;HL-ERR-0025&quot;,
+    &quot;line_number&quot;: 8,
+    &quot;original_taxonomy&quot;: {
+      &quot;version&quot;: &quot;1.0.0&quot;,
+      &quot;revision&quot;: 1,
+      &quot;scope&quot;: &quot;financial_statements&quot;
+    }
+  },
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;ingestion_status&quot;: &quot;pending&quot;,
+  &quot;category_code&quot;: &quot;primary_statement_articulation&quot;,
+  &quot;category_revision&quot;: 2,
+  &quot;scoring_status&quot;: &quot;scored&quot;,
+  &quot;site_id&quot;: &quot;site-b0a446b573cafd8f5f035fd1&quot;,
+  &quot;split_group_id&quot;: &quot;group-571a446e3c84ade0e3fe5499&quot;,
+  &quot;split&quot;: &quot;dev&quot;,
+  &quot;location&quot;: {
+    &quot;page_index&quot;: 158,
+    &quot;table_id&quot;: &quot;statement-income&quot;,
+    &quot;section_id&quot;: null,
+    &quot;row_key&quot;: &quot;gross-profit&quot;,
+    &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+    &quot;source_anchors&quot;: [
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+        &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+        &quot;pointer&quot;: &quot;page:158&quot;,
+        &quot;rectangle&quot;: [
+          318.9656,
+          221.4543,
+          340.14759999999995,
+          229.9543
+        ]
+      },
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+        &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+        &quot;pointer&quot;: &quot;page:158&quot;,
+        &quot;rectangle&quot;: [
+          318.9656,
+          221.4543,
+          340.14759999999995,
+          229.9543
+        ]
+      }
+    ],
+    &quot;corrupted_endpoint&quot;: true
+  },
+  &quot;secondary_locations&quot;: [],
+  &quot;original_text&quot;: &quot;6,527&quot;,
+  &quot;injected_text&quot;: &quot;6,537&quot;,
+  &quot;original_value&quot;: &quot;6527&quot;,
+  &quot;injected_value&quot;: &quot;6537&quot;,
+  &quot;value_delta&quot;: &quot;10&quot;,
+  &quot;relation&quot;: {
+    &quot;relation_id&quot;: &quot;review-HL-ERR-0025&quot;,
+    &quot;operation&quot;: &quot;signed_sum&quot;,
+    &quot;complete&quot;: true,
+    &quot;context&quot;: {
+      &quot;concept&quot;: &quot;gross profit&quot;,
+      &quot;entity&quot;: &quot;consolidated group&quot;,
+      &quot;period&quot;: &quot;2025 annual column&quot;,
+      &quot;unit&quot;: &quot;HKD million&quot;,
+      &quot;presentation_basis&quot;: &quot;reported; comparative and reference RMB columns excluded&quot;
+    },
+    &quot;operands&quot;: [
+      {
+        &quot;operand_id&quot;: &quot;revenue&quot;,
+        &quot;role&quot;: &quot;contributor&quot;,
+        &quot;location&quot;: {
+          &quot;page_index&quot;: 158,
+          &quot;table_id&quot;: &quot;statement-income&quot;,
+          &quot;section_id&quot;: null,
+          &quot;row_key&quot;: &quot;revenue&quot;,
+          &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+          &quot;source_anchors&quot;: [
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+              &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                315.0,
+                188.5,
+                341.0,
+                197.5
+              ]
+            },
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+              &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                315.0,
+                188.5,
+                341.0,
+                197.5
+              ]
+            }
+          ],
+          &quot;corrupted_endpoint&quot;: null
+        },
+        &quot;coefficient&quot;: &quot;1&quot;,
+        &quot;scale&quot;: &quot;1&quot;,
+        &quot;original_text&quot;: &quot;9,950&quot;,
+        &quot;injected_text&quot;: &quot;9,950&quot;,
+        &quot;original_value&quot;: &quot;9950&quot;,
+        &quot;injected_value&quot;: &quot;9950&quot;,
+        &quot;rounding_step&quot;: &quot;1&quot;
+      },
+      {
+        &quot;operand_id&quot;: &quot;direct-costs&quot;,
+        &quot;role&quot;: &quot;contributor&quot;,
+        &quot;location&quot;: {
+          &quot;page_index&quot;: 158,
+          &quot;table_id&quot;: &quot;statement-income&quot;,
+          &quot;section_id&quot;: null,
+          &quot;row_key&quot;: &quot;direct-costs&quot;,
+          &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+          &quot;source_anchors&quot;: [
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+              &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                316.0022,
+                205.0842,
+                343.1512,
+                213.5842
+              ]
+            },
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+              &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                316.0022,
+                205.0842,
+                343.1512,
+                213.5842
+              ]
+            }
+          ],
+          &quot;corrupted_endpoint&quot;: null
+        },
+        &quot;coefficient&quot;: &quot;1&quot;,
+        &quot;scale&quot;: &quot;1&quot;,
+        &quot;original_text&quot;: &quot;(3,423)&quot;,
+        &quot;injected_text&quot;: &quot;-3,423&quot;,
+        &quot;original_value&quot;: &quot;-3423&quot;,
+        &quot;injected_value&quot;: &quot;-3423&quot;,
+        &quot;rounding_step&quot;: &quot;1&quot;
+      },
+      {
+        &quot;operand_id&quot;: &quot;gross-profit&quot;,
+        &quot;role&quot;: &quot;total&quot;,
+        &quot;location&quot;: {
+          &quot;page_index&quot;: 158,
+          &quot;table_id&quot;: &quot;statement-income&quot;,
+          &quot;section_id&quot;: null,
+          &quot;row_key&quot;: &quot;gross-profit&quot;,
+          &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+          &quot;source_anchors&quot;: [
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+              &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                318.9656,
+                221.4543,
+                340.14759999999995,
+                229.9543
+              ]
+            },
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+              &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                318.9656,
+                221.4543,
+                340.14759999999995,
+                229.9543
+              ]
+            }
+          ],
+          &quot;corrupted_endpoint&quot;: null
+        },
+        &quot;coefficient&quot;: &quot;-1&quot;,
+        &quot;scale&quot;: &quot;1&quot;,
+        &quot;original_text&quot;: &quot;6,527&quot;,
+        &quot;injected_text&quot;: &quot;6,537&quot;,
+        &quot;original_value&quot;: &quot;6527&quot;,
+        &quot;injected_value&quot;: &quot;6537&quot;,
+        &quot;rounding_step&quot;: &quot;1&quot;
+      }
+    ],
+    &quot;rounding_policy&quot;: &quot;independent_nearest&quot;,
+    &quot;original_residual&quot;: &quot;0&quot;,
+    &quot;injected_residual&quot;: &quot;-10&quot;,
+    &quot;residual_change&quot;: &quot;-10&quot;,
+    &quot;tolerance_bound&quot;: &quot;1.5&quot;
+  },
+  &quot;detectability_band&quot;: &quot;above_tolerance&quot;,
+  &quot;expected_detectable&quot;: true,
+  &quot;injection_stage&quot;: &quot;pre_ocr_pdf&quot;,
+  &quot;injector_version&quot;: null,
+  &quot;seed&quot;: null,
+  &quot;propagated&quot;: null,
+  &quot;propagation_sites&quot;: null,
+  &quot;description&quot;: &quot;Gross profit no longer equals revenue less direct costs and operating expenses.&quot;,
+  &quot;review_notes&quot;: [
+    {
+      &quot;field&quot;: &quot;site_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split_group_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injector_version&quot;,
+      &quot;reason&quot;: &quot;Not supplied.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;seed&quot;,
+      &quot;reason&quot;: &quot;Not supplied; exact regeneration unavailable.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagated&quot;,
+      &quot;reason&quot;: &quot;Linked changes require review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagation_sites&quot;,
+      &quot;reason&quot;: &quot;Unknown, not reviewed none.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;created_at&quot;,
+      &quot;reason&quot;: &quot;Source timestamp lacks a timezone; cannot assert UTC.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;status&quot;,
+      &quot;reason&quot;: &quot;Explicit intake retention disposition: retain every supplied injection as active and pending; raw open status does not determine readiness or detectability.&quot;,
+      &quot;reviewer&quot;: &quot;Project user (interim intake and review owner)&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;relation&quot;,
+      &quot;reason&quot;: &quot;Agent proposal: contributors selected from row roles and 2025 HKD column; coefficients include total. Independent nearest rounding is a conservative displayed-million assumption requiring owner confirmation.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;expected_detectable&quot;,
+      &quot;reason&quot;: &quot;Agent proposal true: corrupted residual exceeds full rounding bound. Header year is independently corrupted; 2025 column and original report context support the intended relationship. Runtime must resolve that context independently.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;location&quot;,
+      &quot;reason&quot;: &quot;Proposed logical address and source spans require owner review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;secondary_locations&quot;,
+      &quot;reason&quot;: &quot;Single-table additive discrepancy; all operands retained in relation.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injection_stage&quot;,
+      &quot;reason&quot;: &quot;Original/injected characters verified at all 48 PDF rectangles. Native corrupted export is separately inventoried. Exact injector version and seed remain unknown.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;ingestion_status&quot;,
+      &quot;reason&quot;: &quot;Awaiting owner review of this evidence packet; no approval recorded.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    }
+  ],
+  &quot;created_at&quot;: null,
+  &quot;updated_at&quot;: &quot;2026-09-09T07:26:54.646002Z&quot;
+}</pre></details><p>Review: container and endpoints; visual replacement artifacts; complete contributors/context; rounding; detectability; propagation. No approval has been recorded.</p></article><article><h2>HL-ERR-0041 — statement_to_note_articulation</h2><p>Revenue total in Note 2(b) no longer agrees with the consolidated income statement.</p><p class="token">9,950 → 9,960</p><div class="pair"><figure><figcaption>clean — physical page 180</figcaption><a href="clean-p180-cddc047b4b.png"><img src="clean-p180-53782edd85.png" alt="Source crop"></a><p><a href="clean-p180-cddc047b4b.png">Full page and context</a></p></figure><figure><figcaption>corrupted — physical page 180</figcaption><a href="corrupted-p180-936e906228.png"><img src="corrupted-p180-1bf0d7416f.png" alt="Source crop"></a><p><a href="corrupted-p180-936e906228.png">Full page and context</a></p></figure></div><p>Related source pages: <a href="clean-p159-d4b1666f9a.png">clean physical page 159</a> · <a href="corrupted-p159-cfcfdbcaf8.png">corrupted physical page 159</a> · <a href="clean-p179-be810a203f.png">clean physical page 179</a> · <a href="corrupted-p179-5a02b995ab.png">corrupted physical page 179</a> · <a href="clean-p181-7a2a52a492.png">clean physical page 181</a> · <a href="corrupted-p181-75a838a588.png">corrupted physical page 181</a></p><h3>Proposed calculation</h3><table><tr><th>Operand</th><th>Sign</th><th>Original</th><th>Injected</th><th>Rounding step</th></tr><tr><td>statement-revenue</td><td>1</td><td>9,950</td><td>9,950</td><td>1</td></tr><tr><td>segment-revenue-total</td><td>-1</td><td>9,950</td><td>9,960</td><td>1</td></tr></table><p>Original residual: 0; injected residual: -10; change: -10; conservative bound: 1.0. Proposed band: above_tolerance.</p><details><summary>Proposed record, evidence pointers and calculations</summary><pre>{
+  &quot;schema_version&quot;: &quot;2.0.0&quot;,
+  &quot;error_id&quot;: &quot;HL-ERR-0041&quot;,
+  &quot;bundle_id&quot;: &quot;hkex-2025-48&quot;,
+  &quot;variant_id&quot;: &quot;corrupted&quot;,
+  &quot;doc_id&quot;: &quot;hksa_2026032600825_kpmg&quot;,
+  &quot;source_ref&quot;: {
+    &quot;path&quot;: &quot;corpus/error_detail.jsonl&quot;,
+    &quot;sha256&quot;: &quot;0fb5a72adb15c1f101fc17fb31445fda7404a8a3ae34f57eb6fa59d6ef1d6f47&quot;,
+    &quot;original_record_id&quot;: &quot;HL-ERR-0041&quot;,
+    &quot;line_number&quot;: 43,
+    &quot;original_taxonomy&quot;: {
+      &quot;version&quot;: &quot;1.0.0&quot;,
+      &quot;revision&quot;: 1,
+      &quot;scope&quot;: &quot;cross_statement_and_notes&quot;
+    }
+  },
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;ingestion_status&quot;: &quot;pending&quot;,
+  &quot;category_code&quot;: &quot;statement_to_note_articulation&quot;,
+  &quot;category_revision&quot;: 2,
+  &quot;scoring_status&quot;: &quot;scored&quot;,
+  &quot;site_id&quot;: &quot;site-99ddd43a4100bcb97e321142&quot;,
+  &quot;split_group_id&quot;: &quot;group-571a446e3c84ade0e3fe5499&quot;,
+  &quot;split&quot;: &quot;dev&quot;,
+  &quot;location&quot;: {
+    &quot;page_index&quot;: 179,
+    &quot;table_id&quot;: &quot;note-segment-results&quot;,
+    &quot;section_id&quot;: null,
+    &quot;row_key&quot;: &quot;revenue-total&quot;,
+    &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+    &quot;source_anchors&quot;: [
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+        &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+        &quot;pointer&quot;: &quot;page:179&quot;,
+        &quot;rectangle&quot;: [
+          341.6427,
+          270.45619999999997,
+          362.82469999999995,
+          278.95619999999997
+        ]
+      },
+      {
+        &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+        &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+        &quot;pointer&quot;: &quot;page:179&quot;,
+        &quot;rectangle&quot;: [
+          341.6427,
+          270.45619999999997,
+          362.82469999999995,
+          278.95619999999997
+        ]
+      }
+    ],
+    &quot;corrupted_endpoint&quot;: true
+  },
+  &quot;secondary_locations&quot;: [
+    {
+      &quot;page_index&quot;: 158,
+      &quot;table_id&quot;: &quot;statement-income&quot;,
+      &quot;section_id&quot;: null,
+      &quot;row_key&quot;: &quot;revenue&quot;,
+      &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+      &quot;source_anchors&quot;: [
+        {
+          &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+          &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+          &quot;pointer&quot;: &quot;page:158&quot;,
+          &quot;rectangle&quot;: [
+            315.0,
+            188.5,
+            341.0,
+            197.5
+          ]
+        },
+        {
+          &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+          &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+          &quot;pointer&quot;: &quot;page:158&quot;,
+          &quot;rectangle&quot;: [
+            315.0,
+            188.5,
+            341.0,
+            197.5
+          ]
+        }
+      ],
+      &quot;corrupted_endpoint&quot;: false
+    }
+  ],
+  &quot;original_text&quot;: &quot;9,950&quot;,
+  &quot;injected_text&quot;: &quot;9,960&quot;,
+  &quot;original_value&quot;: &quot;9950&quot;,
+  &quot;injected_value&quot;: &quot;9960&quot;,
+  &quot;value_delta&quot;: &quot;10&quot;,
+  &quot;relation&quot;: {
+    &quot;relation_id&quot;: &quot;review-HL-ERR-0041&quot;,
+    &quot;operation&quot;: &quot;signed_sum&quot;,
+    &quot;complete&quot;: true,
+    &quot;context&quot;: {
+      &quot;concept&quot;: &quot;revenue&quot;,
+      &quot;entity&quot;: &quot;consolidated group&quot;,
+      &quot;period&quot;: &quot;2025 annual column&quot;,
+      &quot;unit&quot;: &quot;HKD million&quot;,
+      &quot;presentation_basis&quot;: &quot;reported; comparative and reference RMB columns excluded&quot;
+    },
+    &quot;operands&quot;: [
+      {
+        &quot;operand_id&quot;: &quot;statement-revenue&quot;,
+        &quot;role&quot;: &quot;contributor&quot;,
+        &quot;location&quot;: {
+          &quot;page_index&quot;: 158,
+          &quot;table_id&quot;: &quot;statement-income&quot;,
+          &quot;section_id&quot;: null,
+          &quot;row_key&quot;: &quot;revenue&quot;,
+          &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+          &quot;source_anchors&quot;: [
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+              &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                315.0,
+                188.5,
+                341.0,
+                197.5
+              ]
+            },
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+              &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+              &quot;pointer&quot;: &quot;page:158&quot;,
+              &quot;rectangle&quot;: [
+                315.0,
+                188.5,
+                341.0,
+                197.5
+              ]
+            }
+          ],
+          &quot;corrupted_endpoint&quot;: null
+        },
+        &quot;coefficient&quot;: &quot;1&quot;,
+        &quot;scale&quot;: &quot;1&quot;,
+        &quot;original_text&quot;: &quot;9,950&quot;,
+        &quot;injected_text&quot;: &quot;9,950&quot;,
+        &quot;original_value&quot;: &quot;9950&quot;,
+        &quot;injected_value&quot;: &quot;9950&quot;,
+        &quot;rounding_step&quot;: &quot;1&quot;
+      },
+      {
+        &quot;operand_id&quot;: &quot;segment-revenue-total&quot;,
+        &quot;role&quot;: &quot;total&quot;,
+        &quot;location&quot;: {
+          &quot;page_index&quot;: 179,
+          &quot;table_id&quot;: &quot;note-segment-results&quot;,
+          &quot;section_id&quot;: null,
+          &quot;row_key&quot;: &quot;revenue-total&quot;,
+          &quot;column_key&quot;: &quot;2025-HKD-million&quot;,
+          &quot;source_anchors&quot;: [
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf&quot;,
+              &quot;sha256&quot;: &quot;1a7fb12f07e101af5b0068613c5e7912f95ec3aba5c3f4d8e0c43c0f3876989d&quot;,
+              &quot;pointer&quot;: &quot;page:179&quot;,
+              &quot;rectangle&quot;: [
+                341.6427,
+                270.45619999999997,
+                362.82469999999995,
+                278.95619999999997
+              ]
+            },
+            {
+              &quot;artifact_path&quot;: &quot;corpus/hksa_2026032600825_kpmg.pdf&quot;,
+              &quot;sha256&quot;: &quot;8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890&quot;,
+              &quot;pointer&quot;: &quot;page:179&quot;,
+              &quot;rectangle&quot;: [
+                341.6427,
+                270.45619999999997,
+                362.82469999999995,
+                278.95619999999997
+              ]
+            }
+          ],
+          &quot;corrupted_endpoint&quot;: null
+        },
+        &quot;coefficient&quot;: &quot;-1&quot;,
+        &quot;scale&quot;: &quot;1&quot;,
+        &quot;original_text&quot;: &quot;9,950&quot;,
+        &quot;injected_text&quot;: &quot;9,960&quot;,
+        &quot;original_value&quot;: &quot;9950&quot;,
+        &quot;injected_value&quot;: &quot;9960&quot;,
+        &quot;rounding_step&quot;: &quot;1&quot;
+      }
+    ],
+    &quot;rounding_policy&quot;: &quot;independent_nearest&quot;,
+    &quot;original_residual&quot;: &quot;0&quot;,
+    &quot;injected_residual&quot;: &quot;-10&quot;,
+    &quot;residual_change&quot;: &quot;-10&quot;,
+    &quot;tolerance_bound&quot;: &quot;1.0&quot;
+  },
+  &quot;detectability_band&quot;: &quot;above_tolerance&quot;,
+  &quot;expected_detectable&quot;: true,
+  &quot;injection_stage&quot;: &quot;pre_ocr_pdf&quot;,
+  &quot;injector_version&quot;: null,
+  &quot;seed&quot;: null,
+  &quot;propagated&quot;: null,
+  &quot;propagation_sites&quot;: null,
+  &quot;description&quot;: &quot;Revenue total in Note 2(b) no longer agrees with the consolidated income statement.&quot;,
+  &quot;review_notes&quot;: [
+    {
+      &quot;field&quot;: &quot;site_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split_group_id&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;split&quot;,
+      &quot;reason&quot;: &quot;Assigned under the frozen conservative single-group development split; no holdout exists.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injector_version&quot;,
+      &quot;reason&quot;: &quot;Not supplied.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;seed&quot;,
+      &quot;reason&quot;: &quot;Not supplied; exact regeneration unavailable.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagated&quot;,
+      &quot;reason&quot;: &quot;Linked changes require review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;propagation_sites&quot;,
+      &quot;reason&quot;: &quot;Unknown, not reviewed none.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;created_at&quot;,
+      &quot;reason&quot;: &quot;Source timestamp lacks a timezone; cannot assert UTC.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;status&quot;,
+      &quot;reason&quot;: &quot;Explicit intake retention disposition: retain every supplied injection as active and pending; raw open status does not determine readiness or detectability.&quot;,
+      &quot;reviewer&quot;: &quot;Project user (interim intake and review owner)&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;relation&quot;,
+      &quot;reason&quot;: &quot;Agent proposal: contributors selected from row roles and 2025 HKD column; coefficients include total. Independent nearest rounding is a conservative displayed-million assumption requiring owner confirmation.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;expected_detectable&quot;,
+      &quot;reason&quot;: &quot;Agent proposal true: corrupted residual exceeds full rounding bound. Header year is independently corrupted; 2025 column and original report context support the intended relationship. Runtime must resolve that context independently.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;location&quot;,
+      &quot;reason&quot;: &quot;Proposed logical address and source spans require owner review.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;injection_stage&quot;,
+      &quot;reason&quot;: &quot;Original/injected characters verified at all 48 PDF rectangles. Native corrupted export is separately inventoried. Exact injector version and seed remain unknown.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    },
+    {
+      &quot;field&quot;: &quot;ingestion_status&quot;,
+      &quot;reason&quot;: &quot;Awaiting owner review of this evidence packet; no approval recorded.&quot;,
+      &quot;reviewer&quot;: &quot;Codex intake&quot;,
+      &quot;reviewed_at&quot;: null,
+      &quot;evidence_refs&quot;: []
+    }
+  ],
+  &quot;created_at&quot;: null,
+  &quot;updated_at&quot;: &quot;2026-09-09T07:26:54.646002Z&quot;
+}</pre></details><p>Review: container and endpoints; visual replacement artifacts; complete contributors/context; rounding; detectability; propagation. No approval has been recorded.</p></article></html>

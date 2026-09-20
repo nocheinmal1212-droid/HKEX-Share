@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hkex-audit"
+version = "0.1.0"
+description = "Source-traceable document evidence and isolated frozen-artifact replay"
+requires-python = ">=3.13"
+dependencies = ["jsonschema==4.26.0"]
+
+[project.scripts]
+hkex-audit = "hkex_audit.cli:main"
+hkex-semantic = "hkex_audit.semantic_cli:main"
+
+[tool.setuptools]
+packages = ["hkex_audit", "hkex_audit.adapters", "audit_inputs", "hkex_audit.schemas"]
+package-dir = {"" = "src", "hkex_audit.schemas" = "schemas"}
+
+[tool.setuptools.package-data]
+"hkex_audit.schemas" = ["evidence.schema.json", "evidence_manifest.schema.json", "audit_input.schema.json", "pipeline_artifacts.schema.json"]

@@ -1,0 +1,7 @@
+{
+  "outcome": "failed_assertion",
+  "cause": "Reviewer extrapolated null content and all-reasoning token usage from the first truncations to every truncation.",
+  "raw_evidence": "responses/call-040.json has finish_reason length, a partial JSON string, 2048 completion tokens and 2032 reasoning tokens.",
+  "correction": "Independent verifier records null and partial content separately. Primary evaluator already classified both as incomplete; no expected answer, response or evaluation count changed.",
+  "empty_output_preserved": "verification.json"
+}

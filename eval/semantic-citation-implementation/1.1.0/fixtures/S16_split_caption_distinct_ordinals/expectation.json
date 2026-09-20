@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unestablished_text_order"
+  ],
+  "case_id": "S16_split_caption_distinct_ordinals",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "d57d084b50d49d215eb471bf249ecc6c4cfa3d5f8817697009a0fe396ad9689c",
+  "optional_support": [],
+  "reason": "Distinct numeric ordinals still do not establish general text reading order. The split subtree remains outside the profile.",
+  "required_support": null,
+  "summary_relationships": []
+}

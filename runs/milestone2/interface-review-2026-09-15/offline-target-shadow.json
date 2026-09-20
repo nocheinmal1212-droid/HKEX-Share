@@ -1,0 +1,23 @@
+{
+  "scope": "offline_counterfactual_only",
+  "source_sha256": "88f2c53861c0c778966f42e0da14b21301284f0b21e4f5ac55d1fafac7ac89a1",
+  "assumption": "Caller supplies typed operation=classify_target and target_id=field-missing; not extracted from prose. The existing diagnostic has only prose instructions, so this is a proposed interface change, not existing behavior.",
+  "rule": "If typed target_id is absent from unique supplied evidence IDs, retain a precondition-abstained opportunity and make zero model calls.",
+  "historical_deepseek_attempts_matching_rule": 24,
+  "historical_statuses": {
+    "failure_to_abstain": 5,
+    "passed": 13,
+    "truncated": 1,
+    "http_error": 3,
+    "timeout": 2
+  },
+  "historical_wrong_target_outputs": [
+    "call-033",
+    "call-035",
+    "call-097",
+    "call-099",
+    "call-115"
+  ],
+  "interpretation": "All matching attempts would avoid dispatch; no observed answer is rewritten and no claim of improved intrinsic model accuracy is made. Primary P11 strict DeepSeek missing-target cases already passed.",
+  "model_inference_calls_made": 0
+}

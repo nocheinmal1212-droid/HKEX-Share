@@ -1,0 +1,20 @@
+{
+  "authorship": "authored development fixture; not native evidence",
+  "operation_version": "direct-contributor-headers-1.1.0",
+  "source_case_sha256": "91ff754336edf18b75c72b82c2432fcdb92aff1960c7e8a893437ebc7f34989c",
+  "status": "exposed authored development; no model completion",
+  "transformations": [
+    {
+      "ordinal": 7,
+      "reason": "authored identity/order boundary contrast",
+      "source_id_after": "block-5f0565bf6e0f1eb89c40d75814dc31424f01cec9a7072c04924afca9622b447d",
+      "source_id_before": "block-9d1cab513ba37014c55cbc0429afc7b6733260baa612ee22c3583c88dfb72b8f"
+    },
+    {
+      "ordinal": 7,
+      "reason": "authored identity/order boundary contrast",
+      "source_id_after": "block-b3e472fe220822a3e9d32c2f550f1abd2b9ed9136ea4187a9a01dd6e179c9323",
+      "source_id_before": "block-f8c0bbedaa184c958f36909871e35213dc003a8dd45b0878a638ab7a38d55b2b"
+    }
+  ]
+}

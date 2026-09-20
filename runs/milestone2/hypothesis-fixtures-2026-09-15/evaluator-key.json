@@ -1,0 +1,7571 @@
+{
+  "cases": [
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-001",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-002",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-003",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P10",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-004",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P01",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-005",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-006",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-007",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P10",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-008",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P01",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-009",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-010",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-011",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P10",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-012",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P01",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-013",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-014",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-015",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P10",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-016",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P01",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-017",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-018",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-019",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P10",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-020",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P01",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-021",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-022",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-023",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P10",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-024",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P01",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-025",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-026",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-027",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P10",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-028",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P01",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-029",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-030",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-031",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P10",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-032",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P01",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-033",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-034",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-035",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P10",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-036",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P01",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-037",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-038",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-039",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P10",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-040",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P01",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-041",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-042",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-043",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P10",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-044",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P01",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H4_first"
+      ],
+      "id": "call-045",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2",
+        "H3_strict",
+        "H4_first",
+        "core"
+      ],
+      "id": "call-046",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-047",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P10",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H1",
+        "H2"
+      ],
+      "id": "call-048",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P01",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "reordered",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-049",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-two",
+              "field-one",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "reordered",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-050",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-two",
+              "field-one",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "reordered",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-051",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-two",
+              "field-one",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "reordered",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-052",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-two",
+              "field-one",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "rebound_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-two",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-053",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "rebound_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-two",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-054",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "rebound_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-two",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-055",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "rebound_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-two",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-056",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "renamed_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-057",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "source-17",
+              "source-42",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "renamed_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-058",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "source-17",
+              "source-42",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "renamed_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-059",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "source-17",
+              "source-42",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "renamed_ids",
+      "expected": {
+        "action": "label",
+        "evidence_id": "source-17",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-060",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "source-17",
+              "source-42",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "ambiguous_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-061",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "ambiguous_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-062",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "ambiguous_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-063",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "ambiguous_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-064",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "english_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-065",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "english_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-066",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "english_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-067",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "english_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-068",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "simplified_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-069",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "simplified_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-070",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "simplified_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-071",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "simplified_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "core",
+        "H6"
+      ],
+      "id": "call-072",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-073",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-074",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-075",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-076",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-077",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-078",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-079",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-080",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-081",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-082",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 1,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-083",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 1,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H3_unconstrained"
+      ],
+      "id": "call-084",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P11",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-085",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-086",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-087",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-088",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-089",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-090",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-091",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-092",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-093",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-094",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-095",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-096",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-097",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-098",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 2,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-099",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-100",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 2,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-101",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-102",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 2,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-103",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-104",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-105",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-106",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-107",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-108",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-109",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-110",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-111",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-112",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-113",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-114",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-115",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-116",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Baidu",
+      "repetition": 3,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-117",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P00",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-118",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt": "P11",
+      "provider_name": "OpenInference",
+      "repetition": 3,
+      "requested_endpoint_tag": "open-inference/fp8",
+      "role": "subject",
+      "route": "flash",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-119",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P00",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_repeat"
+      ],
+      "id": "call-120",
+      "model": "z-ai/glm-5.3-flash",
+      "prompt": "P11",
+      "provider_name": "DeepInfra",
+      "repetition": 3,
+      "requested_endpoint_tag": "deepinfra/fp4",
+      "role": "subject",
+      "route": "glm",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-121",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-122",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-123",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-124",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-125",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-126",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 1,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-127",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-128",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-129",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-130",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-131",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-132",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 2,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-133",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-134",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-135",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-136",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-137",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "missing_target",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H4_provider"
+      ],
+      "id": "call-138",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P11",
+      "provider_name": "Ionstream",
+      "repetition": 3,
+      "requested_endpoint_tag": "ionstream",
+      "role": "subject",
+      "route": "pro_secondary",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-139",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 2048,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-140",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-141",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 2048,
+      "case": "zh_total",
+      "expected": {
+        "action": "label",
+        "evidence_id": "field-one",
+        "role": "total_label"
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-142",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-143",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 2048,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-144",
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "prompt": "P00",
+      "provider_name": "Baidu",
+      "repetition": 1,
+      "requested_endpoint_tag": "baidu/fp8",
+      "role": "subject",
+      "route": "pro",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 512,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-145",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    },
+    {
+      "budget": 2048,
+      "case": "no_total",
+      "expected": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "groups": [
+        "H5_budget"
+      ],
+      "id": "call-146",
+      "model": "google/gemini-3.8-flash",
+      "prompt": "P00",
+      "provider_name": "Google AI Studio",
+      "repetition": 1,
+      "requested_endpoint_tag": "google-ai-studio",
+      "role": "oracle",
+      "route": "gemini",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "label",
+              "abstain"
+            ]
+          },
+          "evidence_id": {
+            "enum": [
+              "field-one",
+              "field-two",
+              null
+            ]
+          },
+          "role": {
+            "enum": [
+              "total_label",
+              null
+            ]
+          }
+        },
+        "required": [
+          "action",
+          "evidence_id",
+          "role"
+        ],
+        "type": "object"
+      },
+      "strict": false
+    }
+  ],
+  "role_interpretation": "DeepSeek and GLM are subjects; Gemini is a blind independent comparison oracle. Reviewed expected outputs remain authoritative. Oracle success does not alone locate subject failure in model weights."
+}

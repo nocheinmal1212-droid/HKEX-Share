@@ -1,0 +1,42 @@
+{
+  "structural_validity": "valid",
+  "records": 48,
+  "ready": 0,
+  "pending": 48,
+  "category_counts": {
+    "disclosure_reference_verification": 8,
+    "document_wide_consistency": 8,
+    "formatting_typography_validation": 8,
+    "internal_note_reconciliation": 8,
+    "primary_statement_articulation": 8,
+    "statement_to_note_articulation": 8
+  },
+  "band_counts": {
+    "above_tolerance": 2,
+    "not_applicable": 2,
+    "unknown": 44
+  },
+  "null_or_unknown_field_counts": {
+    "created_at": 48,
+    "detectability_band": 44,
+    "expected_detectable": 44,
+    "injected_value": 46,
+    "injection_stage": 44,
+    "injector_version": 48,
+    "original_value": 46,
+    "propagated": 48,
+    "propagation_sites": 48,
+    "relation": 46,
+    "seed": 48,
+    "updated_at": 44,
+    "value_delta": 46
+  },
+  "mapping_counts": {
+    "proposed": 48
+  },
+  "publication_status": "UNGATED",
+  "headline": null,
+  "limitations": [
+    "Intake validation alone does not establish publication gates or source fidelity."
+  ]
+}

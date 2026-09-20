@@ -1,0 +1,1 @@
+{"original_rejections_reproduced": 4, "diagnostic_variants": 16, "request_pairs_identical": 2, "primary_citation_only_localization": 2, "research_state_contradictions_localized": 2, "preserved": {"approved_members": 3116, "result_members": 83, "unchanged": true}, "network_calls": 0}

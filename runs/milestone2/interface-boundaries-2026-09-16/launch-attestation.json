@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "69e5d7d97e3e7d740e5cf838a442c4fa670ef3d0ba85ae5d471f9df1640c8209",
+  "worker_sha256": "46dcccd7b97b33431f5aa4f7e856d8a173ee19ad548e6787406214bc244fd6a5",
+  "sandbox_sha256": "709e7a35ffd9a0ce69ff698117ee591b43955fa0d439a89cd7b3a3ebc84591aa",
+  "protected_read_checks": 20,
+  "credential_boundary": "Bootstrap injects only authorized key into minimal environment; worker cannot read .env or evaluator key.",
+  "network_calls_planned": 180,
+  "concurrency": 1,
+  "automatic_retries": 0
+}

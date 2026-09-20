@@ -1,0 +1,22 @@
+{
+  "evidence_id": "document-4cfacaf89dee89c245132ce5afdfa5a8fc56b02740b703ae317fd31ca365c7dc",
+  "items": [
+    {
+      "content_state": "text",
+      "fragments": [
+        {
+          "encoding": "literal",
+          "end": 37,
+          "source_id": "source-907ee534771de0cd5725fda795d2fb0a779f976a4355219133ffed718b1bebb4",
+          "start": 27
+        }
+      ],
+      "id": "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+      "kind": "cell",
+      "limitations": [],
+      "page_index": 0,
+      "parent_id": "table-243f199ef2ef7f06a2e80fe631a8135540b8645b5638cffe4f7eabd9afbeab32",
+      "text": "銷售額（港幣百萬元）"
+    }
+  ]
+}

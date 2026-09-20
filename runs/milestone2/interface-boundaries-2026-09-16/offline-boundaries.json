@@ -1,0 +1,184 @@
+{
+  "all_passed": true,
+  "fixtures": [
+    {
+      "actual": {
+        "model_calls": 0,
+        "model_output": null,
+        "reason": "target_missing",
+        "stage": "precondition",
+        "state": "abstained"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "target_missing",
+      "id": "D01_missing_target",
+      "semantic_evaluation": "not_model_evaluated",
+      "transport_spy_calls": 0
+    },
+    {
+      "actual": {
+        "model_calls": 0,
+        "model_output": null,
+        "reason": "duplicate_evidence_id",
+        "stage": "input_validation",
+        "state": "rejected"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "duplicate_evidence_id",
+      "id": "D02_duplicate_ids",
+      "semantic_evaluation": "not_model_evaluated",
+      "transport_spy_calls": 0
+    },
+    {
+      "actual": {
+        "model_calls": 0,
+        "model_output": null,
+        "reason": "no_evidence",
+        "stage": "precondition",
+        "state": "abstained"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "no_evidence",
+      "id": "D03_empty_evidence",
+      "semantic_evaluation": "not_model_evaluated",
+      "transport_spy_calls": 0
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "label",
+          "evidence_id": "a",
+          "role": "total_label"
+        },
+        "reason": "structure_and_target_valid",
+        "stage": "output_validation",
+        "state": "accepted"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "valid_targeted_response",
+      "id": "D04_existing_total",
+      "semantic_evaluation": "expected",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "abstain",
+          "evidence_id": null,
+          "role": null
+        },
+        "reason": "structure_and_target_valid",
+        "stage": "output_validation",
+        "state": "accepted"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "existence_does_not_establish_role",
+      "id": "D05_existing_non_total",
+      "semantic_evaluation": "expected",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "label",
+          "evidence_id": "b",
+          "role": "total_label"
+        },
+        "reason": "selected_id_differs_from_requested_target",
+        "stage": "output_validation",
+        "state": "rejected"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "selected_id_differs_from_requested_target",
+      "id": "D06_wrong_existing_target",
+      "semantic_evaluation": "wrong",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "label",
+          "evidence_id": "unknown",
+          "role": "total_label"
+        },
+        "reason": "returned_id_not_in_evidence",
+        "stage": "output_validation",
+        "state": "rejected"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "returned_id_not_in_evidence",
+      "id": "D07_unknown_returned_id",
+      "semantic_evaluation": "wrong",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "abstain",
+          "evidence_id": "a",
+          "role": "total_label"
+        },
+        "reason": "abstention_fields_must_be_null",
+        "stage": "output_validation",
+        "state": "rejected"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "abstention_fields_must_be_null",
+      "id": "D08_inconsistent_abstention",
+      "semantic_evaluation": "wrong",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 1,
+        "model_output": {
+          "action": "label",
+          "evidence_id": "b",
+          "role": "total_label"
+        },
+        "reason": "structure_and_target_valid",
+        "stage": "output_validation",
+        "state": "accepted"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "structurally_valid_but_semantically_wrong",
+      "id": "D09_semantic_error_survives_guards",
+      "semantic_evaluation": "wrong",
+      "transport_spy_calls": 1
+    },
+    {
+      "actual": {
+        "model_calls": 0,
+        "model_output": null,
+        "reason": "target_missing",
+        "stage": "precondition",
+        "state": "abstained"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "target_missing_no_casefold_or_fuzzy_matching",
+      "id": "D10_exact_id_membership",
+      "semantic_evaluation": "not_model_evaluated",
+      "transport_spy_calls": 0
+    },
+    {
+      "actual": {
+        "model_calls": 0,
+        "model_output": null,
+        "reason": "required_target_id_missing",
+        "stage": "input_validation",
+        "state": "rejected"
+      },
+      "fixture_passed": true,
+      "fixture_rationale": "required_target_id_missing",
+      "id": "D11_missing_typed_target",
+      "semantic_evaluation": "not_model_evaluated",
+      "transport_spy_calls": 0
+    }
+  ],
+  "scope": "offline_stubs_only"
+}

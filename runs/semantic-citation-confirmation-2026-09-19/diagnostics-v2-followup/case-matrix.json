@@ -1,0 +1,378 @@
+[
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-missing_group",
+    "evaluation": {
+      "attempt_id": "attempt-fe690716d641f974a86c38bda530398acb48f755fbc3f624fcc325b7e42976b4",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": true,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "required header context support absent: cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+      },
+      "host_state": "invalid_output",
+      "required_source_support_present": false,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "missing_group"
+  },
+  {
+    "annotation_count": 0,
+    "case": "period_groups",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-period_groups-missing_group",
+    "evaluation": {
+      "attempt_id": "attempt-f8ccc9a6a5e43499db8c173c1be633c9c0322cdfb5f9b49f1971b0cb2f351bcb",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": true,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "required header context support absent: cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+      },
+      "host_state": "invalid_output",
+      "required_source_support_present": false,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "missing_group"
+  },
+  {
+    "annotation_count": 0,
+    "case": "period_groups",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-period_groups-wrong_period",
+    "evaluation": {
+      "attempt_id": "attempt-4b77eeeeb0ab72cb09cf4f39f4fffb4fb3b458c9ae021a850b2483c2c9db95c2",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-7bb61fc87cdeacc42e9703eb6dd0c8eea49fafbc7850fdfcf8cce24d785c84f6",
+          "cell-8df6b0bbebc7eaecb56ec8ed7b447d298fd03cd1e97dcdb31fc9c16d8e5d06e4",
+          "cell-92ed1460b2c0454bbcf3135566d21defec78b31472ccb5b8195c8391c00fd56f"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "cell-7bb61fc87cdeacc42e9703eb6dd0c8eea49fafbc7850fdfcf8cce24d785c84f6",
+          "cell-8df6b0bbebc7eaecb56ec8ed7b447d298fd03cd1e97dcdb31fc9c16d8e5d06e4",
+          "cell-92ed1460b2c0454bbcf3135566d21defec78b31472ccb5b8195c8391c00fd56f",
+          "cell-c8213a30675bbe3fbb82fefa41410f7aa174a101bccdf532687d81ddd160bffc"
+        ],
+        "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": false,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "incompatible header context"
+      },
+      "host_state": "invalid_output",
+      "required_source_support_present": true,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "wrong_period"
+  },
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-contradictory_abstention",
+    "evaluation": {
+      "attempt_id": "attempt-5701a8269b5eee8adce8bccc5b5cdc55cf12dbcca5789f42deb2feca2906c76b",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": false,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "abstention contains contributors"
+      },
+      "host_state": "invalid_output",
+      "required_source_support_present": true,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "contradictory_abstention"
+  },
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-timeout",
+    "evaluation": {
+      "attempt_id": "attempt-0c9b7d114db1dae5f0efbfdb1246b25db7b3e0309671d2cffd367bb19a7e980e",
+      "availability": "timeout",
+      "candidate_diagnostic_only": null,
+      "completion_replay_calls": 0,
+      "cost": null,
+      "exact_reviewed_contributors_and_state": null,
+      "finish_reason": null,
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": null,
+      "host_state": "timeout",
+      "required_source_support_present": null,
+      "schema_valid": null,
+      "served": null,
+      "success": false
+    },
+    "variant": "timeout"
+  },
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-truncation",
+    "evaluation": {
+      "attempt_id": "attempt-3b27c5c5949b19d367ef88820e7c54506a4e9387ece72256300201c1da19e88d",
+      "availability": "ok",
+      "candidate_diagnostic_only": null,
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": null,
+      "finish_reason": "length",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": null,
+      "host_state": "truncation",
+      "required_source_support_present": null,
+      "schema_valid": null,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "truncation"
+  },
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-schema_invalid",
+    "evaluation": {
+      "attempt_id": "attempt-9ab31beb2c5a0955ef8c70bf3a7f850e18bc1ed6cd9a7bb71939945cd18f9a26",
+      "availability": "ok",
+      "candidate_diagnostic_only": null,
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": null,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": {
+        "code": "answer_or_response_validation_failed",
+        "reason": "invalid answer schema"
+      },
+      "host_state": "invalid_output",
+      "required_source_support_present": null,
+      "schema_valid": false,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "schema_invalid"
+  },
+  {
+    "annotation_count": 0,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-identity_mismatch",
+    "evaluation": {
+      "attempt_id": "attempt-b0653143d5d9bc459424a62816bd28c199444c7b5ab0337bcaf779765a2029d2",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": true,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": null,
+      "host_state": "identity_mismatch",
+      "required_source_support_present": true,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "authored-wrong-model",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "identity_mismatch"
+  },
+  {
+    "annotation_count": 1,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-unit_plus_lease",
+    "evaluation": {
+      "attempt_id": "attempt-b5efe0b6d2fabb3bb7d7e750c9645100a3030acf23f23d3e458dd25f739e2302",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": false,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": true,
+      "host_diagnostic": null,
+      "host_state": "accepted",
+      "required_source_support_present": true,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "unit_plus_lease"
+  },
+  {
+    "annotation_count": 1,
+    "case": "total",
+    "diagnostic_path": "runs/semantic-citation-confirmation-2026-09-19/diagnostics-v2-followup/case-total-abstention",
+    "evaluation": {
+      "attempt_id": "attempt-792191b79f9a46d125ac6932a1b479e9e8eae0da016133c44d328df3b215e832",
+      "availability": "ok",
+      "candidate_diagnostic_only": {
+        "contributor_ids": [],
+        "state": "ambiguous",
+        "support_refs": [
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "completion_replay_calls": 0,
+      "cost": "0.0001",
+      "exact_reviewed_contributors_and_state": false,
+      "finish_reason": "stop",
+      "historical_transport_invocations": 1,
+      "host_accepted": false,
+      "host_diagnostic": null,
+      "host_state": "abstained",
+      "required_source_support_present": true,
+      "schema_valid": true,
+      "served": {
+        "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "success": false
+    },
+    "variant": "abstention"
+  }
+]

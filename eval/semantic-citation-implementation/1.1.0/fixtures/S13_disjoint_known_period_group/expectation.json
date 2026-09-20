@@ -1,0 +1,26 @@
+{
+  "assertions": [
+    "2024 is not mandatory support for the 2025 selection.",
+    "Selecting a 2024 peer is rejected by branch/discriminator checks.",
+    "No summary edge is authorized by this fixture."
+  ],
+  "blocker_reason_classes": [],
+  "case_id": "S13_disjoint_known_period_group",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-fe2aef071017c161f486332fdf9a502d93afe86ce83cb8a2071bec1bfd810035",
+    "cell-a082247ca85eb447ce24bbad0c3a7d3d28f49064ae2e435f54cd31da39803966",
+    "cell-251bec4047f451bdab91cb3e5dd62c730be8d463b86c4da0827fabcf581eba12"
+  ],
+  "input_sha256": "e6b167ed7ac82a77fef0cc9d738873c0d5349ec41e34fe8a2291104daede9243",
+  "optional_support": [],
+  "reason": "The 2025 target has three labelled peers. The other period total is excluded by known context before possible-contributor subtotal-scope checks. This fixture does not establish a generic product/period subtotal profile.",
+  "required_support": [
+    "cell-09c026f1999d7bf8dc7fff81fee151c9e6c79fc25564ab5367d9bcd44745e7ca",
+    "cell-fe2aef071017c161f486332fdf9a502d93afe86ce83cb8a2071bec1bfd810035",
+    "cell-a082247ca85eb447ce24bbad0c3a7d3d28f49064ae2e435f54cd31da39803966",
+    "cell-251bec4047f451bdab91cb3e5dd62c730be8d463b86c4da0827fabcf581eba12",
+    "cell-afc396665b94eee288f0645741f86b6ffb99f799aeb2dbdfebbc235e838993b1"
+  ],
+  "summary_relationships": []
+}

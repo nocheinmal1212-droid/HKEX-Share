@@ -1,0 +1,4 @@
+g3: blocked_scope
+g4_revision2: blocked_scope
+g5: blocked_scope
+13 source/target gates, two persisted relationships, three zero-call controls and old-runtime replay verified.

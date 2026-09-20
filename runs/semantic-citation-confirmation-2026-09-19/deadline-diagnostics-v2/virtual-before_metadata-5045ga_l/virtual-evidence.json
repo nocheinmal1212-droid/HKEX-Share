@@ -1,0 +1,10 @@
+{
+  "ceiling": 600,
+  "cleanup_reserved_inside_ceiling": 1,
+  "mock_calls": [],
+  "normal_success": false,
+  "original_unchanged_counterexample_elapsed": 730,
+  "real_http_calls": 0,
+  "scenario": "before_metadata",
+  "virtual_elapsed_from_entry": 599.0
+}

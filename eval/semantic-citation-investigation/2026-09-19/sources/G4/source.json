@@ -1,0 +1,42 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "html": "<table><tr><td colspan=\"3\">銷售額（港幣百萬元）</td><td colspan=\"3\">銷售量（千件）</td></tr><tr><td>產品甲</td><td>產品乙</td><td>合計</td><td>產品甲</td><td>產品乙</td><td>合計</td></tr><tr><td>17</td><td>23</td><td>91</td><td>5</td><td>8</td><td>42</td></tr></table>",
+                      "type": "table"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_body"
+            },
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "content": "銷售額（港幣百萬元）表頭下的合計：本合計僅列銷售量（千件）。",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_footnote"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ceiling": 600,
+  "cleanup_reserved_inside_ceiling": 1,
+  "mock_calls": [
+    {
+      "mode": "metadata",
+      "role": "primary",
+      "time": 170.0
+    },
+    {
+      "mode": "metadata",
+      "role": "research",
+      "time": 225.0
+    },
+    {
+      "mode": "completion",
+      "role": "primary",
+      "time": 335.0
+    },
+    {
+      "mode": "completion",
+      "role": "research",
+      "time": 335.0
+    },
+    {
+      "mode": "completion",
+      "role": "primary",
+      "time": 560.0
+    },
+    {
+      "mode": "completion",
+      "role": "research",
+      "time": 560.0
+    }
+  ],
+  "normal_success": false,
+  "original_unchanged_counterexample_elapsed": 730,
+  "real_http_calls": 0,
+  "scenario": "original_730",
+  "virtual_elapsed_from_entry": 599.0
+}

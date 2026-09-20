@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "owner": "Project user (interim domain/review owner)",
+  "review_status": "pending",
+  "fixtures": [
+    {
+      "fixture_id": "rounding",
+      "input_path": "tests/fixtures/evidence/benign/rounding.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Independent nearest rounding, complete two-addend total; future verifier should accept residual magnitude 1 within bound 1.5. Assumption and operand roles need reviewer acceptance.",
+      "execution_status": "evidence_only_no_detector"
+    },
+    {
+      "fixture_id": "contexts",
+      "input_path": "tests/fixtures/evidence/benign/contexts.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Group and parent amounts are not an equality relationship; preserve scope labels.",
+      "execution_status": "evidence_only_no_detector"
+    },
+    {
+      "fixture_id": "reference",
+      "input_path": "tests/fixtures/evidence/benign/reference.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Matching reference subject in accompanying text; future reference check should not alert.",
+      "execution_status": "evidence_only_no_detector"
+    },
+    {
+      "fixture_id": "negative-style",
+      "input_path": "tests/fixtures/evidence/benign/negative-style.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Explicitly supported local negative styles; differing notation alone is not an error.",
+      "execution_status": "evidence_only_no_detector"
+    },
+    {
+      "fixture_id": "percentage",
+      "input_path": "tests/fixtures/evidence/benign/percentage.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Valid percent symbol remains literal; no typography discrepancy is expected.",
+      "execution_status": "evidence_only_no_detector"
+    },
+    {
+      "fixture_id": "ambiguity",
+      "input_path": "tests/fixtures/evidence/benign/ambiguity.json",
+      "mode": "fixture",
+      "review_status": "pending",
+      "expected_behavior": "Two targets without sufficient scope/period evidence; future planner must abstain rather than select by matching amount.",
+      "execution_status": "evidence_only_no_detector"
+    }
+  ]
+}

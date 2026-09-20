@@ -1,0 +1,26 @@
+{
+  "annotation_ids": [
+    "annotation-bc73f531d1cb2427f7200d27a3ac5924729b29bfe1fbb8571374ddf2a1e4e1d4"
+  ],
+  "annotations_sha256": "e963a1a5e61a35064195c1ee4ad1e776587b8fa4b0c42fe81f6818189f57230f",
+  "blocking_reasons": [],
+  "host_policy": {
+    "analysis_version": "header-source-analysis-1.0.1",
+    "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+    "version": "header-support-policy-1.0.0"
+  },
+  "outcome": "abstained",
+  "primary_attempt_id": "attempt-657644b8dc6a1a0f566ee1e861550acc2b864d7e026dedff89c9a1044228a4dc",
+  "primary_completion_sha256": "250af08e4e0b1c0f6891309c681e67179277b8866e43434f23c93a67c3f66147",
+  "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+  "query_sha256": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+  "selection": {
+    "name": "total",
+    "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+    "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+    "transform": "mask_body_amounts_v1"
+  },
+  "source_gate": "eligible",
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+  "version": "semantic-provenance-1.1.0"
+}

@@ -1,0 +1,85 @@
+{
+  "case": "no_total",
+  "created_at": "2026-09-12T09:58:36.916851+00:00",
+  "expected": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  },
+  "fingerprint": "99541d55c10d8a5eb13620e914973c037cf2a84ba7976fd6e7c413fffe797785",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": null
+  },
+  "prompt": "original",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"成本\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "response_format": {
+      "json_schema": {
+        "name": "synthetic_label",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "enum": [
+                "label",
+                "abstain"
+              ]
+            },
+            "evidence_id": {
+              "enum": [
+                "field-one",
+                "field-two",
+                null
+              ]
+            },
+            "role": {
+              "enum": [
+                "total_label",
+                null
+              ]
+            }
+          },
+          "required": [
+            "action",
+            "evidence_id",
+            "role"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "7bf46fdae28317115d114e780750b08a6d8da51429c4dcb9973bb5069a01466f",
+  "response_text": "\n         \n\n         \n{\"id\":\"gen-1789207119-HwEFl7mfKa1FKcGrsR6Z\",\"object\":\"chat.completion\",\"created\":1789207119,\"model\":\"deepseek/deepseek-v4-pro-0813\",\"provider\":\"Baidu\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"abstain\\\",\\n  \\\"evidence_id\\\": null,\\n  \\\"role\\\": null\\n}\",\"refusal\":null,\"reasoning\":\"We need answer only JSON. Need interpret labels using supplied evidence IDs. Instruction: \\\"Select the total label from the supplied evidence.\\\" Evidence fields: field-one text \\\"成本\\\" (cost), field-two text \\\"收入\\\" (revenue/income). We need select total label. Which is total label? Hmm. Need output action label or abstain, evidence_id from enum field-one field-two null, role total_label or null. Need decide which evidence represents total label. \\\"成本\\\" cost, \\\"收入\\\" revenue. \\\"total\\\" likely total label? They ask \\\"Select the total label from the supplied evidence.\\\" In Chinese, \\\"total label\\\" maybe one of \\\"成本\\\" or \\\"收入\\\"? Not clear. We must not invent. Need determine based on labels? \\\"成本\\\" and \\\"收入\\\" are line items, not total. Total label could be \\\"收入\\\"? No, total label maybe a label indicating total amount. Neither is \\\"总计\\\". So insufficient evidence -> abstain null. But let's inspect prompt: \\\"Select the total label from the supplied evidence.\\\" evidence has cost and revenue. Could be asking select total label (probably total amount label). Since neither text is \\\"total\\\", abstain. Need output JSON exactly.\\n\\nBut maybe \\\"收入\\\" can be total? No. We should abstain. Ensure null values. output: {\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"We need answer only JSON. Need interpret labels using supplied evidence IDs. Instruction: \\\"Select the total label from the supplied evidence.\\\" Evidence fields: field-one text \\\"成本\\\" (cost), field-two text \\\"收入\\\" (revenue/income). We need select total label. Which is total label? Hmm. Need output action label or abstain, evidence_id from enum field-one field-two null, role total_label or null. Need decide which evidence represents total label. \\\"成本\\\" cost, \\\"收入\\\" revenue. \\\"total\\\" likely total label? They ask \\\"Select the total label from the supplied evidence.\\\" In Chinese, \\\"total label\\\" maybe one of \\\"成本\\\" or \\\"收入\\\"? Not clear. We must not invent. Need determine based on labels? \\\"成本\\\" and \\\"收入\\\" are line items, not total. Total label could be \\\"收入\\\"? No, total label maybe a label indicating total amount. Neither is \\\"总计\\\". So insufficient evidence -> abstain null. But let's inspect prompt: \\\"Select the total label from the supplied evidence.\\\" evidence has cost and revenue. Could be asking select total label (probably total amount label). Since neither text is \\\"total\\\", abstain. Need output JSON exactly.\\n\\nBut maybe \\\"收入\\\" can be total? No. We should abstain. Ensure null values. output: {\\\"action\\\":\\\"abstain\\\",\\\"evidence_id\\\":null,\\\"role\\\":null}\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":396,\"completion_tokens\":314,\"total_tokens\":710,\"cost\":0.000630278496,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":256,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.000630278496,\"upstream_inference_prompt_cost\":0.000085651776,\"upstream_inference_completions_cost\":0.00054462672},\"completion_tokens_details\":{\"reasoning_tokens\":288,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": true,
+  "validated_output": {
+    "action": "abstain",
+    "evidence_id": null,
+    "role": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "direct_child_reaped": true,
+  "elapsed_seconds": 22.39278095809277,
+  "historical_http_calls": "see per-call launch/return records; unreturned launches are unknown",
+  "pid": 9556,
+  "returncode": 0,
+  "state": "finished",
+  "stderr": "",
+  "stdout": "total: abstained\nperiod_groups: abstained\n",
+  "timed_out": false,
+  "total_ceiling_satisfied": true
+}

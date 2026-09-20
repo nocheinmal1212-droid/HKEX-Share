@@ -1,0 +1,12 @@
+{
+  "direct_child_reaped": true,
+  "elapsed_seconds": 19.00710495794192,
+  "historical_http_calls": "see per-call launch/return records; unreturned launches are unknown",
+  "pid": 9607,
+  "returncode": -9,
+  "state": "interrupted_or_failed",
+  "stderr": "",
+  "stdout": "total: accepted\n",
+  "timed_out": true,
+  "total_ceiling_satisfied": true
+}

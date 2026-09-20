@@ -1,0 +1,14 @@
+{
+  "R_diagnostic_count": 24,
+  "model_calls": 0,
+  "network_calls": 0,
+  "operation_version": "direct-contributor-headers-1.0.0",
+  "primary_replays": 5,
+  "protected_file_count": 142,
+  "protected_hashes_unchanged": true,
+  "research_replays": 5,
+  "retained_hashes_checked": 127,
+  "role_isolation_cases": 4,
+  "schema_fingerprint": "9019af0a893fb8e998d4ddd78d65e709085da332dd2fd364e70bc5ea24c46cd4",
+  "v1_replay": "Current exact e8000e2 code; requests/completions recomputed, no permissive hash acceptance."
+}

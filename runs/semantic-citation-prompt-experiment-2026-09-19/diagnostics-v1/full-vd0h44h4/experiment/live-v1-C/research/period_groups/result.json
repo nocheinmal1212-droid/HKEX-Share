@@ -1,0 +1,36 @@
+{
+  "attempt_id": "attempt-584084c3e3c7b3b1e7cca49ad48854fa68ae51bc0680aa7e6a9765540ef9e762",
+  "elapsed_seconds": 0.02621920802630484,
+  "model_calls": 1,
+  "query_id": "query-167a4335d3042c734e096c96606b94defef7a77e5949d9cdb2c62707baf238d9",
+  "role": "research",
+  "validation": {
+    "answer": {
+      "contributor_ids": [
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      ],
+      "state": "selected",
+      "support_refs": [
+        "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+      ],
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    },
+    "cost": null,
+    "cost_status": "unknown",
+    "revision": null,
+    "served": {
+      "id": "AUTHORED-OFFLINE",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together"
+    },
+    "state": "accepted",
+    "usage": null
+  },
+  "version": "paired-semantic-attempt-1.2.0"
+}

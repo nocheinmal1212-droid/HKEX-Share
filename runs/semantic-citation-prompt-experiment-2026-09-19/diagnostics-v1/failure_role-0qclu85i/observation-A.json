@@ -1,0 +1,129 @@
+{
+  "result": {
+    "arm": "A",
+    "denominator_per_role": 2,
+    "model_calls": 0,
+    "primary_complete_successes": 0,
+    "research_successes": 0,
+    "results": [
+      {
+        "case": "total",
+        "complete_primary_success": false,
+        "primary_persistence_available": true,
+        "roles": {
+          "primary": {
+            "availability": "transport_error",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "transport_error",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          },
+          "research": {
+            "availability": "transport_error",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "transport_error",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          }
+        }
+      },
+      {
+        "case": "period_groups",
+        "complete_primary_success": false,
+        "primary_persistence_available": false,
+        "roles": {
+          "primary": {
+            "availability": "unavailable",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": null,
+            "host_diagnostic": null,
+            "host_state": "incomplete_attempt",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          },
+          "research": {
+            "availability": "unavailable",
+            "contributors_cited": false,
+            "cost": null,
+            "exact_contributors": false,
+            "finish_reason": null,
+            "groups_cited": false,
+            "historical_transport_invocations": null,
+            "host_diagnostic": null,
+            "host_state": "incomplete_attempt",
+            "replay_calls": 0,
+            "schema_valid": false,
+            "served": null,
+            "state": false,
+            "state_list_consistent": false,
+            "success": false,
+            "target": false,
+            "target_cited": false,
+            "usage": null
+          }
+        }
+      }
+    ]
+  },
+  "two_reads_equal": true,
+  "writer_artifacts_unchanged": {
+    "operational/total/annotations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "operational/total/consumption.json": "0d0dec06691789f7027913bfccd52bacda01afd3bef06fc4831435d1c38cdffe",
+    "operational/total/provenance.json": "36d7df4ce40058b0c2e4b0100fd433d485dd3bb4e963f368841158578f59e1b2",
+    "primary/total/completion.json": "ba1c2c7a6661b29b3af3e1215e1d58ba82972096f45fc04816ddc29004d54a40",
+    "primary/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "primary/total/request.json": "54fed09e564c6fb01fab4eb708d5486dab94a5f1d2f9616d74011c0563236b3b",
+    "primary/total/response.json": "ebdfb6257e573cfa9622078d8808b6b8ea1f6ea9b949a303cc1e7f48e6d9403c",
+    "primary/total/result.json": "6b41cd981167eab0b063ed394113e0a83b2f32638f284d2db18be7efa3b38584",
+    "primary/total/started.json": "12e6893e4bf32e28801d63cbee63cb412c0c85dcba48f5454029ba07aa5351d8",
+    "primary/total/transport-launch.json": "9d2782be725b468791e1d5f623788f2cf99e8578f828f8a7be0026a8a7063063",
+    "primary/total/transport-return.json": "ebdfb6257e573cfa9622078d8808b6b8ea1f6ea9b949a303cc1e7f48e6d9403c",
+    "research/total/completion.json": "17615bc4509618473ec56f390d23c8308316b11bec682874ae895c05fd2540ea",
+    "research/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "research/total/request.json": "e08776844a6c6335ced466d9cc0dc8996d090efbd110aa5c76a5f65643af4908",
+    "research/total/response.json": "ebdfb6257e573cfa9622078d8808b6b8ea1f6ea9b949a303cc1e7f48e6d9403c",
+    "research/total/result.json": "897d2fa2ea9c97fdd451e5d3fd59b289e332e2fcb991f56de272a2a939b6bb8c",
+    "research/total/started.json": "bb68cb9c5f0bc6b5309221b0eaac9ae79d94b935494d36358486f99f03138081",
+    "research/total/transport-launch.json": "499e8bce746a531838020d95aff5184b4a33c6b1909f74de274d01394f0a2131",
+    "research/total/transport-return.json": "ebdfb6257e573cfa9622078d8808b6b8ea1f6ea9b949a303cc1e7f48e6d9403c",
+    "total-reservations.json": "aa722c1209d7b654fbc683bb6371d52b7a5991fddf0bad1175fd1f65f20377e2",
+    "total-summary.json": "578d60749d85e7388a392b097aacc7e89624b52320d3857a9d373213edae6732"
+  }
+}

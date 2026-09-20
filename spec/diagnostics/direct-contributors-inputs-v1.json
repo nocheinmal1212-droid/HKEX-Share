@@ -1,0 +1,1640 @@
+{
+  "operation": "select_direct_addends",
+  "status": "proposal_only_no_dispatcher_or_live_execution",
+  "purpose": "Identify the nearest explicitly supported additive children of one stated expense total; do not flatten nested subtotals or add memo rows.",
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "output_keys": [
+    "action",
+    "target_id",
+    "contributor_ids",
+    "support_ids",
+    "reason"
+  ],
+  "action_vocabulary": [
+    "select",
+    "abstain"
+  ],
+  "reason_vocabulary": [
+    "supported_direct_breakdown",
+    "missing_evidence",
+    "ambiguous_relationship",
+    "incompatible_context",
+    "unknown_context"
+  ],
+  "output_rules": [
+    "target_id must equal the typed target on every model output, including abstention.",
+    "For select, contributor_ids is a nonempty unique subset of candidate_ids excluding target_id.",
+    "For abstain, contributor_ids is empty. Never substitute a different target.",
+    "support_ids are unique IDs from selected evidence; selection must cite the relationship note and the target/contributor header bindings needed for its claim.",
+    "Return only the five keys with IDs and permitted labels; no amounts, arithmetic, coefficients, corrected values, explanations or generated code.",
+    "Selected contributor IDs are an unordered set for semantic grading; do not repair unknown IDs or normalize their spelling.",
+    "A selected relationship is not an arithmetic pass or proof of semantic correctness."
+  ],
+  "evidence_rules": [
+    "Items and header associations here are hand-authored synthetic evidence, not generated annotations or a validated production IR.",
+    "Interpret the literal relationship note and row/header labels. Missing source evidence and ambiguous directness abstain.",
+    "Do not infer accounting completeness from a rectangular grid or absence of a limitation.",
+    "Incompatible or ambiguous candidate/target contexts block the proposed direct relationship.",
+    "The same shared unknown currency/scale does not alone block explicit local role selection; arithmetic and conversion prerequisites remain unresolved downstream.",
+    "Incomplete evidence elsewhere does not block a locally supported relationship."
+  ],
+  "execution": {
+    "inference_calls": 0,
+    "production_dispatch": false,
+    "retries": 0,
+    "provider": null,
+    "live_token_budget": null
+  },
+  "cases": [
+    {
+      "id": "S01",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r01",
+        "candidate_ids": [
+          "r02",
+          "r03",
+          "r04",
+          "r05"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r06",
+            "kind": "row_label",
+            "text": "Depreciation (included in the expenses above)",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r06"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "container_id": "t01",
+            "code": "unresolved_region",
+            "description": "An intervening row could not be recovered. Its label and extent are unknown."
+          }
+        ]
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "container_id": "t99",
+            "code": "unresolved_region",
+            "description": "An unrelated table region is unresolved."
+          }
+        ]
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s06",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s06",
+            "kind": "header",
+            "text": "Company",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s06",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s06",
+            "kind": "header",
+            "text": "Year ended 31 December 2024",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s06",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s06",
+            "kind": "header",
+            "text": "US$ million",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s06"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s06",
+            "kind": "header",
+            "text": "Restated",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s06",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s06",
+            "kind": "header",
+            "text": "Group / Company (allocation not identified)",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "Currency and scale not stated",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "r05",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r04",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r03",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r02",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "r01",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "s01",
+              "s02",
+              "s03",
+              "s04"
+            ]
+          },
+          {
+            "id": "s05",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "s04",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "s03",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "s02",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "s01",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "r05",
+        "candidate_ids": [
+          "r01",
+          "r02",
+          "r03",
+          "r04"
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "source": {
+        "source_kind": "authored_synthetic_logical_evidence_not_validated_ir",
+        "container_id": "t01",
+        "items": [
+          {
+            "id": "occurrence-100",
+            "kind": "header",
+            "text": "Group",
+            "container_id": "t01"
+          },
+          {
+            "id": "occurrence-107",
+            "kind": "header",
+            "text": "Year ended 31 December 2025",
+            "container_id": "t01"
+          },
+          {
+            "id": "occurrence-114",
+            "kind": "header",
+            "text": "HK$ million",
+            "container_id": "t01"
+          },
+          {
+            "id": "occurrence-121",
+            "kind": "header",
+            "text": "Originally reported",
+            "container_id": "t01"
+          },
+          {
+            "id": "occurrence-128",
+            "kind": "note",
+            "text": "Operating expenses consist of administrative expenses and distribution expenses. Administrative expenses comprise payroll and premises costs. All expense categories in this breakdown are shown.",
+            "container_id": "t01"
+          },
+          {
+            "id": "occurrence-135",
+            "kind": "row_label",
+            "text": "Administrative expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "occurrence-100",
+              "occurrence-107",
+              "occurrence-114",
+              "occurrence-121"
+            ]
+          },
+          {
+            "id": "occurrence-142",
+            "kind": "row_label",
+            "text": "Payroll",
+            "container_id": "t01",
+            "header_refs": [
+              "occurrence-100",
+              "occurrence-107",
+              "occurrence-114",
+              "occurrence-121"
+            ]
+          },
+          {
+            "id": "occurrence-149",
+            "kind": "row_label",
+            "text": "Premises costs",
+            "container_id": "t01",
+            "header_refs": [
+              "occurrence-100",
+              "occurrence-107",
+              "occurrence-114",
+              "occurrence-121"
+            ]
+          },
+          {
+            "id": "occurrence-156",
+            "kind": "row_label",
+            "text": "Distribution expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "occurrence-100",
+              "occurrence-107",
+              "occurrence-114",
+              "occurrence-121"
+            ]
+          },
+          {
+            "id": "occurrence-163",
+            "kind": "row_label",
+            "text": "Total operating expenses",
+            "container_id": "t01",
+            "header_refs": [
+              "occurrence-100",
+              "occurrence-107",
+              "occurrence-114",
+              "occurrence-121"
+            ]
+          }
+        ],
+        "limitations": []
+      },
+      "request": {
+        "operation": "select_direct_addends",
+        "container_id": "t01",
+        "target_id": "occurrence-163",
+        "candidate_ids": [
+          "occurrence-135",
+          "occurrence-142",
+          "occurrence-149",
+          "occurrence-156"
+        ]
+      }
+    }
+  ]
+}

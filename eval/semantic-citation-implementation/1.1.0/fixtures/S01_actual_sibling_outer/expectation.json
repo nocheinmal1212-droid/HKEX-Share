@@ -1,0 +1,42 @@
+{
+  "assertions": [
+    "Subtotal and either timing peer in the same selection must reject overlapping_summary_selection, including when both timing peers are selected.",
+    "Timing headers and subtotal are siblings; no subtotal containment edge exists.",
+    "Summary witness components are not automatically mandatory support for an outer-total answer."
+  ],
+  "blocker_reason_classes": [],
+  "case_id": "S01_actual_sibling_outer",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-e525fdb8be6f2e92ae9a92ea21bf784777dc48c4bf5931b4cae30018c37b9a80",
+    "cell-f3db52f6a59673ba48319f89251e22a9d9ccbc4f28be0eea620bb2ef14efad0f"
+  ],
+  "input_sha256": "e98968e3ed1c61459f05c8690629d5cbbe3ac92dfc568ade052ffeff37ec3889",
+  "optional_support": [
+    "cell-5d5be799405db29aaba8d30433d29153cf340039e3a4fb1d1adc56b68075d4f8"
+  ],
+  "reason": "Literal contract-revenue category with the two complementary recognition labels and one unqualified total supplies a bounded summary scope. Lease is an outside sibling, so the immediate outer selection is subtotal plus lease.",
+  "required_support": [
+    "cell-6d6ce2459104824a842e85619a055db66281f5e02744415d20bbdd601a9c2cf2",
+    "cell-e525fdb8be6f2e92ae9a92ea21bf784777dc48c4bf5931b4cae30018c37b9a80",
+    "cell-f3db52f6a59673ba48319f89251e22a9d9ccbc4f28be0eea620bb2ef14efad0f",
+    "cell-9adfd7f88076329659c6a46a7d5762962f43f54021d8a65eca3ec23038380de7"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-40a2810c93781693c6632805f5d38fc503aff8ae7c705b0a1fddb7970aa83c1f",
+        "cell-beafe466991669ad5afafc2558bd86faaa8f62312e634c0ff3cf2cd323e181af"
+      ],
+      "group_id": "cell-9adfd7f88076329659c6a46a7d5762962f43f54021d8a65eca3ec23038380de7",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-e525fdb8be6f2e92ae9a92ea21bf784777dc48c4bf5931b4cae30018c37b9a80",
+      "support_refs": [
+        "cell-40a2810c93781693c6632805f5d38fc503aff8ae7c705b0a1fddb7970aa83c1f",
+        "cell-9adfd7f88076329659c6a46a7d5762962f43f54021d8a65eca3ec23038380de7",
+        "cell-beafe466991669ad5afafc2558bd86faaa8f62312e634c0ff3cf2cd323e181af",
+        "cell-e525fdb8be6f2e92ae9a92ea21bf784777dc48c4bf5931b4cae30018c37b9a80"
+      ]
+    }
+  ]
+}

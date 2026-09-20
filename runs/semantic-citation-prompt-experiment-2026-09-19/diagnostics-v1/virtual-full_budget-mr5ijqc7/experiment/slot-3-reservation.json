@@ -1,0 +1,18 @@
+{
+  "aggregate_cost_reserved_usd": "3.593480",
+  "aggregate_http_calls_reserved": 10,
+  "roles": {
+    "primary": {
+      "http_calls_reserved": 9,
+      "reserved_cost_usd": "0.449220"
+    },
+    "research": {
+      "http_calls_reserved": 10,
+      "reserved_cost_usd": "0.449190"
+    }
+  },
+  "slot": {
+    "arm": "C",
+    "case": "total"
+  }
+}

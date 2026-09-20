@@ -1,0 +1,58 @@
+{
+  "attempt_id": "attempt-30fdc7420d5048ad4215b4c8ad2c5080ea1777ef1648e150711aea2bc9cd3486",
+  "elapsed_seconds": 9.466503250063397,
+  "model_calls": 1,
+  "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd",
+  "role": "primary",
+  "validation": {
+    "answer": {
+      "contributor_ids": [
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      ],
+      "state": "selected",
+      "support_refs": [
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+      ],
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    },
+    "cost": "0.0519315",
+    "cost_status": "reported",
+    "revision": null,
+    "served": {
+      "id": "gen-1789711490-D1ReR5ekGJPcY9DYt4s4",
+      "model": "google/gemini-3.8-flash",
+      "provider": "Google AI Studio"
+    },
+    "state": "accepted",
+    "usage": {
+      "completion_tokens": 2036,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1702
+      },
+      "cost": 0.0519315,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007635,
+        "upstream_inference_cost": 0.0519315,
+        "upstream_inference_prompt_cost": 0.0442965
+      },
+      "is_byok": false,
+      "prompt_tokens": 59062,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 61098
+    }
+  },
+  "version": "paired-semantic-attempt-1.0.0"
+}

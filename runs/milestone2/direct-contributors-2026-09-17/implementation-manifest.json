@@ -1,0 +1,13 @@
+{
+  "scope": "Code present at completion of this experiment; production src schemas unchanged.",
+  "sha256": {
+    "tools/experiments/direct_contributor_boundary.py": "a2de628fce1a319081813dcdf0b0da80c316742f1fd88dfe8b43b0971a35c4e4",
+    "tools/experiments/prepare_direct_contributor_run.py": "8353313492bada29eb1545396e21ced56ce95a7efde1093acad399ed9f8d5433",
+    "tools/experiments/direct_contributor_worker.py": "1566b692ac5f06961a9fb22fad11cbfbb6f03a0cd86bb6eff9501764a0592e86",
+    "tools/experiments/run_direct_contributor_boundaries.py": "8d37605308b0bd9f3ab666a2c97ebf98b1b48bd9227f1da1614f8b9328ffe854",
+    "tools/experiments/direct_contributor_offline_worker.py": "e8baec668389e5e872c20dfffc5d46da56b12ae7f6448a0d51f95c7d3558e632",
+    "tools/experiments/evaluate_direct_contributor_run.py": "3e8210cd736460f3bc594d460c34789008cfa6bad2c4dacf7c4f10a86e2ab0e4",
+    "tests/test_direct_contributor_boundary.py": "3f39dda8f9426a1dea550cc1b4fa930156f5d4bf434a51045a73a12a61bc27d9",
+    "src/audit_inputs/guard.py": "06f02ec482d298331d67fdbdf36effe95abebfc168d340439bc1fcf2eb858ff2"
+  }
+}

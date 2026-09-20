@@ -1,0 +1,47 @@
+{
+  "attempt_id": "attempt-17d2f9c9a5381e646005167274d638ad6e4c43a9d6991501513b2f1ba37a3618",
+  "elapsed_seconds": 12.504236457985826,
+  "model_calls": 1,
+  "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+  "role": "primary",
+  "validation": {
+    "answer": null,
+    "cost": "0.02370975",
+    "cost_status": "reported",
+    "diagnostic": {
+      "code": "answer_or_response_validation_failed",
+      "reason": "target support absent"
+    },
+    "revision": null,
+    "served": {
+      "id": "gen-1789809136-BwXPMengUieU0Rc8cgPn",
+      "model": "google/gemini-3.8-flash",
+      "provider": "Google AI Studio"
+    },
+    "state": "invalid_output",
+    "usage": {
+      "completion_tokens": 3504,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 3354
+      },
+      "cost": 0.02370975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01314,
+        "upstream_inference_cost": 0.02370975,
+        "upstream_inference_prompt_cost": 0.01056975
+      },
+      "is_byok": false,
+      "prompt_tokens": 14093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 17597
+    }
+  },
+  "version": "paired-semantic-attempt-1.2.0"
+}

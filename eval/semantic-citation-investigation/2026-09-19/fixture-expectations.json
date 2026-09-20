@@ -1,0 +1,982 @@
+{
+  "excluded_drafts": [
+    {
+      "fixture": "G4",
+      "reason": "Source-only review permits correction/exception reading; replaced by separately identified G4_revision2."
+    }
+  ],
+  "fixtures": [
+    {
+      "allowed_contributor_set": [
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      ],
+      "classification": "exposed_reproduction",
+      "diagnostic_records": "diagnostics/reproductions.json",
+      "expected_frozen_evaluator": "correct contributors but missing unit for four eligible originals; correct local abstention for blank target",
+      "expected_v1_host": "accept eligible original answer; local missing_evidence for blank target",
+      "fixture": "R/total",
+      "frozen_required_support": [
+        {
+          "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        }
+      ],
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "optional_support": [
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        },
+        {
+          "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "proposed_policy_use": "Any later old-answer evaluation is post-exposure diagnostic re-evaluation, never historical replacement.",
+      "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "diagnostic_responses": "R1/R4 unchanged replay; R2 adds only real unit or removes target/contributor citation; R3 removes 2025 citation or substitutes 2024 peers. No historical answer rewritten.",
+        "projection_transform": "mask_body_amounts_v1",
+        "source_edits": []
+      },
+      "required_support": [
+        {
+          "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "source_manifest": {
+        "frozen_review": {
+          "path": "eval/semantic-integration/2026-09-18/independent-review.json",
+          "sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789"
+        },
+        "query": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/query.json",
+          "sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1"
+        },
+        "response": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/total/response.json",
+          "sha256": "23fec3a17d18abcf57157afb1041c51716e6075499752976486e0945a9e08f21"
+        },
+        "selected_ir": {
+          "path": "runs/milestone1-r1/corrupted/evidence.json",
+          "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+        },
+        "source_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        }
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      ],
+      "classification": "exposed_reproduction",
+      "diagnostic_records": "diagnostics/reproductions.json",
+      "expected_frozen_evaluator": "correct contributors but missing unit for four eligible originals; correct local abstention for blank target",
+      "expected_v1_host": "accept eligible original answer; local missing_evidence for blank target",
+      "fixture": "R/varied_total",
+      "frozen_required_support": [
+        {
+          "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        }
+      ],
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "optional_support": [
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        },
+        {
+          "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "proposed_policy_use": "Any later old-answer evaluation is post-exposure diagnostic re-evaluation, never historical replacement.",
+      "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "diagnostic_responses": "R1/R4 unchanged replay; R2 adds only real unit or removes target/contributor citation; R3 removes 2025 citation or substitutes 2024 peers. No historical answer rewritten.",
+        "projection_transform": "vary_body_amounts_v1",
+        "source_edits": []
+      },
+      "required_support": [
+        {
+          "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "source_manifest": {
+        "frozen_review": {
+          "path": "eval/semantic-integration/2026-09-18/independent-review.json",
+          "sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789"
+        },
+        "query": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/query.json",
+          "sha256": "ed4b96a49b106fbc2c83d5e70277043879f5610793bb7f782da3442654f43040"
+        },
+        "response": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/varied_total/response.json",
+          "sha256": "dc4f80463fbfb12bdb9dfcef5bf725d21408c07e82447b6163aadd92cc553c27"
+        },
+        "selected_ir": {
+          "path": "runs/milestone1-r1/corrupted/evidence.json",
+          "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+        },
+        "source_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        }
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+        "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+      ],
+      "classification": "exposed_reproduction",
+      "diagnostic_records": "diagnostics/reproductions.json",
+      "expected_frozen_evaluator": "correct contributors but missing unit for four eligible originals; correct local abstention for blank target",
+      "expected_v1_host": "accept eligible original answer; local missing_evidence for blank target",
+      "fixture": "R/subtotal",
+      "frozen_required_support": [
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        }
+      ],
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "optional_support": [
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        }
+      ],
+      "proposed_policy_use": "Any later old-answer evaluation is post-exposure diagnostic re-evaluation, never historical replacement.",
+      "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "diagnostic_responses": "R1/R4 unchanged replay; R2 adds only real unit or removes target/contributor citation; R3 removes 2025 citation or substitutes 2024 peers. No historical answer rewritten.",
+        "projection_transform": "mask_body_amounts_v1",
+        "source_edits": []
+      },
+      "required_support": [
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "source_manifest": {
+        "frozen_review": {
+          "path": "eval/semantic-integration/2026-09-18/independent-review.json",
+          "sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789"
+        },
+        "query": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/query.json",
+          "sha256": "3ae34f598c3d5324cd42b7ed7d4df89f54139f5d959c29a2a397437453778ef6"
+        },
+        "response": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/subtotal/response.json",
+          "sha256": "49cd89d97883f2bab2a15dcdc480ea8175fd48f2f6ebf96971906ed889e9a76c"
+        },
+        "selected_ir": {
+          "path": "runs/milestone1-r1/corrupted/evidence.json",
+          "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+        },
+        "source_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        }
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      ],
+      "classification": "exposed_reproduction",
+      "diagnostic_records": "diagnostics/reproductions.json",
+      "expected_frozen_evaluator": "correct contributors but missing unit for four eligible originals; correct local abstention for blank target",
+      "expected_v1_host": "accept eligible original answer; local missing_evidence for blank target",
+      "fixture": "R/period_groups",
+      "frozen_required_support": [
+        {
+          "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        },
+        {
+          "id": "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        }
+      ],
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "optional_support": [
+        {
+          "id": "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        },
+        {
+          "id": "cell-c8213a30675bbe3fbb82fefa41410f7aa174a101bccdf532687d81ddd160bffc",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        }
+      ],
+      "proposed_policy_use": "Any later old-answer evaluation is post-exposure diagnostic re-evaluation, never historical replacement.",
+      "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "diagnostic_responses": "R1/R4 unchanged replay; R2 adds only real unit or removes target/contributor citation; R3 removes 2025 citation or substitutes 2024 peers. No historical answer rewritten.",
+        "projection_transform": "mask_body_amounts_v1",
+        "source_edits": []
+      },
+      "required_support": [
+        {
+          "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "reason": "Distinguishes the target and selected occurrences from identically named comparative-period headers."
+        }
+      ],
+      "source_manifest": {
+        "frozen_review": {
+          "path": "eval/semantic-integration/2026-09-18/independent-review.json",
+          "sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789"
+        },
+        "query": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/query.json",
+          "sha256": "335df9b169984c7bc77c9162e03023b350dad76c902d1f76990e2d02babd16a2"
+        },
+        "response": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/period_groups/response.json",
+          "sha256": "9972e52990dbe51e96149994792fa1bad3a7948db891626e956df77ed8582924"
+        },
+        "selected_ir": {
+          "path": "runs/milestone1-r1/corrupted/evidence.json",
+          "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+        },
+        "source_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        }
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    },
+    {
+      "allowed_contributor_set": [],
+      "classification": "exposed_reproduction",
+      "diagnostic_records": "diagnostics/reproductions.json",
+      "expected_frozen_evaluator": "correct contributors but missing unit for four eligible originals; correct local abstention for blank target",
+      "expected_v1_host": "accept eligible original answer; local missing_evidence for blank target",
+      "fixture": "R/missing_target",
+      "frozen_required_support": [
+        {
+          "id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce",
+          "reason": "Frozen pre-inference v1 expectation; preserved even where new policy judges common unit optional."
+        }
+      ],
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "optional_support": [],
+      "proposed_policy_use": "Any later old-answer evaluation is post-exposure diagnostic re-evaluation, never historical replacement.",
+      "proposed_policy_version": "direct-contributor-headers-1.1.0-proposal",
+      "proposed_state": "missing_evidence",
+      "provenance_transform": {
+        "diagnostic_responses": "R1/R4 unchanged replay; R2 adds only real unit or removes target/contributor citation; R3 removes 2025 citation or substitutes 2024 peers. No historical answer rewritten.",
+        "projection_transform": "mask_body_amounts_v1",
+        "source_edits": []
+      },
+      "required_support": [],
+      "source_manifest": {
+        "frozen_review": {
+          "path": "eval/semantic-integration/2026-09-18/independent-review.json",
+          "sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789"
+        },
+        "query": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/missing_target/query.json",
+          "sha256": "39e15546b0db27dc22358abc25d1d46d1618564eb95c2601fdbdcbf3bee5ec27"
+        },
+        "response": {
+          "path": "runs/paired-semantic-integration-2026-09-18/live-v1/primary/missing_target/response.json",
+          "sha256": "fbe4cdb79869022ef534951ff607ed05ba98f6f423b90a7993009cc42c9c6940"
+        },
+        "selected_ir": {
+          "path": "runs/milestone1-r1/corrupted/evidence.json",
+          "sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+        },
+        "source_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        }
+      },
+      "source_only_evidence": [
+        {
+          "id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce",
+          "reason": "Retained literal blank occurrence/source span documents absence within the complete selected-table inventory. It is not an eligible nonblank response support citation."
+        }
+      ],
+      "target_id": "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+        "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085"
+      ],
+      "classification": "derived_source_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/evidence.json",
+        "sha256": "a43dda6f1cbf2474c14336eae0fe39d78a0ab61d6ccf9b43c575f814fe29e091"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G1",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [
+        {
+          "id": "cell-836a81a15f5943cf644c2a9dc3deb88738f1269ccb0e4be44d51e235896282d6",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-e77e1fe5807a9a3e9140874e3d33f5aa3b64e2a94831a381a62f77d19db89c3d",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/query-v1.json",
+        "sha256": "bac75490a580d4f8d6d88f521376360c64580a82f1ab0f040bb9505fdf777c43"
+      },
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+        ],
+        "original_html_source": {
+          "artifact_id": "sha256-6744319d19f53b037e023454067af7cef132f2caf200f1ee6f9ae32d4ec1dcd0",
+          "format": "html",
+          "id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+          "pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "sha256": "3265e41f813b1a7ea14efebc14fe31a11e9979285b2d2c9245e5b1ad1577e7e3",
+          "text": "<table><tr><td rowspan=\"2\">港幣百萬元</td><td colspan=\"3\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"2\">租賃(HKFRS 16)</td><td rowspan=\"2\">總額</td></tr><tr><td>於某一時點確認收入</td><td>隨時間逐步確認收入</td><td>合計</td></tr><tr><td>租賃收入(附註11(b))</td><td>-</td><td>-</td><td>-</td><td>8,245</td><td>8,245</td></tr><tr><td>酒店收入</td><td>107</td><td>190</td><td>297</td><td>-</td><td>297</td></tr><tr><td>已建成物業之銷售</td><td>264</td><td>-</td><td>264</td><td>-</td><td>264</td></tr><tr><td>物業管理費和物業租賃其他收入</td><td>-</td><td>1,144</td><td>1,144</td><td>-</td><td>1,144</td></tr><tr><td></td><td>371</td><td>1,334</td><td>1,706</td><td>8,245</td><td>9,950</td></tr></table>"
+        },
+        "original_to_derived_cell_ids": {
+          "cell-0aec39c3527b840c9eefd8fe31618ab7087d0fc5c905b7ba38eeae786f2d02ce": "cell-a7bc6b5a4209c153d4eb4dd7dc28fdb8c95830e9fa7ee86e653b1720fe9b2ac2",
+          "cell-21e3f8197c0f4cf92dcd5f8c8131ada8a6a69df41fa7746424b9a160389abd5c": "cell-56fcbb025a85d46f8ebd5d1c4baa8fff5c6cf07e8f12575b742641dafc125e80",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d": "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "cell-311cf1d01fa3b0e2cf93ea3bb4dd15a07b8f42304d095eca8063a2a91033ee79": "cell-febac8097091be7809e74b9423ffbf8494891061de281b0d5178e6110ec29a52",
+          "cell-4152cb453a2141805e4d83f00f982aa6ef684a505640f7fb9d3588b2ea452962": "cell-3e16070bf0aab8eda2a09dc70d777be58f0216d1e6ed86ee88176c9a0327731d",
+          "cell-46e2bb63fb30050513f2c861fa91b365cb58885401820cc10ad6ebc6609be429": "cell-73f7e1a185a00787e6175af14092b1f6050c7ea0bd055e6a5d94a700e2210dc7",
+          "cell-477932caa5073036779711cffb03f1a2f69f8cbe2a62877c410d040ef7ffcd18": "cell-65febe1b07be542e0fcaf1900c830e2a63da405832f42b6e5eba72fa27e49f53",
+          "cell-550a81b9501d0a555729a15168e444eee62fc67d8154416ee2f2b3827fc7ca5c": "cell-6e2f37dfb7f7a59a87a93db822cf566ab87cfec2a11a7cb93daf122abfede165",
+          "cell-5a982a5133ca8b201014fe15593d220dde3a05e159b0f75dc523b41b9cbe9594": "cell-e145cb04299ec1fe8f434ecf6ca296fa300c3cffa583f01f597007601ee78647",
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938": "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8",
+          "cell-616b5f998cd0eff56cc72e4eb093034126386a5e329ca4f49072b44541b6a338": "cell-5883ede7b264a17facb315fcd64a78da9df050135dec4ca2df18c795720b2156",
+          "cell-6750fa5a61faa008c60c80801067b699895326c89772878bbc4b4e7d9081a298": "cell-d1f157a6e2a9141f8d1aa5496008249a1e3c8c48ee0e069c290935f866a52774",
+          "cell-6fe2dbcf9185e91c0faa2191d638910d838bdca3eeb82604186cd74377f440bf": "cell-463aa3476c0a4acd9c6c4adc513f51ef65d1a9ad136df99bae7d5d661f499d94",
+          "cell-6fe7a1f8ad462221c4a239ef0230c4daf1c3fa2c2082ea7091a7ed106b529382": "cell-799ea7fcec2340c4f3c1a8e8986df995e6a4a069e13b0154df69604baaf01ce6",
+          "cell-735724cd4a24ac66b84cde61ed8fc706b69b3d2b90c5da15728d3395efac9ca9": "cell-148cdb0a9a369a2e7ed3182f87821d15d2966ea7a17776fb428fce562c037255",
+          "cell-744f0edee7af1abdd044e79f18bb24b9d3b82e33b59ebde54c996158eb213ca1": "cell-8627ccfd309070468464b4e311802373116926b9c964e745e69d9f852debca5b",
+          "cell-755c0ad52c1c001ea83359254772c3b18565d7e78381b9161c07f26f71dc8cd3": "cell-caf845ffe24fea12743ddaabd9ac8388314ce205589c5d24c2652bbb62ee7d19",
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665": "cell-836a81a15f5943cf644c2a9dc3deb88738f1269ccb0e4be44d51e235896282d6",
+          "cell-81302d37f09b1c2215b4cea48cc280f19cce699e454778e4afebec324bdda104": "cell-e5211c2421d8a53ef092df859c2919966f2e2f75a443b55f638e5ff653ff73a4",
+          "cell-8956d1dcdf841e100b83b5fd173155697971e803f2cde079995d23fbc0de021e": "cell-10c83a5b157c2e7456b44c88c76c39971d48af3c1a9d0efe0b7d73fa8a41b49f",
+          "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa": "cell-5fa2981160f40a439723583ab20fd2fb79952e12911ee32ad0d1c5d48ea54b70",
+          "cell-bc403f1b1ec9e7e16970cdf99a25922b0a0f3189a6e1b4eea5ef3f1fbe8e0cca": "cell-931b2fb348ff8657d1bbe053fec4332f444e13dcec92966b6631e6c4d2c86465",
+          "cell-c44cb08dd9a0fc3f139c33f1f81597aa9c0fc2afc004c1b525ddf5cf8e6ea22b": "cell-7793bcd999a00908b83e1b8af262a583cdf291ba831810d2cbf0044184200139",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27": "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "cell-d64cfef25c427a61f7ff34c1509f616022c422b99e5f24f6a02ad7c5e9f8d3b3": "cell-706759455ecafd21d3690d84c6cb080d6e540c516e48b4ad5964049e7dff3bac",
+          "cell-d65ba81d4aafcb9790fbef620b424c86810a6fbad4832cefbffcdab364f10d26": "cell-b94fe17cc2c6edc48ada36936a4a175297eb6c9bb078191f3ab087cc927d6c12",
+          "cell-d8496a3193a8bc71c91dcdb2f79b63bc105d7099455ee950fa02657ebb0013bc": "cell-df98f4ac95de962cb20fb0d16f9fcb83f6a4c6ef3916ac2076a1f5d18facfeb7",
+          "cell-e526613e9fddc2b640314ce4db0be6cc37464c159ec3273bffc6fffb0258a532": "cell-2cecd03ab5f1acb8ca7d2a10d4bfc33587308765cce90d85a5deefdd41668c5e",
+          "cell-e598d027b86dabdced01cd6f3234d6ec47fd6d063876a36d09eb9a8fc5b4258c": "cell-0bab6c27b420dc46467977ce7e1df6ada55c89120566755c7b189190a6588701",
+          "cell-e6c06472b2af61e9f0129ef87510a635a86a11ba8dfd82f384b233864fb8a4a0": "cell-2bc256b0cf525754239cc4cbfc2a3cfcc919599bdff5489d78d38cef4bd4cdd8",
+          "cell-e8356ddf1c0117f9b32778645edf5e01f13190668ecb5b1e35e1f6ea7bd7f9d7": "cell-8c03f0cc9c2328002640f7395b48789c0009a10aaa03cfb7b8fa7a25ef61ae1b",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c": "cell-e77e1fe5807a9a3e9140874e3d33f5aa3b64e2a94831a381a62f77d19db89c3d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "cell-f3263c401ff7cda7ef8f28926628ddf29e0b83551d74019cec775a1ce429370b": "cell-ec3b1bc6f20f392f0f380e598bcaecdeb82d9cb2f8711821d06aec4deb7322a1",
+          "cell-f571462b4aa2e0b653a61cc1692b35e2e4139d147c496279af8f33c994e861f8": "cell-8f1de017e9842b9c39af03b90b320ac04312250a38a400ef62c474e376a832c0",
+          "cell-f8fa1af226439d31d25bfeac257775d9cdfbd1c0f88db4a0f604df07850e0809": "cell-eb856284a962ef6fb48cc35153f3998e6b47109620c1a3ce07e1b1ec4ed82866",
+          "cell-fe4a5a2fab989afe022fa0b8a76cffa508e39e0e3da1934db175cb6d001e34dc": "cell-a269f264c01f43a3878a40f82271a83bc48140b3678d85c85178dee237ad90c4"
+        },
+        "parent_packet": {
+          "path": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80"
+        },
+        "semantic_edits": [
+          "Replace only the common-unit literal with an explicit blank HTML cell."
+        ]
+      },
+      "rationale": "Removing the common-unit literal leaves the HKFRS 15 subtotal and leasing header relationship unchanged. The blank cell is optional evidence documenting absent scale; it cannot establish a unit. Absence of this downstream arithmetic prerequisite does not block immediate contributor-header selection. Do not restore the former unit from the original packet.",
+      "required_support": [
+        {
+          "id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-5a22fd60b6a80cd8ec299b5314a2a83e73092b82739998edb100f686090a4aa8",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-523bf5721f8ff6d5c7b34d1d97a6be0d7b0d89734f0c926fa14bf21c9db91085",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-610df15a94fa7dd1daa28faeb947a10c9119fe052cd0e26802f3cfedb5e08ab8",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/source.json",
+        "sha256": "8f7634859c9c46858f6cac23b7477deb581ccfd6003db7911d879f51badc802a"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G1/manifest.json",
+        "sha256": "3da9fa3c99bd09f5b55af38b78937f2ab699c1e450b4fcf28a45320e8cb0df9e"
+      },
+      "source_only_evidence": [
+        {
+          "id": "cell-5fa2981160f40a439723583ab20fd2fb79952e12911ee32ad0d1c5d48ea54b70",
+          "reason": "Retained literal blank occurrence/source span documents absence within the complete selected-table inventory. It is not an eligible nonblank response support citation."
+        }
+      ],
+      "target_id": "cell-dcb7931e10d01c2d5e296d2ca5a6ef965877a22ae71de37163cac5ea08d2bc89"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+        "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9"
+      ],
+      "classification": "synthetic_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/evidence.json",
+        "sha256": "e19b4eb697ac471adb8f23fb939f05a0d4127c7f3c76e071199967f783d7fb84"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G2",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [
+        {
+          "id": "cell-5d4eb39e9a0719ba2d36398cb02fb1c3c3888bf3732505c49ffd8980bf69d79f",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        }
+      ],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/query-v1.json",
+        "sha256": "bd95d59441db9d9621e409187d4b8262d22850e73f22d0e0c613fa6d2300b90d"
+      },
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+        ],
+        "original_html_source": null,
+        "original_to_derived_cell_ids": {},
+        "parent_packet": null,
+        "semantic_edits": [
+          "Author literal groups, headers, and any table-associated note."
+        ]
+      },
+      "rationale": "The target and both selected product occurrences lie under 銷售額（港幣百萬元）. This group header establishes monetary sales membership and disambiguates the duplicated product labels from physical sales quantity. Its citation is required because of that membership role, not a blanket requirement to cite units. The other group is optional exclusion corroboration unless explicitly relied upon. Quantity in 千件 is a different conceptual measurement dimension, not another display scale for money. Reordering, renaming and independent body-amount changes do not alter the semantic relationship.",
+      "required_support": [
+        {
+          "id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-e2f717a74305797327edb9c956ccb1c7924296517f38a63550a932b8f00274f5",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-fa57583ee3b7ca69a0d59ed0226b74a9b7e13cbd463bf528c587ab2caaa5f1e9",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-7177064724a674781e7762719fff403a25ba91a0c30f7c8ca5aedc54075dce1b",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/source.json",
+        "sha256": "dca066994a3b470f7ee3f2f7b9234b2cde8442c941d54d91f5e5c3ef6f919153"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2/manifest.json",
+        "sha256": "66b9424d0bb1282366e148d4ab6bedf13b382c17c54b7d95b731899b090ea31f"
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-5223e2bf4a83a0939809fce2e7681a9f05f4909dc5294348cc469bdd869ce9a9"
+    },
+    {
+      "allowed_contributor_set": [
+        "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+        "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5"
+      ],
+      "classification": "synthetic_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/evidence.json",
+        "sha256": "9de70fd1cb76a640ce9ebe1855afd8d1c964dccc33e1c1ff8fa9408861b3ef03"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G2_variation",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [
+        {
+          "id": "cell-537dceb4e84c0761d37cf6f09219c5572061b3c993f185377106b3fde2ed3126",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        }
+      ],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/query-v1.json",
+        "sha256": "53e6248fdd94e0ce1afbe3f5c4aef90309140e58339694ba5ac8e8cf9ddf84e3"
+      },
+      "proposed_state": "selected",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+        ],
+        "original_html_source": null,
+        "original_to_derived_cell_ids": {},
+        "parent_packet": null,
+        "semantic_edits": [
+          "Author literal groups, headers, and any table-associated note."
+        ]
+      },
+      "rationale": "The target and both selected product occurrences lie under 銷售額（港幣百萬元）. This group header establishes monetary sales membership and disambiguates the duplicated product labels from physical sales quantity. Its citation is required because of that membership role, not a blanket requirement to cite units. The other group is optional exclusion corroboration unless explicitly relied upon. Quantity in 千件 is a different conceptual measurement dimension, not another display scale for money. Reordering, renaming and independent body-amount changes do not alter the semantic relationship.",
+      "required_support": [
+        {
+          "id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-9d82a5a3b6449c5991d4fc441d6cbe5a8c394687ec8b3e680ed752cfad3b7e44",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-41bb44d53628deabe7b59b02853d4bc567e158ff11e31e4ce83e677a8a947bb5",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-15ebd83e610e4deb4ee343633e86cfeeee74ffca8a944bedacedf5a27d096906",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/source.json",
+        "sha256": "1898719969e5e60d8ef9deeba4d856c92de5f627b730efd2724fdf958f48eaf7"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2_variation/manifest.json",
+        "sha256": "464b10b7ee0b6027354f17f0be20fb6e0eafde7c15417d3aa088c2f23728f68c"
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-386f0112f583d9e4e50e50967cff82a954a2b5ab67784094008c3aa804292c40"
+    },
+    {
+      "allowed_contributor_set": [],
+      "classification": "synthetic_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/evidence.json",
+        "sha256": "9d20168d32aa6d199f4da92c79cbd1761075053bb49318697d58ce4797f329b3"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G3",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [
+        {
+          "id": "cell-bb25ec0b7eb6c60a653a0e6bf9b13702869389010a54f68323a7ffb23aa28830",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-cd1ec7fbcac0120d0bbe4aa3568e155397db6cf2cc91dd1a255721453579ec10",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-939d02ba7e73062339f923357b3a76df1153117286b0070cfb85c95d1bdc9121",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-cd6698271b5e9ed0e62792c3fa21a9aa2173b53c3c4d1179a650c4a8d8da6a81",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/query-v1.json",
+        "sha256": "c09a3a8a190b76ba4033d486d6b5f916600bc9ac8237e950cb66263e7fb8f621"
+      },
+      "proposed_state": "missing_evidence",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+        ],
+        "original_html_source": null,
+        "original_to_derived_cell_ids": {},
+        "parent_packet": null,
+        "semantic_edits": [
+          "Author literal groups, headers, and any table-associated note."
+        ]
+      },
+      "rationale": "The target has no literal dimension label: its own upper cell is blank and it belongs to neither amount nor quantity span. The note requires products with the same measurement basis and points to the headers, but does not say which basis the target has. Both product-pair branches exist; the missing target context prevents a justified choice. This is missing evidence about target membership, not a proven incompatibility or two conflicting positive claims.",
+      "required_support": [
+        {
+          "id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-b7fb9d887d62a2e374583113d60f3a9d8cfb6bf84f08e1e1cb884dffbc2ad60c",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "cell-f79335812da2e140d628336de9ed87334c5c0a96228fb0e008cad047751e7da4",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "block-32760c6b58473791105321fdbd9d28c348a3372c1118e145ba2f8d33dec7052d",
+          "reason": "Associated literal table note supplies the scope condition or conflicting statement needed for this abstention."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/source.json",
+        "sha256": "27f62bea109db2573f49ad3ca877f37c2e1cd9795888c1c0f5db771240869e80"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G3/manifest.json",
+        "sha256": "02f12b87b0b7e28c8e3ab07d46b115bdb3c92aa10d70eb54cffd877a91166a34"
+      },
+      "source_only_evidence": [
+        {
+          "id": "cell-3a1a6f2fb7e06de0f6bbd399f4f9ec3d94f0b960205853ce36a4fcd1a3c8a14c",
+          "reason": "Retained literal blank occurrence/source span documents absence within the complete selected-table inventory. It is not an eligible nonblank response support citation."
+        }
+      ],
+      "target_id": "cell-06814cb4ec2b56a3b673bfe3dff13adbdf50cd08e3bce27e710a859452afda88"
+    },
+    {
+      "allowed_contributor_set": [],
+      "classification": "synthetic_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/evidence.json",
+        "sha256": "c623db9cb2ee4fa480dea6c0ce6e7b4b8a012911c91c9e12890d11cfd502e8f9"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G5",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/query-v1.json",
+        "sha256": "47c4a03de3ac7b84e4917007346f8f772ff12c0bf3dd899713ad30909367c856"
+      },
+      "proposed_state": "incompatible_context",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New source/document/node identities; single logical page index 0; no physical geometry claimed; source envelope recreated for the existing adapter."
+        ],
+        "original_html_source": null,
+        "original_to_derived_cell_ids": {},
+        "parent_packet": null,
+        "semantic_edits": [
+          "Author literal groups, headers, and any table-associated note."
+        ]
+      },
+      "rationale": "The target explicitly says 合計（港幣百萬元）; the only candidate product occurrences inherit 銷售量（千件）. The table note bounds candidates to those quantity occurrences, requires the target’s same measurement basis, and says no conversion relationship is supplied. Known monetary versus physical dimensions are incompatible for this direct membership claim. This is stronger than an unspecified unit: both sides have positive, inconsistent dimensions and the candidate set is expressly bounded. Do not invent monetary occurrences or a price/conversion relationship.",
+      "required_support": [
+        {
+          "id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-9d699cb68ceef20c1d383ad3b03b8f3428cd0d527f4277d85e7d483805ea3444",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "cell-76cd54b64bedd52abdec1832f9caeee6083ae6e0385e934ebbf0a1e93aff2af4",
+          "reason": "Identifies a candidate whose known group context supports the incompatibility decision."
+        },
+        {
+          "id": "cell-b48a17528b2637f8819dab1b34ae8dfd407d8d08a304e4c2900130d747233b6d",
+          "reason": "Identifies a candidate whose known group context supports the incompatibility decision."
+        },
+        {
+          "id": "block-7728aabba47e954e315fb92539cc96996e95a98f55dac1274a5820d5603be7cc",
+          "reason": "Associated literal table note supplies the scope condition or conflicting statement needed for this abstention."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/source.json",
+        "sha256": "eae32564b55a09b98f47f055afa63dde298de1554ed93fbb4b2ebda872baadf8"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G5/manifest.json",
+        "sha256": "d5c0bfe0b2651664e7ba2f5df0292eef790f827d05827172abc580e4bb0c1fda"
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-05b2a10900742e5edfbca6c7dbc991d86a0b5cb0e1c11f7fd848c3164a9647ca"
+    },
+    {
+      "allowed_contributor_set": [],
+      "classification": "synthetic_generalization",
+      "evidence": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/evidence.json",
+        "sha256": "3ce3c780a8b05667352df8acdc64db13f98ed7ab0fc3fdc2ee08c44cc39931e7"
+      },
+      "executable_projection_version": "direct-contributor-headers-1.0.0",
+      "expected_host_positive": "v1 structurally accepts the minimal nonblank support response; does not certify source semantics",
+      "expected_proposed_evaluator_positive": "state and contributor set equal review; all decision-bearing required support present",
+      "fixture": "G4_revision2",
+      "future_numeric_status": "No financial plan/finding authorized; unit/basis/completeness prerequisites remain separate.",
+      "negative_expectations": "Omitted required support or a different state/selection fails proposed source acceptance. v1 actual enforcement is measured separately; no upgraded validator is implemented.",
+      "operation_version": "direct-contributor-headers-1.1.0-proposal",
+      "optional_support": [
+        {
+          "id": "cell-db0c9b476a506e5e23d61e63bce9cfc5eaf04fad2cdfa512a7196628f1d7470b",
+          "reason": "Optional corroboration identifying the excluded comparison group; cite if the rationale relies on this exclusion."
+        },
+        {
+          "id": "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-78fdbd411f0bed5db2563fd98f6b052953370b7f5e4007c147bfd3897ea40c7f",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-669c889afbd5e430f0c8b38d442dab8b8c514601c90730a8ea0bc2bf43ff1952",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "projection": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/query-v1.json",
+        "sha256": "d5a651bb47a0ada99642dc31c0ace95246e8bc8bfe0b7b6afb7696b296122886"
+      },
+      "proposed_state": "ambiguous",
+      "provenance_transform": {
+        "administrative_changes": [
+          "New document, source and occurrence identities."
+        ],
+        "id_mapping": {
+          "block-2524a2b03fd9521000097ed80ac99ad252d11ff030a176b88a5461011c3a6e19": "block-6ba67a3bbe0e5f5465f59e461294b3d8ad44a085f040f870c840ab8d85bff947",
+          "block-34296560ff572a06ced47303c2e55021fb63dae80d288cc325ae5f4d034b1e69": "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405",
+          "block-4484729f1cff97f6e244aacc3ece3b2c4b398847dea77c68f4430ff811de13a6": "block-5cfd7c11616165a5edc1caea0a21776b28d508c354e6c7c990da32a819729761",
+          "block-5b6a91abe0f77d1f84e4ac1f9bbf53b7843eca5ab2d5edab84aad7a48f21d898": "block-4c18b119c79d9421ad4a621ae27e1af6aa0e4fe2e131a4a94649622b7886e384",
+          "block-66799e9b5579e3b150fad65b3125bca2d909fbbbf14d90063caef36c22fe80ad": "block-627128af089d34fd6b7c84f95982e9d5b988a7f390f57767fb99366bed6d7b0f",
+          "block-c1555d04c45961d750c355c0af4a9bd73d28aa9513077b956d27ce2ae6cdee99": "block-919d3efed803cb2dbba56371f47d335b9d0765bf72da6aeb2630934becdae33c",
+          "cell-0f4f7c2a9d9195c9dc3ddaa6bc505a8ec12773b7829a6ca59e7008bb362ae8ed": "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "cell-2cc05597df6e70018428cc64fa2c1d161cacc28e1ee4ffd1c1cee70b65f8470f": "cell-669c889afbd5e430f0c8b38d442dab8b8c514601c90730a8ea0bc2bf43ff1952",
+          "cell-2f20fd2b96822cd9b7759d4fb59ad08ca8c1b2ea646904296a2766553f94205a": "cell-6ffc85869af9daa1ea5b1c210f85d27d7b9b90388e8fb9bc7d5721d36063d7bb",
+          "cell-31940d7f307baf7e1c29490f8bd8a254dbc99646b4e3870d32c6b0d32baf400d": "cell-5c0c44be10a53b62483b9958cfe0947aae2e2426fdaf0e8a2e745804f1c44695",
+          "cell-39f0534ef48553ef38f4892986fe6f8275ae1ffcf977fd590e3df1e48e483cf6": "cell-818cf2aae757baf47a79487ca5d1fa87ae06214bf111c49c2b458cb670b0cdf3",
+          "cell-66909338802f5bb80595fb92910a4fe48b3794eac589c6ca203fc71612af695d": "cell-28e8b0b4f86ab2dca64819ca251060a808f7e67768868972f88fdd5ef369bff9",
+          "cell-841bf6cd2d2c3322824c80264870503442b6b032df2aeedd2537dd14e0cf657d": "cell-f98b78048eea472d672f8a9a6f157c7dc45a0bcdf7c0aebb478228999f654301",
+          "cell-9ea0f65ab02179559815d8d2c16d89eb0dbebe564c7b02d58c34740c3b7ac38d": "cell-3bf21c0a1bb822e313f40ada202b738e7ae634e0ac9b0e176639bad9bf605406",
+          "cell-aa9a8386a6f62beb4a0f318e02ff2fc4c21055bc7f118c64363ef58200930d57": "cell-db0c9b476a506e5e23d61e63bce9cfc5eaf04fad2cdfa512a7196628f1d7470b",
+          "cell-b49e72d5b9dbd228461eea060da07b269d0c808882b5234c608debcfddf2601c": "cell-32e1cf8e0f0bce3b01d45d1d739eb1335de28a434985e76803eea9f6654057e0",
+          "cell-c3acb5928013234c7509a3980867bfd54dda0eea9f4f63d753168417aac49647": "cell-78fdbd411f0bed5db2563fd98f6b052953370b7f5e4007c147bfd3897ea40c7f",
+          "cell-d61608d35cc800b9991aaf7e101a2caea04b469a197a6bda6cfbf8e8d2508905": "cell-cf379a3a836762f2701afb73871adee6d5dd982d516205bbec30f2a89e814b10",
+          "cell-d9b697f118e59f85db765f2f698e82cffb9f3f17fa5891339de508b049915cde": "cell-9d4021a7b49a5c54d0eca17ea4599d1ad2b202e3198b1a531680edb719ba6b8a",
+          "cell-e0467d6b464bd59ac80c05aee9d0cab8e735047dde8a975a76b940e54e563b10": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "table-cb7df962dd2ec3776f1256a57a19bcf4b76dd13fecb7189376ac65c14ad2b371": "table-243f199ef2ef7f06a2e80fe631a8135540b8645b5638cffe4f7eabd9afbeab32"
+        },
+        "parent": "sources/G4/source.json",
+        "parent_sha256": "de0068483260835cfb89c91b7e29d0d104ecde0f50b463e4f0badcf820c2bed8",
+        "reason": "Source-only review found a possible note-as-correction reading. Explicitly declare mutually exclusive, effective statements with no priority/correction.",
+        "semantic_edits": [
+          "Append only the literal mutually-exclusive/no-priority statement to the existing table note."
+        ]
+      },
+      "rationale": "The same target inherits 銷售額（港幣百萬元） from the spanning header, while its associated note says it contains only 銷售量（千件）. The appended literal definition explicitly forbids simultaneous membership, declares both statements effective, and rules out priority or correction. This makes the source internally contradictory and removes the plausible note-as-exception reading of revision 1. Return ambiguous with no contributors. It is neither an absent target discriminator nor a consistent target with only incompatible candidates.",
+      "required_support": [
+        {
+          "id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-6215593b459d94ff017f4f3d38dc5df80940c0fe9cb22d213079a222a1bcf7e6",
+          "reason": "Establishes a conceptual measurement group needed to determine or reject membership."
+        },
+        {
+          "id": "block-a14fdd79241d9ef5c992ce0d3c7ba382897e5d1af8d97d9cc369940165894405",
+          "reason": "Literal associated note both asserts quantity membership and expressly makes that membership mutually exclusive with the still-effective monetary spanning-header membership; no precedence or correction resolves the conflict."
+        }
+      ],
+      "source": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/source.json",
+        "sha256": "ecca8e5066c8cc6c83008a05cd50c36a39e3f05f59ee458c111bcdbdbdf595d2"
+      },
+      "source_manifest": {
+        "path": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/manifest.json",
+        "sha256": "4e0624d874c83a267042b0b152d78466bdc9348d1c362f17341e7ddedbe3f1f0"
+      },
+      "source_only_evidence": [],
+      "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+    }
+  ],
+  "invariance": {
+    "G2_mapping": {
+      "path": "eval/semantic-citation-investigation/2026-09-19/sources/G2-variation-map.json",
+      "sha256": "eb4475633e6c3ad6ec98ce08698bf0e44fe8efdaca6b6f4e96a23ee736e9e80a"
+    },
+    "original_amount_contrast": "diagnostics/amount-contrast.json",
+    "reviewed_membership_equal_under_mapping": true
+  },
+  "model_calls": 0,
+  "not_runtime_input": true,
+  "operation_proposal": "direct-contributor-headers-1.1.0-proposal",
+  "review": {
+    "path": "eval/semantic-citation-investigation/2026-09-19/independent-source-review.json",
+    "sha256": "d094cd59178c5c1f38d4dc40932afe41cdfee67cb3e20629e606f20a8d08b11e"
+  },
+  "version": "citation-policy-fixtures-1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "cells": 6415,
+  "detector_performance": "not_executed",
+  "evidence_id": "document-e3f049dfbe298b986b33a43f33eb8103dc8055429ac39746ec1eb166c0c64cd1",
+  "limitations_by_code": {
+    "alternate_view_differs": 6,
+    "non_verbatim_or_visual_content": 468,
+    "unsupported_cell_content": 12,
+    "unsupported_inline_content": 3,
+    "unsupported_native_kind": 2
+  },
+  "native_fidelity": "not_reattested",
+  "pages": 228,
+  "pdf_fidelity": "unverified",
+  "source_fragments": 3316,
+  "structural_validity": "valid",
+  "table_regions": 132,
+  "tables_by_grid_state": {
+    "partial": 3,
+    "resolved": 129
+  },
+  "unresolved_regions": 489
+}

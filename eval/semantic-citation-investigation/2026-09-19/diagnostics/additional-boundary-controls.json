@@ -1,0 +1,88 @@
+{
+  "citation_controls": [
+    {
+      "actual_v1_host": {
+        "accepted": true
+      },
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "origin": "authored diagnostic copy, not model result",
+      "query": "total",
+      "removed_source_id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "variant": "omit_revenue_group_only"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": false,
+        "error": "spanning context support absent"
+      },
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "origin": "authored diagnostic copy, not model result",
+      "query": "subtotal",
+      "removed_source_id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "response": {
+        "contributor_ids": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+        ],
+        "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+      },
+      "variant": "omit_revenue_group_only"
+    },
+    {
+      "actual_v1_host": {
+        "accepted": true
+      },
+      "operation_version": "direct-contributor-headers-1.0.0",
+      "origin": "authored diagnostic copy, not model result",
+      "query": "varied_total",
+      "removed_source_id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+      "response": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "variant": "omit_revenue_group_only"
+    }
+  ],
+  "completion_payload_mutation": {
+    "attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "model_calls": 0,
+    "state": "incomplete_attempt"
+  },
+  "edited_projection": "query/projection/source mismatch",
+  "model_calls": 0,
+  "mutations_persisted_as_operational_results": false,
+  "network_calls": 0,
+  "role_promotion": {
+    "attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "model_calls": 0,
+    "state": "incomplete_attempt"
+  }
+}

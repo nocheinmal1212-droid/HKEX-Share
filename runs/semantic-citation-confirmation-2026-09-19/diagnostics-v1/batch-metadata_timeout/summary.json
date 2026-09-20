@@ -1,0 +1,120 @@
+{
+  "completion_calls_reserved": {
+    "primary": 0,
+    "research": 0
+  },
+  "cost_reserved_usd": "0",
+  "elapsed_seconds": 0.0,
+  "http_calls_reserved": 2,
+  "limits": {
+    "max_completion_calls_per_role": 2,
+    "max_cost_usd": "8",
+    "max_http_calls": 6,
+    "max_seconds": 600
+  },
+  "plans_checks_findings": "not_implemented",
+  "results": [
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": "unavailable",
+          "reserved_cost_usd": "0"
+        },
+        "research": {
+          "reason": "unavailable",
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "total",
+      "primary": {
+        "attempt_id": "attempt-a60a2fea98b1c742ae5de02de3b2e28e7f22e1ff46fcb1f0e8aa0e03d0fc4baf",
+        "elapsed_seconds": 2.8875074349343777e-05,
+        "model_calls": 0,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "unavailable",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+      "research": {
+        "attempt_id": "attempt-a62ee78b7500dfa26c6bb6a3164812ddb77c49a41bd08bfab507fcf76d64c467",
+        "elapsed_seconds": 2.4834065698087215e-05,
+        "model_calls": 0,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "unavailable",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    },
+    {
+      "consumption": {
+        "outcome": "authored-budget-control-only"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": "unavailable",
+          "reserved_cost_usd": "0"
+        },
+        "research": {
+          "reason": "unavailable",
+          "reserved_cost_usd": "0"
+        }
+      },
+      "name": "period_groups",
+      "primary": {
+        "attempt_id": "attempt-7c3e3cf48871abb98ab3e1ba72d93ffa7bf8ba6a06f14b861cdb9bdcacb44f0c",
+        "elapsed_seconds": 3.0207913368940353e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "unavailable",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      },
+      "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+      "research": {
+        "attempt_id": "attempt-8dccefcfcd54fb4dd7bc3762292eec6390ae3229e1ad751c3f32b328ff26b4ad",
+        "elapsed_seconds": 2.779101487249136e-05,
+        "model_calls": 0,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "research",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "unavailable",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.1.0"
+      }
+    }
+  ]
+}

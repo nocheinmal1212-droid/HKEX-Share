@@ -1,0 +1,21 @@
+{
+  "portable_tests": 26,
+  "portable_tests_status": "passed",
+  "format_and_schema_checks": "passed",
+  "local_source_validation": "passed",
+  "record_reimport": "byte_identical",
+  "pending_ready_gate_exit": 3,
+  "reroll_attempt_exit": 2,
+  "source_files_verified": 788,
+  "raw_sources_unchanged": true,
+  "source_render_comparison": {
+    "clean_equal_pages": 228,
+    "corrupted_equal_pages": 228
+  },
+  "review_packet_links_checked": 42,
+  "remote_ci": "configured_not_executed",
+  "ready_records": 0,
+  "pending_records": 48,
+  "publication_status": "UNGATED",
+  "headline": null
+}

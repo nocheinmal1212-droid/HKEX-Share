@@ -1,0 +1,27 @@
+{
+  "authored": true,
+  "ceiling_extension_seconds": 0,
+  "ceiling_seconds": 3,
+  "elapsed_seconds": 2.705450832960196,
+  "owned_pids": [
+    {
+      "immediately_after_return": "absent",
+      "pid": 20273
+    },
+    {
+      "immediately_after_return": "absent",
+      "pid": 20274
+    }
+  ],
+  "real_http_calls": 0,
+  "result": {
+    "direct_child_reaped": true,
+    "elapsed_seconds": 2.705364749999717,
+    "pid": 20272,
+    "returncode": -9,
+    "stderr": "",
+    "stdout": "",
+    "timed_out": true
+  },
+  "test_measurement_tolerance_seconds": 0.15
+}

@@ -1,0 +1,14 @@
+{
+  "error_ids": [
+    "HL-ERR-0006",
+    "HL-ERR-0017",
+    "HL-ERR-0025",
+    "HL-ERR-0041"
+  ],
+  "split_sha256": "3ba5cd496b8d7fc8a3d5aa1c77e73c44fab84fc2bd12f379cb0c1437d4223b9a",
+  "rationale": "Four proposed development cases cover a missing percent token, revenue-note reference, three-operand gross-profit equation, and statement-note revenue comparison. All sites are development because the conservative bundle has one frozen group. No untouched holdout or cluster interval is available.",
+  "supporting_page_indices": [
+    178,
+    180
+  ]
+}

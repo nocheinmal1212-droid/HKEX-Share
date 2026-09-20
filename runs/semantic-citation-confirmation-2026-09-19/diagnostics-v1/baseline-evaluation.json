@@ -1,0 +1,224 @@
+{
+  "authored_diagnostic": true,
+  "denominator_per_role": 2,
+  "limits": "Research is independent, never fallback/consensus/veto/annotation input. Candidate diagnostics do not override host rejection. Header semantics only; no numeric or downstream findings claim.",
+  "model_calls_on_evaluation": 0,
+  "model_results": false,
+  "primary_successes": 2,
+  "research_successes": 2,
+  "results": [
+    {
+      "name": "total",
+      "primary_persistence": {
+        "annotation_count": 1,
+        "annotations_sha256": "adaf91f609829932760f421255b8ad0967206bf5743bd77632a3426d0b228f9b",
+        "available": true,
+        "provenance": {
+          "annotation_ids": [
+            "annotation-3c72afaf313cf3de87d1d31b428014c111a094ff73da0224069cd245168e16f3"
+          ],
+          "annotations_sha256": "adaf91f609829932760f421255b8ad0967206bf5743bd77632a3426d0b228f9b",
+          "blocking_reasons": [],
+          "host_policy": {
+            "analysis_version": "header-source-analysis-1.0.1",
+            "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+            "version": "header-support-policy-1.0.0"
+          },
+          "outcome": "accepted",
+          "primary_attempt_id": "attempt-940ce458661f7520e44c5fd5f883c86191f35e8bfc8fbbb5f28da926c8e5bb05",
+          "primary_completion_sha256": "b81221dde9faed1864a9e9cfe08ebfbe86888e0a2d2f4db66185fa799062a653",
+          "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+          "query_sha256": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+          "selection": {
+            "name": "total",
+            "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+            "transform": "mask_body_amounts_v1"
+          },
+          "source_gate": "eligible",
+          "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+          "version": "semantic-provenance-1.1.0"
+        }
+      },
+      "roles": {
+        "primary": {
+          "attempt_id": "attempt-940ce458661f7520e44c5fd5f883c86191f35e8bfc8fbbb5f28da926c8e5bb05",
+          "availability": "ok",
+          "candidate_diagnostic_only": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "completion_replay_calls": 0,
+          "cost": "0.0001",
+          "exact_reviewed_contributors_and_state": true,
+          "finish_reason": "stop",
+          "historical_transport_invocations": 1,
+          "host_accepted": true,
+          "host_diagnostic": null,
+          "host_state": "accepted",
+          "required_source_support_present": true,
+          "schema_valid": true,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "success": true
+        },
+        "research": {
+          "attempt_id": "attempt-37b01c037bdc3555e425af448a2664bee6fd4782f49e7b25a7b5767730edc957",
+          "availability": "ok",
+          "candidate_diagnostic_only": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "completion_replay_calls": 0,
+          "cost": "0.0001",
+          "exact_reviewed_contributors_and_state": true,
+          "finish_reason": "stop",
+          "historical_transport_invocations": 1,
+          "host_accepted": true,
+          "host_diagnostic": null,
+          "host_state": "accepted",
+          "required_source_support_present": true,
+          "schema_valid": true,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "success": true
+        }
+      }
+    },
+    {
+      "name": "period_groups",
+      "primary_persistence": {
+        "annotation_count": 1,
+        "annotations_sha256": "49f47b86274247fb57a65ac0ce3d14752a59057e5dce9650efc2462b4642aaef",
+        "available": true,
+        "provenance": {
+          "annotation_ids": [
+            "annotation-6fdc36e8c38746139b0df772fab76bc2300723e75932346d8040fcb5e0806771"
+          ],
+          "annotations_sha256": "49f47b86274247fb57a65ac0ce3d14752a59057e5dce9650efc2462b4642aaef",
+          "blocking_reasons": [],
+          "host_policy": {
+            "analysis_version": "header-source-analysis-1.0.1",
+            "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+            "version": "header-support-policy-1.0.0"
+          },
+          "outcome": "accepted",
+          "primary_attempt_id": "attempt-350f065a8cb47df5b7f1456e244f4eedb385878b3cbd461ce8bd4cf7e60db763",
+          "primary_completion_sha256": "2d6fc2c74d95fd604836c56360ed2ca76e099e6151ea81bb06a3fd8dc8ba4341",
+          "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+          "query_sha256": "ee5d0da1ee0ec12209122441b8e087e9ed56baf444ecab442833c4f160aa539c",
+          "selection": {
+            "name": "period_groups",
+            "table_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+            "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+            "transform": "mask_body_amounts_v1"
+          },
+          "source_gate": "eligible",
+          "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+          "version": "semantic-provenance-1.1.0"
+        }
+      },
+      "roles": {
+        "primary": {
+          "attempt_id": "attempt-350f065a8cb47df5b7f1456e244f4eedb385878b3cbd461ce8bd4cf7e60db763",
+          "availability": "ok",
+          "candidate_diagnostic_only": {
+            "contributor_ids": [
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+              "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+            ],
+            "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+          },
+          "completion_replay_calls": 0,
+          "cost": "0.0001",
+          "exact_reviewed_contributors_and_state": true,
+          "finish_reason": "stop",
+          "historical_transport_invocations": 1,
+          "host_accepted": true,
+          "host_diagnostic": null,
+          "host_state": "accepted",
+          "required_source_support_present": true,
+          "schema_valid": true,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "success": true
+        },
+        "research": {
+          "attempt_id": "attempt-9be3bcb8eaeebce044a8166cffaeaaa70ed25db9aadfcd25fbf468555ce451e4",
+          "availability": "ok",
+          "candidate_diagnostic_only": {
+            "contributor_ids": [
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+              "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+            ],
+            "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+          },
+          "completion_replay_calls": 0,
+          "cost": "0.0001",
+          "exact_reviewed_contributors_and_state": true,
+          "finish_reason": "stop",
+          "historical_transport_invocations": 1,
+          "host_accepted": true,
+          "host_diagnostic": null,
+          "host_state": "accepted",
+          "required_source_support_present": true,
+          "schema_valid": true,
+          "served": {
+            "id": "AUTHORED-DIAGNOSTIC-NOT-MODEL",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "success": true
+        }
+      }
+    }
+  ],
+  "version": "confirmation-evaluator-1.0.0"
+}

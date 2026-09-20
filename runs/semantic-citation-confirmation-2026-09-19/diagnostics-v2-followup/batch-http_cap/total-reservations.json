@@ -1,0 +1,10 @@
+{
+  "primary": {
+    "reason": null,
+    "reserved_cost_usd": "0.444710"
+  },
+  "research": {
+    "reason": "budget_exhausted",
+    "reserved_cost_usd": "0"
+  }
+}

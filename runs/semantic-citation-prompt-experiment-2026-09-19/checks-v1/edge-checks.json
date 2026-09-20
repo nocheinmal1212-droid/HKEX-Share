@@ -1,0 +1,88 @@
+[
+  {
+    "check": "only_prompt_and_operation_identity_differ",
+    "pass": true,
+    "reservation_usd": "14.710160",
+    "unique_attempts": 16
+  },
+  {
+    "check": "unit_plus_lease",
+    "contributors_cited": true,
+    "exact_contributors": false,
+    "groups_cited": true,
+    "host_accepted": true,
+    "state": true,
+    "state_list_consistent": true,
+    "success": false,
+    "target": true,
+    "target_cited": true
+  },
+  {
+    "check": "all_four_originals_still_rejected",
+    "pass": true
+  },
+  {
+    "check": "between_metadata",
+    "mock_metadata_invocations": [
+      "primary"
+    ],
+    "real_http_calls": 0,
+    "slots": []
+  },
+  {
+    "check": "between_slots",
+    "mock_metadata_invocations": [
+      "primary",
+      "research"
+    ],
+    "real_http_calls": 0,
+    "slots": [
+      [
+        "A",
+        "total"
+      ]
+    ]
+  },
+  {
+    "check": "full_budget",
+    "mock_metadata_invocations": [
+      "primary",
+      "research"
+    ],
+    "real_http_calls": 0,
+    "slots": [
+      [
+        "A",
+        "total"
+      ],
+      [
+        "B",
+        "total"
+      ],
+      [
+        "D",
+        "total"
+      ],
+      [
+        "C",
+        "total"
+      ],
+      [
+        "C",
+        "period_groups"
+      ],
+      [
+        "D",
+        "period_groups"
+      ],
+      [
+        "B",
+        "period_groups"
+      ],
+      [
+        "A",
+        "period_groups"
+      ]
+    ]
+  }
+]

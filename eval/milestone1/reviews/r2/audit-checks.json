@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-10",
+  "review_status": "pending",
+  "checks": [
+    {"command": "make evidence-check", "phase": "before correction", "status": "passed", "tests": 19},
+    {"command": "make -C tools/eval-format-tools PYTHON=.venv/bin/python check", "phase": "audit verification", "status": "passed", "tests": 26, "historical_record_instances": 192, "distinct_injections": 48},
+    {"command": "make evidence-local-check", "phase": "audit verification", "status": "passed", "independent_variants": 2, "pages_per_variant": 228, "tables_per_variant": 132, "cells_per_variant": 6415, "checks": ["literal_pointer_inventory", "byte_identical_repeat_ingestion", "guarded_ir_only_replay", "forbidden_access_probes"]},
+    {"command": "make evidence-check", "phase": "after correction", "status": "passed", "tests": 25, "added_packet_tests": 6, "output": "audit-test-output.txt"}
+  ],
+  "existing_images": {"hashes_verified": 18, "full_pages_visually_inspected": 8, "physical_pages_per_variant": [159, 179, 180, 185], "new_rendering": false},
+  "installed_wheel_replay": {"status": "historical_record_inspected_not_rerun", "record": "runs/milestone1-r1/installed-wheel-replay/run.json"},
+  "not_performed": ["runtime_implementation_reaudit", "dependency_licensing_reaudit", "raw_pdf_read", "raw_injector_read", "ocr", "model_call", "detector_execution", "scoring"],
+  "publication_status": "UNGATED"
+}

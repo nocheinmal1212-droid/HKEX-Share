@@ -1,0 +1,36 @@
+{
+  "primary": {
+    "allow_fallbacks": false,
+    "deadline_seconds": 60,
+    "max_price": {
+      "completion": 20,
+      "prompt": 5,
+      "request": 0
+    },
+    "max_tokens": 4096,
+    "model": "google/gemini-3.8-flash",
+    "reasoning": "native_default",
+    "require_parameters": true,
+    "role": "primary",
+    "route": "google-ai-studio",
+    "served_provider": "Google AI Studio",
+    "temperature": 0
+  },
+  "research": {
+    "allow_fallbacks": false,
+    "deadline_seconds": 60,
+    "max_price": {
+      "completion": 20,
+      "prompt": 5,
+      "request": 0
+    },
+    "max_tokens": 4096,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "reasoning": "native_default",
+    "require_parameters": true,
+    "role": "research",
+    "route": "together",
+    "served_provider": "Together",
+    "temperature": 0
+  }
+}

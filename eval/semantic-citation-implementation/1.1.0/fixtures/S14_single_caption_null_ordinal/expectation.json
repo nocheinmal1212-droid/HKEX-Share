@@ -1,0 +1,36 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [],
+  "case_id": "S14_single_caption_null_ordinal",
+  "eligibility": "eligible",
+  "independent_contributor_expectation": [
+    "cell-6b70979e956003d32c0bc2017ee8fbe2bc48f05adffe02ad6af231ae419098de",
+    "cell-7853dd53e6d4faa654bc2fa4948966c7db839b748bcd17f7d8143f28a718bcc8"
+  ],
+  "input_sha256": "65e3990e34f2d93c35bb6a5c6f828d85d342aa197e8d036e4e0bb7a8a6a4b33a",
+  "optional_support": [],
+  "reason": "One literal caption occurrence matches the whole approved form. Null ordinal is immaterial because no cross-node ordering is required.",
+  "required_support": [
+    "cell-078f0f99323444291c3eed8049d28c677dd003afb2748c2246d5d4f94ff44851",
+    "cell-6b70979e956003d32c0bc2017ee8fbe2bc48f05adffe02ad6af231ae419098de",
+    "cell-7853dd53e6d4faa654bc2fa4948966c7db839b748bcd17f7d8143f28a718bcc8",
+    "cell-2b518478ab05a71a3ea9781e07ee82437e4f96fb4ff0339635294e5d05cfe975"
+  ],
+  "summary_relationships": [
+    {
+      "component_ids": [
+        "cell-2459c6ed05db2ac5193e170ee398b48e9a8f18f1891623358b6a77c5b649f7ae",
+        "cell-7f1d297f4afa506231d5e74dd742fc37385080dfb54f3f745fed63fb198eb323"
+      ],
+      "group_id": "cell-2b518478ab05a71a3ea9781e07ee82437e4f96fb4ff0339635294e5d05cfe975",
+      "rule_id": "contract_revenue_recognition_timing",
+      "subtotal_id": "cell-6b70979e956003d32c0bc2017ee8fbe2bc48f05adffe02ad6af231ae419098de",
+      "support_refs": [
+        "cell-2459c6ed05db2ac5193e170ee398b48e9a8f18f1891623358b6a77c5b649f7ae",
+        "cell-2b518478ab05a71a3ea9781e07ee82437e4f96fb4ff0339635294e5d05cfe975",
+        "cell-6b70979e956003d32c0bc2017ee8fbe2bc48f05adffe02ad6af231ae419098de",
+        "cell-7f1d297f4afa506231d5e74dd742fc37385080dfb54f3f745fed63fb198eb323"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "result": {
+    "arm": "A",
+    "denominator_per_role": 2,
+    "model_calls": 0,
+    "primary_complete_successes": 2,
+    "research_successes": 2,
+    "results": [
+      {
+        "case": "total",
+        "complete_primary_success": true,
+        "primary_persistence_available": true,
+        "roles": {
+          "primary": {
+            "availability": "ok",
+            "contributors_cited": true,
+            "cost": null,
+            "exact_contributors": true,
+            "finish_reason": "stop",
+            "groups_cited": true,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "accepted",
+            "replay_calls": 0,
+            "schema_valid": true,
+            "served": {
+              "id": "AUTHORED-OFFLINE",
+              "model": "google/gemini-3.8-flash",
+              "provider": "Google AI Studio"
+            },
+            "state": true,
+            "state_list_consistent": true,
+            "success": true,
+            "target": true,
+            "target_cited": true,
+            "usage": null
+          },
+          "research": {
+            "availability": "ok",
+            "contributors_cited": true,
+            "cost": null,
+            "exact_contributors": true,
+            "finish_reason": "stop",
+            "groups_cited": true,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "accepted",
+            "replay_calls": 0,
+            "schema_valid": true,
+            "served": {
+              "id": "AUTHORED-OFFLINE",
+              "model": "deepseek/deepseek-v4.1-flash",
+              "provider": "Together"
+            },
+            "state": true,
+            "state_list_consistent": true,
+            "success": true,
+            "target": true,
+            "target_cited": true,
+            "usage": null
+          }
+        }
+      },
+      {
+        "case": "period_groups",
+        "complete_primary_success": true,
+        "primary_persistence_available": true,
+        "roles": {
+          "primary": {
+            "availability": "ok",
+            "contributors_cited": true,
+            "cost": null,
+            "exact_contributors": true,
+            "finish_reason": "stop",
+            "groups_cited": true,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "accepted",
+            "replay_calls": 0,
+            "schema_valid": true,
+            "served": {
+              "id": "AUTHORED-OFFLINE",
+              "model": "google/gemini-3.8-flash",
+              "provider": "Google AI Studio"
+            },
+            "state": true,
+            "state_list_consistent": true,
+            "success": true,
+            "target": true,
+            "target_cited": true,
+            "usage": null
+          },
+          "research": {
+            "availability": "ok",
+            "contributors_cited": true,
+            "cost": null,
+            "exact_contributors": true,
+            "finish_reason": "stop",
+            "groups_cited": true,
+            "historical_transport_invocations": 1,
+            "host_diagnostic": null,
+            "host_state": "accepted",
+            "replay_calls": 0,
+            "schema_valid": true,
+            "served": {
+              "id": "AUTHORED-OFFLINE",
+              "model": "deepseek/deepseek-v4.1-flash",
+              "provider": "Together"
+            },
+            "state": true,
+            "state_list_consistent": true,
+            "success": true,
+            "target": true,
+            "target_cited": true,
+            "usage": null
+          }
+        }
+      }
+    ]
+  },
+  "two_reads_equal": true,
+  "writer_artifacts_unchanged": {
+    "operational/period_groups/annotations.json": "ebb4d1e4b5e85700e420730fff7fd5e85634e80561c6129b3c950d06e7609541",
+    "operational/period_groups/consumption.json": "e42e47a24d3f3a4d4b03c0bcf5d69b995dfa1616e28b0105ddfc4846e66d4fdf",
+    "operational/period_groups/provenance.json": "dcf6ec4634a28f3052e486a43d83683a66035120f1b7bb3f98d13a66e8307751",
+    "operational/total/annotations.json": "e9077e5a59bd7d8210e171ad410de87835baa0fc9864adbe704815d77eb87e64",
+    "operational/total/consumption.json": "62cd8fcf217274006b5bd55246e63a9b1a090c6a7aa9af430e50ec186fb7f38c",
+    "operational/total/provenance.json": "db8e7c36447080154fe77333d56f64291e04243e171ac59171f403e7bcd6144f",
+    "period_groups-reservations.json": "aeb8794fc5cd9ebbd970781fd85b90ecfa768231957076b68744f439e1c72191",
+    "period_groups-summary.json": "cb0507db7b19e078d529e9f42c8a8dc51e6e051fa0e192ad4b48831cc61e073a",
+    "primary/period_groups/completion.json": "fba6f1748d4540baec133697abff215afb6ef6f3ec67dcfbcadc0981ba007432",
+    "primary/period_groups/query.json": "ee5d0da1ee0ec12209122441b8e087e9ed56baf444ecab442833c4f160aa539c",
+    "primary/period_groups/request.json": "fc081b08018b4a083db85be15cebbd7611fec32150b1cda8451c308419cbe808",
+    "primary/period_groups/response.json": "84ae707a395a5289aa7c3e49cf86bdfd134ee431c5fef2ec7866fc573fb92192",
+    "primary/period_groups/result.json": "a714c7646b693c99030965b8a5a6559d9ac00b846f1318c709ddec3f21e34cc5",
+    "primary/period_groups/started.json": "2ec7821bd2b6507a57bad903f7fd972e89a4efbecce34baff47b48372cad581b",
+    "primary/period_groups/transport-launch.json": "9d2782be725b468791e1d5f623788f2cf99e8578f828f8a7be0026a8a7063063",
+    "primary/period_groups/transport-return.json": "84ae707a395a5289aa7c3e49cf86bdfd134ee431c5fef2ec7866fc573fb92192",
+    "primary/total/completion.json": "897ed48b15e427da3efc71e08cdf7a97fb8be794ffcbfdb05ee1bed7b2b0d90c",
+    "primary/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "primary/total/request.json": "54fed09e564c6fb01fab4eb708d5486dab94a5f1d2f9616d74011c0563236b3b",
+    "primary/total/response.json": "3bd9853d39cb4530781139d885804677a3fe05ecd22d12089e434bda70391d0e",
+    "primary/total/result.json": "f371aa9ed0a12297002d1d8e14bade80d7d3b1d106da817f15e7e9dc282c6848",
+    "primary/total/started.json": "b32cf1fa2d8134f66f8488e1550db5e4603d4fb66375a4d27b89d474f63a9dfd",
+    "primary/total/transport-launch.json": "9d2782be725b468791e1d5f623788f2cf99e8578f828f8a7be0026a8a7063063",
+    "primary/total/transport-return.json": "3bd9853d39cb4530781139d885804677a3fe05ecd22d12089e434bda70391d0e",
+    "research/period_groups/completion.json": "567ba70d3884cc4b16ac7116c65b173f56c1991c87022a7c0066f509ee560e67",
+    "research/period_groups/query.json": "ee5d0da1ee0ec12209122441b8e087e9ed56baf444ecab442833c4f160aa539c",
+    "research/period_groups/request.json": "a97a9d3ff7189b7a605bbb635e1bd43a603473b8067c6347e7bd5f5422091bbc",
+    "research/period_groups/response.json": "240a89b23d6e938e306904f5131af35b9a027b643c5b4a0148bfe6270ba1a6cb",
+    "research/period_groups/result.json": "060626c6031631287db7acec902056c31b6f94ee99f7f6871d8c47972b9841e5",
+    "research/period_groups/started.json": "448e51476543956db698a4e1bef660927526d3c21087be1ad67c2ec189c8b39e",
+    "research/period_groups/transport-launch.json": "499e8bce746a531838020d95aff5184b4a33c6b1909f74de274d01394f0a2131",
+    "research/period_groups/transport-return.json": "240a89b23d6e938e306904f5131af35b9a027b643c5b4a0148bfe6270ba1a6cb",
+    "research/total/completion.json": "47bec6d3881746b3113339be93cdf4157f0e63e7ad2663a00cc3a1423b7e94f1",
+    "research/total/query.json": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+    "research/total/request.json": "e08776844a6c6335ced466d9cc0dc8996d090efbd110aa5c76a5f65643af4908",
+    "research/total/response.json": "5c9d34aaee75452512349eedd9b4abe39d141a85448efeac09c1166cc74988e2",
+    "research/total/result.json": "584dffa946d4d1d2a476984a203fc7a9e975f9c6982b30fe273a5f040cbd7ada",
+    "research/total/started.json": "1d02af83225ae22bd3dbc6f260673467d09f8c32a7a23431702cb6bdcad7c4df",
+    "research/total/transport-launch.json": "499e8bce746a531838020d95aff5184b4a33c6b1909f74de274d01394f0a2131",
+    "research/total/transport-return.json": "5c9d34aaee75452512349eedd9b4abe39d141a85448efeac09c1166cc74988e2",
+    "total-reservations.json": "487c8793500912df8ba93690e311620bd310c3ce2c1cbb5d4ef964e00e0a7da2",
+    "total-summary.json": "ef15f037d780f17aaf9c13f050ade81a36518683b4bf2a96a890bde9e5c63f00"
+  }
+}

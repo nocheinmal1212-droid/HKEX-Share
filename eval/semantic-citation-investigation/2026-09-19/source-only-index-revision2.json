@@ -1,0 +1,9 @@
+{
+  "adds_to": "source-only-index.json",
+  "evidence": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/evidence.json",
+  "fixture": "G4_revision2",
+  "manifest": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/manifest.json",
+  "source": "eval/semantic-citation-investigation/2026-09-19/sources/G4_revision2/source.json",
+  "supersedes_for_conflict_case": "G4; original source preserved, not freeze-ready",
+  "target_id": "cell-66f0da93c89792fdbb1811174a533a4e9122ed06d593001c5d70c654d98c7bfe"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "s12_conflicting_nested_periods",
+  "table_id": "table-b8adf93dbaf912745fdd914407ea16a372f8824414f2fd0e0f21c9d00a4dcb19",
+  "target_id": "cell-a64df07a493653cf0beb64bd87ce56e14ed8392b7b67fb6ae05a97b7851f2512",
+  "transform": "mask_body_amounts_v1"
+}

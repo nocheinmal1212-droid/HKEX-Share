@@ -1,0 +1,8 @@
+{
+  "authored": true,
+  "issued_http_calls": "unknown_until_return",
+  "maximum_http_calls": 1,
+  "mode": "completion",
+  "role": "primary",
+  "state": "launch_intent"
+}

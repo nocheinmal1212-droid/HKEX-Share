@@ -1,0 +1,86 @@
+[
+  {
+    "case": "total",
+    "completion_marker_replay": "valid rejection, zero calls",
+    "completion_tokens": 3504,
+    "finish_reason": "stop",
+    "max_tokens": 4096,
+    "native_finish_reason": "STOP",
+    "raw_message_fields": [
+      "role",
+      "content",
+      "refusal",
+      "reasoning",
+      "reasoning_details"
+    ],
+    "reasoning_tokens": 3354,
+    "response_return_equals_persisted": true,
+    "role": "primary",
+    "saved_request_equals_approved_and_reconstructed": true,
+    "served_model": "google/gemini-3.8-flash",
+    "served_provider": "Google AI Studio"
+  },
+  {
+    "case": "total",
+    "completion_marker_replay": "valid rejection, zero calls",
+    "completion_tokens": 4037,
+    "finish_reason": "stop",
+    "max_tokens": 4096,
+    "native_finish_reason": "stop",
+    "raw_message_fields": [
+      "role",
+      "content",
+      "refusal",
+      "reasoning",
+      "reasoning_details"
+    ],
+    "reasoning_tokens": 3831,
+    "response_return_equals_persisted": true,
+    "role": "research",
+    "saved_request_equals_approved_and_reconstructed": true,
+    "served_model": "deepseek/deepseek-v4.1-flash",
+    "served_provider": "Together"
+  },
+  {
+    "case": "period_groups",
+    "completion_marker_replay": "valid rejection, zero calls",
+    "completion_tokens": 1662,
+    "finish_reason": "stop",
+    "max_tokens": 4096,
+    "native_finish_reason": "STOP",
+    "raw_message_fields": [
+      "role",
+      "content",
+      "refusal",
+      "reasoning",
+      "reasoning_details"
+    ],
+    "reasoning_tokens": 1478,
+    "response_return_equals_persisted": true,
+    "role": "primary",
+    "saved_request_equals_approved_and_reconstructed": true,
+    "served_model": "google/gemini-3.8-flash",
+    "served_provider": "Google AI Studio"
+  },
+  {
+    "case": "period_groups",
+    "completion_marker_replay": "valid rejection, zero calls",
+    "completion_tokens": 2145,
+    "finish_reason": "stop",
+    "max_tokens": 4096,
+    "native_finish_reason": "stop",
+    "raw_message_fields": [
+      "role",
+      "content",
+      "refusal",
+      "reasoning",
+      "reasoning_details"
+    ],
+    "reasoning_tokens": 1894,
+    "response_return_equals_persisted": true,
+    "role": "research",
+    "saved_request_equals_approved_and_reconstructed": true,
+    "served_model": "deepseek/deepseek-v4.1-flash",
+    "served_provider": "Together"
+  }
+]

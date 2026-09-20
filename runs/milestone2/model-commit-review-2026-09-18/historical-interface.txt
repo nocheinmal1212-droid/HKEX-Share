@@ -1,0 +1,109 @@
+{
+  "both_pass_paired_medians": {
+    "pro": {
+      "completion_tokens": 30.0,
+      "latency": 0.5327405000000001,
+      "prompt_tokens": -65.0
+    },
+    "v41": {
+      "completion_tokens": 9.0,
+      "latency": 0.162925,
+      "prompt_tokens": -65.0
+    }
+  },
+  "counts": {
+    "flash/B0_existing_explicit": {
+      "http_error": 30
+    },
+    "flash/B1_concise_equivalent": {
+      "http_error": 30
+    },
+    "pro/B0_existing_explicit": {
+      "passed": 30
+    },
+    "pro/B1_concise_equivalent": {
+      "passed": 26,
+      "truncated": 2,
+      "unexpected_abstention": 2
+    },
+    "v41/B0_existing_explicit": {
+      "passed": 30
+    },
+    "v41/B1_concise_equivalent": {
+      "passed": 30
+    }
+  },
+  "exact_saved_evaluation_replay": {
+    "2026-09-15": true,
+    "2026-09-16": true
+  },
+  "handoff_links_exist": 55,
+  "hash_checks_skipped": [
+    "runs/milestone2/interface-boundaries-2026-09-16/sentinels/corpus.pdf"
+  ],
+  "historical_deepseek_missing_target": {
+    "failure_to_abstain": 5,
+    "http_error": 3,
+    "passed": 13,
+    "timeout": 2,
+    "truncated": 1
+  },
+  "historical_glm_explicit_typed_mapping": {
+    "model_calls": 0,
+    "model_output": null,
+    "reason": "target_missing",
+    "stage": "precondition",
+    "state": "abstained"
+  },
+  "integration_limit_probes": {
+    "text_above_existing_context_budget": {
+      "reason": "preconditions_met",
+      "stage": "precondition",
+      "state": "eligible"
+    },
+    "transport_timeout": {
+      "calls": 1,
+      "exception_propagates": true
+    }
+  },
+  "nonservice_failures": [
+    {
+      "case": "C06_target_disambiguates_two_totals",
+      "id": "call-032",
+      "status": "truncated"
+    },
+    {
+      "case": "C05_target_non_total_with_total_distractor",
+      "id": "call-085",
+      "status": "truncated"
+    },
+    {
+      "case": "C06_target_disambiguates_two_totals",
+      "completion_tokens": 121,
+      "id": "call-091",
+      "output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "status": "unexpected_abstention"
+    },
+    {
+      "case": "C06_target_disambiguates_two_totals",
+      "completion_tokens": 121,
+      "id": "call-152",
+      "output": {
+        "action": "abstain",
+        "evidence_id": null,
+        "role": null
+      },
+      "status": "unexpected_abstention"
+    }
+  ],
+  "prompt_only_pairs": 90,
+  "raw_attempts_independently_graded": 180,
+  "reviewed_lexical_expectations": 10,
+  "saved_isolation_denials_checked": 20,
+  "scope": "Offline review only; no model calls, corpus reads, production integration or fresh OS isolation attestation.",
+  "verified_recorded_file_hashes": 388
+}

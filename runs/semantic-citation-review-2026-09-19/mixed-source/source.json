@@ -1,0 +1,52 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "discarded_blocks": [],
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "blocks": [
+            {
+              "html": "<table><tr><td rowspan=\"2\">港幣百萬元</td><td colspan=\"3\">來自與客戶合約之收入(HKFRS 15)</td><td rowspan=\"2\">租賃(HKFRS 16)</td><td rowspan=\"2\">總額</td></tr><tr><td>於某一時點確認收入</td><td>隨時間逐步確認收入</td><td>合計</td></tr><tr><td>收入</td><td>17</td><td>3</td><td>20</td><td>4</td><td>24</td></tr></table>",
+              "type": "table_body"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "blocks": [
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "html": "<table><tr><td colspan=\"2\">銷售額（港幣百萬元）</td><td colspan=\"2\">銷售量（千件）</td><td></td></tr><tr><td>產品甲</td><td>產品乙</td><td>產品甲</td><td>產品乙</td><td>合計</td></tr></table>",
+                      "type": "table"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_body"
+            },
+            {
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "content": "合計僅包含與其同一計量口徑的產品甲及產品乙；計量口徑見表頭。",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "type": "table_footnote"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    }
+  ]
+}

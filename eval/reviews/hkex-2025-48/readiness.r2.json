@@ -1,0 +1,124 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "recorded_at": "2026-09-09T07:34:19.329675Z",
+  "owner": "Project user (interim intake and review owner)",
+  "source_manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "current_records": "eval/records/hkex-2025-48/corrupted.r2.jsonl",
+  "current_locations": "eval/locations/hkex-2025-48.r2.json",
+  "current_splits": "eval/splits/hkex-2025-48.r2.json",
+  "items": [
+    {
+      "id": "development_review",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Review four packet cases: containers, paired endpoints, context, rounding and propagation; supply corrections/approval before any ready promotion."
+    },
+    {
+      "id": "remaining_records",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Retain the remaining 44 records as pending; prioritize source/native mappings and relation completeness when expanding coverage."
+    },
+    {
+      "id": "extractor_identity",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Obtain exact MinerU source commit/package, VLM checkpoint and serving backend, complete settings for both exports and any injector-induced differences."
+    },
+    {
+      "id": "extractor_licensing",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Published MinerU 3.2.2 wheel license and declared dependency sets inspected (see mineru-package-review.json). Determine commercial-condition applicability and inspect actual weights/backend/transitive closure before engine deployment."
+    },
+    {
+      "id": "semantic_endpoint",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Provide intended endpoint/model configuration and execute a bounded capability/identity probe on synthetic text before semantic integration. No credentials inspected or model calls made here."
+    },
+    {
+      "id": "alert_budget",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Set dated allowed raw alerts per 100 pages based on reviewer capacity before observing scored alert counts."
+    },
+    {
+      "id": "runtime_budget",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Set dated full-document runtime budget in seconds and execution environment before scored runs."
+    },
+    {
+      "id": "negative_fixtures",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Review the small benign fixture plan and label balanced artifact-control cases before artifact-only baseline claims."
+    },
+    {
+      "id": "runtime_isolation",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Extend current Python consumer probes to actual extractor/native I/O, prompts and detector modules as they land."
+    },
+    {
+      "id": "publication_gates",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Ready selected records, frozen runtime/config, invariance and complete clean-run gates are not implemented or satisfied."
+    },
+    {
+      "id": "independent_holdout",
+      "status": "limitation",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Frozen bundle is one development group. No test records or independent bootstrap clusters exist. Acquire fresh independently grouped evidence for a holdout or cluster uncertainty claim."
+    }
+  ],
+  "budgets": {
+    "ALERT_BUDGET": null,
+    "RUNTIME_BUDGET": null,
+    "fixed_at": null,
+    "alert_unit": "raw alerts per 100 pages",
+    "runtime_unit": "seconds per complete document"
+  },
+  "evaluation_configuration": {
+    "split_salt": "hkex-intake-v2-001",
+    "bootstrap_seed": 0,
+    "bootstrap_resamples": 10000,
+    "n_split_groups": 1,
+    "dev_records": 48,
+    "test_records": 0,
+    "confidence_interval": null,
+    "confidence_interval_reason": "insufficient_clusters"
+  },
+  "modes": {
+    "fixture": "Only diagnostic proposals; owner review pending.",
+    "frozen_ir": "Native exports inventoried; downstream IR/adapter not yet implemented.",
+    "pdf_end_to_end": "Blocked: extraction settings/checkpoint equivalence and actual downstream pipeline unverified."
+  },
+  "semantic_model": {
+    "designated_model": "DeepSeek-V4-Flash",
+    "documented_endpoint": "https://api.deepseek.com",
+    "documented_request_alias": "deepseek-v4-flash",
+    "documented_alias_target": "DeepSeek-V4-Flash-0731",
+    "observed_response_model": null,
+    "observed_revision": null,
+    "capability_probe": null,
+    "limitations": [
+      "No project endpoint was configured or called.",
+      "Public documentation describes compatible APIs and JSON-object output, not verified project behavior or pinned revision.",
+      "JSON output can be empty or truncated; model outputs still need schema/ID validation.",
+      "Internal hosting behavior and serving dependencies remain unmeasured."
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/",
+      "https://api-docs.deepseek.com/guides/json_mode/"
+    ]
+  },
+  "publication_status": "UNGATED",
+  "headline": null,
+  "milestone_0_status": "tooling_implemented_owner_review_pending",
+  "predecessor_sha256": "0bc2e97dcf04568f5fa73022af7a3f021dfa5d90858365ce82148fda92f0872c",
+  "revision_reason": "Added inspection of exact published MinerU 3.2.2 wheel; actual export build, weights and backend remain unknown."
+}

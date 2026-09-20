@@ -1,0 +1,490 @@
+{
+  "evaluator_only": true,
+  "migration": "Same-agent, post-exposure migration of existing source-only judgments to operation 1.1; no new independent/blind/domain approval. Common display units are optional by operation scope, never because of old pass counts.",
+  "model_results": false,
+  "queries": [
+    {
+      "expected_contributor_header_ids": [
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+      ],
+      "expected_status": "selected",
+      "name": "total",
+      "optional_support_ids": [
+        "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+        "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+        "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+      ],
+      "optional_support_reasons": [
+        {
+          "id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        },
+        {
+          "id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        },
+        {
+          "id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "reason": "Optional corroboration of the hierarchy or candidate branch; not part of the minimal required citation set."
+        }
+      ],
+      "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+      "required_support_ids": [
+        "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+        "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+        "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+        "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+      ],
+      "required_support_reasons": [
+        {
+          "id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "reason": "Defines the selected subtotal’s contributor-side hierarchy and semantic scope. Required even when the overall target is outside this group’s span; context is not limited to target ancestors."
+        }
+      ],
+      "review_rationale_verbatim": "The literal HKFRS 15 revenue group spans the point-in-time, over-time and subtotal headers. Its 合計 is the immediate aggregate contributor alongside 租賃(HKFRS 16) to 總額. Selecting both the subtotal and its descendants would double count the hierarchy. 港幣百萬元 is a common display unit; it neither defines these categories nor distinguishes their membership, so it is optional for this operation. The two descendant headers are optional corroboration if explicitly used to explain the subtotal. Body-only numerical changes cannot change this header relationship.",
+      "source_citations": [
+        {
+          "column": 5,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 129,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 127
+            }
+          ],
+          "literal_text": "總額",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 0,
+          "row_span": 2,
+          "source_span": {
+            "end": 134,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 111
+          }
+        },
+        {
+          "column": 3,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 185,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 183
+            }
+          ],
+          "literal_text": "合計",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 190,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 179
+          }
+        },
+        {
+          "column": 4,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 106,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 94
+            }
+          ],
+          "literal_text": "租賃(HKFRS 16)",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 0,
+          "row_span": 2,
+          "source_span": {
+            "end": 111,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 78
+          }
+        },
+        {
+          "column": 1,
+          "column_span": 3,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 73,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 53
+            }
+          ],
+          "literal_text": "來自與客戶合約之收入(HKFRS 15)",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 0,
+          "row_span": 1,
+          "source_span": {
+            "end": 78,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 37
+          }
+        },
+        {
+          "column": 0,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 32,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 27
+            }
+          ],
+          "literal_text": "港幣百萬元",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-b52c32ff495ebd5add32f9e2f6d31a1a4625de8f528e78aa3985617119514bfa",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 0,
+          "row_span": 2,
+          "source_span": {
+            "end": 37,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 11
+          }
+        },
+        {
+          "column": 1,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 156,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 147
+            }
+          ],
+          "literal_text": "於某一時點確認收入",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 161,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 143
+          }
+        },
+        {
+          "column": 2,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 174,
+              "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+              "start": 165
+            }
+          ],
+          "literal_text": "隨時間逐步確認收入",
+          "native_pointer": "/pdf_info/178/preproc_blocks/2/blocks/1/lines/0/spans/0/html",
+          "node_id": "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c",
+          "page_index": 178,
+          "parent_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 179,
+            "source_id": "source-7014104eb27d9c1ca49fbe3832c51d9fe189e5b1307dac0418a116b3ff3b1486",
+            "start": 161
+          }
+        }
+      ],
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+    },
+    {
+      "expected_contributor_header_ids": [
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+      ],
+      "expected_status": "selected",
+      "name": "period_groups",
+      "optional_support_ids": [
+        "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+        "cell-c8213a30675bbe3fbb82fefa41410f7aa174a101bccdf532687d81ddd160bffc"
+      ],
+      "optional_support_reasons": [
+        {
+          "id": "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        },
+        {
+          "id": "cell-c8213a30675bbe3fbb82fefa41410f7aa174a101bccdf532687d81ddd160bffc",
+          "reason": "Optional contextual corroboration; the required target group already establishes membership. A common unit does not disambiguate membership."
+        }
+      ],
+      "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+      "required_support_ids": [
+        "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+        "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+        "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+        "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+        "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+      ],
+      "required_support_reasons": [
+        {
+          "id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "reason": "Identifies the queried occurrence and its literal total/context label."
+        },
+        {
+          "id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "reason": "Identifies an immediate contributor occurrence; its label and recovered hierarchy support membership."
+        },
+        {
+          "id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "reason": "Distinguishes the target and selected occurrences from identically named comparative-period headers."
+        }
+      ],
+      "review_rationale_verbatim": "物業租賃, 酒店 and 物業銷售 under the 2025 spanning header contribute to that group’s 總額. The 2025 header is required to establish period membership among duplicated labels. The 2024 header is optional corroboration for exclusion (required if the submitted rationale actually relies on it). The common 港幣百萬元 label is optional because both period groups share it; it cannot disambiguate occurrences.",
+      "source_citations": [
+        {
+          "column": 4,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 139,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 137
+            }
+          ],
+          "literal_text": "總額",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 144,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 133
+          }
+        },
+        {
+          "column": 1,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 104,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 100
+            }
+          ],
+          "literal_text": "物業租賃",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 109,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 96
+          }
+        },
+        {
+          "column": 2,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 115,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 113
+            }
+          ],
+          "literal_text": "酒店",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 120,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 109
+          }
+        },
+        {
+          "column": 3,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 128,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 124
+            }
+          ],
+          "literal_text": "物業銷售",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 1,
+          "row_span": 1,
+          "source_span": {
+            "end": 133,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 120
+          }
+        },
+        {
+          "column": 1,
+          "column_span": 4,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 57,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 53
+            }
+          ],
+          "literal_text": "2025",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 0,
+          "row_span": 1,
+          "source_span": {
+            "end": 62,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 37
+          }
+        },
+        {
+          "column": 0,
+          "column_span": 1,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 32,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 27
+            }
+          ],
+          "literal_text": "港幣百萬元",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-86475b66755aa6e1fad2ed937c0f556b06f79b2a6176cecaf0271ff49b170ebb",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 0,
+          "row_span": 2,
+          "source_span": {
+            "end": 37,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 11
+          }
+        },
+        {
+          "column": 5,
+          "column_span": 4,
+          "content_state": "text",
+          "file": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+          "fragments": [
+            {
+              "encoding": "literal",
+              "end": 82,
+              "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+              "start": 78
+            }
+          ],
+          "literal_text": "2024",
+          "native_pointer": "/pdf_info/179/preproc_blocks/2/blocks/0/lines/0/spans/0/html",
+          "node_id": "cell-c8213a30675bbe3fbb82fefa41410f7aa174a101bccdf532687d81ddd160bffc",
+          "page_index": 179,
+          "parent_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "row": 0,
+          "row_span": 1,
+          "source_span": {
+            "end": 87,
+            "source_id": "source-47da1af5a5cb95107c117c2df22e2d8a08d178417283a15e82bcff846adc6b27",
+            "start": 62
+          }
+        }
+      ],
+      "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+    }
+  ],
+  "source_packet": "eval/semantic-integration/2026-09-18/source-review-packet.json",
+  "source_packet_sha256": "57a0ca40e2f19a3ec33564a2fdf549c39482d4031ca5df4283364c3190095b80",
+  "source_review": "eval/semantic-citation-investigation/2026-09-19/independent-source-review.json",
+  "source_review_sha256": "d094cd59178c5c1f38d4dc40932afe41cdfee67cb3e20629e606f20a8d08b11e",
+  "terminology": "In the total review rationale, descendants describes semantic summary components, not physical containment: 合計 and the two timing headers are siblings under the revenue group. The finite summary rule establishes their relationship.",
+  "version": "confirmation-conditional-citation-expectations-1.0.0"
+}

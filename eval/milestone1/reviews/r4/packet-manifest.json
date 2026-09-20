@@ -1,0 +1,33 @@
+{
+  "approval_fingerprint": "c17c4855a026deaec52e0c6bbf7b92a3b5ee0236856f928f8e621a0fb97f0bf4",
+  "content_fingerprint": "609ff1e8b402034b252d585ddb2ff152f6aa7163676ff145a262981ed884cb94",
+  "files": {
+    "fixtures/ambiguity.evidence.json": "d22373e9adf2bed233ee931de5009679cca181eedd1d67a6a48e725c4ab513cb",
+    "fixtures/ambiguity.native.json": "2a0f1ddd92cd86f17f2dfb09da43a04b26dbefe3ff87b986b6d3bbca2be2a244",
+    "fixtures/contexts.evidence.json": "83cbb954ff093270279bc422d633c69513a9ab0841111664cb365a7fd926bcae",
+    "fixtures/contexts.native.json": "416a5a7254eb61be5903b3f9a4c9cc539be446c9dbbd09858500ccdb3534433e",
+    "fixtures/negative-style.evidence.json": "3bbda7d91d6e973bb5612b670988e07e79b2336162d180d36da13c114b92e485",
+    "fixtures/negative-style.native.json": "19023dbec229ad111b4d087d3fcc2c2c0d3c152c64a268831d02a1ef18b34f96",
+    "fixtures/percentage.evidence.json": "a3d0f901373eb5469626107a44e01bb0ca465bed0b9ae1dff36cc355bb15bb90",
+    "fixtures/percentage.native.json": "6db36373648075cd16a0d6a9d28468fa7991ab83899c82bfce2925050dadd830",
+    "fixtures/reference.evidence.json": "55e1973ce8759dd3eb510d5915b7f61d9a4b480e8be8e96990694493155ab49e",
+    "fixtures/reference.native.json": "c76ef8df5b40e6e8cd9a71e649473b703843d68689f0fb861649764d3c524571",
+    "fixtures/rounding.evidence.json": "15823ed4343f6ddb0f332bd86b29c5a803bc16af5625403cd91a9d029d5702e5",
+    "fixtures/rounding.native.json": "f4db069f19546aef7af3aeb4caefd42c4e8038e7de4d193569d7bcf50c966e2f",
+    "index.html": "0d79d71b89cb2d8ed95547dbc3e53c3a2e4f4a4504afc38b6121cbd2e09c8a82",
+    "inputs/clean-selection.json": "98e0218bfa71c5880f524d5849bab47a118e02ffc696216c2c0594bad6963780",
+    "inputs/corrupted-selection.json": "0404cf93fbc4367c1b7453eea32dad43d316caf1dbb9a069646879fe45d51a11",
+    "inputs/fixture-proposals.json": "1d7d88dea7d7506ebc40c705f3cccca97277107e0c9636255e9a67131a30d50b",
+    "inputs/ready-development.json": "9904e9358267bf3a026efaa13e04ab1cb703db5d2e168685a7e521dc277a636a",
+    "inputs/review-guidance.json": "b2b79f6d2f92f47b367a77a7d3577d754d9a421124c82c643365c446a70a3a37",
+    "inputs/selection.json": "f338f0dc630e874068c3d6b96405b48a006a4558be9cb4bf413fda0d5f3d5ddd",
+    "inputs/verification.json": "ebce57b293ce975e2fd56a019f49ad9689ac08aa537d89af229db59f0cc9c009",
+    "review-guide.md": "825c81c2040240ae0e9f8dcbd2ef7fbd9385235c8c8a25002ce6ac2ef3ba2d51",
+    "review.json": "704a118ede771bd0386761daba4ba04527bd063c9c69647ce3ecc9630f765bc5",
+    "tooling/packet.py": "2c9f00184e2566ee270fcc793e2c95beda9e5e114289fccf340bbfcfb2a8b6bb",
+    "tooling/prepare.py": "b86d75e8df18a9cfa4b8cee3a66f664b85495d21c907db5cde83053311112a56",
+    "tooling/test_review_packet.py": "27572c2dd72e74dad6d8e5859e80dc85a9ca8882198a2a68858f86f68bdad2d5"
+  },
+  "review_status": "pending",
+  "schema_version": "1.0.0"
+}

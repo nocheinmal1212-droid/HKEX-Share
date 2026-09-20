@@ -1,0 +1,37 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "closed_at": "2026-09-10T03:58:27.597724Z",
+  "milestone": "0",
+  "status": "complete",
+  "scope": "Minimum trustworthy intake with four reviewed development inputs; other intake and publication items remain owned and pending.",
+  "owner": "Project user (interim intake and review owner)",
+  "ready_record_ids": [
+    "HL-ERR-0006",
+    "HL-ERR-0017",
+    "HL-ERR-0025",
+    "HL-ERR-0041"
+  ],
+  "ready_records": 4,
+  "pending_records": 44,
+  "records_path": "eval/records/hkex-2025-48/corrupted.r3.jsonl",
+  "records_sha256": "e3d6509125324f9e33cf6e453fbab4de53bebc9d6a053537e28d3dadfbca572f",
+  "review_path": "eval/reviews/hkex-2025-48/owner-approval.json",
+  "review_sha256": "22505bc0da81a02caf1ae2041e13102b7b190cb08632514f35d0d0c342ffc3e8",
+  "readiness_register": "eval/reviews/hkex-2025-48/readiness.r3.json",
+  "checks": {
+    "canonical_intake": "48 valid records; four ready and 44 pending",
+    "owner_approval": "Exact proposed record fingerprints and source/mapping/split hashes verified",
+    "reimport": "byte-identical",
+    "source_integrity": "788 file hashes and native export inventories unchanged",
+    "grouping": "original assignments, salt and bootstrap seed unchanged",
+    "portable_tests": "26 passed; formatting and schemas passed",
+    "isolation": "initial Python consumer probes passed; actual future runtime remains unverified"
+  },
+  "publication_status": "UNGATED",
+  "headline": null,
+  "limitations": [
+    "No independent holdout: all 48 sites remain in one development group.",
+    "Extraction/semantic model identity, deployment licensing, budgets and later publication gates remain open with named owners."
+  ]
+}

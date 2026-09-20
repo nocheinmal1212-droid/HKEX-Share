@@ -1,0 +1,17 @@
+{
+  "workspace": {
+    "checked_local_links": 50,
+    "missing": []
+  },
+  "clean_export": {
+    "checked_local_links": 50,
+    "missing": [
+      {
+        "source": "docs/milestone1-cleanup-handoff-2026-09-18.md",
+        "link": "../runs/milestone2/model-commit-review-2026-09-18/review.md"
+      }
+    ]
+  },
+  "clean_export_commit": "d9db19aab7d0431a13ea9014509024973b48b818",
+  "missing_link_disposition": "Optional previous local review anticipated by Task A prompt; not required for R4 replay or Task B. Fresh checks recorded independently."
+}

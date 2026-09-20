@@ -1,0 +1,129 @@
+{
+  "schema_version": "2.0.0",
+  "bundle_id": "hkex-2025-48",
+  "recorded_at": "2026-09-10T04:58:13.013137+00:00",
+  "owner": "Project user (interim intake and review owner)",
+  "source_manifest_sha256": "8e2e7885df7b5cadadf472678c04a758a44e826842c3de43f57ce1acacc988b7",
+  "current_records": "eval/records/hkex-2025-48/corrupted.r3.jsonl",
+  "current_locations": "eval/locations/hkex-2025-48.r3.json",
+  "current_splits": "eval/splits/hkex-2025-48.r3.json",
+  "items": [
+    {
+      "id": "development_review",
+      "status": "complete",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Four approved cases are ready. Use ready-development.json to select them for Milestone 1; retain prior packets/revisions as historical evidence."
+    },
+    {
+      "id": "remaining_records",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Retain the remaining 44 records as pending; prioritize source/native mappings and relation completeness when expanding coverage."
+    },
+    {
+      "id": "extractor_identity",
+      "status": "deferred",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Preserve historical evidence/gaps. Resolve before any future OCR deployment or pdf_end_to_end claim; not a blocker for current native-artifact/IR development. Review any adapter dependencies actually introduced."
+    },
+    {
+      "id": "extractor_licensing",
+      "status": "deferred",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Preserve historical evidence/gaps. Resolve before any future OCR deployment or pdf_end_to_end claim; not a blocker for current native-artifact/IR development. Review any adapter dependencies actually introduced."
+    },
+    {
+      "id": "semantic_endpoint",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Provider selected: OpenRouter; base https://openrouter.ai/api/v1; model deepseek/deepseek-v4-pro-0813. Configure OPENROUTER_API_KEY securely, then probe synthetic schema/ID behavior and observed model/provider identity before integration. No authenticated call performed in this decision update."
+    },
+    {
+      "id": "alert_budget",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Set dated allowed raw alerts per 100 pages based on reviewer capacity before observing scored alert counts."
+    },
+    {
+      "id": "runtime_budget",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Set dated full-document runtime budget in seconds and execution environment before scored runs."
+    },
+    {
+      "id": "negative_fixtures",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Review the small benign fixture plan and label balanced artifact-control cases before artifact-only baseline claims."
+    },
+    {
+      "id": "runtime_isolation",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Implement native-artifact/IR-only input modes without mandatory PDF, and deny raw PDFs by default, injector metadata, evaluation files and the opposite variant. Extend tests to actual adapter, detector and prompt construction."
+    },
+    {
+      "id": "publication_gates",
+      "status": "pending",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Four development records are ready; the other 44 records and full runtime, invariance and clean-run gates remain pending. Headline publication remains UNGATED."
+    },
+    {
+      "id": "independent_holdout",
+      "status": "limitation",
+      "owner": "Project user (interim intake and review owner)",
+      "next_action": "Frozen bundle is one development group. No test records or independent bootstrap clusters exist. Acquire fresh independently grouped evidence for a holdout or cluster uncertainty claim."
+    }
+  ],
+  "budgets": {
+    "ALERT_BUDGET": null,
+    "RUNTIME_BUDGET": null,
+    "fixed_at": null,
+    "alert_unit": "raw alerts per 100 pages",
+    "runtime_unit": "seconds per complete document"
+  },
+  "evaluation_configuration": {
+    "split_salt": "hkex-intake-v2-001",
+    "bootstrap_seed": 0,
+    "bootstrap_resamples": 10000,
+    "n_split_groups": 1,
+    "dev_records": 48,
+    "test_records": 0,
+    "confidence_interval": null,
+    "confidence_interval_reason": "insufficient_clusters"
+  },
+  "modes": {
+    "fixture": "Four owner-approved, source-backed development inputs ready for Milestone 1. Hand-authored relationships are evaluator-only; no generated end-to-end pipeline claim.",
+    "frozen_ir": "Selected development mode: existing native exports to validated persisted IR, then detector; IR/adapter still unimplemented. No OCR run required.",
+    "pdf_end_to_end": "Deferred by user: OCR work excluded; historical settings gaps remain; no end-to-end claim."
+  },
+  "semantic_model": {
+    "designated_model": "DeepSeek-V4-Pro-0813",
+    "development_provider": "OpenRouter",
+    "documented_endpoint": "https://openrouter.ai/api/v1",
+    "documented_request_alias": "deepseek/deepseek-v4-pro-0813",
+    "credential_environment_variable": "OPENROUTER_API_KEY",
+    "credential_configured": false,
+    "observed_response_model": null,
+    "observed_revision": null,
+    "capability_probe": null,
+    "catalog_label": null,
+    "limitations": [
+      "Exact request identifier selected by owner; current availability and served revision have not been verified.",
+      "Historical Flash catalog and direct-API alias evidence do not establish Pro capabilities or identity.",
+      "No credential persisted or authenticated API request made in this update."
+    ],
+    "sources": [
+      "https://openrouter.ai/docs/quickstart"
+    ],
+    "selection_basis": "Explicit owner decision in this task."
+  },
+  "publication_status": "UNGATED",
+  "headline": null,
+  "milestone_0_status": "complete",
+  "predecessor_sha256": "3a078168caa7d031e1574805def52c47cb821352e1e3300fbda098c6c1102238",
+  "revision_reason": "Owner changed the designated development model to deepseek/deepseek-v4-pro-0813 through OpenRouter. Prior Flash evidence preserved in predecessor; no availability or capability probe performed.",
+  "current_review": "eval/reviews/hkex-2025-48/owner-approval.json",
+  "ready_records": 4,
+  "pending_records": 44
+}

@@ -1,0 +1,18 @@
+{
+  "authored": true,
+  "ceiling_extension_seconds": 0,
+  "ceiling_seconds": 25,
+  "elapsed_seconds": 11.647406417061575,
+  "owned_pids": [],
+  "real_http_calls": 0,
+  "result": {
+    "direct_child_reaped": true,
+    "elapsed_seconds": 11.647367042023689,
+    "pid": 19438,
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "",
+    "timed_out": false
+  },
+  "test_measurement_tolerance_seconds": 0.15
+}

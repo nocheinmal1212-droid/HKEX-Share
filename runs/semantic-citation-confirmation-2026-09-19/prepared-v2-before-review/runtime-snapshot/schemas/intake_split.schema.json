@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "intake_split",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "bundle_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "predecessor": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "revision_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "locations_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "grouping_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "contract_hashes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "scoring": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "format": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "taxonomy": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "scoring",
+        "format",
+        "taxonomy"
+      ]
+    },
+    "algorithm": {
+      "type": "string",
+      "minLength": 1
+    },
+    "salt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bootstrap_seed": {
+      "type": "integer"
+    },
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "site_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "split_group_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "split": {
+            "enum": [
+              "dev",
+              "test"
+            ]
+          }
+        },
+        "required": [
+          "site_id",
+          "split_group_id",
+          "split"
+        ]
+      }
+    },
+    "grouping": {
+      "type": "object"
+    },
+    "frozen": {
+      "const": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "bundle_id",
+    "revision",
+    "predecessor",
+    "revision_reason",
+    "manifest_sha256",
+    "locations_sha256",
+    "grouping_sha256",
+    "contract_hashes",
+    "algorithm",
+    "salt",
+    "bootstrap_seed",
+    "assignments",
+    "grouping",
+    "frozen"
+  ]
+}

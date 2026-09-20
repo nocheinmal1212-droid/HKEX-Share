@@ -1,0 +1,43 @@
+{
+  "attempt_id": "attempt-e673d1a1036849b2d4992d565c91f0df2fbf443977e03bd8e02c2af21db13601",
+  "elapsed_seconds": 22.203117207973264,
+  "model_calls": 1,
+  "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd",
+  "role": "research",
+  "validation": {
+    "answer": null,
+    "cost": "0.017404404",
+    "cost_status": "reported",
+    "revision": null,
+    "served": {
+      "id": "gen-1789711490-KbE8gDG9wC5x56N7IoOu",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Together"
+    },
+    "state": "invalid_output",
+    "usage": {
+      "completion_tokens": 3724,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 3270
+      },
+      "cost": 0.017404404,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0044688,
+        "upstream_inference_cost": 0.017404404,
+        "upstream_inference_prompt_cost": 0.012935604
+      },
+      "is_byok": false,
+      "prompt_tokens": 43495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 384,
+        "video_tokens": 0
+      },
+      "total_tokens": 47219
+    }
+  },
+  "version": "paired-semantic-attempt-1.0.0"
+}

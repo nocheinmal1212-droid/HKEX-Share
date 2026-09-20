@@ -1,0 +1,138 @@
+{
+  "actual_http_calls": 0,
+  "authored_only": true,
+  "dispatcher_summary": {
+    "completion_calls_reserved": {
+      "primary": 0,
+      "research": 0
+    },
+    "cost_reserved_usd": "0",
+    "elapsed_seconds": 0.0,
+    "http_calls_reserved": 2,
+    "limits": {
+      "max_completion_calls_per_role": 2,
+      "max_cost_usd": "8",
+      "max_http_calls": 6,
+      "max_seconds": 600
+    },
+    "plans_checks_findings": "not_implemented",
+    "results": [
+      {
+        "consumption": {
+          "outcome": "authored-budget-control-only"
+        },
+        "dispatch_reservations": {
+          "primary": {
+            "reason": "unavailable",
+            "reserved_cost_usd": "0"
+          },
+          "research": {
+            "reason": "unavailable",
+            "reserved_cost_usd": "0"
+          }
+        },
+        "name": "total",
+        "primary": {
+          "attempt_id": "attempt-d4a56af12f8eb34a02f9c81e6ef72fe077c551ed305b794be8ebd175b04b464a",
+          "elapsed_seconds": 3.229198046028614e-05,
+          "model_calls": 0,
+          "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+          "role": "primary",
+          "validation": {
+            "answer": null,
+            "cost": null,
+            "cost_status": "unknown",
+            "revision": null,
+            "served": null,
+            "state": "unavailable",
+            "usage": null
+          },
+          "version": "paired-semantic-attempt-1.1.0"
+        },
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "research": {
+          "attempt_id": "attempt-855eed8f3f32a09fb12a578ec336fdd5025fbe235839a9101f19df11f2d3ea4d",
+          "elapsed_seconds": 2.8999987989664078e-05,
+          "model_calls": 0,
+          "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+          "role": "research",
+          "validation": {
+            "answer": null,
+            "cost": null,
+            "cost_status": "unknown",
+            "revision": null,
+            "served": null,
+            "state": "unavailable",
+            "usage": null
+          },
+          "version": "paired-semantic-attempt-1.1.0"
+        }
+      },
+      {
+        "consumption": {
+          "outcome": "authored-budget-control-only"
+        },
+        "dispatch_reservations": {
+          "primary": {
+            "reason": "unavailable",
+            "reserved_cost_usd": "0"
+          },
+          "research": {
+            "reason": "unavailable",
+            "reserved_cost_usd": "0"
+          }
+        },
+        "name": "period_groups",
+        "primary": {
+          "attempt_id": "attempt-ff7875933c01ce7e274bbe6d7b195d0c3f4a226e1f680a1c6ef8625b34fd5322",
+          "elapsed_seconds": 3.058405127376318e-05,
+          "model_calls": 0,
+          "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+          "role": "primary",
+          "validation": {
+            "answer": null,
+            "cost": null,
+            "cost_status": "unknown",
+            "revision": null,
+            "served": null,
+            "state": "unavailable",
+            "usage": null
+          },
+          "version": "paired-semantic-attempt-1.1.0"
+        },
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "research": {
+          "attempt_id": "attempt-66a20ac8cc54849845957983131ca0e1a144b2abfcf8fc74cab30b96c5ce70ee",
+          "elapsed_seconds": 3.045797348022461e-05,
+          "model_calls": 0,
+          "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+          "role": "research",
+          "validation": {
+            "answer": null,
+            "cost": null,
+            "cost_status": "unknown",
+            "revision": null,
+            "served": null,
+            "state": "unavailable",
+            "usage": null
+          },
+          "version": "paired-semantic-attempt-1.1.0"
+        }
+      }
+    ]
+  },
+  "mock_calls": [
+    {
+      "mode": "metadata",
+      "role": "primary",
+      "virtual_time": 0.0
+    },
+    {
+      "mode": "metadata",
+      "role": "research",
+      "virtual_time": 0.0
+    }
+  ],
+  "mode": "route_missing",
+  "virtual_elapsed_from_run_entry": 0.0
+}

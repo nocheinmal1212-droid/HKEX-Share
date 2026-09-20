@@ -1,0 +1,38 @@
+[
+  {
+    "contributors": [
+      "cell-727f0a69828edb7426e96a55a49812477581b5db14e41f6f96533f1ce1819deb",
+      "cell-2ec479b074cbf7ae83e25a3619370f813d70bc69559bb5a9fc0891659d4058c3"
+    ],
+    "gate": "eligible",
+    "name": "outer",
+    "presentation_refs": [
+      "cell-1cfb56b6e0142d975c4c9aa292f162ebcd1c418eb34819717c508b534c40afa6",
+      "cell-adaa789f5ae170c5f8d3b035fef3d9159bdaeb0643ed5a31d66dee7445fdd1c6"
+    ],
+    "support": [
+      "cell-2ec479b074cbf7ae83e25a3619370f813d70bc69559bb5a9fc0891659d4058c3",
+      "cell-3bd8db73cc39be8373037dcb4b3e6da5cd741b9a843e2ebd03107a98f285659b",
+      "cell-727f0a69828edb7426e96a55a49812477581b5db14e41f6f96533f1ce1819deb",
+      "cell-a2aca49a3a7b5e159bd7e2e5f7d27e14cd3a711b21987f8943d89a2aa098b542"
+    ]
+  },
+  {
+    "contributors": [
+      "cell-44af02d9aa6636905e879a125f6373052d2b1d675d667fb6d6df89272a6237f2",
+      "cell-0074b79b12e411fd0a82e1698f7db568f747f18e8028d8247d935833d50c577d"
+    ],
+    "gate": "eligible",
+    "name": "subtotal",
+    "presentation_refs": [
+      "cell-1cfb56b6e0142d975c4c9aa292f162ebcd1c418eb34819717c508b534c40afa6",
+      "cell-adaa789f5ae170c5f8d3b035fef3d9159bdaeb0643ed5a31d66dee7445fdd1c6"
+    ],
+    "support": [
+      "cell-0074b79b12e411fd0a82e1698f7db568f747f18e8028d8247d935833d50c577d",
+      "cell-3bd8db73cc39be8373037dcb4b3e6da5cd741b9a843e2ebd03107a98f285659b",
+      "cell-44af02d9aa6636905e879a125f6373052d2b1d675d667fb6d6df89272a6237f2",
+      "cell-727f0a69828edb7426e96a55a49812477581b5db14e41f6f96533f1ce1819deb"
+    ]
+  }
+]

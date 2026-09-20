@@ -1,0 +1,6 @@
+{
+  "name": "s23_split_caption_duplicate_ordinals",
+  "table_id": "table-352eee30d2acd390d50bd97600629834f93f63111600d5136c34fd5142a30712",
+  "target_id": "cell-821a82631c71585b2200df385dc6a519f0db58bf68184416f69c663d92076431",
+  "transform": "mask_body_amounts_v1"
+}

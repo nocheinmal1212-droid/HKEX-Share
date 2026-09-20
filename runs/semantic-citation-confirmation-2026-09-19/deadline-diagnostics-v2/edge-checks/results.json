@@ -1,0 +1,23 @@
+{
+  "journal_failure_known_zero": true,
+  "preexisting_output_untouched": true,
+  "real_http_calls": 0,
+  "receipt_cancellation": {
+    "ceiling_seconds": 2,
+    "elapsed_seconds": 1.952370958053507,
+    "returncode": 2,
+    "test_tolerance": 0.15
+  },
+  "transport_expiry": [
+    {
+      "mode": "entry",
+      "request_started": false,
+      "transport_status": "budget_exhausted"
+    },
+    {
+      "mode": "after_dns",
+      "request_started": false,
+      "transport_status": "budget_exhausted"
+    }
+  ]
+}

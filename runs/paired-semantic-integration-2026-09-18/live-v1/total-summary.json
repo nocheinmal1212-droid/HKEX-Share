@@ -1,0 +1,132 @@
+{
+  "consumption": {
+    "annotation_ids": [
+      "annotation-88830645aef30ed64c7af1fee4b8a622be396f9dd9d664bdf8b78b58c4980618"
+    ],
+    "annotations_sha256": "618af3a893a0415bbc71e18d42b8d3fb295c35a2844bbbd99693c31008c22be7",
+    "outcome": "accepted",
+    "primary_attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "primary_completion_sha256": "8c6f337eaff6f534523c77b9c1ca09ec4e99fe7d221e25a3d820b78ab39f9414",
+    "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+    "query_sha256": "5e92f187209a8ea36eab4990b66f558e150780dc0ee632b77f7fb67ae22a43e1",
+    "selection": {
+      "name": "total",
+      "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+      "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+    "version": "semantic-provenance-1.0.0"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": null,
+      "reserved_cost_usd": "0.439010"
+    },
+    "research": {
+      "reason": null,
+      "reserved_cost_usd": "0.438980"
+    }
+  },
+  "name": "total",
+  "primary": {
+    "attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+    "elapsed_seconds": 12.384523499989882,
+    "model_calls": 1,
+    "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+    "role": "primary",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+          "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+          "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+          "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+        ],
+        "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+      },
+      "cost": "0.02210175",
+      "cost_status": "reported",
+      "revision": null,
+      "served": {
+        "id": "gen-1789711432-wRusk6C6IbAZekdTLB4t",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "accepted",
+      "usage": {
+        "completion_tokens": 3093,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 2848
+        },
+        "cost": 0.02210175,
+        "cost_details": {
+          "upstream_inference_completions_cost": 0.01159875,
+          "upstream_inference_cost": 0.02210175,
+          "upstream_inference_prompt_cost": 0.010503
+        },
+        "is_byok": false,
+        "prompt_tokens": 14004,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        },
+        "total_tokens": 17097
+      }
+    },
+    "version": "paired-semantic-attempt-1.0.0"
+  },
+  "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+  "research": {
+    "attempt_id": "attempt-af90e9174ae123a7c5ffdd1d07ecdba136aaa694ac9cbeb8ae5223d67b2c8aa2",
+    "elapsed_seconds": 28.95917033299338,
+    "model_calls": 1,
+    "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+    "role": "research",
+    "validation": {
+      "answer": null,
+      "cost": "0.0081081",
+      "cost_status": "reported",
+      "revision": null,
+      "served": {
+        "id": "gen-1789711432-Qlk4jDnkDLRJv7gK93ho",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "provider": "Together"
+      },
+      "state": "truncation",
+      "usage": {
+        "completion_tokens": 4096,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0081081,
+        "cost_details": {
+          "upstream_inference_completions_cost": 0.0049152,
+          "upstream_inference_cost": 0.0081081,
+          "upstream_inference_prompt_cost": 0.0031929
+        },
+        "is_byok": false,
+        "prompt_tokens": 10643,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        },
+        "total_tokens": 14739
+      }
+    },
+    "version": "paired-semantic-attempt-1.0.0"
+  }
+}

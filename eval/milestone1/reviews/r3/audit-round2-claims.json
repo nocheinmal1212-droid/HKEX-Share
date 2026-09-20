@@ -1,0 +1,38 @@
+{
+  "content": {
+    "additional_variant_regions_verified": 10,
+    "fixtures_native_validated": 6,
+    "primary_mappings_unchanged_and_verified": 8,
+    "rounding_bound": "1.5",
+    "rounding_residual": "1"
+  },
+  "packet_integrity_before_changes": {
+    "approval_fingerprint": "b66851423dbb940414cfd7a6ab1289a723afcaa93ab95884c6f10f1a8561440a",
+    "files_checked": 46,
+    "original_inputs_checked": 49,
+    "owner_approval": "not_granted_by_integrity_check",
+    "status": "passed"
+  },
+  "reproduction": {
+    "all_47_original_files_regenerated_exactly": true,
+    "changed_html_rejected": true,
+    "matches_second_audit_exactly": true,
+    "mutated_approval_fingerprint": "5c52d74ad67799e7738b6f28f44cf0d4d721fbcd9ef8bc464787bbf32f930b8c",
+    "mutated_content_fingerprint": "675b7664554057a7ba0545fb98e364810e1f5f0b1457db0e0db819718c7e609b",
+    "old_fingerprint_rejects_mutation": true
+  },
+  "source_erratum": {
+    "artifact_hashes_verified": 3,
+    "literal_bytes_equal": false,
+    "native_word": "採用",
+    "new_pdf_read": false,
+    "saved_clean_text_equals_native_after_diagnostic_normalization": true,
+    "source_identity_matches_saved_ir": true,
+    "source_word": "採用"
+  },
+  "zip": {
+    "bytes_match": true,
+    "entries": 47,
+    "sha256": "567f490ede4048f69c397fa0c8643da6f8db2c1eeb3a1f5a0c165b468d04ac79"
+  }
+}

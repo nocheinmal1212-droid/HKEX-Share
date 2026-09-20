@@ -1,0 +1,6 @@
+{
+  "phase": "zero_call_preflight",
+  "error": "ModuleNotFoundError: model_selection_worker_v2 under isolated Python (-I)",
+  "inference_calls": 0,
+  "resolution": "New explicit trusted-module entry point and fresh r2 directories; original frozen source and staging preserved."
+}

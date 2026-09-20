@@ -1,0 +1,14 @@
+[
+  {
+    "name": "local",
+    "table_id": "table-40b551c2f3c839b541baa389c96871891ea7f8737e8838fda2248fe07a837474",
+    "target_id": "cell-17b9eeb2379fb5a0cb5a66c7295ac8304775edcda640bf70621f5206815f7bf9",
+    "transform": "mask_body_amounts_v1"
+  },
+  {
+    "name": "eligible",
+    "table_id": "table-cbe93f99a4d81a1f9758235aa3abdd9e80124644c543a2ed2d08ec6c3e245adb",
+    "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+    "transform": "mask_body_amounts_v1"
+  }
+]

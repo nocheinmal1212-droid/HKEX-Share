@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-09-10",
+  "status": "completed",
+  "packet_revision": "r2",
+  "approval_fingerprint": "b66851423dbb940414cfd7a6ab1289a723afcaa93ab95884c6f10f1a8561440a",
+  "input_pdf": "corpus/hksa_2026032600825_kpmg.pdf",
+  "input_sha256": "8ee217c98b2a3684987601f5e5811af9c837fc909ffd2302075455f476617890",
+  "physical_page": 185,
+  "page_index": 184,
+  "printed_label": "183",
+  "region": "paragraph (d)",
+  "read_scope": "Targeted clean source page only; no corrupted PDF or other page content examined.",
+  "text_method": "pypdf existing text-layer extraction of page index 184, substring from (d) to 雖然",
+  "render_command": "pdftoppm -f 185 -l 185 -r 300 -x 400 -y 1450 -W 1900 -H 430 -png -singlefile corpus/hksa_2026032600825_kpmg.pdf runs/milestone1-independent-r2/source-paragraph",
+  "source_word": "採用",
+  "native_word": "採用",
+  "claimed_source_word_in_r2": "採取",
+  "r2_word_difference_claim": "refuted",
+  "phrase_雙重機制": "Present across source line break; native preserves it.",
+  "diagnostic_comparison": {
+    "method": "Remove whitespace and map fullwidth parentheses to ASCII in memory only.",
+    "equal": true,
+    "source_or_native_modified": false,
+    "scope": "Clean paragraph (d) only; not whole-document fidelity approval."
+  },
+  "prior_review_correction": "Withdraw the earlier substantive-paraphrase claim and the quoted 採取/採用 discrepancy. The claimed discrepancy originated in the first independent review and was carried into r2.",
+  "artifacts": [
+    {
+      "path": "runs/milestone1-independent-r2/inspection-plan.json",
+      "sha256": "9bba050cebe71604a5d0202bc75b8792ea99febe58e57ce8119f6f33d6816f19"
+    },
+    {
+      "path": "runs/milestone1-independent-r2/source-paragraph.txt",
+      "sha256": "50d8a65a274d8117972f0437fdd0a944caa5d45b801a28edf34fac5b3b556a25"
+    },
+    {
+      "path": "runs/milestone1-independent-r2/source-paragraph.png",
+      "sha256": "fb03660eff19b7dcec1484036320f31caa189c40e1d86d02a0037bfbc89d0def"
+    }
+  ],
+  "ocr_executed": false,
+  "owner_approval_granted": false
+}

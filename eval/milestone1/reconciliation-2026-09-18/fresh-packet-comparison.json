@@ -1,0 +1,12 @@
+{
+  "equal_review_fields": [
+    "candidates",
+    "additional_evidence",
+    "fixtures",
+    "guidance",
+    "acceptance_scope"
+  ],
+  "approved_r4_unchanged": true,
+  "fresh_packet_path": "runs/milestone1-cleanup-2026-09-18/fresh-packet",
+  "fresh_packet_status": "unapproved_tooling_check_only"
+}

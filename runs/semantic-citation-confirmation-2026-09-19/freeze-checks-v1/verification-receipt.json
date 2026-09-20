@@ -1,0 +1,12 @@
+{
+  "freeze_sha256": "f98cab8947112698dc2e8d58ba30441dc6d8f40f3d1a35125994ce50a34e7643",
+  "members": 760,
+  "bindings_pass": true,
+  "default_launch_gate_rejects_no_go": true,
+  "altered_freeze_rejected": true,
+  "altered_request_member_rejected": true,
+  "metadata_calls": 0,
+  "provider_calls": 0,
+  "live_output_exists": false,
+  "notes": "Prelaunch check rehearsal only. No future approval or unchanged-environment claim."
+}

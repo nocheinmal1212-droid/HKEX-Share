@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unresolved_subtotal_scope"
+  ],
+  "case_id": "S10_duplicate_timing_role",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "e93edf7bfded03a078d659acc001bc48fb00b9805d2f3e0356fd171a26105efd",
+  "optional_support": [],
+  "reason": "Two occurrences of point-in-time recognition do not establish one of each complementary timing role; duplicate roles must not be collapsed.",
+  "required_support": null,
+  "summary_relationships": []
+}

@@ -1,0 +1,19 @@
+{
+  "after": "8e1c3ff054c3f9ff6ab96e4fbaa0d7a3ed2912e7cbaa14367108043ce3d249d5",
+  "before": "8e1c3ff054c3f9ff6ab96e4fbaa0d7a3ed2912e7cbaa14367108043ce3d249d5",
+  "bound": "1.5",
+  "corrected_generator_probe": {
+    "after_approval_fingerprint": "be50b1c49a688ae8915c917d831c3e534727e2d3e3145de1a36e462d1e0550f7",
+    "after_content_fingerprint": "e4ae7fffee5fdc96a4d0e621763d47ab2368c2eb83f9547aa3263a863ce39414",
+    "before_approval_fingerprint": "79e64145059d5a9ec5b8a0b72e126b8d284d65f99aa92b8b1c7c065ddfc9c3b7",
+    "before_content_fingerprint": "723b1292ab835db446489012ffaef61330c74e31fa5d63bdeebf4857e5400460",
+    "identical_input_replay": "all sealed bytes identical",
+    "mutation": "rounding total 3 to 30; expectations unchanged",
+    "repository_fixture_changed": false,
+    "scope": "complete_corrected_generator_in_temporary_copy"
+  },
+  "html_changed": true,
+  "matches_r1": true,
+  "mutated_residual_magnitude": "28",
+  "original_residual_magnitude": "1"
+}

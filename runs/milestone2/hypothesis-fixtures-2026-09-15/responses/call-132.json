@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 30.005151,
+  "id": "call-132",
+  "request_sha256": "707339a91b3b486ebb4a0adb2c7bb4dfcb447d82ab6b96eaa64988c8dd952602",
+  "started_at": "2026-09-15T08:01:56.621929+00:00",
+  "transport_status": "timeout"
+}

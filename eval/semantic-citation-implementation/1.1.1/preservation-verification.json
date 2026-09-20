@@ -1,0 +1,23 @@
+{
+  "configuration_unchanged": true,
+  "expected_old_binding_differences": {
+    "src/hkex_audit/header_support.py": {
+      "after": "64af2e51b329e16eef4cf225da0e332e084c407daf877ecfda9a077001d06284",
+      "before": "9a3bc0bff44eec867ae68249637e674803c61a0c9fb6e71becb2ee27a227b5f5"
+    }
+  },
+  "historical_support_result": "0/4 unchanged",
+  "network_calls": 0,
+  "new_fixture_freeze_verified": 68,
+  "original_implementation_artifacts_verified": 327,
+  "original_retained_verified": 127,
+  "policy_resource_unchanged": true,
+  "pre_correction_runtime_verified": 33,
+  "prior_investigation_report_verified": 1,
+  "prior_investigation_verified": 119,
+  "prior_review_artifacts_verified": 25,
+  "prompt_unchanged": true,
+  "protected_current_verified": 139,
+  "provider_calls": 0,
+  "schema_unchanged": true
+}

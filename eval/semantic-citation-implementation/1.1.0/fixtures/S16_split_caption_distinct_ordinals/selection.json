@@ -1,0 +1,6 @@
+{
+  "name": "s16_split_caption_distinct_ordinals",
+  "table_id": "table-309bf19057efcd0f1cf9aae3dd3caf446f15da5963f7121f2a7f4a4b459025ad",
+  "target_id": "cell-47e87581a2390b61f89e4d351e6ad4e8b656b4dab8ec33d016a2b4d0626cb536",
+  "transform": "mask_body_amounts_v1"
+}

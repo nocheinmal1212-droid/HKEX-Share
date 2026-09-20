@@ -1,0 +1,10 @@
+{
+  "tools/experiments/direct_contributor_boundary.py": true,
+  "tools/experiments/prepare_direct_contributor_run.py": true,
+  "tools/experiments/direct_contributor_worker.py": true,
+  "tools/experiments/run_direct_contributor_boundaries.py": true,
+  "tools/experiments/direct_contributor_offline_worker.py": true,
+  "tools/experiments/evaluate_direct_contributor_run.py": true,
+  "tests/test_direct_contributor_boundary.py": true,
+  "src/audit_inputs/guard.py": true
+}

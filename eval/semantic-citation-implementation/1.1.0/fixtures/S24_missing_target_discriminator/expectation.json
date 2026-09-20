@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "missing_target_discriminator"
+  ],
+  "case_id": "S24_missing_target_discriminator",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "4f4198c2aa7191cfca1ad6ee4245b4b3990eaf815b14f47ea27a0d21548dd6dd",
+  "optional_support": [],
+  "reason": "The possible subtotal contributor has established 2025 context while the outer target does not. The absence is unknown, not a matching period.",
+  "required_support": null,
+  "summary_relationships": []
+}

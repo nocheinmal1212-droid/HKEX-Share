@@ -1,0 +1,126 @@
+---
+spec_version: 2.0.0
+taxonomy_version: 2.0.0
+# Vocabulary only. Scoring scope belongs to eval/SCORING.md; checks own capabilities.
+# Active does not mean scored or implemented. The last three codes remain descoped.
+categories:
+  - code: primary_statement_articulation
+    revision: 2
+    name: Primary Financial Statement Articulation
+    status: active
+    scope: financial_statements
+    description: >-
+      Mathematical inconsistencies within primary financial statements, including footings,
+      subtotals and balance identities, after establishing complete contributors and compatible
+      contexts. A failed relationship does not alone identify the erroneous operand.
+    examples:
+      - "Total assets differs from the sum of its supported components beyond justified rounding."
+      - "Assets differs from liabilities plus equity in the same consolidation scope and period."
+
+  - code: internal_note_reconciliation
+    revision: 2
+    name: Internal Note Reconciliation
+    status: active
+    scope: single_note
+    description: >-
+      Footing, subtotal, matrix-total or opening-to-closing reconciliation discrepancies within
+      one disclosure note, using supported contributors, signs and compatible contexts. Missing or
+      ambiguous relationships require abstention rather than a fabricated equation.
+    examples:
+      - "Opening balance plus signed movements differs from closing balance in a property, plant and equipment schedule."
+      - "Maturity buckets do not reconcile to the corresponding note total."
+
+  - code: statement_to_note_articulation
+    revision: 2
+    name: Statement-to-Note Articulation
+    status: active
+    scope: cross_statement_and_notes
+    description: >-
+      Discrepancies between a primary-statement amount and its corresponding note fact or
+      supported breakdown total, after aligning concept, entity, period, unit and presentation
+      basis. A reference need not be correct for an independently supported comparison to be
+      possible.
+    examples:
+      - "Closing cash and cash equivalents differs between the statement and the corresponding closing note total."
+      - "Statement revenue differs from the corresponding note total on the same reporting basis."
+
+  - code: disclosure_reference_verification
+    revision: 2
+    name: Disclosure and Reference Verification
+    status: active
+    scope: cross_references
+    description: >-
+      Erroneous references to notes, pages, exhibits or sections, including nonexistent targets
+      and existing targets that do not contain the referenced subject. Literal resolution and
+      subject compatibility are separate checks; successful resolution alone does not prove
+      correctness.
+    examples:
+      - "A statement item points to an existing note about a different subject."
+      - "A table-of-contents entry points beyond the physical document after printed-page mapping."
+
+  - code: document_wide_consistency
+    revision: 2
+    name: Document-Wide Consistency
+    status: active
+    scope: global
+    description: >-
+      Contradictory document-level identity or reporting context across sections, such as entity
+      name, reporting period, currency, scale or stated accounting policy. Legitimate
+      subsidiaries, comparatives, currency conversions and explicitly different presentation bases
+      are not discrepancies merely because they differ. Specific numeric articulations and
+      narrative corruption use their respective categories.
+    examples:
+      - "Two sections give conflicting legal names for the same reporting entity."
+      - "Equivalent presentations assert incompatible reporting units without an explicit conversion."
+
+  - code: formatting_typography_validation
+    revision: 2
+    name: Formatting and Typography Validation
+    status: active
+    scope: presentation
+    description: >-
+      Malformed numerical or presentation tokens, currency/date syntax, or typographic anomalies
+      supported by the document's local conventions and available source evidence. Alternative
+      valid styles are not errors by themselves. Distinguish anomalies in the source from
+      extraction damage; glyph or font claims require corresponding visual evidence.
+    examples:
+      - "An unmatched closing parenthesis appears in a displayed amount."
+      - "A malformed separator pattern violates the established local numerical format."
+
+  - code: inter_note_articulation
+    revision: 2
+    name: Inter-Note Articulation
+    status: active
+    scope: cross_notes
+    description: >-
+      Incompatible values, classifications or policy assertions between separate disclosure notes
+      that refer to the same fact and compatible reporting context. Reference-target mistakes
+      belong to disclosure reference verification; internal arithmetic within a single note
+      belongs to internal note reconciliation.
+    examples:
+      - "Depreciation for the same scope and period disagrees between the asset note and expense note."
+
+  - code: table_structural_integrity
+    revision: 2
+    name: Table Structural Integrity
+    status: active
+    scope: tables
+    description: >-
+      Structural anomalies in the source document's table presentation, such as misaligned headers
+      or improperly merged cells that misrepresent row or column relationships. An extractor's
+      failure to recover a valid source table is an extraction limitation, not evidence of this
+      source-document error.
+    examples:
+      - "A source table places a numerical column beneath the wrong period header."
+
+  - code: textual_semantic_integrity
+    revision: 2
+    name: Textual and Semantic Integrity
+    status: active
+    scope: narrative
+    description: >-
+      Corrupted narrative wording, omissions, additions or terminology that alter the meaning of
+      disclosures. Context is required to distinguish an error from unusual but valid language. A
+      discrepancy does not authorize inventing replacement wording.
+    examples:
+      - "A missing negation reverses the meaning of a disclosure."

@@ -1,0 +1,30 @@
+{
+  "_backend": "vlm",
+  "_version_name": "3.2.2",
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "preproc_blocks": [
+        {
+          "type": "table",
+          "blocks": [
+            {
+              "type": "table_body",
+              "lines": [
+                {
+                  "spans": [
+                    {
+                      "type": "table",
+                      "html": "<table><tr><td>項目</td><td>港幣百萬元</td></tr><tr><td>甲</td><td>1</td></tr><tr><td>乙</td><td>1</td></tr><tr><td>合計</td><td>3</td></tr></table>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "discarded_blocks": []
+    }
+  ]
+}

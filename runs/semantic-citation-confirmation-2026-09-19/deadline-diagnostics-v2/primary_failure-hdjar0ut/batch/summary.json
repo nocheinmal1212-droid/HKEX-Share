@@ -1,0 +1,198 @@
+{
+  "completion_calls_reserved": {
+    "primary": 2,
+    "research": 2
+  },
+  "cost_reserved_usd": "3.659580",
+  "elapsed_seconds": 11.736009749933146,
+  "http_calls_reserved": 6,
+  "limits": {
+    "max_completion_calls_per_role": 2,
+    "max_cost_usd": "8",
+    "max_http_calls": 6,
+    "max_seconds": 60
+  },
+  "plans_checks_findings": "not_implemented",
+  "results": [
+    {
+      "consumption": {
+        "annotation_ids": [],
+        "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "blocking_reasons": [],
+        "host_policy": {
+          "analysis_version": "header-source-analysis-1.0.1",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "outcome": "timeout",
+        "primary_attempt_id": "attempt-5ed39b795bb54f1edff2b0536843be3de3e3436d14db251bfc4596c2e77cb6f0",
+        "primary_completion_sha256": null,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "query_sha256": "873d04acf25024393f7258205d130de12795653e502ec00040e39c30ddcafb39",
+        "selection": {
+          "name": "total",
+          "table_id": "table-f18d9f3848f945413a03ab74d479e8cb1dd83c454d276ebb4a187cbe6e4d2be7",
+          "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_gate": "eligible",
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.1.0"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "0.444710"
+        },
+        "research": {
+          "reason": null,
+          "reserved_cost_usd": "0.444680"
+        }
+      },
+      "name": "total",
+      "primary": {
+        "attempt_id": "attempt-5ed39b795bb54f1edff2b0536843be3de3e3436d14db251bfc4596c2e77cb6f0",
+        "elapsed_seconds": 0.0005163750611245632,
+        "model_calls": 1,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "timeout",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      },
+      "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+      "research": {
+        "attempt_id": "attempt-1c35b5a409d307de30fc4eb7472dcf8d63484ff546cd3d9c423ccb1f5e4f72aa",
+        "elapsed_seconds": 0.00039429101161658764,
+        "model_calls": 1,
+        "query_id": "query-6fc123d75a6100be0e065e90271a445893d355d3e1202d2344ea0dc577d80b08",
+        "role": "research",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": {
+            "id": "AUTHORED-OFFLINE",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "accepted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      }
+    },
+    {
+      "consumption": {
+        "annotation_ids": [],
+        "annotations_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "blocking_reasons": [],
+        "host_policy": {
+          "analysis_version": "header-source-analysis-1.0.1",
+          "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+          "version": "header-support-policy-1.0.0"
+        },
+        "outcome": "timeout",
+        "primary_attempt_id": "attempt-81d43c4b2e2b610883eb8c29605d43042b3535331bd1082c5573c7abde9061d6",
+        "primary_completion_sha256": null,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "query_sha256": "ee5d0da1ee0ec12209122441b8e087e9ed56baf444ecab442833c4f160aa539c",
+        "selection": {
+          "name": "period_groups",
+          "table_id": "table-989917859f601df7b95b04de35005ccb8aa1311e4e928473ff68936382e1d65e",
+          "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+          "transform": "mask_body_amounts_v1"
+        },
+        "source_gate": "eligible",
+        "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9",
+        "version": "semantic-provenance-1.1.0"
+      },
+      "dispatch_reservations": {
+        "primary": {
+          "reason": null,
+          "reserved_cost_usd": "1.385110"
+        },
+        "research": {
+          "reason": null,
+          "reserved_cost_usd": "1.385080"
+        }
+      },
+      "name": "period_groups",
+      "primary": {
+        "attempt_id": "attempt-81d43c4b2e2b610883eb8c29605d43042b3535331bd1082c5573c7abde9061d6",
+        "elapsed_seconds": 0.0013168749865144491,
+        "model_calls": 1,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "primary",
+        "validation": {
+          "answer": null,
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": null,
+          "state": "timeout",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      },
+      "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+      "research": {
+        "attempt_id": "attempt-a664494edbe01baf890331d9fc7f5148ae77b43b16702eb52b12e31d2392a1bb",
+        "elapsed_seconds": 0.0010492079891264439,
+        "model_calls": 1,
+        "query_id": "query-dc63f9b1a051829536cfe188fae7215bee0045283a63641b00b7c1109daebf5e",
+        "role": "research",
+        "validation": {
+          "answer": {
+            "contributor_ids": [
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+              "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+            ],
+            "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+          },
+          "cost": null,
+          "cost_status": "unknown",
+          "revision": null,
+          "served": {
+            "id": "AUTHORED-OFFLINE",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "accepted",
+          "usage": null
+        },
+        "version": "paired-semantic-attempt-1.2.0"
+      }
+    }
+  ]
+}

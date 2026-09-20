@@ -1,0 +1,18 @@
+{
+  "aggregate_cost_reserved_usd": "11.939970",
+  "aggregate_http_calls_reserved": 16,
+  "roles": {
+    "primary": {
+      "http_calls_reserved": 15,
+      "reserved_cost_usd": "1.389580"
+    },
+    "research": {
+      "http_calls_reserved": 16,
+      "reserved_cost_usd": "1.389550"
+    }
+  },
+  "slot": {
+    "arm": "B",
+    "case": "period_groups"
+  }
+}

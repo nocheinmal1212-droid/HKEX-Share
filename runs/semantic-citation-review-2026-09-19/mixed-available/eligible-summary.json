@@ -1,0 +1,116 @@
+{
+  "consumption": {
+    "annotation_ids": [
+      "annotation-ccb0ad554bfaac71f986df78e46ff758ae290a7665de225100a671c33e4061f2"
+    ],
+    "annotations_sha256": "416f06106671ee5bc6d955b6f707949d7a1f6280d0bae81daae6ed7a7ab62ef8",
+    "blocking_reasons": [],
+    "host_policy": {
+      "analysis_version": "header-source-analysis-1.0.0",
+      "sha256": "9db51fa75b46ee1064cea0a39a8abafdd6fc25964897840f552dd44cde4f57d4",
+      "version": "header-support-policy-1.0.0"
+    },
+    "outcome": "accepted",
+    "primary_attempt_id": "attempt-eee0ddca278cb1ce996541a8baa020293ebdf5505cea7625c242ff5df951fa93",
+    "primary_completion_sha256": "52329830426d850a6e2617caf0fd882f5819558fe7f12be0493d398c4b923a62",
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "query_sha256": "1871279df80001d5e3795e4680d3e6552c247938626db4664e6477240427ba52",
+    "selection": {
+      "name": "eligible",
+      "table_id": "table-cbe93f99a4d81a1f9758235aa3abdd9e80124644c543a2ed2d08ec6c3e245adb",
+      "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+      "transform": "mask_body_amounts_v1"
+    },
+    "source_gate": "eligible",
+    "source_sha256": "b31dbff0dd1b41549db508f10d8c7947aac7d5ee34880278df46c3b4f02a4f72",
+    "version": "semantic-provenance-1.1.0"
+  },
+  "dispatch_reservations": {
+    "primary": {
+      "reason": null,
+      "reserved_cost_usd": "0.255700"
+    },
+    "research": {
+      "reason": null,
+      "reserved_cost_usd": "0.255670"
+    }
+  },
+  "name": "eligible",
+  "primary": {
+    "attempt_id": "attempt-eee0ddca278cb1ce996541a8baa020293ebdf5505cea7625c242ff5df951fa93",
+    "elapsed_seconds": 0.00016937509644776583,
+    "model_calls": 1,
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "role": "primary",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+          "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+          "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+          "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42",
+          "cell-a5c0051f1171d96dea43ee14a6d82dfb41b0614fe0e9998c81b00ee5d19ae7c0"
+        ],
+        "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229"
+      },
+      "cost": "0.0001",
+      "cost_status": "reported",
+      "revision": null,
+      "served": {
+        "id": "fixture-response",
+        "model": "google/gemini-3.8-flash",
+        "provider": "Google AI Studio"
+      },
+      "state": "accepted",
+      "usage": {
+        "completion_tokens": 10,
+        "cost": 0.0001,
+        "prompt_tokens": 10
+      }
+    },
+    "version": "paired-semantic-attempt-1.1.0"
+  },
+  "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+  "research": {
+    "attempt_id": "attempt-ef43346662f572be2d0f631bab8b7eaf79851b37b9e1938cc622e72ab25d5b66",
+    "elapsed_seconds": 0.00011199992150068283,
+    "model_calls": 1,
+    "query_id": "query-d96307d88ed6eed2c778a4b32b490e4b9ae3036237c51928fad5bee5e3acf64f",
+    "role": "research",
+    "validation": {
+      "answer": {
+        "contributor_ids": [
+          "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+          "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42"
+        ],
+        "state": "selected",
+        "support_refs": [
+          "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229",
+          "cell-ecf7c1af343abe58261ab7c41236059b57a48e9b6742d82bba7406ddc76341d5",
+          "cell-2f76a53e66057af0d2e4b9812254126c5150e8bcba819264b0ab777f79321e42",
+          "cell-a5c0051f1171d96dea43ee14a6d82dfb41b0614fe0e9998c81b00ee5d19ae7c0"
+        ],
+        "target_id": "cell-4ba5c14a8299b5bb042482f3e8a2ed55b7465f9c0f685c94c8c72d8b8c082229"
+      },
+      "cost": "0.0001",
+      "cost_status": "reported",
+      "revision": null,
+      "served": {
+        "id": "fixture-response",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "provider": "Together"
+      },
+      "state": "accepted",
+      "usage": {
+        "completion_tokens": 10,
+        "cost": 0.0001,
+        "prompt_tokens": 10
+      }
+    },
+    "version": "paired-semantic-attempt-1.1.0"
+  }
+}

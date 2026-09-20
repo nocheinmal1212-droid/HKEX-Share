@@ -1,0 +1,48 @@
+{
+  "case": "valid_id",
+  "created_at": "2026-09-12T09:59:28.504213+00:00",
+  "expected": {
+    "action": "label",
+    "evidence_id": "field-one",
+    "role": "total_label"
+  },
+  "fingerprint": "6e78973712af57d2ea915df20880664cd94a306c5e291d4cd919d237bcbba47d",
+  "http_status": 200,
+  "observed_identity": {
+    "checkpoint_revision": null,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "revision_limitation": "API model/provider labels do not attest weight revision.",
+    "system_fingerprint": null
+  },
+  "prompt": "clarified",
+  "request": {
+    "max_tokens": 512,
+    "messages": [
+      {
+        "content": "Return only the requested JSON object. Interpret labels using supplied evidence IDs. Never invent an ID or supply amounts, computed answers or corrections. For insufficient evidence return action abstain with null evidence_id and role. This is text-label classification only, not verification of an accounting total. No amounts or surrounding table are needed to recognize a total label. The role total_label means text explicitly naming a total. When the requested label is supported, return action label, its supplied evidence_id, and role total_label. When the requested ID is absent or no text names a total, return action abstain with null evidence_id and role. Return a JSON object with exactly action, evidence_id, and role; no other text.",
+        "role": "system"
+      },
+      {
+        "content": "{\n  \"evidence\": [\n    {\n      \"id\": \"field-one\",\n      \"text\": \"總計\"\n    },\n    {\n      \"id\": \"field-two\",\n      \"text\": \"收入\"\n    }\n  ],\n  \"instruction\": \"Select the total label from the supplied evidence.\"\n}\n",
+        "role": "user"
+      }
+    ],
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "stream": false,
+    "temperature": 0
+  },
+  "request_fingerprint": "413dcd90e6e7f8ec5b1fccd5cba59c18fc4c715433d417f2ed4acdad3a964e1b",
+  "response_text": "\n         \n{\"id\":\"gen-1789207171-WvysLLH1B3idDSCp7W4A\",\"object\":\"chat.completion\",\"created\":1789207171,\"model\":\"deepseek/deepseek-v4-pro-0813\",\"provider\":\"Baidu\",\"system_fingerprint\":null,\"service_tier\":null,\"choices\":[{\"index\":0,\"logprobs\":null,\"finish_reason\":\"stop\",\"native_finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"action\\\": \\\"label\\\",\\n  \\\"evidence_id\\\": \\\"field-one\\\",\\n  \\\"role\\\": \\\"total_label\\\"\\n}\",\"refusal\":null,\"reasoning\":\"We need answer only JSON object exactly action, evidence_id, role. We need respond to instruction: Select total label from evidence. Evidence field-one text \\\"總計\\\" means total. field-two \\\"收入\\\" income not total. So action label, evidence_id field-one, role total_label.\",\"reasoning_details\":[{\"type\":\"reasoning.text\",\"text\":\"We need answer only JSON object exactly action, evidence_id, role. We need respond to instruction: Select total label from evidence. Evidence field-one text \\\"總計\\\" means total. field-two \\\"收入\\\" income not total. So action label, evidence_id field-one, role total_label.\",\"format\":\"unknown\",\"index\":0}]}}],\"usage\":{\"prompt_tokens\":287,\"completion_tokens\":87,\"total_tokens\":374,\"cost\":0.00031683168,\"is_byok\":false,\"prompt_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0,\"audio_tokens\":0,\"video_tokens\":0},\"cost_details\":{\"upstream_inference_cost\":0.00031683168,\"upstream_inference_prompt_cost\":0.00016593192,\"upstream_inference_completions_cost\":0.00015089976},\"completion_tokens_details\":{\"reasoning_tokens\":59,\"image_tokens\":0,\"audio_tokens\":0}}}",
+  "status": "passed",
+  "strict_schema": false,
+  "validated_output": {
+    "action": "label",
+    "evidence_id": "field-one",
+    "role": "total_label"
+  }
+}

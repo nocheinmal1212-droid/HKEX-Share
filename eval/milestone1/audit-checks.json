@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-10",
+  "review_status": "pending",
+  "revision": "r3",
+  "checks": [
+    {
+      "command": "make evidence-check",
+      "phase": "second audit verification before correction",
+      "status": "passed",
+      "tests": 25
+    },
+    {
+      "command": "make -C tools/eval-format-tools PYTHON=.venv/bin/python check",
+      "phase": "second audit verification",
+      "status": "passed",
+      "tests": 26,
+      "historical_record_instances": 192,
+      "distinct_injections": 48,
+      "output": "audit-intake-output.txt"
+    },
+    {
+      "command": "make evidence-local-check",
+      "phase": "second audit verification",
+      "status": "passed",
+      "independent_variants": 2,
+      "pages_per_variant": 228,
+      "tables_per_variant": 132,
+      "cells_per_variant": 6415,
+      "output": "audit-native-output.txt"
+    },
+    {
+      "command": "make evidence-check",
+      "phase": "after source-wording correction",
+      "status": "passed",
+      "tests": 26,
+      "packet_tests": 7,
+      "output": "audit-test-output.txt"
+    }
+  ],
+  "source_inspection": {
+    "basis": "Reused second auditor saved text, 300-DPI image, plan and result",
+    "derived_artifact_hashes_verified": 3,
+    "visually_checked": "source-paragraph.png",
+    "diagnostic_text_agreement": true,
+    "literal_equality": false,
+    "new_raw_pdf_read": false,
+    "second_auditor_recorded_pdf_read": true
+  },
+  "claims_evidence": "audit-round2-claims.json",
+  "not_performed": [
+    "new_pdf_read_or_render",
+    "ocr",
+    "model_call",
+    "raw_injector_read",
+    "runtime_or_licensing_reaudit",
+    "installed_wheel_rerun",
+    "detector_execution",
+    "scoring"
+  ],
+  "publication_status": "UNGATED",
+  "browser_preview": {
+    "status": "passed",
+    "transport": "temporary loopback-only HTTP server",
+    "scope": [
+      "corrected banner and navigation",
+      "reference supporting text and pointer",
+      "partial corrupted table and unsupported cell",
+      "limitation and abstention guidance",
+      "saved high-resolution source image"
+    ],
+    "raw_pdf_used": false,
+    "screenshots": "inspected in tool output; not saved as packet inputs"
+  }
+}

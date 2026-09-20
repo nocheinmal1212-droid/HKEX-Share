@@ -1,0 +1,14 @@
+{
+  "assertions": [],
+  "blocker_reason_classes": [
+    "unestablished_text_order"
+  ],
+  "case_id": "S15_split_caption_null_ordinals",
+  "eligibility": "blocked_scope",
+  "independent_contributor_expectation": null,
+  "input_sha256": "76e4d6e914a5019ec559175c3e9bc9262425423dba410f5db511f98545a48775",
+  "optional_support": [],
+  "reason": "The two literal occurrences cannot be joined into a caption without a producer-neutral reading-order contract.",
+  "required_support": null,
+  "summary_relationships": []
+}

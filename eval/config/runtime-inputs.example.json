@@ -1,0 +1,7 @@
+{
+  "pdf": "corpus/hksa_2026032600825_kpmg_error_dataset_48.pdf",
+  "native_artifacts": [
+    "corpus/minerU_vlmout_hksa_2026032600825_kpmg_error_dataset_48/vlm/hksa_2026032600825_kpmg_error_dataset_48_middle.json"
+  ],
+  "configuration": {}
+}

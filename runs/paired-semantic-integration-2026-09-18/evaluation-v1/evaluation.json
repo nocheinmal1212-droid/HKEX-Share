@@ -1,0 +1,264 @@
+{
+  "limitations": [
+    "Header semantics only; no numerical operands/plans/checks/findings.",
+    "Independent agent review is not human/domain approval.",
+    "Not a scored or held-out population."
+  ],
+  "mode": "frozen_ir_development_agent_review",
+  "model_calls": 0,
+  "results": [
+    {
+      "agreement": null,
+      "gate": "eligible",
+      "name": "total",
+      "operational_annotation_count": 1,
+      "query_id": "query-117dccf8d1b03d474191bd0aee9ad181d22c482a4e44a84fe45bcd2996ced346",
+      "roles": {
+        "primary": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "attempt_id": "attempt-2a901d9321ee8f55f4f44e3db00805e3d32c78003913800583773cbb518741bb",
+          "cost": "0.02210175",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": false,
+          "selection_matches_source_review": true,
+          "served": {
+            "id": "gen-1789711432-wRusk6C6IbAZekdTLB4t",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted"
+        },
+        "research": {
+          "answer": null,
+          "attempt_id": "attempt-af90e9174ae123a7c5ffdd1d07ecdba136aaa694ac9cbeb8ae5223d67b2c8aa2",
+          "cost": "0.0081081",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": null,
+          "served": {
+            "id": "gen-1789711432-Qlk4jDnkDLRJv7gK93ho",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "truncation"
+        }
+      }
+    },
+    {
+      "agreement": null,
+      "gate": "eligible",
+      "name": "subtotal",
+      "operational_annotation_count": 1,
+      "query_id": "query-c39ff36a681ed547aae67104e8f064fd3f6c8b0b29437df8101de7a9c868e89f",
+      "roles": {
+        "primary": {
+          "answer": {
+            "contributor_ids": [
+              "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+              "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+              "cell-7e8364b2f2ec19763c2a7bbb49f222e42aeb11646236be1d30358be87e5e1665",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-e9df86bc4c73e1e441478e362ecb2ab5c8c87284accc627d473277a38c87a01c"
+            ],
+            "target_id": "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27"
+          },
+          "attempt_id": "attempt-99f3e7351ae27114c171364a663df32ad66a742d67b21d6cb600766d417d0c41",
+          "cost": "0.0180465",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": false,
+          "selection_matches_source_review": true,
+          "served": {
+            "id": "gen-1789711461-ozFWVXZsX8fdZQvC4JYN",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted"
+        },
+        "research": {
+          "answer": null,
+          "attempt_id": "attempt-da7820a2db6b676fdcfe85414233644ccb6b67c64992dba9bae0af043e9edfad",
+          "cost": "0.005020476",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": null,
+          "served": {
+            "id": "gen-1789711461-ugJQJsAvZCWraLTKnpKb",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "truncation"
+        }
+      }
+    },
+    {
+      "agreement": null,
+      "gate": "eligible",
+      "name": "period_groups",
+      "operational_annotation_count": 1,
+      "query_id": "query-97d412cb6a39471d4398072f250d4ce04579a17907849204cc6d873f8071f1dd",
+      "roles": {
+        "primary": {
+          "answer": {
+            "contributor_ids": [
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-16b283375da242eb44f6809db2d048c65f16d2b294313b5b8f80412073f76ad8",
+              "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db",
+              "cell-55bbff6674f488da0e09bf1c2594c738524cbe4fbca78146736d9e4e80170502",
+              "cell-8f6bc944aa256caecb3e3cf311d48cce8f4aa65740793890b8215f5967f72e0a",
+              "cell-e087c6eb71fc74b6adc32b7a4314be70fe30d42fdf1303f626a8fb0d1d0b50bc"
+            ],
+            "target_id": "cell-29844d697c7d301a5f6aa2ac120de1cb3cbf325642bae6c36bea698669d507db"
+          },
+          "attempt_id": "attempt-30fdc7420d5048ad4215b4c8ad2c5080ea1777ef1648e150711aea2bc9cd3486",
+          "cost": "0.0519315",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": false,
+          "selection_matches_source_review": true,
+          "served": {
+            "id": "gen-1789711490-D1ReR5ekGJPcY9DYt4s4",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted"
+        },
+        "research": {
+          "answer": null,
+          "attempt_id": "attempt-e673d1a1036849b2d4992d565c91f0df2fbf443977e03bd8e02c2af21db13601",
+          "cost": "0.017404404",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": null,
+          "served": {
+            "id": "gen-1789711490-KbE8gDG9wC5x56N7IoOu",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "invalid_output"
+        }
+      }
+    },
+    {
+      "agreement": null,
+      "gate": "missing_evidence",
+      "name": "missing_target",
+      "operational_annotation_count": 0,
+      "query_id": "query-e154b1d8f12b597c9233b6b26641aeee83f62aaa0662e7b6272bf71078012045",
+      "roles": {
+        "primary": {
+          "answer": null,
+          "attempt_id": "attempt-e4dba67534c137e52642722782581a9573bad28d6c2aa546c99b477494381901",
+          "cost": null,
+          "cost_status": "unknown",
+          "historical_model_calls": 0,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": false,
+          "served": null,
+          "state": "missing_evidence"
+        },
+        "research": {
+          "answer": null,
+          "attempt_id": "attempt-80e00e4f2da29872efe11dea553182d7d0ba72eec6a323a1d1d2883187f4936d",
+          "cost": null,
+          "cost_status": "unknown",
+          "historical_model_calls": 0,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": false,
+          "served": null,
+          "state": "missing_evidence"
+        }
+      }
+    },
+    {
+      "agreement": null,
+      "gate": "eligible",
+      "name": "varied_total",
+      "operational_annotation_count": 1,
+      "query_id": "query-4833548b2d3a9d19f415e5dab8c85a93ea420d1a978a8e4c3ff2a134754afb29",
+      "roles": {
+        "primary": {
+          "answer": {
+            "contributor_ids": [
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d"
+            ],
+            "state": "selected",
+            "support_refs": [
+              "cell-2ee116d2030c4820a445cdb6ee250065910c1dfe097b976c77d342f610c8c03d",
+              "cell-5c0752c617f9ba38da2f432d4d757ce47b486883e0f87a58699ad212691ce938",
+              "cell-d537ca1fd6ec687392cf8332392447f4480335d480c6a300375b8c16a7fb0b27",
+              "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+            ],
+            "target_id": "cell-f2b929e3e95e2e36055128f7ef7d2652a7151be24c8e0415b5814bd9638d7a58"
+          },
+          "attempt_id": "attempt-acd96bd66c57269a9f245c87173636bbe249ccc181ea563547d843acc692ef6e",
+          "cost": "0.0225255",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": false,
+          "selection_matches_source_review": true,
+          "served": {
+            "id": "gen-1789711515-yjfDkoqM39mySLLRTEjB",
+            "model": "google/gemini-3.8-flash",
+            "provider": "Google AI Studio"
+          },
+          "state": "accepted"
+        },
+        "research": {
+          "answer": null,
+          "attempt_id": "attempt-ecb5c15668143a8173076593f38c2ed4bcb7ecc48e91d458c3b44ffae8e3cac2",
+          "cost": "0.007091904",
+          "cost_status": "reported",
+          "historical_model_calls": 1,
+          "model_calls_on_replay": 0,
+          "required_support_present": null,
+          "selection_matches_source_review": null,
+          "served": {
+            "id": "gen-1789711515-mx10qj0QU4yCAu7Vs2gF",
+            "model": "deepseek/deepseek-v4.1-flash",
+            "provider": "Together"
+          },
+          "state": "truncation"
+        }
+      }
+    }
+  ],
+  "review_sha256": "186751559cb107900b7eb1cebee5993d43b729ed283649929a467dd51fcea789",
+  "source_sha256": "69595ab56b61046c3a991cd7726dbd82abde16f223d2ff9dfed362171a10bbe9"
+}
