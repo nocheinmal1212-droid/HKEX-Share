@@ -1,0 +1,17 @@
+name: Intake contracts
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  portable-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r tools/eval-format-tools/requirements.lock
+      - run: make -C tools/eval-format-tools check
+      - run: make PYTHON=python evidence-check
+# Source hashes, PDF fidelity and owner review require local corpus access.
+# A green portable job is not a publication/readiness gate.
